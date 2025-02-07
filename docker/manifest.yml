@@ -1,0 +1,13 @@
+image: ghcr.io/icannon2/tsmc2025:{{build.tag}}
+tags:
+  - latest
+manifests:
+  - image: ghcr.io/icannon2/tsmc2025:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  - image: ghcr.io/icannon2/tsmc2025:arm64
+    platform:
+      variant: v8
+      architecture: arm64
+      os: linux

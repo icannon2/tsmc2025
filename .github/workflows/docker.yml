@@ -1,0 +1,69 @@
+name: Build multiarch OCI image
+on:
+  push:
+    tags:
+      - "v[0-9]+.[0-9]+.[0-9]+"
+
+jobs:
+  Publish-Arm64:
+    runs-on: [arm64]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Login to Registry
+        uses: docker/login-action@v3
+        with:
+          registry: gitea.easonabc.eu.org
+          username: ${{ gitea.actor }}
+          password: ${{ secrets.CI_GITEA_TOKEN }}
+      - name: build
+        uses: docker/build-push-action@v5
+        env:
+          ACTIONS_RUNTIME_TOKEN: ""
+        with:
+          context: .
+          file: "./docker/Dockerfile"
+          push: true
+          tags: "ghcr.io/icannon2/tsmc2025:arm64"
+  Publish-Amd64:
+    runs-on: [amd64]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Login to Registry
+        uses: docker/login-action@v3
+        with:
+          registry: gitea.easonabc.eu.org
+          username: ${{ gitea.actor }}
+          password: ${{ secrets.CI_GITEA_TOKEN }}
+      - name: build
+        uses: docker/build-push-action@v5
+        env:
+          ACTIONS_RUNTIME_TOKEN: ""
+        with:
+          context: .
+          file: "./docker/Dockerfile"
+          push: true
+          tags: "ghcr.io/icannon2/tsmc2025:amd64"
+  Manifest:
+    runs-on: ci-base
+    needs:
+      - Publish-Arm64
+      - Publish-Amd64
+    steps:
+      - name: Login to Github Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: icannon2
+          password: ${{ secrets.github_token }}
+      - name: Merge
+        run: >
+          docker manifest create ghcr.io/icannon2/tsmc2025:latest
+          --amend ghcr.io/icannon2/tsmc2025:amd64
+          --amend ghcr.io/icannon2/tsmc2025:arm64
+      - name: push
+        run: docker manifest push ghcr.io/icannon2/tsmc2025:latest
+      - name: retag
+        run: |
+          docker pull ghcr.io/icannon2/tsmc2025:latest
+          docker tag ghcr.io/icannon2/tsmc2025:latest ghcr.io/icannon2/tsmc2025:${{gitea.ref_name}}
+          docker push ghcr.io/icannon2/tsmc2025:${{gitea.ref_name}}
