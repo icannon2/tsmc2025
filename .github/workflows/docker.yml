@@ -12,9 +12,9 @@ jobs:
       - name: Login to Registry
         uses: docker/login-action@v3
         with:
-          registry: gitea.easonabc.eu.org
-          username: ${{ gitea.actor }}
-          password: ${{ secrets.CI_GITEA_TOKEN }}
+          registry: github.easonabc.eu.org
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
       - name: build
         uses: docker/build-push-action@v5
         env:
@@ -31,9 +31,9 @@ jobs:
       - name: Login to Registry
         uses: docker/login-action@v3
         with:
-          registry: gitea.easonabc.eu.org
-          username: ${{ gitea.actor }}
-          password: ${{ secrets.CI_GITEA_TOKEN }}
+          registry: github.easonabc.eu.org
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
       - name: build
         uses: docker/build-push-action@v5
         env:
@@ -65,5 +65,5 @@ jobs:
       - name: retag
         run: |
           docker pull ghcr.io/icannon2/tsmc2025:latest
-          docker tag ghcr.io/icannon2/tsmc2025:latest ghcr.io/icannon2/tsmc2025:${{gitea.ref_name}}
-          docker push ghcr.io/icannon2/tsmc2025:${{gitea.ref_name}}
+          docker tag ghcr.io/icannon2/tsmc2025:latest ghcr.io/icannon2/tsmc2025:${{github.ref_name}}
+          docker push ghcr.io/icannon2/tsmc2025:${{github.ref_name}}

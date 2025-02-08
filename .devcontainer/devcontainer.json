@@ -36,7 +36,8 @@
 			"extensions": [
 				"gruntfuggly.todo-tree",
 				"charliermarsh.ruff",
-				"vivaxy.vscode-conventional-commits"
+				"vivaxy.vscode-conventional-commits",
+				"github.vscode-github-actions"
 			]
 		}
 	}
