@@ -54,7 +54,7 @@ jobs:
         with:
           registry: ghcr.io
           username: icannon2
-          password: ${{ secrets.github_token }}
+          password: ${{ secrets.GITHUB_TOKEN }}
       - name: Merge
         run: >
           docker manifest create ghcr.io/icannon2/tsmc2025:latest
