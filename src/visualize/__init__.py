@@ -12,9 +12,12 @@ class Media:
         # This is a violation of the SOLID principle(bot argument). use DIP instead.
         pass
 
+
 """
 A collection of media to be visualized.
 """
+
+
 class Visualization:
     data: list[Media]
 
@@ -37,6 +40,7 @@ class VisualizeEffect:
 
     def matchAndReplace(self, visualization: Visualization):
         pass
+
 
 # Add visialization to the list here
 visualizations = []

@@ -13,9 +13,9 @@ class DuckDB(FunctionCalling):
         self.connect()
 
     def connect(self):
-        self.db = duckdb.connect(':memory:')
+        self.db = duckdb.connect(":memory:")
         self.cursor = self.db.cursor()
-        
+
         # copy data to memory table if it's csv
         # INSERT INTO test SELECT * FROM 'test.csv';
 
