@@ -63,11 +63,49 @@
 
 **2/15 HackDay 呈現方式：Live demo & presentation**
 
-## Development Environment Setup
-
-Welcome to the project! This README will guide you through setting up your development environment using a dev container. A dev container simplifies the setup process and ensures that you have a consistent development environment.
+## Development(coder)
 
 ### Prerequisites
+
+Just a working browser!
+
+### Getting Started
+
+1. go to http://coder.ccns.easonabc.eu.org
+
+2. login with password from user's email
+
+3. You will be greet with create a workspace
+![workspaces](./screenshots/workspaces.png)
+
+4. create a workspace by clicking pre-defined template(`Decontainer (Kubernetes)`)
+
+![workspaces](./screenshots/new-workspace.png)
+
+5. Fill Form with following info
+
+| column | value | note |
+| :- | :- | :- |
+|Workspace Name|maroon-toad-33|Anything you like|
+|Repository (auto)|https://github.com/icannon2/tsmc2025.git|It must be http|
+
+> [!IMPORTANT]  
+> When using private repository, you must be authenticated using button(it invoke oauth).
+
+6. Wait for its creation, then click `code-server` for vscode in browser.
+
+![workspaces](./screenshots/detail.png)
+
+7. Happy coding! 🎉
+
+## Development Environment Setup(Local)
+
+We will guide you through setting up your development environment using a dev container. A dev container simplifies the setup process and ensures that you have a consistent development environment.
+
+### Prerequisites
+
+> [!NOTE]  
+> Docker is extreme difficult to install on Windows, using coder might save your time if WSL is not installed!
 
 Before you get started, make sure you have the following installed on your machine:
 
@@ -77,59 +115,12 @@ Before you get started, make sure you have the following installed on your machi
 
 ### Getting Started
 
-Follow these steps to set up your development environment using a dev container:
+1. Open the project in vscode.
 
-1. **Clone the Repository**
+2. Click `reopen in container`.
 
-   Begin by cloning the repository to your local machine. Open your terminal and run:
+![workspaces](./screenshots/reopen-container.png)
 
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-   ```
+3. Wait for container to be ready
 
-2. **Open the Project in Visual Studio Code**
-
-   Launch Visual Studio Code and open the project directory that you just cloned.
-
-   ```bash
-   code .
-   ```
-
-3. **Reopen in Container**
-
-   Once you have the project open in VS Code, you should see a prompt to reopen the folder in a container. Click on the prompt labeled **Reopen in Container**. This action will trigger Docker to build the necessary environment based on the configuration files (`Dockerfile` and `devcontainer.json`).
-
-   If you don’t see the prompt, you can manually trigger it by opening the Command Palette (Ctrl+Shift+P or Cmd+Shift+P on Mac) and selecting **Remote-Containers: Reopen in Container**.
-
-4. **Wait for the Container to Build**
-
-   Docker will automatically build the container and install the required dependencies defined in the Dockerfile. This process may take a few minutes, especially on the first build.
-
-5. **Verify Your Setup**
-
-   Once the container is running, open a new terminal in VS Code (Terminal > New Terminal). You can verify that everything is set up correctly by running:
-
-   ```bash
-   python -V
-   uv run app.py
-   ```
-
-   Replace these commands with any other commands you might need to verify based on the tech stack being used in this project.
-
-### Development Workflow
-
-After setting up the dev container, you can proceed with development as follows:
-
-- **Editing Files**: Modify code files in the project as needed. Changes made will reflect in the container.
-- **Running Commands**: Use the integrated terminal to run commands and scripts specific to your project without leaving the VS Code interface.
-- **Debugging**: Set breakpoints and debug your application directly within the VS Code environment.
-
-### Additional Resources
-
-- **For Docker**: Learn more about Docker and containerization [here](https://docs.docker.com/get-started/).
-- **For VS Code Remote Development**: Explore the official documentation for Remote - Containers [here](https://code.visualstudio.com/docs/remote/containers).
-
----
-
-Happy coding! 🎉
+4. Happy coding! 🎉
