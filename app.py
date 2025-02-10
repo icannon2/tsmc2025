@@ -1,6 +1,7 @@
-def main():
-    print("Hello from tsmc2025!")
-
+from src.config import Config
+from src.bot import DiscordBot
 
 if __name__ == "__main__":
-    main()
+    config = Config()
+    bot = DiscordBot(config)
+    bot.run()
