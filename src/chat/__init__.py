@@ -1,5 +1,7 @@
 from discord import ChannelType, Message
 from google import genai
+from sqlalchemy import Engine, create_engine
+from sqlalchemy.orm import Session
 from ..bot import CommandHandlerImpl, MessageHandlerImpl
 from config import Config
 
@@ -8,9 +10,14 @@ state = None
 
 class State:
     client: genai.Client
+    engine: Engine
+    session: Session
 
     def __init__(self, config: Config):
         self.client = genai.Client(config.google_api_key)
+        self.engine = create_engine(config.database_path)
+        self.session = Session(bind=self.engine)
+
         pass
 
 
