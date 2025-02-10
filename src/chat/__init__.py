@@ -4,8 +4,7 @@ from sqlalchemy import Engine, create_engine
 from sqlalchemy.orm import Session
 from ..bot import CommandHandlerImpl, MessageHandlerImpl
 from config import Config
-
-state = None
+from persistence import Message as MessageModel, Chatroom as ChatroomModel
 
 
 class State:
@@ -21,16 +20,48 @@ class State:
         pass
 
 
+class ChatMessageHandler(MessageHandlerImpl):
+    state: State
+
+    def __init__(self, state: State):
+        self.state = state
+        super().__init__()
+
+    async def handle_message(self, message: Message) -> bool:
+        channel_id = message.channel.id
+
+        chatroom = (
+            self.state.session.query(ChatroomModel)
+            .filter_by(thread_id=channel_id)
+            .first()
+        )
+        if chatroom is None:
+            return False
+
+        model = MessageModel(
+            chatroom_id=chatroom.id,
+            user_id=message.author.id,
+            role="user",
+            content=message.content,
+        )
+        self.state.session.add(model)
+        self.state.session.commit()
+
+        message.channel.send("I'm sorry, I'm not sure how to respond to that.")
+
+        return False
+
+
 class ChatCommandHandler(CommandHandlerImpl):
     command_name = "chat"
     description = "create a chat"
 
     allowed_channels: list[str]
 
-    def __init__(self, config: Config):
-        global state
-        if state is None:
-            state = State(config)
+    state: State
+
+    def __init__(self, config: Config, state: State):
+        self.state = state
 
         self.allowed_channels = config.allowed_channels
         super().__init__()
@@ -50,22 +81,11 @@ class ChatCommandHandler(CommandHandlerImpl):
             else:
                 raise Exception("Failed to create a thread")
 
-            # presist the thread id in the database
+            model = ChatroomModel(thread_id=thread.id, user_id=message.author.id)
+            self.state.session.add(model)
+            self.state.session.commit()
 
             return True
-        return False
-
-
-class ChatMessageHandler(MessageHandlerImpl):
-    def __init__(self, config: Config):
-        global state
-        if state is None:
-            state = State(config)
-        super().__init__()
-
-    async def handle_message(self, message: Message) -> bool:
-        channel_id = message.channel.id
-        # attempt to get the thread id from the database
         return False
 
 

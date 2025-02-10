@@ -3,6 +3,8 @@ import discord
 from discord.ext import commands
 from discord import Message
 
+from .chat import State as ChatState
+
 from .config import Config
 
 from .chat import ChatMessageHandler, ChatCommandHandler
@@ -43,8 +45,13 @@ class DiscordBot(commands.Bot, MessageHandlerImpl):
     def __init__(self, config: Config):
         self.token = config.discord_token
 
-        self.message_handlers = [ChatMessageHandler(config)]
-        self.command_handlers = [ChatCommandHandler(config), PingCommandHandler()]
+        chat_state = ChatState()
+
+        self.message_handlers = [ChatMessageHandler(config, chat_state)]
+        self.command_handlers = [
+            ChatCommandHandler(config, chat_state),
+            PingCommandHandler(),
+        ]
 
         intents = discord.Intents.default()
         intents.message_content = True
