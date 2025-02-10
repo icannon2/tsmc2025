@@ -1,7 +1,8 @@
-from abc import abstractmethod, ABC
 import discord
 from discord.ext import commands
 from discord import Message
+
+from .handler import CommandHandlerImpl, MessageHandlerImpl
 
 from .chat import State as ChatState
 
@@ -9,32 +10,6 @@ from .config import Config
 
 from .chat import ChatMessageHandler, ChatCommandHandler
 from .ping import PingCommandHandler
-
-
-class MessageHandlerImpl(ABC):
-    """
-    When a message is sent, this class will handle
-
-    return True if message is handled, otherwise return False
-    """
-
-    @abstractmethod
-    async def handle_message(self, message: Message) -> bool:
-        return False
-
-
-class CommandHandlerImpl(ABC):
-    command_name: str
-    description: str
-    """
-    When a command is sent, this class will handle
-
-    return True if command is handled, otherwise return False
-    """
-
-    @abstractmethod
-    async def handle_command(self, message: Message) -> bool:
-        return False
 
 
 class DiscordBot(commands.Bot, MessageHandlerImpl):
@@ -45,7 +20,7 @@ class DiscordBot(commands.Bot, MessageHandlerImpl):
     def __init__(self, config: Config):
         self.token = config.discord_token
 
-        chat_state = ChatState()
+        chat_state = ChatState(config)
 
         self.message_handlers = [ChatMessageHandler(config, chat_state)]
         self.command_handlers = [
