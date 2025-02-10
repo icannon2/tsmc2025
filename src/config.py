@@ -6,6 +6,11 @@ class Config:
     discord_token: str
     google_api_key: str
     """
+    List of channels where the commands is allowed to work
+    """
+    allowed_channels: list[str] = []
+
+    """
     Load the configuration from env
     """
 

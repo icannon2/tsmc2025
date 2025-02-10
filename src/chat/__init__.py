@@ -1,30 +1,65 @@
+from discord import ChannelType, Message
 from google import genai
+from ..bot import CommandHandlerImpl, MessageHandlerImpl
 from config import Config
 
-
-class Message:
-    # content and image_base64 may be vaild at the same time
-    content: str
-    image_base64: str
-    # user_roles and user_id are uuids string
-    user_roles: list[str]
-    user_id: str
-
-    def __init__(self, content: str, image_base64: str):
-        self.content = content
-        self.image_base64 = image_base64
+state = None
 
 
 class State:
     client: genai.Client
 
     def __init__(self, config: Config):
-        # read the config(may contain API_KEY) and initialize the client
+        self.client = genai.Client(config.google_api_key)
         pass
 
-    def process(self, message: Message):
-        # process the message and return the response
-        pass
+
+class ChatCommandHandler(CommandHandlerImpl):
+    command_name = "chat"
+    description = "create a chat"
+
+    allowed_channels: list[str]
+
+    def __init__(self, config: Config):
+        global state
+        if state is None:
+            state = State(config)
+
+        self.allowed_channels = config.allowed_channels
+        super().__init__()
+
+    async def handle_command(self, message: Message) -> bool:
+        if (
+            message.content.startswith("/chat")
+            and message.channel.id in self.allowed_channels
+        ):
+            thread = await message.channel.create_thread(
+                name="chat", type=ChannelType.private_thread
+            )
+            if thread:
+                await thread.send(
+                    f"Hi {message.author.mention}! How can I help you today?"
+                )
+            else:
+                raise Exception("Failed to create a thread")
+
+            # presist the thread id in the database
+
+            return True
+        return False
+
+
+class ChatMessageHandler(MessageHandlerImpl):
+    def __init__(self, config: Config):
+        global state
+        if state is None:
+            state = State(config)
+        super().__init__()
+
+    async def handle_message(self, message: Message) -> bool:
+        channel_id = message.channel.id
+        # attempt to get the thread id from the database
+        return False
 
 
 """
