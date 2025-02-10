@@ -14,3 +14,9 @@ wheels/
 
 # ruff
 .ruff_cache
+
+# vscode
+.vscode
+
+# secret
+.env

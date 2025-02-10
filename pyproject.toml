@@ -8,6 +8,6 @@ dependencies = [
     "alembic>=1.14.1",
     "discord-py>=2.4.0",
     "duckdb>=1.2.0",
-    "google-genai>=1.0.0",
+    "google-cloud-aiplatform>=1.79.0",
     "sqlalchemy>=2.0.38",
 ]
