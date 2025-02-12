@@ -1,34 +1,10 @@
 from discord import ChannelType, Message
-from google import genai
-from sqlalchemy import Engine, create_engine
-from sqlalchemy.orm import Session
-from google.cloud import aiplatform
+
+from .state import State
 
 from ..handler import CommandHandlerImpl, MessageHandlerImpl
 from ..config import Config
 from .persistence import Message as MessageModel, Chatroom as ChatroomModel
-
-google_ai_inited = False
-
-
-class State:
-    client: aiplatform
-    engine: Engine
-    session: Session
-
-    def __init__(self, config: Config):
-        global google_ai_inited
-        if not google_ai_inited:
-            google_ai_inited = True
-            aiplatform.init(
-                project=config.google_project_id, location=config.google_location
-            )
-
-        self.client = genai.Client(config.google_api_key)
-        self.engine = create_engine(config.database_path)
-        self.session = Session(bind=self.engine)
-
-        pass
 
 
 class ChatMessageHandler(MessageHandlerImpl):
@@ -98,30 +74,3 @@ class ChatCommandHandler(CommandHandlerImpl):
 
             return True
         return False
-
-
-"""
-An abstract class for function calling.
-
-We actually create new instances of this class when a chatroom is created.
-"""
-
-
-class FunctionCalling:
-    name: str
-    description: str
-    parameters: any
-
-    def __init__(self, state: State):
-        pass
-
-    """
-    Process the request and return the response.
-
-    request is a string that conforms to the function's parameters.
-
-    For example, if the function is to add two numbers, request can be "{\"a\": 1, \"b\": 2 }".(serialized json string)
-    """
-
-    def process(self, request: str):
-        pass
