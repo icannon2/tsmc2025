@@ -62,6 +62,9 @@ class SQLRunner:
                 raise Exception(
                     f"Error: Catalog Error: Table with name {table.name} does not exist!"
                 )
+        # Fix `CREATE TEMP TABLE`
+        if next(query.find_all(exp.Create), None) is None:
+            raise Exception("Error: Database lockdown: DML and DCL are not allowed!")
 
     def execute_stmt(self, query) -> ExecutionResult:
         try:
