@@ -87,7 +87,7 @@ Just a working browser!
 | column | value | note |
 | :- | :- | :- |
 |Workspace Name|maroon-toad-33|Anything you like|
-|Repository (auto)|https://github.com/icannon2/tsmc2025.git|It must be http|
+|Repository (auto)|https://github.com/icannon2/tsmc2025.git|It must be http(s), cannot use ssh|
 
 > [!IMPORTANT]  
 > When using private repository, you must be authenticated using button(it invoke oauth).
