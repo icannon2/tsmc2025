@@ -37,12 +37,18 @@ class ExecutionResult:
 class SQLRunner:
     duckdb: DuckDBPyConnection
     views: list[View]
+    protected_tables: list[str] = []
 
     def __init__(self, path, views: list[View] = []):
         self.duckdb = connect(path, read_only=True)
+
+        for protected_table in self.duckdb.sql("SHOW TABLES;").fetchall():
+            self.protected_tables.append(protected_table[0])
+
         self.views = views
         for view in views:
             self.duckdb.execute(view.query)
+        self.duckdb.execute("SET enable_external_access = false;")
 
     """
     Check if the query is valid
@@ -52,12 +58,9 @@ class SQLRunner:
         # duckdb is compatible with postgres
         query = parse_one(stmt, dialect="postgres")
         for table in query.find_all(exp.Table):
-            if next(filter(lambda x: x.name == table.name, self.views), None) is None:
-                raise Exception(f"Table {table.name} does not exist")
-        for view in query.find_all(exp.Create):
-            if next(filter(lambda x: x.name == view.name, self.views), None) is None:
+            if table.name in self.protected_tables:
                 raise Exception(
-                    f"Database is read-only, cannot create view {view.name}"
+                    f"Error: Catalog Error: Table with name {table.name} does not exist!"
                 )
 
     def execute_stmt(self, query) -> ExecutionResult:
