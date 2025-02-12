@@ -10,4 +10,5 @@ dependencies = [
     "duckdb>=1.2.0",
     "google-cloud-aiplatform>=1.79.0",
     "sqlalchemy>=2.0.38",
+    "sqlglot[rs]>=26.6.0",
 ]
