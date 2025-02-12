@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, String
 
 
 class Chatroom:
-    __tabename__ = "chatroom"
+    __tablename__ = "chatroom"
 
     id = Column(Integer, primary_key=True)
     thread_id = Column(String(255), nullable=False)
