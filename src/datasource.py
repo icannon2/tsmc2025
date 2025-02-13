@@ -37,7 +37,6 @@ class ExecutionResult:
 
 
 def roles_to_views(roles: list[Role]) -> list[View]:
-    # TODO: Implement this function
     country = {
         1339499087489273868: "USA",
         1339499042278735872: "China",
@@ -49,25 +48,21 @@ def roles_to_views(roles: list[Role]) -> list[View]:
         return [
             View("Companies", "SELECT * FROM Companies_raw"),
         ]
-    country_str = f"'{map(lambda x: country[x.id], roles).join("','")}'"
+    country_str = f"'{"','".join(map(lambda x: country[x['id']], roles))}'"
 
     return [
-        View("Companies", "SELECT * FROM Companies_raw"),
         View(
             "FIN_data",
             f"""
              SELECT * FROM FIN_data_raw
-             JOIN Companies_raw ON FIN_data_raw.\"Company Name\" = Companies_raw.\"CompanyName\"
-             WHERE Companies.Country IN ({country_str})
+             WHERE Country IN ({country_str})
              """,
         ),
         View(
             "TRANSCRIPT_Data",
             f"""
-             SELECT \"Company Name\" as company, CALENDAR_YEAR as year, CALENDAR_QTR as qtr, Transcript_Filename as filename, content FROM TRANSCRIPT_Data_raw
-             JOIN Companies_raw ON TRANSCRIPT_Data_raw.\"Company Name\" = Companies_raw.\"CompanyName\"
-             WHERE Companies.Country IN ({country_str})
-             JOIN Transcript_File_raw ON TRANSCRIPT_Data_raw.\"Transcript_Filename\" = Transcript_File_raw.\"filename\"
+             SELECT * FROM TRANSCRIPT_Data_raw
+             WHERE Country IN ({country_str})
              """,
         ),
     ]
@@ -89,11 +84,32 @@ class SQLRunner:
             self.duckdb.execute(view.query)
         self.duckdb.execute("SET enable_external_access = false;")
 
-    """
-    Check if the query is valid
-    """
+    def get_catalog(self) -> str:
+        tables = list(map(lambda x: x.name, self.views))
+
+        results = []
+
+        for table in tables:
+            result = []
+
+            for row in self.duckdb.sql(f"""
+            SELECT
+                column_name, data_type
+            FROM
+                information_schema.columns
+            WHERE
+                table_name = '{table}';
+            """).fetchall():
+                result.append(f"{row[0]}({row[1]})")
+
+            results.append(table + ": " + ", ".join(result))
+
+        return "\n".join(results)
 
     def check_query(self, stmt: str):
+        """
+        Check if the query is valid
+        """
         query = parse_one(stmt, dialect="postgres")
         for table in query.find_all(exp.Table):
             if table.name in self.protected_tables:
@@ -115,6 +131,8 @@ class SQLRunner:
             raise Exception("Error: Database lockdown: DML is not allowed!")
         if next(query.find_all(exp.Show), None) is not None:
             raise Exception("Error: Database lockdown: DML is not allowed!")
+        if next(query.find_all(exp.Copy), None) is not None:
+            raise Exception("Error: Database lockdown: DML is not allowed!")
 
     def execute_stmt(self, query) -> ExecutionResult:
         try:
@@ -124,6 +142,3 @@ class SQLRunner:
             return ExecutionResult(error_message=str(e))
 
         return ExecutionResult(result=result)
-
-    def list_tables(self) -> list[str]:
-        return list(map(lambda x: x.name, self.views))
