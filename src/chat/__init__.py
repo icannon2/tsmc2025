@@ -1,40 +1,67 @@
 from discord import ChannelType, Message
-
 from .state import State
+from sqlalchemy import Engine, create_engine
+from sqlalchemy.orm import Session, sessionmaker
+from sqlalchemy.ext.declarative import declarative_base
 
 from ..handler import CommandHandlerImpl, MessageHandlerImpl
 from ..config import Config
 from .persistence import Message as MessageModel, Chatroom as ChatroomModel
+from .chat_instance import ChatInstance
+
+engine = None
+Base = declarative_base()
+
+class State:
+    chat_instance: ChatInstance
+    engine: Engine
+    session: Session
+
+    def __init__(self, config: Config):
+        global engine
+        if not engine:
+            engine = create_engine(config.database_path, echo=True)
+            Base.metadata.create_all(engine, tables=[ChatroomModel.__table__, MessageModel.__table__])
+
+        self.chat_instance = ChatInstance(config)
+        self.engine = engine
+        Session = sessionmaker(bind=engine)
+        self.session = Session()
 
 
 class ChatMessageHandler(MessageHandlerImpl):
     state: State
 
-    def __init__(self, state: State):
+    def __init__(self, config: Config, state: State):
+        self.config = config
         self.state = state
         super().__init__()
 
     async def handle_message(self, message: Message) -> bool:
         channel_id = message.channel.id
+        chatroom = self.state.session.query(ChatroomModel).filter_by(thread_id=channel_id).first()
 
-        chatroom = (
-            self.state.session.query(ChatroomModel)
-            .filter_by(thread_id=channel_id)
-            .first()
-        )
         if chatroom is None:
             return False
+        
+        chat_history = self.state.session.query(MessageModel).filter_by(chatroom_id=chatroom.id).order_by(MessageModel.id.desc()).first()
+        if chat_history is None:
+            chat_history = '[]'
+        else:
+            chat_history = chat_history.content
+
+        response, new_chat_history = self.state.chat_instance.get_response(message.content, chat_history)
 
         model = MessageModel(
             chatroom_id=chatroom.id,
             user_id=message.author.id,
             role="user",
-            content=message.content,
+            content=new_chat_history,
         )
         self.state.session.add(model)
         self.state.session.commit()
 
-        message.channel.send("I'm sorry, I'm not sure how to respond to that.")
+        await message.channel.send(response)
 
         return False
 
@@ -74,3 +101,5 @@ class ChatCommandHandler(CommandHandlerImpl):
 
             return True
         return False
+
+

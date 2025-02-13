@@ -47,7 +47,7 @@ class DiscordBot(commands.Bot, MessageHandlerImpl):
 
     async def on_message(self, message: Message):
         if message.author != self.user:
-            self.handle_message(message)
+            await self.handle_message(message)
 
     def init_command(self):
         for handler in self.command_handlers:
