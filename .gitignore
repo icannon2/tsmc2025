@@ -20,3 +20,6 @@ wheels/
 
 # secret
 .env
+
+# local testing
+script.py

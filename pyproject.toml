@@ -9,6 +9,9 @@ dependencies = [
     "discord-py>=2.4.0",
     "duckdb>=1.2.0",
     "google-cloud-aiplatform>=1.79.0",
+    "google-genai>=1.2.0",
+    "google-generativeai>=0.8.4",
+    "python-dotenv>=1.0.1",
     "sqlalchemy>=2.0.38",
     "sqlglot[rs]>=26.6.0",
 ]
