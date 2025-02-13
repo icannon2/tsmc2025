@@ -3,10 +3,12 @@ from os import environ
 
 class Config:
     database_path: str
+    datasource_path: str
     discord_token: str
     google_api_key: str
     google_project_id: str
     google_location: str
+    
     """
     List of channels where the commands is allowed to work
     """
