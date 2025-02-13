@@ -1,43 +1,24 @@
 from discord import ChannelType, Message
-from .state import State
-from sqlalchemy import Engine, create_engine
-from sqlalchemy.orm import Session, sessionmaker
+from .state import State as PerroomState
+from ..state import State as GlobalState
 from sqlalchemy.ext.declarative import declarative_base
 
 from ..handler import CommandHandlerImpl, MessageHandlerImpl
 from ..config import Config
 from .persistence import Message as MessageModel, Chatroom as ChatroomModel
-from .chat_instance import ChatInstance
 
 engine = None
 Base = declarative_base()
 
 
-class State:
-    chat_instance: ChatInstance
-    engine: Engine
-    session: Session
-
-    def __init__(self, config: Config):
-        global engine
-        if not engine:
-            engine = create_engine(config.database_path, echo=True)
-            Base.metadata.create_all(
-                engine, tables=[ChatroomModel.__table__, MessageModel.__table__]
-            )
-
-        self.chat_instance = ChatInstance(config)
-        self.engine = engine
-        Session = sessionmaker(bind=engine)
-        self.session = Session()
-
-
 class ChatMessageHandler(MessageHandlerImpl):
-    state: State
+    # a mapping from thread_id to the state of the chatroom
+    perroom_state: dict[PerroomState]
+    global_state: GlobalState
 
-    def __init__(self, config: Config, state: State):
-        self.config = config
-        self.state = state
+    def __init__(self, state: GlobalState, per_state: dict[PerroomState]):
+        self.global_state = state
+        self.perroom_state = per_state
         super().__init__()
 
     async def handle_message(self, message: Message) -> bool:
@@ -86,10 +67,10 @@ class ChatCommandHandler(CommandHandlerImpl):
 
     allowed_channels: list[str]
 
-    state: State
+    perroom_state: dict[PerroomState]
 
-    def __init__(self, config: Config, state: State):
-        self.state = state
+    def __init__(self, config: Config, perroom_state: dict[PerroomState]):
+        self.perroom_state = perroom_state
 
         self.allowed_channels = config.allowed_channels
         super().__init__()

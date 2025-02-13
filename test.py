@@ -7,4 +7,4 @@ if __name__ == "__main__":
         View("Transcript_File", "SELECT * FROM Transcript_File_raw"),
     ]
     runner = SQLRunner("data/datasource.duckdb", views)
-    print(runner.execute_stmt_unlog('SELECT * FROM "data/FIN_Data.csv" LIMIT 3;'))
+    print(runner.execute_stmt("SELECT * FROM pg_catalog.pg_tables;"))

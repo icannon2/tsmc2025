@@ -1,9 +1,9 @@
 from google import genai
-from ..config import Config
+from .state import RoomState
+from ..state import GlobalState
 from typing import Tuple
 import json
-from .functions import FunctionCalling
-from google.genai.chats import Chats
+from .functions import ChatModeFunctionCalling
 from google.genai import types
 
 chat_system_prompt = "Please handle the message below with calling functions, and reply in less than 2000 characters. message: "
@@ -13,18 +13,19 @@ gemini_config = None
 
 
 class ChatInstance:
-    function_calling_instance: FunctionCalling
+    function_calling_instance: ChatModeFunctionCalling
     function_calling_list = []
     chat: genai.chats.Chat
 
-    def __init__(self, config: Config):
+    def __init__(self, global_state: GlobalState, room_state: RoomState):
+        # TODO: replace with global_state.genai
         global client, gemini_config
 
         if not client:
             client = genai.client.Client(api_key=config.gemini_api_key)
 
-        function_calling_instance = FunctionCalling()
-        function_calling_list = [function_calling_instance.multiply]
+        function_calling_instance = ChatModeFunctionCalling()
+        function_calling_list = [function_calling_instance.duckdb_stmt]
 
         gemini_config = types.GenerateContentConfig(
             tools=self.function_calling_list,

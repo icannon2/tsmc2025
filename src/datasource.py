@@ -55,16 +55,27 @@ class SQLRunner:
     """
 
     def check_query(self, stmt: str):
-        # duckdb is compatible with postgres
         query = parse_one(stmt, dialect="postgres")
         for table in query.find_all(exp.Table):
             if table.name in self.protected_tables:
                 raise Exception(
                     f"Error: Catalog Error: Table with name {table.name} does not exist!"
                 )
-        # Fix `CREATE TEMP TABLE`
-        if next(query.find_all(exp.Create), None) is None:
+            if table.name.startswith("pg_"):
+                raise Exception(
+                    f"Error: Catalog Error: Table with name {table.name} does not exist!"
+                )
+
+        if next(query.find_all(exp.Create), None) is not None:
             raise Exception("Error: Database lockdown: DML and DCL are not allowed!")
+        if next(query.find_all(exp.Drop), None) is not None:
+            raise Exception("Error: Database lockdown: DDL is not allowed!")
+        if next(query.find_all(exp.Alter), None) is not None:
+            raise Exception("Error: Database lockdown: DDL is not allowed!")
+        if next(query.find_all(exp.Set), None) is not None:
+            raise Exception("Error: Database lockdown: DML is not allowed!")
+        if next(query.find_all(exp.Show), None) is not None:
+            raise Exception("Error: Database lockdown: DML is not allowed!")
 
     def execute_stmt(self, query) -> ExecutionResult:
         try:
