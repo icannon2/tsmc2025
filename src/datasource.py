@@ -1,5 +1,7 @@
 from sqlglot import parse_one, exp
 
+from discord import Role
+
 from duckdb import DuckDBPyConnection, connect, DuckDBPyRelation
 
 
@@ -34,19 +36,56 @@ class ExecutionResult:
         return f"{list(map(self.map_row, rows))}"
 
 
+def roles_to_views(roles: list[Role]) -> list[View]:
+    # TODO: Implement this function
+    country = {
+        1339499087489273868: "USA",
+        1339499042278735872: "China",
+        1339498984930017342: "Switzerland",
+        1339498929901015100: "Taiwan",
+        1339498806856646668: "South Korea",
+    }
+    if roles is None:
+        return [
+            View("Companies", "SELECT * FROM Companies_raw"),
+        ]
+    country_str = f"'{map(lambda x: country[x.id], roles).join("','")}'"
+
+    return [
+        View("Companies", "SELECT * FROM Companies_raw"),
+        View(
+            "FIN_data",
+            f"""
+             SELECT * FROM FIN_data_raw
+             JOIN Companies_raw ON FIN_data_raw.\"Company Name\" = Companies_raw.\"CompanyName\"
+             WHERE Companies.Country IN ({country_str})
+             """,
+        ),
+        View(
+            "TRANSCRIPT_Data",
+            f"""
+             SELECT \"Company Name\" as company, CALENDAR_YEAR as year, CALENDAR_QTR as qtr, Transcript_Filename as filename, content FROM TRANSCRIPT_Data_raw
+             JOIN Companies_raw ON TRANSCRIPT_Data_raw.\"Company Name\" = Companies_raw.\"CompanyName\"
+             WHERE Companies.Country IN ({country_str})
+             JOIN Transcript_File_raw ON TRANSCRIPT_Data_raw.\"Transcript_Filename\" = Transcript_File_raw.\"filename\"
+             """,
+        ),
+    ]
+
+
 class SQLRunner:
     duckdb: DuckDBPyConnection
     views: list[View]
     protected_tables: list[str] = []
 
-    def __init__(self, path, views: list[View] = []):
+    def __init__(self, path, roles: list[Role] = []):
         self.duckdb = connect(path, read_only=True)
 
         for protected_table in self.duckdb.sql("SHOW TABLES;").fetchall():
             self.protected_tables.append(protected_table[0])
 
-        self.views = views
-        for view in views:
+        self.views = roles_to_views(roles)
+        for view in self.views:
             self.duckdb.execute(view.query)
         self.duckdb.execute("SET enable_external_access = false;")
 
@@ -85,3 +124,6 @@ class SQLRunner:
             return ExecutionResult(error_message=str(e))
 
         return ExecutionResult(result=result)
+
+    def list_tables(self) -> list[str]:
+        return list(map(lambda x: x.name, self.views))

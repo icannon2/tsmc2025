@@ -1,16 +1,17 @@
 from ..datasource import SQLRunner
-from .state import State
 
 
-class FunctionCallingBase:
+class FunctionCalling:
     sql_runner: SQLRunner
 
     def __init__(self, sql_runner: SQLRunner):
         self.sql_runner = sql_runner
 
     def duckdb_stmt(self, stmt: str) -> str:
-        """
+        f"""
         Run a **single** SQL statement on the DuckDB instance
+
+        Available Tables: {self.sql_runner.list_tables()}
 
         Please note that this function is safe to use, as it will not allow any SQL statements that modify the database.
 
@@ -38,4 +39,32 @@ class FunctionCallingBase:
         """
 
         result = self.sql_runner.execute_stmt(stmt)
+        return f"{result}"
+
+    def get_transcription(self, year: int, qtr: int) -> str:
+        """
+        Get the transcription of a SQL statement
+
+        :param stmt: The SQL statement to transcribe
+        :return: The transcription of the SQL statement
+        """
+
+        result = self.sql_runner.execute_stmt(
+            f"SELECT * FROM TRANSCRIPT_Data WHERE year = {year} AND qtr = 'Q{qtr}'"
+        )
+
+        return f"{result}"
+
+    def get_fin_data(self, company: str) -> str:
+        """
+        Get the financial data of a country
+
+        :param stmt: The SQL statement to transcribe
+        :return: The transcription of the SQL statement
+        """
+
+        result = self.sql_runner.execute_stmt(
+            f"SELECT * FROM FIN_data WHERE \"Company Name\" = '{company}'"
+        )
+
         return f"{result}"
