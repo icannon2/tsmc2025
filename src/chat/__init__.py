@@ -12,6 +12,7 @@ from .chat_instance import ChatInstance
 engine = None
 Base = declarative_base()
 
+
 class State:
     chat_instance: ChatInstance
     engine: Engine
@@ -21,7 +22,9 @@ class State:
         global engine
         if not engine:
             engine = create_engine(config.database_path, echo=True)
-            Base.metadata.create_all(engine, tables=[ChatroomModel.__table__, MessageModel.__table__])
+            Base.metadata.create_all(
+                engine, tables=[ChatroomModel.__table__, MessageModel.__table__]
+            )
 
         self.chat_instance = ChatInstance(config)
         self.engine = engine
@@ -39,18 +42,29 @@ class ChatMessageHandler(MessageHandlerImpl):
 
     async def handle_message(self, message: Message) -> bool:
         channel_id = message.channel.id
-        chatroom = self.state.session.query(ChatroomModel).filter_by(thread_id=channel_id).first()
+        chatroom = (
+            self.state.session.query(ChatroomModel)
+            .filter_by(thread_id=channel_id)
+            .first()
+        )
 
         if chatroom is None:
             return False
-        
-        chat_history = self.state.session.query(MessageModel).filter_by(chatroom_id=chatroom.id).order_by(MessageModel.id.desc()).first()
+
+        chat_history = (
+            self.state.session.query(MessageModel)
+            .filter_by(chatroom_id=chatroom.id)
+            .order_by(MessageModel.id.desc())
+            .first()
+        )
         if chat_history is None:
-            chat_history = '[]'
+            chat_history = "[]"
         else:
             chat_history = chat_history.content
 
-        response, new_chat_history = self.state.chat_instance.get_response(message.content, chat_history)
+        response, new_chat_history = self.state.chat_instance.get_response(
+            message.content, chat_history
+        )
 
         model = MessageModel(
             chatroom_id=chatroom.id,
@@ -101,5 +115,3 @@ class ChatCommandHandler(CommandHandlerImpl):
 
             return True
         return False
-
-

@@ -1,5 +1,4 @@
 class FunctionCalling:
-
     def __init__(self):
         pass
 
