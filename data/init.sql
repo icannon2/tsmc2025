@@ -80,7 +80,7 @@ FROM
 JOIN
     Companies_raw CR ON TDR."Company Name" = CR.CompanyName
 JOIN
-    Transcript_File_raw TFR ON TDR.Transcript_Filename = TFR.filename;
+    Transcript_File_raw TFR ON TFR.filename LIKE CONCAT('%', TDR.Transcript_Filename, '%');
 
 CREATE TABLE FIN_Data_Derived_raw AS
 SELECT
