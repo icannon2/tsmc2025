@@ -2,10 +2,9 @@ from discord import ChannelType, Message
 from .room_state import RoomState
 from ..state import GlobalState
 from sqlalchemy.ext.declarative import declarative_base
-from enum import Enum
 from ..handler import CommandHandlerImpl, MessageHandlerImpl
 from ..config import Config
-from .persistence import Message as MessageModel, Chatroom as ChatroomModel
+from .persistence import Chatroom as ChatroomModel
 
 engine = None
 Base = declarative_base()
@@ -112,7 +111,9 @@ class ChatCommandHandler(CommandHandlerImpl):
             else:
                 raise Exception("Failed to create a thread")
 
-            room_state = RoomState(self.config, self.global_state, message.author.roles, roomtype='chat')
+            room_state = RoomState(
+                self.config, self.global_state, message.author.roles, roomtype="chat"
+            )
             self.perroom_state_map[thread.id] = room_state
 
             model = ChatroomModel(thread_id=thread.id, user_id=message.author.id)
@@ -121,6 +122,7 @@ class ChatCommandHandler(CommandHandlerImpl):
 
             return True
         return False
+
 
 class SummarizeCommandHandler(CommandHandlerImpl):
     command_name = "sum"
@@ -147,7 +149,7 @@ class SummarizeCommandHandler(CommandHandlerImpl):
             message.content.startswith("/sum")
             and message.channel.id in self.allowed_channels
         ):
-            args = message.content.split(' ')[1:]
+            args = message.content.split(" ")[1:]
             thread = await message.channel.create_thread(
                 name="summarize", type=ChannelType.private_thread
             )
@@ -158,17 +160,20 @@ class SummarizeCommandHandler(CommandHandlerImpl):
             else:
                 raise Exception("Failed to create a thread")
 
-            room_state = RoomState(self.config, self.global_state, message.author.roles, roomtype='summarize')
-            
+            room_state = RoomState(
+                self.config,
+                self.global_state,
+                message.author.roles,
+                roomtype="summarize",
+            )
+
             self.perroom_state_map[thread.id] = room_state
 
             model = ChatroomModel(thread_id=thread.id, user_id=message.author.id)
             self.global_state.session.add(model)
             self.global_state.session.commit()
 
-            response = room_state.get_response(
-                message.content, args
-            )
+            response = room_state.get_response(message.content, args)
 
             await thread.send(response)
 

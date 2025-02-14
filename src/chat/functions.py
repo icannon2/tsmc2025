@@ -41,11 +41,10 @@ class FunctionCalling:
         self.sql_runner = sql_runner
         self.genai = genai
 
-        """Run a **single** SQL statement tp fetch financial data of tech company from the database.
+        self.duckdb_stmt.__func__.__doc__ = f"""
+            Run a **single** SQL statement tp fetch financial data of tech company from the database.
 
-            Available Tables: FIN_data: "CALENDAR_YEAR"(BIGINT), "CompanyName"(VARCHAR), "Country"(VARCHAR), "CALENDAR_QTR"(VARCHAR), "Cost of Goods Sold"(DOUBLE), "Operating Expense"(DOUBLE), "Operating Income"(DOUBLE), "Revenue"(DOUBLE), "Tax Expense"(DOUBLE), "Total Asset"(DOUBLE)
-TRANSCRIPT_Data: "CompanyName"(VARCHAR), "CALENDAR_YEAR"(BIGINT), "CALENDAR_QTR"(VARCHAR), "Country"(VARCHAR), "filename"(VARCHAR), "content"(VARCHAR)
-FIN_Data_Derived: "CALENDAR_YEAR"(BIGINT), "CompanyName"(VARCHAR), "Country"(VARCHAR), "CALENDAR_QTR"(VARCHAR), "Revenue"(DOUBLE), "Cost of Goods Sold"(DOUBLE), "Operating Expense"(DOUBLE), "Operating Income"(DOUBLE), "Tax Expense"(DOUBLE), "Total Asset"(DOUBLE), "Gross_Profit"(DOUBLE), "Gross_Profit_Margin"(DOUBLE), "Operating_Profit_Margin"(DOUBLE), "Net_Income_Before_Tax"(DOUBLE), "Net_Profit_Margin_Before_Tax"(DOUBLE), "Effective_Tax_Rate"(DOUBLE), "Return_on_Assets"(DOUBLE)
+            Available Tables: {self.sql_runner.get_catalog()}
 
             Please note that this function is safe to use, as it will not allow any SQL statements that modify the database.
 
@@ -80,8 +79,7 @@ FIN_Data_Derived: "CALENDAR_YEAR"(BIGINT), "CompanyName"(VARCHAR), "Country"(VAR
         result = self.sql_runner.execute_stmt(stmt)
         return f"{result}"
 
-    async def get_transcription(self, year: int, qtr: int) -> str:
-        print("好好好好好吃")
+    async def get_transcription(self, year: int, qtr: int, company: str) -> str:
         """
         Get the transcription of company's institutional investors conference call
 
@@ -92,7 +90,7 @@ FIN_Data_Derived: "CALENDAR_YEAR"(BIGINT), "CompanyName"(VARCHAR), "Country"(VAR
 
         result = f"{
             self.sql_runner.execute_stmt(
-                f"SELECT * FROM TRANSCRIPT_Data WHERE year = {year} AND qtr = 'Q{qtr}'"
+                f"SELECT * FROM TRANSCRIPT_Data WHERE CALENDAR_YEAR = {year} AND CALENDAR_QTR = 'Q{qtr}', \"Company Name\" = '{company}'"
             )
         }"
 
