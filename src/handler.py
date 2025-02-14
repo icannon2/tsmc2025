@@ -1,6 +1,6 @@
 from abc import abstractmethod, ABC
 
-from discord import Message
+from discord import Interaction, Message
 
 
 class MessageHandlerImpl(ABC):
@@ -25,5 +25,7 @@ class CommandHandlerImpl(ABC):
     """
 
     @abstractmethod
-    async def handle_command(self, message: Message) -> bool:
+    async def handle_command(
+        self, message: Message, interaction: Interaction | None
+    ) -> bool:
         return False
