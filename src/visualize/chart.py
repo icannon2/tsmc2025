@@ -1,4 +1,3 @@
-from ..datasource import SQLRunner, View
 import matplotlib.pyplot as plt
 import catppuccin
 import matplotlib as mpl
@@ -80,7 +79,7 @@ def plot_chart(json_data):
     # Show the chart
     plt.grid(True) if chart_type in ["line", "bar"] else None
 
-    chart_path = os.path.join(output_folder, f"graph.png")
+    chart_path = os.path.join(output_folder, f"chart.png")
     plt.savefig(chart_path)
     plt.close()
 

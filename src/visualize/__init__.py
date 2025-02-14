@@ -1,6 +1,5 @@
 from bot import DiscordBot
 from abc import ABC
-from ..datasource import SQLRunner, View
 from .chart import plot_chart
 from discord import TextChannel, File
 import re
@@ -13,8 +12,7 @@ An abstract class for media to be rendered.
 Common media types: text, image, embed.
 """
 
-graph_path = ""
-
+output_folder = "charts"
 
 class Media:
     text: str | None
@@ -29,11 +27,11 @@ class Media:
     def is_text(self) -> bool:
         return not self.text is None
 
-    def render(self, channel: TextChannel):
+    async def render(self, channel: TextChannel):
         if self.text is not None:
             channel.send(self.text)
         elif self.image is not None:
-            channel.send(self.image)
+            channel.send(file=self.image)
 
 """
 A collection of media to be visualized.
@@ -42,13 +40,17 @@ A collection of media to be visualized.
 class Visualization:
     data: list[Media]
 
+    def __init__(self):
+        self.data = []
+
     def render(channel: TextChannel):
         for media in self.data:
-            media.render(channel)
+            await media.render(channel)
 
 
 class VisualizeEffect(ABC):
     sql_runner: SQLRunner
+    @abstractmethod
 
     """
     An abstract class for module to visualizing the data.
@@ -73,27 +75,29 @@ class ChartEffect(VisualizeEffect):
         self.sql_runner = sql_runner
 
     def matchAndReplace(self, visualization: Visualization):
+        chartRegex = "<chart>([\s\S]*?)<\/chart>"
+        new_data = []
+
         for media in visualization.data:
             if not media.is_text():
+                new_data.append(media)
                 continue
-            chartRegex = "<chart>([\s\S]*?)<\/chart>"
-
+                
+            parts = re.split(chartRegex, media.text)
             matches = re.findall(chartRegex, media.text)
-            textSplit = iter(re.split(chartRegex, media.text))
-
-            visualization.data = []
-
-            for match in matches:
-                visualization.data.append(Media(text=next(textSplit)))
-                plot_chart(match)
-
-                img_bytes = BytesIO()
-                img_file = discord.File(img_bytes, graph_path)
-                os.remove(graph_path)
-                # store graph in one place and remove it immediately after use
-                visualization.data.append(Media(image=img_file))
-
-            visualization.data.append(next(textSplit))
+            
+            for i, part in enumerate(parts):
+                if part:  # Add non-empty text parts
+                    new_data.append(Media(text=part))
+                if i < len(matches):  # Add charts between text parts
+                    plot_chart(matches[i], self.sql_runner)
+                    img_bytes = BytesIO()
+                    graph_path = os.path.join(output_folder, f"chart.png")
+                    img_file = discord.File(img_bytes, graph_path)
+                    os.remove(graph_path)
+                    new_data.append(Media(image=img_file))
+                    
+        visualization.data = new_data
 
 class Visualizer:
     def __init__(self, sql_runner: SQLRunner):
@@ -115,7 +119,7 @@ class Visualizer:
 
         # Apply all effects
         for effect in self.effects:
-            await effect.matchAndReplace(visualization)
+            effect.matchAndReplace(visualization)
 
         # Render the final visualization
         await visualization.render(channel)
