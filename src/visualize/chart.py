@@ -35,31 +35,38 @@ def plot_chart(json_data):
 
     chart_type = chart.get("type")
     if chart_type == "line":
-        colors = plt.rcParams['axes.prop_cycle'].by_key()['color']  # Get default color cycle
+        colors = plt.rcParams["axes.prop_cycle"].by_key()[
+            "color"
+        ]  # Get default color cycle
 
-        x_values = sorted(set(chart.get('x')))
-        labels = chart.get('label')
+        x_values = sorted(set(chart.get("x")))
+        labels = chart.get("label")
         for i, label in labels:
-            y_values = df[df['label'] == label]
+            y_values = df[df["label"] == label]
             plt.plot(
-                x_values, y_values, marker="o", linestyle="-", color=colors[i % len(colors)], label=label
+                x_values,
+                y_values,
+                marker="o",
+                linestyle="-",
+                color=colors[i % len(colors)],
+                label=label,
             )
-        plt.xlabel(chart.get('x-axis-label'))
-        plt.ylabel(chart.get('y-axis-label'))
-        plt.title(chart.get('title'))
-        plt.legend(title=chart.get('legend-title'))
+        plt.xlabel(chart.get("x-axis-label"))
+        plt.ylabel(chart.get("y-axis-label"))
+        plt.title(chart.get("title"))
+        plt.legend(title=chart.get("legend-title"))
 
     elif chart_type == "bar":
         # todo: multiple x_values(different company), y_values = times, label = {company name}
         # single bar / double bar
-        x_values = sorted(set(chart.get('x')))
-        labels = chart.get('label')
+        x_values = sorted(set(chart.get("x")))
+        labels = chart.get("label")
         for i, label in labels:
-            y_values = df[df['label'] == label]
+            y_values = df[df["label"] == label]
             plt.bar(x_values, y_values, color="green", label="label")
-        plt.xlabel(chart.get('x-axis-label'))
-        plt.ylabel(chart.get('y-axis-label'))
-        plt.title(chart.get('title'))
+        plt.xlabel(chart.get("x-axis-label"))
+        plt.ylabel(chart.get("y-axis-label"))
+        plt.title(chart.get("title"))
 
     elif chart_type == "pie":
         # temporarily ignored

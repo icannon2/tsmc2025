@@ -1,3 +1,4 @@
+from ..visualize import Visualization, Visualizer
 from ..datasource import SQLRunner
 from ..config import Config
 from ..state import GlobalState
@@ -188,3 +189,6 @@ These metrics are stored in an SQL database. You can generate charts in json for
                 for content in self.chat._curated_history[-2:]
             ]
         """
+
+    def get_visualizer(self) -> Visualizer:
+        return Visualizer(self.sql_runner)

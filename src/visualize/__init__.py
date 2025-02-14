@@ -1,9 +1,12 @@
-from bot import DiscordBot
+from io import BytesIO
+
+import discord
 from abc import ABC
+
+from datasource import SQLRunner
 from .chart import plot_chart
 from discord import TextChannel, File
 import re
-import io from BytesIO
 import os
 
 """
@@ -13,6 +16,7 @@ Common media types: text, image, embed.
 """
 
 output_folder = "charts"
+
 
 class Media:
     text: str | None
@@ -25,32 +29,35 @@ class Media:
             self.image = image
 
     def is_text(self) -> bool:
-        return not self.text is None
+        return self.text is not None
 
     async def render(self, channel: TextChannel):
         if self.text is not None:
-            channel.send(self.text)
+            await channel.send(self.text)
         elif self.image is not None:
-            channel.send(file=self.image)
+            await channel.send(file=self.image)
+
 
 """
 A collection of media to be visualized.
 """
 
+
 class Visualization:
     data: list[Media]
 
-    def __init__(self):
+    def __init__(self, text: str | None = None):
         self.data = []
+        if text is not None:
+            self.data.append(Media(text=text))
 
-    def render(channel: TextChannel):
+    async def render(self, channel: TextChannel):
         for media in self.data:
             await media.render(channel)
 
 
 class VisualizeEffect(ABC):
     sql_runner: SQLRunner
-    @abstractmethod
 
     """
     An abstract class for module to visualizing the data.
@@ -68,6 +75,7 @@ class VisualizeEffect(ABC):
         """
         pass
 
+
 class ChartEffect(VisualizeEffect):
     sql_runner: SQLRunner
 
@@ -82,10 +90,10 @@ class ChartEffect(VisualizeEffect):
             if not media.is_text():
                 new_data.append(media)
                 continue
-                
+
             parts = re.split(chartRegex, media.text)
             matches = re.findall(chartRegex, media.text)
-            
+
             for i, part in enumerate(parts):
                 if part:  # Add non-empty text parts
                     new_data.append(Media(text=part))
@@ -96,19 +104,18 @@ class ChartEffect(VisualizeEffect):
                     img_file = discord.File(img_bytes, graph_path)
                     os.remove(graph_path)
                     new_data.append(Media(image=img_file))
-                    
+
         visualization.data = new_data
+
 
 class Visualizer:
     def __init__(self, sql_runner: SQLRunner):
-        self.effects = [
-            ChartEffect(sql_runner)
-        ]
+        self.effects = [ChartEffect(sql_runner)]
 
     async def process_message(self, message: str, channel: TextChannel):
         """
         Process a message and render the visualization in the channel.
-        
+
         Args:
             message (str): The message to process
             channel (TextChannel): The Discord channel to render to

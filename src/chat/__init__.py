@@ -1,4 +1,5 @@
 from discord import ChannelType, Message
+
 from .room_state import RoomState
 from ..state import GlobalState
 from sqlalchemy.ext.declarative import declarative_base
@@ -11,7 +12,6 @@ Base = declarative_base()
 
 
 class ChatMessageHandler(MessageHandlerImpl):
-    # a mapping from thread_id to the state of the chatroom
     perroom_state_map: dict[str, RoomState]
     global_state: GlobalState
 
@@ -22,54 +22,17 @@ class ChatMessageHandler(MessageHandlerImpl):
 
     async def handle_message(self, message: Message) -> bool:
         channel_id = message.channel.id
-        if channel_id in self.perroom_state_map:
-            room_state = self.perroom_state_map[channel_id]
-        else:
+
+        if channel_id not in self.perroom_state_map:
             return False
-        """
-        chatroom = (
-            self.global_state.session.query(ChatroomModel)
-            .filter_by(thread_id=channel_id)
-            .first()
-        )
 
-        if chatroom is None:
-            return False
-        
+        room_state = self.perroom_state_map[channel_id]
 
-        raw_chat_history = (
-            self.global_state.session.query(MessageModel)
-            .filter_by(chatroom_id=channel_id)
-            .order_by(MessageModel.id.desc())
-            .all()
-        )
-        """
-
-        # chat_history = [history.content for history in raw_chat_history]
         response = await room_state.get_response(
             message.content,
         )
-
-        """
-        message_user = MessageModel(
-            chatroom_id=channel_id,
-            user_id=message.author.id,
-            role="user",
-            content=new_chat_history[1],
-        )
-
-        message_model = MessageModel(
-            chatroom_id=channel_id,
-            user_id=message.author.id,
-            role="model",
-            content=new_chat_history[0],
-        )
-
-        self.global_state.session.add(message_user)
-        self.global_state.session.add(message_model)
-
-        self.global_state.session.commit()
-        """
+        visualizer = room_state.get_visualizer()
+        await visualizer.process_message(response, message.channel)
 
         await message.channel.send(response[:2000])
 
