@@ -1,9 +1,6 @@
 import uuid
-from io import BytesIO
-
 import discord
 from abc import ABC
-
 from ..datasource import SQLRunner
 from .chart import plot_chart
 from discord import TextChannel, File
@@ -79,7 +76,6 @@ class VisualizeEffect(ABC):
         """
         pass
 
-
 class ChartEffect(VisualizeEffect):
     sql_runner: SQLRunner
 
@@ -95,24 +91,31 @@ class ChartEffect(VisualizeEffect):
                 new_data.append(media)
                 continue
 
-            loc = uuid.uuid4()
+            raw_parts = re.split(chartRegex, media.text) if media.text else []
+            raw_matches = re.findall(chartRegex, media.text) if media.text else []
+            parts = [part.strip() for part in raw_parts if part and part.strip()]
+            matches = [match.strip() for match in raw_matches if match and match.strip()]
 
-            parts = re.split(chartRegex, media.text)
-            matches = re.findall(chartRegex, media.text)
+            for p in parts:
+                print(p)
+            print("------------")
+            for m in matches:
+                print(m)
 
-            for i, part in enumerate(parts):
-                if part:  # Add non-empty text parts
-                    new_data.append(Media(text=part))
-                if i < len(matches):  # Add charts between text parts
+            for part in parts:
+                if not part: continue
+                if part in matches: # Add chart
                     try:
-                        plot_chart(matches[i], self.sql_runner, f"{loc}.png")
-                        img_bytes = BytesIO()
+                        loc = uuid.uuid4()
+                        plot_chart(part, self.sql_runner, f"{loc}.png")
                         graph_path = os.path.join(output_folder, f"{loc}.png")
-                        img_file = discord.File(img_bytes, graph_path)
-                        new_data.append(Media(None, image=img_file))
+                        img_file = discord.File(graph_path, filename=f"{loc}.png")
+                        new_data.append(Media(image=img_file))
                     except Exception as e:
                         new_data.append(Media(text=f"Error: {e}"))
                         print(e)
+                else:
+                    new_data.append(Media(text=part))
 
         visualization.data = new_data
 

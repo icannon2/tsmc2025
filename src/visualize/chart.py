@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import catppuccin
 import matplotlib as mpl
+import matplotlib.pyplot as plt
 import json
 import pandas as pd
 
@@ -10,7 +11,6 @@ output_folder = "charts"
 
 mpl.style.use(catppuccin.PALETTE.mocha.identifier)
 
-
 def plot_chart(json_data, runner: SQLRunner, name: str):
     """Generate line charts for each financial stat"""
     import os
@@ -19,30 +19,41 @@ def plot_chart(json_data, runner: SQLRunner, name: str):
 
     chart = json.loads(json_data)
 
-    result = runner.execute_stmt(chart.get("sql"))
-    if result.error_message:
-        print(f"Error: {result.error_message}")
+    res = runner.execute_stmt(chart.get("sql"))
+    if res.error_message:
+        print(f"Error: {res.error_message}")
         return
 
-    df = pd.DataFrame([result.map_row(row) for row in result.result.fetchall()])
-
-    if not df:
-        print("No data to plot!")
-        return
+    df = res.result.df()
 
     # Create figure
-    plt.figure(figsize=(10, 6))
+    #plt.figure(figsize=(10, 6))
 
     chart_type = chart.get("type")
     if chart_type == "line":
+        # one stat many company or one company many stat
         colors = plt.rcParams["axes.prop_cycle"].by_key()[
             "color"
         ]  # Get default color cycle
 
-        x_values = sorted(set(chart.get("x")))
-        labels = chart.get("label")
-        for i, label in labels:
-            y_values = df[df["label"] == label]
+        x_values = sorted(set(df["time"]))
+
+        labels = []
+        multiple_company = True
+        if len(set(df["stat"])) < len(set(df["company"])):
+            labels = sorted(set(df["company"]))
+        else:
+            labels = sorted(set(df["stat"]))
+            multiple_company = False
+        
+        i = 0
+        for label in labels:
+            y_values = []
+            if multiple_company:
+                y_values = df[df["company"] == label]["value"].tolist()
+            else:
+                y_values = df[df["stat"] == label]["value"].tolist()
+                
             plt.plot(
                 x_values,
                 y_values,
@@ -51,10 +62,15 @@ def plot_chart(json_data, runner: SQLRunner, name: str):
                 color=colors[i % len(colors)],
                 label=label,
             )
-        plt.xlabel(chart.get("x-axis-label"))
-        plt.ylabel(chart.get("y-axis-label"))
+            i += 1
+            
         plt.title(chart.get("title"))
-        plt.legend(title=chart.get("legend-title"))
+        if chart.get("x-axis-label"): 
+            plt.xlabel(chart.get("x-axis-label"))
+        if chart.get("y-axis-label"): 
+            plt.ylabel(chart.get("y-axis-label"))
+        if chart.get("legend-title"): plt.legend(title=chart.get("legend-title"))
+        else: plt.legend()
 
     elif chart_type == "bar":
         # todo: multiple x_values(different company), y_values = times, label = {company name}
@@ -87,7 +103,6 @@ def plot_chart(json_data, runner: SQLRunner, name: str):
     plt.grid(True) if chart_type in ["line", "bar"] else None
 
     chart_path = os.path.join(output_folder, name)
-    print("!!!", chart_path)
     plt.savefig(chart_path)
     plt.close()
 

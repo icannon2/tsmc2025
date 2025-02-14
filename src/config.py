@@ -12,7 +12,7 @@ class Config:
     """
     List of channels where the commands is allowed to work
     """
-    allowed_channels: list[str] = [1339150923594727488, 864860749153959991]
+    allowed_channels: list[str] = [1339942683715702858]
 
     """
     Load the configuration from env

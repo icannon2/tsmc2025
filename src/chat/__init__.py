@@ -34,7 +34,7 @@ class ChatMessageHandler(MessageHandlerImpl):
         visualizer = room_state.get_visualizer()
         await visualizer.process_message(response, message.channel)
 
-        await message.channel.send(response[:2000])
+        # await message.channel.send(response[:2000])
 
         return True
 
@@ -79,14 +79,15 @@ class ChatCommandHandler(CommandHandlerImpl):
             )
             self.perroom_state_map[thread.id] = room_state
 
-            #             visualizer = room_state.get_visualizer()
-            #             await visualizer.process_message(
-            #                 """
-            #                 aaa
-            # <chart>{ "labels": [ "2022/Q1", "2022/Q2", "2022/Q3", "2022/Q4" ], "sql": "SELECT CALENDAR_QTR AS x, USD_Value AS y, 'Operating Income' AS label FROM Financial_Data WHERE Company_Name = 'Nvidia' AND CALENDAR_YEAR = 2022 AND Index = 'Operating Income'", "title": "Nvidia Operating Income Trend (2022)", "type": "line", "x-axis-label": "Quarter", "y-axis-label": "Operating Income (USD)" }</chart>
-            #                 """,
-            #                 thread,
-            #             )
+            visualizer = room_state.get_visualizer()
+            # await visualizer.process_message(
+            #     """         aaa       <chart>{ "type": "line", "title": "TTIIITLE", "labels": [ "2022-Q1", "2022-Q2", "2022-Q3", "2022-Q4" ], "sql": "SELECT CompanyName as company, CONCAT(CALENDAR_YEAR, '-', CALENDAR_QTR) as time, Revenue as value, 'Revenue' as stat FROM FIN_Data_Derived WHERE CompanyName = 'Nvidia' AND CALENDAR_YEAR = 2022 UNION ALL SELECT  CompanyName as company, CONCAT(CALENDAR_YEAR, '-', CALENDAR_QTR) as time, Gross_Profit as value, 'Gross_Profit' as stat FROM FIN_Data_Derived WHERE CompanyName = 'Nvidia' AND CALENDAR_YEAR = 2022" }</chart>testtesttest
+                
+            #     here's graph2 yoyoyo
+            #     <chart>  {"title": "FOUR companies", "type": "line", "x-axis-label": "company", "y-axis-label": "USD", "sql": "SELECT CompanyName AS company, CONCAT(CALENDAR_YEAR, '-', CALENDAR_QTR) AS time, Return_on_Assets AS value, 'Return_on_Assets' AS stat FROM FIN_Data_Derived WHERE CompanyName IN ('Microchip', 'Nvidia', 'Qorvo', 'TSMC')"
+            #   }</chart> """,
+            #     thread,
+            # )
 
             model = ChatroomModel(thread_id=thread.id, user_id=message.author.id)
             self.global_state.session.add(model)
