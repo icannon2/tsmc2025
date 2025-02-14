@@ -4,14 +4,14 @@ import matplotlib as mpl
 import json
 import pandas as pd
 
-import re
+from src.datasource import SQLRunner
 
 output_folder = "charts"
 
 mpl.style.use(catppuccin.PALETTE.mocha.identifier)
 
 
-def plot_chart(json_data):
+def plot_chart(json_data, runner: SQLRunner, name: str):
     """Generate line charts for each financial stat"""
     import os
 
@@ -86,7 +86,7 @@ def plot_chart(json_data):
     # Show the chart
     plt.grid(True) if chart_type in ["line", "bar"] else None
 
-    chart_path = os.path.join(output_folder, f"chart.png")
+    chart_path = os.path.join(output_folder, name)
     plt.savefig(chart_path)
     plt.close()
 

@@ -79,6 +79,15 @@ class ChatCommandHandler(CommandHandlerImpl):
             )
             self.perroom_state_map[thread.id] = room_state
 
+            visualizer = room_state.get_visualizer()
+            await visualizer.process_message(
+                """
+                aaa
+<chart>{ "labels": [ "2022/Q1", "2022/Q2", "2022/Q3", "2022/Q4" ], "sql": "SELECT CALENDAR_QTR AS x, USD_Value AS y, 'Operating Income' AS label FROM Financial_Data WHERE Company_Name = 'Nvidia' AND CALENDAR_YEAR = 2022 AND Index = 'Operating Income'", "title": "Nvidia Operating Income Trend (2022)", "type": "line", "x-axis-label": "Quarter", "y-axis-label": "Operating Income (USD)" }</chart>
+                """,
+                thread,
+            )
+
             model = ChatroomModel(thread_id=thread.id, user_id=message.author.id)
             self.global_state.session.add(model)
             self.global_state.session.commit()

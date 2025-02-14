@@ -1,3 +1,4 @@
+import uuid
 from io import BytesIO
 
 import discord
@@ -91,6 +92,8 @@ class ChartEffect(VisualizeEffect):
                 new_data.append(media)
                 continue
 
+            loc = uuid.uuid4()
+
             parts = re.split(chartRegex, media.text)
             matches = re.findall(chartRegex, media.text)
 
@@ -98,11 +101,10 @@ class ChartEffect(VisualizeEffect):
                 if part:  # Add non-empty text parts
                     new_data.append(Media(text=part))
                 if i < len(matches):  # Add charts between text parts
-                    plot_chart(matches[i], self.sql_runner)
+                    plot_chart(matches[i], self.sql_runner, f"{loc}.png")
                     img_bytes = BytesIO()
-                    graph_path = os.path.join(output_folder, f"chart.png")
+                    graph_path = os.path.join(output_folder, f"{loc}.png")
                     img_file = discord.File(img_bytes, graph_path)
-                    os.remove(graph_path)
                     new_data.append(Media(image=img_file))
 
         visualization.data = new_data
