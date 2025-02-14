@@ -30,7 +30,7 @@ INSERT INTO Companies_raw (CompanyName, Country) VALUES ('Baidu', 'China');
 INSERT INTO Companies_raw (CompanyName, Country) VALUES ('Tencent', 'China');
 
 CREATE TABLE FIN_Data_csv AS 
-SELECT * FROM  read_csv('FIN_Data.csv');
+SELECT * FROM read_csv('FIN_Data.csv');
 CREATE TABLE FIN_Data_raw AS
 SELECT
     f.CALENDAR_YEAR,
@@ -118,3 +118,6 @@ SELECT
     END AS Return_on_Assets
 FROM
     FIN_Data_raw;
+
+CREATE TABLE Exchange_Rate_raw AS SELECT "幣別" as Currency, "匯率" as Rate FROM "ExchangeRate.csv";
+INSERT INTO Exchange_Rate_raw (Currency, Rate) VALUES ('TWD', 1.0);

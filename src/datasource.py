@@ -71,6 +71,7 @@ def roles_to_views(roles: list[Role]) -> list[View]:
              WHERE Country IN ({country_str})
              """,
         ),
+        View("Exchange_Rate", "SELECT * FROM Exchange_Rate_raw"),
     ]
 
 
