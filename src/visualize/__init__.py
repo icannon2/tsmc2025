@@ -25,15 +25,18 @@ class Media:
     image: File | None
 
     def __init__(self, text: str | None = None, image: File | None = None):
-        self.text = text
-        if self.text is None:
+        if text is None:
             self.image = image
+            self.text = None
+        else:
+            self.image = None
+            self.text = text
 
     def is_text(self) -> bool:
         return self.text is not None
 
     async def render(self, channel: TextChannel):
-        if self.text is not None:
+        if self.text is not None and len(self.text.strip()) != 0:
             await channel.send(self.text)
         elif self.image is not None:
             await channel.send(file=self.image)
@@ -101,11 +104,15 @@ class ChartEffect(VisualizeEffect):
                 if part:  # Add non-empty text parts
                     new_data.append(Media(text=part))
                 if i < len(matches):  # Add charts between text parts
-                    plot_chart(matches[i], self.sql_runner, f"{loc}.png")
-                    img_bytes = BytesIO()
-                    graph_path = os.path.join(output_folder, f"{loc}.png")
-                    img_file = discord.File(img_bytes, graph_path)
-                    new_data.append(Media(image=img_file))
+                    try:
+                        plot_chart(matches[i], self.sql_runner, f"{loc}.png")
+                        img_bytes = BytesIO()
+                        graph_path = os.path.join(output_folder, f"{loc}.png")
+                        img_file = discord.File(img_bytes, graph_path)
+                        new_data.append(Media(None, image=img_file))
+                    except Exception as e:
+                        new_data.append(Media(text=f"Error: {e}"))
+                        print(e)
 
         visualization.data = new_data
 

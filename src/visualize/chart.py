@@ -87,6 +87,7 @@ def plot_chart(json_data, runner: SQLRunner, name: str):
     plt.grid(True) if chart_type in ["line", "bar"] else None
 
     chart_path = os.path.join(output_folder, name)
+    print("!!!", chart_path)
     plt.savefig(chart_path)
     plt.close()
 
