@@ -20,3 +20,4 @@ if the user says:
 {
 "language": ["Thai"]
 }
+If the language is chinses, please specify traditional chinese

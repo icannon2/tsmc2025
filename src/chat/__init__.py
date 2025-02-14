@@ -73,7 +73,7 @@ class ChatMessageHandler(MessageHandlerImpl):
         self.global_state.session.commit()
         """
 
-        await message.channel.send(response)
+        await message.channel.send(response[:2000])
 
         return True
 
@@ -100,7 +100,7 @@ class ChatCommandHandler(CommandHandlerImpl):
 
     async def handle_command(self, message: Message) -> bool:
         if (
-            message.content.startswith("/chat")
+            message.content.startswith("/talk")
             and message.channel.id in self.allowed_channels
         ):
             thread = await message.channel.create_thread(
@@ -113,12 +113,65 @@ class ChatCommandHandler(CommandHandlerImpl):
             else:
                 raise Exception("Failed to create a thread")
 
-            room_state = RoomState(self.config, self.global_state, message.author.roles)
+            room_state = RoomState(self.config, self.global_state, message.author.roles, roomtype='chat')
             self.perroom_state_map[thread.id] = room_state
 
             model = ChatroomModel(thread_id=thread.id, user_id=message.author.id)
             self.global_state.session.add(model)
             self.global_state.session.commit()
+
+            return True
+        return False
+
+class SummarizeCommandHandler(CommandHandlerImpl):
+    command_name = "summarzie"
+    description = "create a summarize"
+    global_state: GlobalState
+    allowed_channels: list[str]
+    config: Config
+    perroom_state_map: dict[str, RoomState]
+
+    def __init__(
+        self,
+        config: Config,
+        state: GlobalState,
+        perroom_state_map: dict[str, RoomState],
+    ):
+        self.perroom_state_map = perroom_state_map
+        self.global_state = state
+        self.allowed_channels = config.allowed_channels
+        self.config = config
+        super().__init__()
+
+    async def handle_command(self, message: Message) -> bool:
+        if (
+            message.content.startswith("/sum")
+            and message.channel.id in self.allowed_channels
+        ):
+            args = message.content.split(' ')[1:]
+            thread = await message.channel.create_thread(
+                name="summarize", type=ChannelType.private_thread
+            )
+            if thread:
+                await thread.send(
+                    f"Hi {message.author.mention}! I am now generating the report..."
+                )
+            else:
+                raise Exception("Failed to create a thread")
+
+            room_state = RoomState(self.config, self.global_state, message.author.roles, roomtype='summarize')
+            
+            self.perroom_state_map[thread.id] = room_state
+
+            model = ChatroomModel(thread_id=thread.id, user_id=message.author.id)
+            self.global_state.session.add(model)
+            self.global_state.session.commit()
+
+            response = room_state.get_response(
+                message.content, args
+            )
+
+            await thread.send(response)
 
             return True
         return False

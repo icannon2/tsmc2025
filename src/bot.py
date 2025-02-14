@@ -8,7 +8,7 @@ from .state import GlobalState
 
 from .config import Config
 
-from .chat import ChatMessageHandler, ChatCommandHandler
+from .chat import ChatMessageHandler, ChatCommandHandler, SummarizeCommandHandler
 from .ping import PingCommandHandler
 
 
@@ -26,6 +26,7 @@ class DiscordBot(commands.Bot, MessageHandlerImpl):
         self.message_handlers = [ChatMessageHandler(global_state, perroom_state_map)]
         self.command_handlers = [
             ChatCommandHandler(config, global_state, perroom_state_map),
+            SummarizeCommandHandler(config, global_state, perroom_state_map),
             PingCommandHandler(),
         ]
 
