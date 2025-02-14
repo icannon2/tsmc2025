@@ -12,7 +12,9 @@ class FakeRole:
 async def main():
     config = Config()
     global_state = GlobalState(config)
-    room = RoomState(config, global_state, [FakeRole(1339499087489273868)])
+    room = RoomState(
+        config, global_state, [FakeRole(1339499087489273868)], roomtype="summarize"
+    )
     print("Room created")
     print("Hi! How can I help you today?")
     while True:

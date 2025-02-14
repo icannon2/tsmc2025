@@ -121,7 +121,7 @@ class RoomState:
         )
         if roomtype == "summarize":
             self.wrapper = OpenaiWrapper(
-                global_state.client, [], "summarize", "gpt-4o-mini"
+                global_state.client, [], summary_system_prompt, "gpt-4o-mini"
             )
 
     async def get_response(self, message: str) -> str:
