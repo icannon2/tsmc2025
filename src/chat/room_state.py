@@ -75,6 +75,7 @@ class RoomState:
         )
 
     def _send_message(self, prompt: str, chat: genai.Client.chats) -> str:
+        print(prompt)
         return chat.send_message(prompt).text
 
     def get_response(self, message: str, args=None) -> str:
