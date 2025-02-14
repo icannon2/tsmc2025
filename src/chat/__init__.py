@@ -76,7 +76,7 @@ class ChatCommandHandler(CommandHandlerImpl):
             )
             self.perroom_state_map[thread.id] = room_state
 
-            visualizer = room_state.get_visualizer()
+            # visualizer = room_state.get_visualizer()
             # await visualizer.process_message(
             #     """         aaa       <chart>{ "type": "line", "title": "TTIIITLE", "labels": [ "2022-Q1", "2022-Q2", "2022-Q3", "2022-Q4" ], "sql": "SELECT CompanyName as company, CONCAT(CALENDAR_YEAR, '-', CALENDAR_QTR) as time, Revenue as value, 'Revenue' as stat FROM FIN_Data_Derived WHERE CompanyName = 'Nvidia' AND CALENDAR_YEAR = 2022 UNION ALL SELECT  CompanyName as company, CONCAT(CALENDAR_YEAR, '-', CALENDAR_QTR) as time, Gross_Profit as value, 'Gross_Profit' as stat FROM FIN_Data_Derived WHERE CompanyName = 'Nvidia' AND CALENDAR_YEAR = 2022" }</chart>testtesttest
                 
