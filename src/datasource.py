@@ -106,7 +106,7 @@ class SQLRunner:
             WHERE
                 table_name = '{table}';
             """).fetchall():
-                result.append(f"{row[0]}({row[1]})")
+                result.append(f'"{row[0]}"({row[1]})')
 
             results.append(table + ": " + ", ".join(result))
 

@@ -63,8 +63,8 @@ class DiscordBot(commands.Bot, MessageHandlerImpl):
             @self.tree.command(
                 name=handler.command_name, description=handler.description
             )
-            async def command(ctx):
-                await handler.handle_command(ctx)
+            async def command(interaction: discord.Interaction):
+                await handler.handle_command(interaction.message, interaction)
 
     def run(self):
         self.init_command()
