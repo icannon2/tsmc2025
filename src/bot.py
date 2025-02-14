@@ -56,6 +56,8 @@ class DiscordBot(commands.Bot, MessageHandlerImpl):
 
     async def on_message(self, message: Message):
         print(f"Message from {message.author}: {message.content}")
+        if message.author.bot:
+            return
         if message.author != self.user:
             await self.handle_message(message)
 

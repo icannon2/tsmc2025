@@ -3,7 +3,7 @@ from io import BytesIO
 import discord
 from abc import ABC
 
-from datasource import SQLRunner
+from ..datasource import SQLRunner
 from .chart import plot_chart
 from discord import TextChannel, File
 import re
