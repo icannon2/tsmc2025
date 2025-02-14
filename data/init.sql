@@ -81,3 +81,40 @@ JOIN
     Companies_raw CR ON TDR."Company Name" = CR.CompanyName
 JOIN
     Transcript_File_raw TFR ON TDR.Transcript_Filename = TFR.filename;
+
+CREATE TABLE FIN_Data_Derived_raw AS
+SELECT
+    CALENDAR_YEAR,
+    CompanyName,
+    Country,
+    CALENDAR_QTR,
+    "Revenue",
+    "Cost of Goods Sold",
+    "Operating Expense",
+    "Operating Income",
+    "Tax Expense",
+    "Total Asset",
+    ("Revenue" - "Cost of Goods Sold") AS Gross_Profit,
+    CASE
+        WHEN "Revenue" = 0 THEN NULL
+        ELSE ("Revenue" - "Cost of Goods Sold") / "Revenue" * 100
+    END AS Gross_Profit_Margin,
+    CASE
+        WHEN "Revenue" = 0 THEN NULL
+        ELSE "Operating Income" / "Revenue" * 100
+    END AS Operating_Profit_Margin,
+    ("Operating Income" - "Tax Expense") AS Net_Income_Before_Tax,
+    CASE
+        WHEN "Revenue" = 0 THEN NULL
+        ELSE ("Operating Income" - "Tax Expense") / "Revenue" * 100
+    END AS Net_Profit_Margin_Before_Tax,
+    CASE
+        WHEN "Operating Income" = 0 THEN NULL
+        ELSE ("Tax Expense" / "Operating Income") * 100
+    END AS Effective_Tax_Rate,
+    CASE
+        WHEN "Total Asset" = 0 THEN NULL
+        ELSE ("Operating Income" - "Tax Expense") / "Total Asset" * 100
+    END AS Return_on_Assets
+FROM
+    FIN_Data_raw;

@@ -43,7 +43,7 @@ class FunctionCalling:
 
     def duckdb_stmt(self, stmt: str) -> str:
         f"""
-        Run a **single** SQL statement on the DuckDB instance
+        Run a **single** SQL statement tp fetch financial data of tech company from the database.
 
         Available Tables: {self.sql_runner.get_catalog()}
 
@@ -53,6 +53,10 @@ class FunctionCalling:
         :return: The result of the SQL statement
 
         Example:
+        SELECT "Operating Income" FROM FIN_Data_raw WHERE "CompanyName" = 'Apple';
+        # This will fetch the operating income data of Apple Inc.
+        SELECT "Return_on_Assets" FROM FIN_Data_raw WHERE "CompanyName" = 'Baidu';
+        # This will fetch the return on assets data of Baidu Inc.
         SELECT * FROM orders MATCH_RECOGNIZE(
         PARTITION BY custkey
         ORDER BY orderdate
@@ -101,36 +105,36 @@ class FunctionCalling:
             result,
         )
 
-    def get_fin_data(self, company: str) -> str:
-        """
-        Get the financial data of a country
+    # def get_fin_data(self, metrics: str, company) -> str:
+    #     """
+    #     Get the financial data of a country
 
-        :param stmt: The SQL statement to transcribe
-        :return: The transcription of the SQL statement
-        """
+    #     :param stmt: The SQL statement to transcribe
+    #     :return: The transcription of the SQL statement
+    #     """
 
-        result = self.sql_runner.execute_stmt(
-            f"SELECT * FROM FIN_data WHERE \"CompanyName\" = '{company}'"
-        )
+    #     result = self.sql_runner.execute_stmt(
+    #         f"SELECT * FROM FIN_data WHERE \"CompanyName\" = '{company}'"
+    #     )
 
-        return f"{result}"
+    #     return f"{result}"
 
-    def research_planner(self, stmt: str) -> str:
-        """
-        Generates the search queries prompt for the given question.
-        Args:
-            question (str): The question to generate the search queries prompt for
-            parent_query (str): The main question (only relevant for detailed reports)
-            report_type (str): The report type
-            max_iterations (int): The maximum number of search queries to generate
-            context (str): Context for better understanding of the task with realtime web information
+    # def research_planner(self, stmt: str) -> str:
+    #     """
+    #     Generates the search queries prompt for the given question.
+    #     Args:
+    #         question (str): The question to generate the search queries prompt for
+    #         parent_query (str): The main question (only relevant for detailed reports)
+    #         report_type (str): The report type
+    #         max_iterations (int): The maximum number of search queries to generate
+    #         context (str): Context for better understanding of the task with realtime web information
 
-        Returns: str: The search queries prompt for the given question
-        """
+    #     Returns: str: The search queries prompt for the given question
+    #     """
 
-        if self.genai is None:
-            raise Exception("This function requires a GenAI client to be initialized")
+    #     if self.genai is None:
+    #         raise Exception("This function requires a GenAI client to be initialized")
 
-        result = self.sql_runner.execute_stmt(f"EXPLAIN {stmt}")
+    #     result = self.sql_runner.execute_stmt(f"EXPLAIN {stmt}")
 
-        return f"{result}"
+    #     return f"{result}"

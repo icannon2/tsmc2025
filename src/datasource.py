@@ -45,9 +45,7 @@ def roles_to_views(roles: list[Role]) -> list[View]:
         1339498806856646668: "South Korea",
     }
     if roles is None:
-        return [
-            View("Companies", "SELECT * FROM Companies_raw"),
-        ]
+        return []
     country_str = f"'{"','".join(map(lambda x: country[x['id']], roles))}'"
 
     return [
@@ -62,6 +60,13 @@ def roles_to_views(roles: list[Role]) -> list[View]:
             "TRANSCRIPT_Data",
             f"""
              SELECT * FROM TRANSCRIPT_Data_raw
+             WHERE Country IN ({country_str})
+             """,
+        ),
+        View(
+            "FIN_Data_Derived",
+            f"""
+             SELECT * FROM FIN_Data_Derived_raw
              WHERE Country IN ({country_str})
              """,
         ),
