@@ -4,7 +4,7 @@ from discord import Message
 
 from .handler import CommandHandlerImpl, MessageHandlerImpl
 
-from .state import State as GlobalState
+from .state import GlobalState
 
 from .config import Config
 
@@ -20,14 +20,12 @@ class DiscordBot(commands.Bot, MessageHandlerImpl):
     def __init__(self, config: Config):
         self.token = config.discord_token
 
-        perroom_state = {}
+        perroom_state_map = {}
         global_state = GlobalState(config)
 
-        self.message_handlers = [
-            ChatMessageHandler(config, global_state, perroom_state)
-        ]
+        self.message_handlers = [ChatMessageHandler(global_state, perroom_state_map)]
         self.command_handlers = [
-            ChatCommandHandler(config, perroom_state),
+            ChatCommandHandler(config, global_state, perroom_state_map),
             PingCommandHandler(),
         ]
 

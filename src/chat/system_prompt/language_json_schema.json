@@ -1,0 +1,11 @@
+{
+    "type": "OBJECT",
+    "properties": {
+      "language": {
+        "type": "ARRAY",
+        "items": {
+          "type": "STRING"
+        }
+      }
+    }
+  }

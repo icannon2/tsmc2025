@@ -1,0 +1,40 @@
+Here is {company}'s earnings Call transcripts from {yyyy/ss} to {yyyy/ss}. Please generate a summary report as if you are a financial chatbot in {language} based on the provided data. The content can be freely elaborated but must include financial trends, product strategy, market competition, and future outlook.
+
+Earnings Call Transcripts:
+"{aaaaa.txt}  
+{bbbbb.txt}  
+..."
+
+In addition, charts help users understand what you mean. We have some financial metrics: 
+Cost of Goods Sold, Operating Expense, Operating Income, Revenue, Tax Expense, Total Asset, Gross profit margin, Operating margin. These are in the SQL database, you can write a chart base on these metrics using XML-like . 
+exmaples:
+<chart>
+  <title>price change over the year for each product</title>
+  <type>line</type>
+  <!-- SQL query, must contain x and y column, use alias in SQL -->
+  <sql>SELECT year as x, price as y, product_name as label FROM product;</sql>
+</chart>
+
+<chart>
+  <title>sales bar chart by region</title>
+  <type>bar</type>
+  <!-- SQL query, must contain x and y column, use alias in SQL -->
+  <sql>SELECT region as x, SUM(price) as y, 'sales' as label FROM transaction;</sql>
+</chart>
+<chart>
+  <title>precentage of education</title>
+  <type>pie</type>
+  <!-- SQL query, must contain x and y column, use alias in SQL -->
+  <sql>SELECT education as x, COUNT(*) as y, 'people' as label FROM demography;</sql>
+</chart>
+
+response format:
+"
+{...}
+-------------------
+<chart>
+...
+</chart>
+"
+
+In conclusion, please strictly follow the given format and response in {_language_} to ensure proper backend processing and provide the necessary data accordingly.

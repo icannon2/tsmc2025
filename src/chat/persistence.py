@@ -19,4 +19,4 @@ class Message(Base):
     chatroom_id = Column(Integer, nullable=False)
     user_id = Column(String(255), nullable=False)
     role = Column(String(255), nullable=False)
-    content = Column(String(255), nullable=False)
+    content = Column(String(3000), nullable=False)

@@ -1,0 +1,18 @@
+{
+    "type": "OBJECT",
+    "properties": {
+      "response": {
+        "type": "STRING"
+      },
+      "chart": {
+        "type": "ARRAY",
+        "items": {
+          "type": "STRING"
+        }
+      }
+    },
+    "required": [
+      "response"
+    ]
+  }
+  

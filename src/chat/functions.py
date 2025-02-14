@@ -42,38 +42,40 @@ class FunctionCalling:
         self.genai = genai
 
     def duckdb_stmt(self, stmt: str) -> str:
-        f"""
-        Run a **single** SQL statement tp fetch financial data of tech company from the database.
+        """
+                Run a **single** SQL statement tp fetch financial data of tech company from the database.
 
-        Available Tables: {self.sql_runner.get_catalog()}
+                Available Tables: FIN_data: CALENDAR_YEAR(BIGINT), CompanyName(VARCHAR), Country(VARCHAR), CALENDAR_QTR(VARCHAR), Cost of Goods Sold(DOUBLE), Operating Expense(DOUBLE), Operating Income(DOUBLE), Revenue(DOUBLE), Tax Expense(DOUBLE), Total Asset(DOUBLE)
+        TRANSCRIPT_Data: CompanyName(VARCHAR), CALENDAR_YEAR(BIGINT), CALENDAR_QTR(VARCHAR), Country(VARCHAR), filename(VARCHAR), content(VARCHAR)
+        FIN_Data_Derived: CALENDAR_YEAR(BIGINT), CompanyName(VARCHAR), Country(VARCHAR), CALENDAR_QTR(VARCHAR), Revenue(DOUBLE), Cost of Goods Sold(DOUBLE), Operating Expense(DOUBLE), Operating Income(DOUBLE), Tax Expense(DOUBLE), Total Asset(DOUBLE), Gross_Profit(DOUBLE), Gross_Profit_Margin(DOUBLE), Operating_Profit_Margin(DOUBLE), Net_Income_Before_Tax(DOUBLE), Net_Profit_Margin_Before_Tax(DOUBLE), Effective_Tax_Rate(DOUBLE), Return_on_Assets(DOUBLE)
 
-        Please note that this function is safe to use, as it will not allow any SQL statements that modify the database.
+                Please note that this function is safe to use, as it will not allow any SQL statements that modify the database.
 
-        :param stmt: The SQL statement to run
-        :return: The result of the SQL statement
+                :param stmt: The SQL statement to run
+                :return: The result of the SQL statement
 
-        Example:
-        SELECT "Operating Income" FROM FIN_Data_raw WHERE "CompanyName" = 'Apple';
-        # This will fetch the operating income data of Apple Inc.
-        SELECT "Return_on_Assets" FROM FIN_Data_raw WHERE "CompanyName" = 'Baidu';
-        # This will fetch the return on assets data of Baidu Inc.
-        SELECT * FROM orders MATCH_RECOGNIZE(
-        PARTITION BY custkey
-        ORDER BY orderdate
-        MEASURES
-                A.totalprice AS starting_price,
-                LAST(B.totalprice) AS bottom_price,
-                LAST(U.totalprice) AS top_price
-        ONE ROW PER MATCH
-        AFTER MATCH SKIP PAST LAST ROW
-        PATTERN (A B+ C+ D+)
-        SUBSET U = (C, D)
-        DEFINE
-                B AS totalprice < PREV(totalprice),
-                C AS totalprice > PREV(totalprice) AND totalprice <= A.totalprice,
-                D AS totalprice > PREV(totalprice)
-        );
-        # the pattern describes a V-shape over the totalprice column. A match is found whenever orders made by a customer first decrease in price, and then increase past the starting point
+                Example:
+                SELECT "Operating Income" FROM FIN_Data_raw WHERE "CompanyName" = 'Apple';
+                # This will fetch the operating income data of Apple Inc.
+                SELECT "Return_on_Assets" FROM FIN_Data_raw WHERE "CompanyName" = 'Baidu';
+                # This will fetch the return on assets data of Baidu Inc.
+                SELECT * FROM orders MATCH_RECOGNIZE(
+                PARTITION BY custkey
+                ORDER BY orderdate
+                MEASURES
+                        A.totalprice AS starting_price,
+                        LAST(B.totalprice) AS bottom_price,
+                        LAST(U.totalprice) AS top_price
+                ONE ROW PER MATCH
+                AFTER MATCH SKIP PAST LAST ROW
+                PATTERN (A B+ C+ D+)
+                SUBSET U = (C, D)
+                DEFINE
+                        B AS totalprice < PREV(totalprice),
+                        C AS totalprice > PREV(totalprice) AND totalprice <= A.totalprice,
+                        D AS totalprice > PREV(totalprice)
+                );
+                # the pattern describes a V-shape over the totalprice column. A match is found whenever orders made by a customer first decrease in price, and then increase past the starting point
         """
 
         result = self.sql_runner.execute_stmt(stmt)

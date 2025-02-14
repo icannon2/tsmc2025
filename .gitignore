@@ -23,3 +23,6 @@ wheels/
 
 # local testing
 script.py
+
+# zip file
+.zip
