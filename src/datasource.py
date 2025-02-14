@@ -44,6 +44,7 @@ def roles_to_views(roles: list[Role]) -> list[View]:
         1339498929901015100: "Taiwan",
         1339498806856646668: "South Korea",
     }
+    roles = list(filter(lambda x: x["id"] in country, roles))
     if roles is None:
         return []
     country_str = f"'{"','".join(map(lambda x: country[x['id']], roles))}'"

@@ -5,6 +5,9 @@ if __name__ == "__main__":
         {
             "id": 1339499087489273868,
         },
+        {
+            "id": 2,
+        },
     ]
     runner = SQLRunner("data/datasource.duckdb", roles)
 
