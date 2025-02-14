@@ -43,7 +43,8 @@ available tables: {self.sql_runner.get_tables()}
 
     async def process(self, user_prompt: str) -> str:
         req = json.loads(user_prompt)
-        result = self.sql_runner.get_catalog(req.table)
+        print(req)
+        result = self.sql_runner.get_catalog(req["table"])
         return f"{result}"
 
 
@@ -88,5 +89,5 @@ SELECT "Return_on_Assets" FROM FIN_Data_raw WHERE "CompanyName" = 'Baidu';
 
     async def process(self, user_prompt: str) -> str:
         req = json.loads(user_prompt)
-        result = self.sql_runner.execute_stmt(req.sql)
+        result = self.sql_runner.execute_stmt(req["sql"])
         return f"{result}"

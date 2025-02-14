@@ -1,18 +1,20 @@
-from src.datasource import SQLRunner
+from src.chat.room_state import RoomState
+from src.config import Config
+from src.state import GlobalState
+import asyncio
+
+
+async def main():
+    config = Config()
+    global_state = GlobalState(config)
+    room = RoomState(config, global_state, [])
+    print("Room created")
+    print("Hi! How can I help you today?")
+    while True:
+        message = input("User: ")
+        response = await room.get_response(message)
+        print("Bot:" + response)
+
 
 if __name__ == "__main__":
-    roles = [
-        {
-            "id": 1339499087489273868,
-        },
-        {
-            "id": 2,
-        },
-    ]
-    runner = SQLRunner("data/datasource.duckdb", roles)
-
-    print(
-        runner.execute_stmt("SELECT * FROM pg_catalog.pg_tables;")
-    )  # This will not work
-    print(runner.execute_stmt("SELECT * FROM FIN_data;"))  # This will work
-    print(runner.get_catalog())
+    asyncio.run(main())

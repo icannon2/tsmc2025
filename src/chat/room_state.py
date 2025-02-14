@@ -68,7 +68,11 @@ class OpenaiWrapper:
 
         for call in choice.message.tool_calls:
             matching_tool = next(
-                (t for t in self.tools if t.spec.function.name == call.function.name),
+                (
+                    t
+                    for t in self.tools
+                    if t.spec["function"]["name"] == call.function.name
+                ),
                 None,
             )
             if matching_tool is None:
