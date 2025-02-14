@@ -1,7 +1,10 @@
 from ..datasource import SQLRunner, View
 import matplotlib.pyplot as plt
-
+import catppuccin
+import matplotlib as mpl
 import re
+
+mpl.style.use(catppuccin.PALETTE.mocha.identifier)
 
 
 def parse_multiple_tags(text, tag1, tag2):
