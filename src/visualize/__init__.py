@@ -1,9 +1,10 @@
 from bot import DiscordBot
 from abc import ABC
-from ..datasource import SQLRunner, View
 from .chart import plot_chart
 from discord import TextChannel, File
 import re
+import io from BytesIO
+import os
 
 """
 An abstract class for media to be rendered.
@@ -11,8 +12,7 @@ An abstract class for media to be rendered.
 Common media types: text, image, embed.
 """
 
-graph_path = ""
-
+output_folder = "charts"
 
 class Media:
     text: str | None
@@ -27,28 +27,30 @@ class Media:
     def is_text(self) -> bool:
         return not self.text is None
 
-    def render(self, channel: TextChannel):
+    async def render(self, channel: TextChannel):
         if self.text is not None:
             channel.send(self.text)
         elif self.image is not None:
-            channel.send(self.image)
-
+            channel.send(file=self.image)
 
 """
 A collection of media to be visualized.
 """
 
-
 class Visualization:
     data: list[Media]
 
+    def __init__(self):
+        self.data = []
+
     def render(channel: TextChannel):
         for media in self.data:
-            media.render(channel)
+            await media.render(channel)
 
 
 class VisualizeEffect(ABC):
     sql_runner: SQLRunner
+    @abstractmethod
 
     """
     An abstract class for module to visualizing the data.
@@ -66,7 +68,6 @@ class VisualizeEffect(ABC):
         """
         pass
 
-
 class ChartEffect(VisualizeEffect):
     sql_runner: SQLRunner
 
@@ -74,24 +75,51 @@ class ChartEffect(VisualizeEffect):
         self.sql_runner = sql_runner
 
     def matchAndReplace(self, visualization: Visualization):
-        for media in visialization.data:
+        chartRegex = "<chart>([\s\S]*?)<\/chart>"
+        new_data = []
+
+        for media in visualization.data:
             if not media.is_text():
+                new_data.append(media)
                 continue
-            chartRegex = "<chart>([\s\S]*?)<\/chart>"
-
+                
+            parts = re.split(chartRegex, media.text)
             matches = re.findall(chartRegex, media.text)
-            textSplit = iter(re.split(chartRegex, media.text))
+            
+            for i, part in enumerate(parts):
+                if part:  # Add non-empty text parts
+                    new_data.append(Media(text=part))
+                if i < len(matches):  # Add charts between text parts
+                    plot_chart(matches[i], self.sql_runner)
+                    img_bytes = BytesIO()
+                    graph_path = os.path.join(output_folder, f"chart.png")
+                    img_file = discord.File(img_bytes, graph_path)
+                    os.remove(graph_path)
+                    new_data.append(Media(image=img_file))
+                    
+        visualization.data = new_data
 
-            visialization.data = []
+class Visualizer:
+    def __init__(self, sql_runner: SQLRunner):
+        self.effects = [
+            ChartEffect(sql_runner)
+        ]
 
-            for match in matches:
-                visialization.data.append(Media(text=next(textSplit)))
-                plot_chart(match)
+    async def process_message(self, message: str, channel: TextChannel):
+        """
+        Process a message and render the visualization in the channel.
+        
+        Args:
+            message (str): The message to process
+            channel (TextChannel): The Discord channel to render to
+        """
+        # Create initial visualization with the message
+        visualization = Visualization()
+        visualization.data = [Media(text=message)]
 
-                img_bytes = BytesIO()
-                img_file = discord.File(img_bytes, graph_path)
-                os.remove(graph_path)
-                # store graph in one place and remove it immediately after use
-                visialization.data.append(Media(image=img_file))
+        # Apply all effects
+        for effect in self.effects:
+            effect.matchAndReplace(visualization)
 
-            visialization.data.append(next(textSplit))
+        # Render the final visualization
+        await visualization.render(channel)
