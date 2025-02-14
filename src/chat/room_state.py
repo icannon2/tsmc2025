@@ -3,11 +3,9 @@ from ..datasource import SQLRunner
 from sqlalchemy import Engine
 from sqlalchemy.orm import Session
 from ..config import Config
-from google import genai
 from ..state import GlobalState
 from discord import Role
 import json
-import csv
 from .functions import FunctionCalling
 from google.genai import types
 
@@ -82,18 +80,19 @@ class RoomState:
     def get_response(self, message: str, args=None) -> str:
         global chat_system_prompt, summary_system_prompt, language_prompt
 
-        language_prompt = language_prompt.replace("{question}", message)
+        if self.roomtype == "chat":
+            language_prompt = language_prompt.replace("{question}", message)
 
-        raw_language_list = self.global_state.client.models.generate_content(
-            model="gemini-2.0-flash",
-            contents=language_prompt,
-            config={
-                "response_mime_type": "application/json",
-                "response_schema": json.loads(language_json_schema),
-            },
-        ).text
+            raw_language_list = self.global_state.client.models.generate_content(
+                model="gemini-2.0-flash",
+                contents=language_prompt,
+                config={
+                    "response_mime_type": "application/json",
+                    "response_schema": json.loads(language_json_schema),
+                },
+            ).text
 
-        language_list = json.loads(raw_language_list)["language"]
+            language_list = json.loads(raw_language_list)["language"]
 
         if len(language_list) == 0:
             raise Exception("No language detected")
@@ -108,13 +107,15 @@ class RoomState:
             )
         else:
             system_prompt = summary_system_prompt
-            response = self._send_message(
+            prompt = (
                 system_prompt.replace("{company}", args[0])
-                .replace("{language}", language_list[0])
-                .replace("{start_time}", args[1])
-                .replace("{end_time}", args[2]),
-                self.chat,
+                .replace("{language}", args[1])
+                .replace("{start_time}", args[2])
+                .replace("{end_time}", args[3])
             )
+            print(prompt)
+
+            response = self._send_message(prompt, self.chat)
 
         return response
 
