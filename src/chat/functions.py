@@ -79,7 +79,7 @@ class FunctionCalling:
         result = self.sql_runner.execute_stmt(stmt)
         return f"{result}"
 
-    async def get_transcription(self, year: int, qtr: int) -> str:
+    async def get_transcription(self, year: int, qtr: int, company: str) -> str:
         """
         Get the transcription of company's institutional investors conference call
 
@@ -90,7 +90,7 @@ class FunctionCalling:
 
         result = f"{
             self.sql_runner.execute_stmt(
-                f"SELECT * FROM TRANSCRIPT_Data WHERE year = {year} AND qtr = 'Q{qtr}'"
+                f"SELECT * FROM TRANSCRIPT_Data WHERE CALENDAR_YEAR = {year} AND CALENDAR_QTR = 'Q{qtr}', \"Company Name\" = '{company}'"
             )
         }"
 
