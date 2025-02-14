@@ -43,7 +43,11 @@ class RoomState:
     roomtype: str
 
     def __init__(
-        self, config: Config, global_state: GlobalState, user_roles: list[Role], roomtype: str
+        self,
+        config: Config,
+        global_state: GlobalState,
+        user_roles: list[Role],
+        roomtype: str,
     ):
         global gemini_config
         self.global_state = global_state
@@ -75,7 +79,7 @@ class RoomState:
     def _send_message(self, prompt: str, chat: genai.Client.chats) -> str:
         return chat.send_message(prompt).text
 
-    def get_response(self, message: str, args = None) -> str:
+    def get_response(self, message: str, args=None) -> str:
         global chat_system_prompt, summary_system_prompt, language_prompt
 
         language_prompt = language_prompt.replace("{question}", message)
@@ -93,8 +97,8 @@ class RoomState:
 
         if len(language_list) == 0:
             raise Exception("No language detected")
-        
-        if self.roomtype == 'chat':
+
+        if self.roomtype == "chat":
             system_prompt = chat_system_prompt
             response = self._send_message(
                 system_prompt.replace("{question}", message).replace(
@@ -111,8 +115,6 @@ class RoomState:
                 .replace("{end_time}", args[2]),
                 self.chat,
             )
-
-        
 
         return response
 

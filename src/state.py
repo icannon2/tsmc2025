@@ -1,8 +1,6 @@
 from google import genai
 from sqlalchemy import Engine, create_engine
 from sqlalchemy.orm import Session
-from google.cloud import aiplatform
-from google import genai
 
 from .config import Config
 

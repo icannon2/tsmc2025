@@ -41,7 +41,7 @@ class FunctionCalling:
         self.sql_runner = sql_runner
         self.genai = genai
 
-        self.duckdb_stmt.__func__.__doc__ =  f"""
+        self.duckdb_stmt.__func__.__doc__ = f"""
             Run a **single** SQL statement tp fetch financial data of tech company from the database.
 
             Available Tables: {self.sql_runner.get_catalog()}
