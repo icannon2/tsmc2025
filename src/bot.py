@@ -35,9 +35,13 @@ class DiscordBot(commands.Bot, MessageHandlerImpl):
         super().__init__(intents=intents, command_prefix="/")
 
     async def handle_message(self, message: Message) -> bool:
+        await self.tree.sync(guild=message.guild)
+
         if message.content.startswith("/"):
             for handler in self.command_handlers:
-                if await handler.handle_command(message):
+                if message.content.startswith(
+                    f"/{handler.command_name}"
+                ) and await handler.handle_command(message):
                     return True
 
         for handler in self.message_handlers:
@@ -47,23 +51,21 @@ class DiscordBot(commands.Bot, MessageHandlerImpl):
         return False
 
     async def on_ready(self):
-        slash = await self.tree.sync()
         print(f"Logged in as {self.user}")
-        print(f"Slash commands: {slash}")
 
     async def on_message(self, message: Message):
+        print(f"Message from {message.author}: {message.content}")
         if message.author != self.user:
             await self.handle_message(message)
 
-    def init_command(self):
-        for handler in self.command_handlers:
-
-            @self.tree.command(
-                name=handler.command_name, description=handler.description
-            )
-            async def command(interaction: discord.Interaction):
-                await handler.handle_command(interaction.message, interaction)
+    # def init_command(self):
+    #     for handler in self.command_handlers:
+    #         @self.tree.command(
+    #             name=handler.command_name, description=handler.description
+    #         )
+    #         async def command(interaction: discord.Interaction):
+    #             print(f"Command {handler.command_name} received")
+    #             await handler.handle_command(interaction.message, interaction)
 
     def run(self):
-        self.init_command()
         super().run(self.token)

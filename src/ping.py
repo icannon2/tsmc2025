@@ -7,7 +7,5 @@ class PingCommandHandler(CommandHandlerImpl):
     description = "Ping command"
 
     async def handle_command(self, message: Message) -> bool:
-        if message.content == "/ping":
-            await message.channel.send("Pong!")
-            return True
-        return False
+        await message.channel.send("Pong!")
+        return True
