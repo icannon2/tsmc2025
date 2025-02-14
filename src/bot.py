@@ -48,6 +48,11 @@ class DiscordBot(commands.Bot, MessageHandlerImpl):
 
         return False
 
+    async def on_ready(self):
+        slash = await self.tree.sync()
+        print(f"Logged in as {self.user}")
+        print(f"Slash commands: {slash}")
+
     async def on_message(self, message: Message):
         if message.author != self.user:
             await self.handle_message(message)
@@ -55,7 +60,9 @@ class DiscordBot(commands.Bot, MessageHandlerImpl):
     def init_command(self):
         for handler in self.command_handlers:
 
-            @self.command(name=handler.command_name, description=handler.description)
+            @self.tree.command(
+                name=handler.command_name, description=handler.description
+            )
             async def command(ctx):
                 await handler.handle_command(ctx)
 
