@@ -1,4 +1,4 @@
-from ..visualize import Visualization, Visualizer
+from ..visualize import Visualizer
 from ..datasource import SQLRunner
 from ..config import Config
 from ..state import GlobalState
@@ -73,7 +73,7 @@ class OpenaiWrapper:
             )
             if matching_tool is None:
                 raise Exception(f"Tool {call.function.name} not found")
-            tool_res = await matching_tool.process(call.tool.function.arguments)
+            tool_res = await matching_tool.process(call.function.arguments)
             self.messages.append(choice.message)
             self.messages.append(
                 {
