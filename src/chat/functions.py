@@ -81,6 +81,7 @@ FIN_Data_Derived: "CALENDAR_YEAR"(BIGINT), "CompanyName"(VARCHAR), "Country"(VAR
         return f"{result}"
 
     async def get_transcription(self, year: int, qtr: int) -> str:
+        print("好好好好好吃")
         """
         Get the transcription of company's institutional investors conference call
 
