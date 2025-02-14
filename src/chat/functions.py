@@ -43,7 +43,6 @@ available tables: {self.sql_runner.get_tables()}
 
     async def process(self, user_prompt: str) -> str:
         req = json.loads(user_prompt)
-        print(req)
         result = self.sql_runner.get_catalog(req["table"])
         return f"{result}"
 
@@ -73,9 +72,7 @@ class SQLFunctionCalling(FunctionCallingImpl):
     def __init__(self, sql_runner: SQLRunner):
         self.sql_runner = sql_runner
         self.spec["function"]["description"] = """
-Run a **single** SQL statement tp fetch financial data of tech company from the database.
-
-Please note that this function is safe to use, as it will not allow any SQL statements that modify the database.
+Run a **single** SQL statement tp fetch data from the database.
 
 :param stmt: The SQL statement to run
 :return: The result of the SQL statement
@@ -83,11 +80,16 @@ Please note that this function is safe to use, as it will not allow any SQL stat
 Example:
 SELECT "Operating Income" FROM FIN_Data_raw WHERE "CompanyName" = 'Apple';
 # This will fetch the operating income data of Apple Inc.
-SELECT "Return_on_Assets" FROM FIN_Data_raw WHERE "CompanyName" = 'Baidu';
-# This will fetch the return on assets data of Baidu Inc.
+SELECT content FROM TRANSCRIPT_Data
+JOIN Fiscal_Data
+    ON TRANSCRIPT_Data."CompanyName" = Fiscal_Data."CompanyName" AND TRANSCRIPT_Data."CALENDAR_YEAR" = Fiscal_Data."CALENDAR_YEAR" AND TRANSCRIPT_Data."CALENDAR_QTR" = Fiscal_Data."CALENDAR_QTR'
+WHERE "CALENDAR_YEAR" = 2021 AND "CALENDAR_QTR" = 'Q1" AND "CompanyName" = 'Apple';
+# This will fetch the transcription of Q1 2021(fiscal)'s earning call from apple.
 """
 
     async def process(self, user_prompt: str) -> str:
         req = json.loads(user_prompt)
+        print("running SQL: ", req["sql"])
         result = self.sql_runner.execute_stmt(req["sql"])
+        print("result: ", result)
         return f"{result}"

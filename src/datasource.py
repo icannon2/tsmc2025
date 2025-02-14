@@ -72,6 +72,7 @@ def roles_to_views(roles: list[Role]) -> list[View]:
              """,
         ),
         View("Exchange_Rate", "SELECT * FROM Exchange_Rate_raw"),
+        View("Fiscal_Data", "SELECT * FROM Fiscal_Data_raw"),
     ]
 
 

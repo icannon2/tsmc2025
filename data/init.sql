@@ -119,5 +119,28 @@ SELECT
 FROM
     FIN_Data_raw;
 
-CREATE TABLE Exchange_Rate_raw AS SELECT "幣別" as Currency, "匯率" as Rate FROM "ExchangeRate.csv";
-INSERT INTO Exchange_Rate_raw (Currency, Rate) VALUES ('TWD', 1.0);
+CREATE TABLE Exchange_Rate_raw 
+AS
+SELECT
+    CALENDAR_YEAR,
+    CALENDAR_QTR,
+    Local_Currency,
+    SUM(USD_Value) / SUM(Local_Value) AS Exchange_Rate
+FROM
+    FIN_Data_csv
+GROUP BY
+    CALENDAR_YEAR,
+    Local_Currency,
+    CALENDAR_QTR;
+
+CREATE TABLE Fiscal_Data_raw AS
+SELECT DISTINCT
+    "Company Name" as CompanyName,
+    CALENDAR_YEAR as CalenderYear,
+    CALENDAR_QTR as CalenderQuarter,
+    COALESCE(
+        TRY_CAST(REGEXP_EXTRACT(Transcript_Filename, ' Q[1-4] (\d{4})', 1) AS BIGINT),
+        CALENDAR_YEAR
+    ) AS FiscalYear,
+    REGEXP_EXTRACT(Transcript_Filename, ' (Q[1-4]) ', 1) AS FiscalQuarter
+FROM TRANSCRIPT_Data_csv;
