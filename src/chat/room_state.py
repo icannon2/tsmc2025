@@ -15,13 +15,6 @@ with open(
     summary_system_prompt = f.read()
 with open("src/chat/system_prompt/language_prompt.txt", "r", encoding="utf-8") as f:
     language_prompt = f.read()
-with open(
-    "src/chat/system_prompt/language_json_schema.json", "r", encoding="utf-8"
-) as f:
-    language_json_schema = f.read()
-with open("src/chat/system_prompt/chat_json_schema.json", "r", encoding="utf-8") as f:
-    chat_json_schema = f.read()
-
 
 client = None
 gemini_config = None
@@ -138,61 +131,15 @@ class RoomState:
                 CatalogFunctionCalling(self.sql_runner),
             ]
             self.language = await OpenaiWrapper.one_shot(
-                self.global_state.client,
-                message,
-                """
-You are a tool to determine user's perfered language.
-User will input their question in their perfered language.
-Output the language of the question.
-available choices: english, chinese, spanish, french, german, italian, dutch, portuguese, russian, japanese, korean
-                """,
+                self.global_state.client, message, language_prompt
             )
             self.wrapper = OpenaiWrapper(
                 self.global_state.client,
                 tools,
-                f"""
-You are now a financial chatbot and need to respond to the user's inquiry in {self.language} in a conversational manner, providing the financial information they seek. I have earnings call transcript and financial data (e.g. Cost of Goods Sold, Operating Expense, Operating Income, Revenue, Tax Expense, Total Asset, Gross profit margin, Operating margin.) on certain company within a specific period, so feel free to use function calls to get any data you need.
-
-The user's question must satisfy all the rules below: 
-1. The user's question must be relevant to tech companies from the following list: Amazon, AMD, Amkor, Apple, Applied Materials, Baidu, Broadcom, Cirrus Logic, Google, Himax, Intel, KLA, Marvell, Microchip, Microsoft, Nvidia, ON Semi, Qorvo, Qualcomm, Samsung, STM, Tencent, Texas Instruments, TSMC, and Western Digital.
-
-2. The question should pertain to the valid period, with acceptable ranges including the years 2020, 2021, 2022, 2023, and 2024, and quarters Q1, Q2, Q3, or Q4.
-
-3. The question must be relevent to finance.
-
-If the user doesn't meet any requirements above, briefly explain to the user why you can't answer them as if you where a financial chatbot communicating directly to them. You can recommand the user some questions to ask .
------------------------------------
-However, if the user followed all rules, you can response them according to the earnings call transcript and financial data. You can use any function calls to get them. 
-Additionally, incorporating charts can help users better understand the data.
-
-These metrics are stored in an SQL database. You can generate charts in json format based on these metrics.
-""",
+                chat_system_prompt.replace("{language}", self.language),
                 "gpt-4o-mini",
             )
         return await self.wrapper.get_response(message)
-
-        """
-        if mode == 'SUMMARY':
-            system_prompt = summary_system_prompt
-        else:
-            system_prompt = chat_system_prompt
-
-        history = [
-            types.Content.model_validate(json.loads(content_str))
-            for content_str in serialized_history
-        ]
-        
-        self.chat = self.global_state.client.chats.create(
-            model="gemini-2.0-flash", history=history, config=gemini_config
-        )
-        prompt = system_prompt + message
-        response = self.chat.send_message(prompt)
-
-        return response.text, [
-                types.Content.model_dump_json(content)
-                for content in self.chat._curated_history[-2:]
-            ]
-        """
 
     def get_visualizer(self) -> Visualizer:
         return Visualizer(self.sql_runner)
