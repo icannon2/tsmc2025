@@ -1,4 +1,4 @@
-from discord import ChannelType, Message
+from discord import ChannelType, Message, Interaction
 
 from .room_state import RoomState
 from ..state import GlobalState
@@ -59,23 +59,20 @@ class ChatCommandHandler(CommandHandlerImpl):
         self.config = config
         super().__init__()
 
-    async def handle_command(self, message: Message) -> bool:
-        if (
-            message.content.startswith("/taalk")
-            and message.channel.id in self.allowed_channels
-        ):
-            thread = await message.channel.create_thread(
+    async def handle_command(self, interaction: Interaction) -> bool:
+        if interaction.channel.id in self.allowed_channels:
+            thread = await interaction.channel.create_thread(
                 name="chat", type=ChannelType.private_thread
             )
             if thread:
                 await thread.send(
-                    f"Hi {message.author.mention}! How can I help you today?"
+                    f"Hi {interaction.user.mention}! How can I help you today?"
                 )
             else:
                 raise Exception("Failed to create a thread")
 
             room_state = RoomState(
-                self.config, self.global_state, message.author.roles, roomtype="chat"
+                self.config, self.global_state, interaction.user.roles, roomtype="chat"
             )
             self.perroom_state_map[thread.id] = room_state
 
@@ -89,7 +86,7 @@ class ChatCommandHandler(CommandHandlerImpl):
             #     thread,
             # )
 
-            model = ChatroomModel(thread_id=thread.id, user_id=message.author.id)
+            model = ChatroomModel(thread_id=thread.id, user_id=interaction.user.id)
             self.global_state.session.add(model)
             self.global_state.session.commit()
 
@@ -117,18 +114,14 @@ class SummarizeCommandHandler(CommandHandlerImpl):
         self.config = config
         super().__init__()
 
-    async def handle_command(self, message: Message) -> bool:
-        if (
-            message.content.startswith("/sum")
-            and message.channel.id in self.allowed_channels
-        ):
-            args = message.content.split(" ")[1:]
-            thread = await message.channel.create_thread(
+    async def handle_command(self, interaction: Message, args) -> bool:
+        if interaction.channel.id in self.allowed_channels:
+            thread = await interaction.channel.create_thread(
                 name="summarize", type=ChannelType.private_thread
             )
             if thread:
                 await thread.send(
-                    f"Hi {message.author.mention}! I am now generating the report..."
+                    f"Hi {interaction.user.mention}! I am now generating the report..."
                 )
             else:
                 raise Exception("Failed to create a thread")
@@ -136,17 +129,17 @@ class SummarizeCommandHandler(CommandHandlerImpl):
             room_state = RoomState(
                 self.config,
                 self.global_state,
-                message.author.roles,
+                interaction.user.roles,
                 roomtype="summarize",
             )
 
             self.perroom_state_map[thread.id] = room_state
 
-            model = ChatroomModel(thread_id=thread.id, user_id=message.author.id)
+            model = ChatroomModel(thread_id=thread.id, user_id=interaction.user.id)
             self.global_state.session.add(model)
             self.global_state.session.commit()
 
-            response = await room_state.get_response(message.content, args)
+            response = await room_state.get_response(args)
 
             await thread.send(response)
 

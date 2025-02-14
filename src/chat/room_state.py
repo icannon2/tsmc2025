@@ -124,14 +124,14 @@ class RoomState:
                 global_state.client, [], "summarize", "gpt-4o-mini"
             )
 
-    async def get_response(self, message: str) -> str:
+    async def get_response(self, arg: str | tuple) -> str:
         if self.roomtype == "chat" and self.language is None:
             tools = [
                 SQLFunctionCalling(self.sql_runner),
                 CatalogFunctionCalling(self.sql_runner),
             ]
             self.language = await OpenaiWrapper.one_shot(
-                self.global_state.client, message, language_prompt
+                self.global_state.client, arg, language_prompt
             )
             self.wrapper = OpenaiWrapper(
                 self.global_state.client,
@@ -139,7 +139,21 @@ class RoomState:
                 chat_system_prompt.replace("{language}", self.language),
                 "gpt-4o-mini",
             )
-        return await self.wrapper.get_response(message)
+            return await self.wrapper.get_response(arg)
+        else:
+            tools = [
+                SQLFunctionCalling(self.sql_runner),
+                CatalogFunctionCalling(self.sql_runner),
+            ]
+            prompt = summary_system_prompt.replace('{language}', arg[0]).replace('{campany}', arg[1]).replace('{start_time}', arg[2]).replace('{end_time}', arg[3])
+            return await OpenaiWrapper.one_shot(
+                client=self.global_state.client,
+                user_prompt=prompt,
+                system_prompt='',
+                model='gpt-4o-mini',
+                tools=tools
+            )
+        
 
     def get_visualizer(self) -> Visualizer:
         return Visualizer(self.sql_runner)

@@ -38,7 +38,7 @@ class AccountCommandHandler(CommandHandlerImpl):
     command_name = "account"
     description = "Account command"
 
-    async def handle_command(self, message: Message, interaction: Interaction) -> bool:
+    async def handle_command(self, interaction: Interaction) -> bool:
         if Interaction is None:
             return False
         await interaction.response.send_modal(AccountUI())
