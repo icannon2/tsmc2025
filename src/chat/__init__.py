@@ -47,7 +47,6 @@ class ChatMessageHandler(MessageHandlerImpl):
         """
 
         # chat_history = [history.content for history in raw_chat_history]
-
         response = room_state.get_response(
             message.content,
         )
@@ -79,7 +78,7 @@ class ChatMessageHandler(MessageHandlerImpl):
 
 
 class ChatCommandHandler(CommandHandlerImpl):
-    command_name = "chat"
+    command_name = "talk"
     description = "create a chat"
     global_state: GlobalState
     allowed_channels: list[str]
@@ -124,7 +123,7 @@ class ChatCommandHandler(CommandHandlerImpl):
         return False
 
 class SummarizeCommandHandler(CommandHandlerImpl):
-    command_name = "summarzie"
+    command_name = "sum"
     description = "create a summarize"
     global_state: GlobalState
     allowed_channels: list[str]
