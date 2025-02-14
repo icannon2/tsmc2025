@@ -3,8 +3,11 @@ import matplotlib.pyplot as plt
 import catppuccin
 import matplotlib as mpl
 import json
+import pandas as pd
 
 import re
+
+output_folder = "charts"
 
 mpl.style.use(catppuccin.PALETTE.mocha.identifier)
 
@@ -15,44 +18,49 @@ def plot_chart(json_data):
 
     os.makedirs(output_folder, exist_ok=True)
 
-    data = json.loads(json_data)
+    chart = json.loads(json_data)
 
     result = runner.execute_stmt(chart.get("sql"))
     if result.error_message:
         print(f"Error: {result.error_message}")
         return
 
-    mapped_data = [result.map_row(row) for row in result.result.fetchall()]
+    df = pd.DataFrame([result.map_row(row) for row in result.result.fetchall()])
 
-    if not mapped_data:
+    if not df:
         print("No data to plot!")
         return
-
-    # Extract X and Y values from mapped_data
-    # todo: extract data so that it's easy to draw
-    x_values = [row["x"] for row in mapped_data]
-    y_values = [row["y"] for row in mapped_data]
 
     # Create figure
     plt.figure(figsize=(10, 6))
 
     chart_type = chart.get("type")
     if chart_type == "line":
-        # todo: multiple x_values(different company), y_values = times, label = {company name}
-        plt.plot(
-            x_values, y_values, marker="o", linestyle="-", color="b", label="Data Trend"
-        )
-        plt.xlabel(chart.get("x-axis-label"))
-        plt.ylabel(chart.get("y-axis-label"))
-        plt.title(chart.get("title"))
-        plt.legend(title=chart.get("legend-title"))
+        colors = plt.rcParams['axes.prop_cycle'].by_key()['color']  # Get default color cycle
+
+        x_values = sorted(set(chart.get('x')))
+        labels = chart.get('label')
+        for i, label in labels:
+            y_values = df[df['label'] == label]
+            plt.plot(
+                x_values, y_values, marker="o", linestyle="-", color=colors[i % len(colors)], label=label
+            )
+        plt.xlabel(chart.get('x-axis-label'))
+        plt.ylabel(chart.get('y-axis-label'))
+        plt.title(chart.get('title'))
+        plt.legend(title=chart.get('legend-title'))
 
     elif chart_type == "bar":
         # todo: multiple x_values(different company), y_values = times, label = {company name}
-        plt.bar(x_values, y_values, color="green", label="label")
-        plt.xlabel(chart.get("x-axis-label"))
-        plt.ylabel(chart.get("y-axis-label"))
-        plt.title(chart.get("title"))
+        # single bar / double bar
+        x_values = sorted(set(chart.get('x')))
+        labels = chart.get('label')
+        for i, label in labels:
+            y_values = df[df['label'] == label]
+            plt.bar(x_values, y_values, color="green", label="label")
+        plt.xlabel(chart.get('x-axis-label'))
+        plt.ylabel(chart.get('y-axis-label'))
+        plt.title(chart.get('title'))
 
     elif chart_type == "pie":
         # temporarily ignored

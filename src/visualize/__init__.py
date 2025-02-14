@@ -4,6 +4,8 @@ from ..datasource import SQLRunner, View
 from .chart import plot_chart
 from discord import TextChannel, File
 import re
+import io from BytesIO
+import os
 
 """
 An abstract class for media to be rendered.
@@ -33,11 +35,9 @@ class Media:
         elif self.image is not None:
             channel.send(self.image)
 
-
 """
 A collection of media to be visualized.
 """
-
 
 class Visualization:
     data: list[Media]
@@ -66,7 +66,6 @@ class VisualizeEffect(ABC):
         """
         pass
 
-
 class ChartEffect(VisualizeEffect):
     sql_runner: SQLRunner
 
@@ -74,7 +73,7 @@ class ChartEffect(VisualizeEffect):
         self.sql_runner = sql_runner
 
     def matchAndReplace(self, visualization: Visualization):
-        for media in visialization.data:
+        for media in visualization.data:
             if not media.is_text():
                 continue
             chartRegex = "<chart>([\s\S]*?)<\/chart>"
@@ -82,16 +81,41 @@ class ChartEffect(VisualizeEffect):
             matches = re.findall(chartRegex, media.text)
             textSplit = iter(re.split(chartRegex, media.text))
 
-            visialization.data = []
+            visualization.data = []
 
             for match in matches:
-                visialization.data.append(Media(text=next(textSplit)))
+                visualization.data.append(Media(text=next(textSplit)))
                 plot_chart(match)
 
                 img_bytes = BytesIO()
                 img_file = discord.File(img_bytes, graph_path)
                 os.remove(graph_path)
                 # store graph in one place and remove it immediately after use
-                visialization.data.append(Media(image=img_file))
+                visualization.data.append(Media(image=img_file))
 
-            visialization.data.append(next(textSplit))
+            visualization.data.append(next(textSplit))
+
+class Visualizer:
+    def __init__(self, sql_runner: SQLRunner):
+        self.effects = [
+            ChartEffect(sql_runner)
+        ]
+
+    async def process_message(self, message: str, channel: TextChannel):
+        """
+        Process a message and render the visualization in the channel.
+        
+        Args:
+            message (str): The message to process
+            channel (TextChannel): The Discord channel to render to
+        """
+        # Create initial visualization with the message
+        visualization = Visualization()
+        visualization.data = [Media(text=message)]
+
+        # Apply all effects
+        for effect in self.effects:
+            await effect.matchAndReplace(visualization)
+
+        # Render the final visualization
+        await visualization.render(channel)
