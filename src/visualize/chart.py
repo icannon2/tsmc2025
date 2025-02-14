@@ -1,35 +1,22 @@
 from ..datasource import SQLRunner, View
 import matplotlib.pyplot as plt
 import catppuccin
-import matplotlib as mpl
+import matplotlib as mplimport json
+
 import re
 
 mpl.style.use(catppuccin.PALETTE.mocha.identifier)
 
 
-def parse_multiple_tags(text, tag1, tag2):
-    """
-    Extracts multiple pairs of tag1 and tag2 from a given text.
-
-    :param text: The full input string containing XML-like tags.
-    :param tag1: The first tag name (e.g., "type").
-    :param tag2: The second tag name (e.g., "sql").
-    :return: A list of dictionaries, each containing content for tag1 and tag2.
-    """
-    pattern = rf"<{tag1}>(.*?)</{tag1}>.*?<{tag2}>(.*?)</{tag2}>"
-    matches = re.findall(pattern, text, re.DOTALL)  # Find all non-overlapping matches
-
-    # Convert to a list of dictionaries
-    return [{"type": m[0].strip(), "sql": m[1].strip()} for m in matches]
-
-
-def plot_charts(command, Type, times, output_folder="charts"):
+def plot_chart(json_data):
     """Generate line charts for each financial stat"""
     import os
 
     os.makedirs(output_folder, exist_ok=True)
 
-    result = runner.execute_stmt(command)
+    data = json.loads(json_data)
+
+    result = runner.execute_stmt(chart.get('sql'))
     if result.error_message:
         print(f"Error: {result.error_message}")
         return
@@ -48,26 +35,26 @@ def plot_charts(command, Type, times, output_folder="charts"):
     # Create figure
     plt.figure(figsize=(10, 6))
 
+    chart_type = chart.get('type')
     if chart_type == "line":
         # todo: multiple x_values(different company), y_values = times, label = {company name}
         plt.plot(
             x_values, y_values, marker="o", linestyle="-", color="b", label="Data Trend"
         )
-        # todo: xlabel = time, ylabel = {stat name}(eg: tax expense), title = line chart of {stat name}
-        plt.xlabel("X-Axis")
-        plt.ylabel("Y-Axis")
-        plt.title("Line Chart")
-        plt.legend()
+        plt.xlabel(chart.get('x-axis-label'))
+        plt.ylabel(chart.get('y-axis-label'))
+        plt.title(chart.get('title'))
+        plt.legend(title=chart.get('legend-title'))
 
     elif chart_type == "bar":
         # todo: multiple x_values(different company), y_values = times, label = {company name}
         plt.bar(x_values, y_values, color="green", label="label")
-        # todo: xlabel = time, ylabel = {stat name}(eg: tax expense), title = line chart of {stat name}
-        plt.xlabel("X-Axis")
-        plt.ylabel("Y-Axis")
-        plt.title("Bar Chart")
+        plt.xlabel(chart.get('x-axis-label'))
+        plt.ylabel(chart.get('y-axis-label'))
+        plt.title(chart.get('title'))
 
     elif chart_type == "pie":
+        # temporarily ignored
         plt.pie(
             y_values,
             labels=x_values,
@@ -84,7 +71,7 @@ def plot_charts(command, Type, times, output_folder="charts"):
     # Show the chart
     plt.grid(True) if chart_type in ["line", "bar"] else None
 
-    chart_path = f"{output_folder}/graph.png"
+    chart_path = os.path.join(output_folder, f"graph.png")
     plt.savefig(chart_path)
     plt.close()
 
@@ -114,19 +101,40 @@ def plot_charts(command, Type, times, output_folder="charts"):
     #     print(f"Saved: {chart_path}")
 
 
-if __name__ == "__main__":
-    views = [
-        View("FIN_Data", "SELECT * FROM FIN_Data.csv"),
-        View("TRANSCRIPT_Data", "SELECT * FROM TRANSCRIPT_Data.csv"),
-        View("TRANSCRIPT_File", "SELECT * FROM 'TRANSCRIPT File'"),
-    ]
-    runner = SQLRunner("data/datasource.duckdb", views)
+# if __name__ == "__main__":
+#     views = [
+#         View("FIN_Data", "SELECT * FROM FIN_Data.csv"),
+#         View("TRANSCRIPT_Data", "SELECT * FROM TRANSCRIPT_Data.csv"),
+#         View("TRANSCRIPT_File", "SELECT * FROM 'TRANSCRIPT File'"),
+#     ]
+#     runner = SQLRunner("data/datasource.duckdb", views)
 
-    content = ""
+#     content = """<chart>
+#   <title>台积电2021年季度营收 (亿美元)</title>
+#   <type>line</type>
+#   <sql>
+#   SELECT
+#   CASE
+#       WHEN CALENDAR_QTR = 1 THEN 'Q1'
+#       WHEN CALENDAR_QTR = 2 THEN 'Q2'
+#       WHEN CALENDAR_QTR = 3 THEN 'Q3'
+#       WHEN CALENDAR_QTR = 4 THEN 'Q4'
+#       ELSE 'Unknown'
+#   END  ' '  CAST(CALENDAR_YEAR AS TEXT) as x,
+#   USD_Value as y,
+#     '营收' as label
+#   FROM
+#   financial_metrics
+#   WHERE
+#   "Company Name" = 'TSMC' AND CALENDAR_YEAR = 2021 and Index = 'Revenue'
+#   </sql>
+# </chart>
+# """
 
-    # Parse labels
-    result = parse_multiple_tags(content, "type", "sql")
+#     # Parse labels
+#     result = parse_multiple_tags(content, "type", "sql")
+#     print(result)
 
-    for entry in result:
-        # Generate charts
-        plot_charts(times, entry["sql"], entry["type"])
+#     # for entry in result:
+#     #     # Generate charts
+#     #     plot_chart(times, entry['sql'], entry['type'])
