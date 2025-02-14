@@ -91,15 +91,17 @@ class SQLRunner:
             self.duckdb.execute(view.query)
         self.duckdb.execute("SET enable_external_access = false;")
 
-    def get_catalog(self) -> str:
-        tables = list(map(lambda x: x.name, self.views))
+    def get_tables(self) -> list[str]:
+        return list(map(lambda x: x.name, self.views))
 
-        results = []
+    def get_catalog(self, table: str) -> str:
+        tables = self.get_tables()
+        if table not in tables:
+            return f"Error: Table with name {table} does not exist!"
 
-        for table in tables:
-            result = []
+        result = []
 
-            for row in self.duckdb.sql(f"""
+        for row in self.duckdb.sql(f"""
             SELECT
                 column_name, data_type
             FROM
@@ -107,11 +109,9 @@ class SQLRunner:
             WHERE
                 table_name = '{table}';
             """).fetchall():
-                result.append(f'"{row[0]}"({row[1]})')
+            result.append(f'"{row[0]}"({row[1]})')
 
-            results.append(table + ": " + ", ".join(result))
-
-        return "\n".join(results)
+        return ", ".join(result)
 
     def check_query(self, stmt: str):
         """

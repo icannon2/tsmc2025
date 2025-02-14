@@ -46,7 +46,7 @@ class ChatMessageHandler(MessageHandlerImpl):
         """
 
         # chat_history = [history.content for history in raw_chat_history]
-        response = room_state.get_response(
+        response = await room_state.get_response(
             message.content,
         )
 
@@ -77,7 +77,7 @@ class ChatMessageHandler(MessageHandlerImpl):
 
 
 class ChatCommandHandler(CommandHandlerImpl):
-    command_name = "talk"
+    command_name = "taalk"
     description = "create a chat"
     global_state: GlobalState
     allowed_channels: list[str]
@@ -98,7 +98,7 @@ class ChatCommandHandler(CommandHandlerImpl):
 
     async def handle_command(self, message: Message) -> bool:
         if (
-            message.content.startswith("/talk")
+            message.content.startswith("/taalk")
             and message.channel.id in self.allowed_channels
         ):
             thread = await message.channel.create_thread(
@@ -173,7 +173,7 @@ class SummarizeCommandHandler(CommandHandlerImpl):
             self.global_state.session.add(model)
             self.global_state.session.commit()
 
-            response = room_state.get_response(message.content, args)
+            response = await room_state.get_response(message.content, args)
 
             await thread.send(response)
 

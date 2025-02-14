@@ -1,4 +1,4 @@
-from google import genai
+from openai import AsyncOpenAI
 from sqlalchemy import Engine, create_engine
 from sqlalchemy.orm import Session
 
@@ -14,10 +14,11 @@ class GlobalState:
 
     engine: Engine
     session: Session
-    client: genai.Client
+    client: AsyncOpenAI
 
     def __init__(self, config: Config):
-        self.client = genai.Client(api_key=config.gemini_api_key)
+        self.client = AsyncOpenAI()
+
         self.engine = create_engine(config.database_path)
         self.session = Session(bind=self.engine)
 

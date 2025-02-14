@@ -11,6 +11,7 @@ dependencies = [
     "duckdb>=1.2.0",
     "google-genai>=1.2.0",
     "matplotlib>=3.10.0",
+    "openai>=1.63.0",
     "sqlalchemy>=2.0.38",
     "sqlglot[rs]>=26.6.0",
 ]
