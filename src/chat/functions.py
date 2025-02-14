@@ -41,9 +41,11 @@ class FunctionCalling:
         self.sql_runner = sql_runner
         self.genai = genai
 
-        self.duckdb_stmt.__doc__ = f"""Run a **single** SQL statement tp fetch financial data of tech company from the database.
+        """Run a **single** SQL statement tp fetch financial data of tech company from the database.
 
-            Available Tables: {self.sql_runner.get_catalog()}
+            Available Tables: FIN_data: "CALENDAR_YEAR"(BIGINT), "CompanyName"(VARCHAR), "Country"(VARCHAR), "CALENDAR_QTR"(VARCHAR), "Cost of Goods Sold"(DOUBLE), "Operating Expense"(DOUBLE), "Operating Income"(DOUBLE), "Revenue"(DOUBLE), "Tax Expense"(DOUBLE), "Total Asset"(DOUBLE)
+TRANSCRIPT_Data: "CompanyName"(VARCHAR), "CALENDAR_YEAR"(BIGINT), "CALENDAR_QTR"(VARCHAR), "Country"(VARCHAR), "filename"(VARCHAR), "content"(VARCHAR)
+FIN_Data_Derived: "CALENDAR_YEAR"(BIGINT), "CompanyName"(VARCHAR), "Country"(VARCHAR), "CALENDAR_QTR"(VARCHAR), "Revenue"(DOUBLE), "Cost of Goods Sold"(DOUBLE), "Operating Expense"(DOUBLE), "Operating Income"(DOUBLE), "Tax Expense"(DOUBLE), "Total Asset"(DOUBLE), "Gross_Profit"(DOUBLE), "Gross_Profit_Margin"(DOUBLE), "Operating_Profit_Margin"(DOUBLE), "Net_Income_Before_Tax"(DOUBLE), "Net_Profit_Margin_Before_Tax"(DOUBLE), "Effective_Tax_Rate"(DOUBLE), "Return_on_Assets"(DOUBLE)
 
             Please note that this function is safe to use, as it will not allow any SQL statements that modify the database.
 
