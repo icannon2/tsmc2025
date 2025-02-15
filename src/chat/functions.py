@@ -74,18 +74,18 @@ class SQLFunctionCalling(FunctionCallingImpl):
     def __init__(self, sql_runner: SQLRunner):
         self.sql_runner = sql_runner
         self.spec["function"]["description"] = """
-Run a **single** SQL statement tp fetch data from the database.
+Run a **single** SQL statement to fetch data from the database.
 
 :param stmt: The SQL statement to run
 :return: The result of the SQL statement
 
 Example:
-SELECT "Operating Income" FROM FIN_Data_raw WHERE "CompanyName" = 'Apple';
+SELECT "OperatingIncome" FROM FIN_Data_raw WHERE "CompanyName" = 'Apple';
 # This will fetch the operating income data of Apple Inc.
 SELECT content FROM TRANSCRIPT_Data
 JOIN Fiscal_Data
-    ON TRANSCRIPT_Data."CompanyName" = Fiscal_Data."CompanyName" AND TRANSCRIPT_Data."CALENDAR_YEAR" = Fiscal_Data."CALENDAR_YEAR" AND TRANSCRIPT_Data."CALENDAR_QTR" = Fiscal_Data."CALENDAR_QTR'
-WHERE "CALENDAR_YEAR" = 2021 AND "CALENDAR_QTR" = 'Q1" AND "CompanyName" = 'Apple';
+    ON TRANSCRIPT_Data."CompanyName" = Fiscal_Data."CompanyName" AND TRANSCRIPT_Data."CalenderYear" = Fiscal_Data."CalenderYear" AND TRANSCRIPT_Data."CalendarQuarter" = Fiscal_Data."CalendarQuarter'
+WHERE "CalenderYear" = 2021 AND "CalendarQuarter" = 'Q1" AND "CompanyName" = 'Apple';
 # This will fetch the transcription of Q1 2021(fiscal)'s earning call from apple.
 """
 
