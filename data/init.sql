@@ -136,11 +136,11 @@ GROUP BY
 CREATE TABLE Fiscal_Data_raw AS
 SELECT DISTINCT
     "Company Name" as CompanyName,
-    CALENDAR_YEAR as CalenderYear,
-    CALENDAR_QTR as CalenderQuarter,
+    CALENDAR_YEAR,
+    CALENDAR_QTR,
     COALESCE(
         TRY_CAST(REGEXP_EXTRACT(Transcript_Filename, ' Q[1-4] (\d{4})', 1) AS BIGINT),
         CALENDAR_YEAR
-    ) AS FiscalYear,
-    REGEXP_EXTRACT(Transcript_Filename, ' (Q[1-4]) ', 1) AS FiscalQuarter
+    ) AS CALENDAR_YEAR,
+    REGEXP_EXTRACT(Transcript_Filename, ' (Q[1-4]) ', 1) AS FISCAL_QTR
 FROM TRANSCRIPT_Data_csv;
