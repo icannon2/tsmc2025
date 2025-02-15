@@ -41,10 +41,10 @@ def plot_chart(json_data, runner: SQLRunner, name: str):
 
         labels = []
         multiple_company = True
-        if len(set(df["stat"])) < len(set(df["company"])):
+        if len(set(df["metric"])) < len(set(df["company"])):
             labels = sorted(set(df["company"]))
         else:
-            labels = sorted(set(df["stat"]))
+            labels = sorted(set(df["metric"]))
             multiple_company = False
 
         i = 0
@@ -53,7 +53,7 @@ def plot_chart(json_data, runner: SQLRunner, name: str):
             if multiple_company:
                 y_values = df[df["company"] == label]["value"].tolist()
             else:
-                y_values = df[df["stat"] == label]["value"].tolist()
+                y_values = df[df["metric"] == label]["value"].tolist()
 
             plt.plot(
                 x_values,
