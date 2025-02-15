@@ -147,7 +147,7 @@ class RoomState:
                 self.global_state.client,
                 tools,
                 chat_system_prompt.replace("{language}", self.language).replace(
-                    "{table}", self.sql_runner.get_tables()
+                    "{table}", str(self.sql_runner.get_tables())
                 ),
                 "gpt-4o-mini",
             )
