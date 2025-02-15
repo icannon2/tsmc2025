@@ -76,6 +76,7 @@ class VisualizeEffect(ABC):
         """
         pass
 
+
 class ChartEffect(VisualizeEffect):
     sql_runner: SQLRunner
 
@@ -94,7 +95,9 @@ class ChartEffect(VisualizeEffect):
             raw_parts = re.split(chartRegex, media.text) if media.text else []
             raw_matches = re.findall(chartRegex, media.text) if media.text else []
             parts = [part.strip() for part in raw_parts if part and part.strip()]
-            matches = [match.strip() for match in raw_matches if match and match.strip()]
+            matches = [
+                match.strip() for match in raw_matches if match and match.strip()
+            ]
 
             for p in parts:
                 print(p)
@@ -103,8 +106,9 @@ class ChartEffect(VisualizeEffect):
                 print(m)
 
             for part in parts:
-                if not part: continue
-                if part in matches: # Add chart
+                if not part:
+                    continue
+                if part in matches:  # Add chart
                     try:
                         loc = uuid.uuid4()
                         plot_chart(part, self.sql_runner, f"{loc}.png")

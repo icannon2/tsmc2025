@@ -11,6 +11,7 @@ output_folder = "charts"
 
 mpl.style.use(catppuccin.PALETTE.mocha.identifier)
 
+
 def plot_chart(json_data, runner: SQLRunner, name: str):
     """Generate line charts for each financial stat"""
     import os
@@ -27,7 +28,7 @@ def plot_chart(json_data, runner: SQLRunner, name: str):
     df = res.result.df()
 
     # Create figure
-    #plt.figure(figsize=(10, 6))
+    # plt.figure(figsize=(10, 6))
 
     chart_type = chart.get("type")
     if chart_type == "line":
@@ -45,7 +46,7 @@ def plot_chart(json_data, runner: SQLRunner, name: str):
         else:
             labels = sorted(set(df["stat"]))
             multiple_company = False
-        
+
         i = 0
         for label in labels:
             y_values = []
@@ -53,7 +54,7 @@ def plot_chart(json_data, runner: SQLRunner, name: str):
                 y_values = df[df["company"] == label]["value"].tolist()
             else:
                 y_values = df[df["stat"] == label]["value"].tolist()
-                
+
             plt.plot(
                 x_values,
                 y_values,
@@ -63,14 +64,16 @@ def plot_chart(json_data, runner: SQLRunner, name: str):
                 label=label,
             )
             i += 1
-            
+
         plt.title(chart.get("title"))
-        if chart.get("x-axis-label"): 
+        if chart.get("x-axis-label"):
             plt.xlabel(chart.get("x-axis-label"))
-        if chart.get("y-axis-label"): 
+        if chart.get("y-axis-label"):
             plt.ylabel(chart.get("y-axis-label"))
-        if chart.get("legend-title"): plt.legend(title=chart.get("legend-title"))
-        else: plt.legend()
+        if chart.get("legend-title"):
+            plt.legend(title=chart.get("legend-title"))
+        else:
+            plt.legend()
 
     elif chart_type == "bar":
         # todo: multiple x_values(different company), y_values = times, label = {company name}

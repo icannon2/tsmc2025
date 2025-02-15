@@ -59,6 +59,8 @@ class OpenaiWrapper:
             )
             return choice.message.content
 
+        self.messages.append(choice.message)
+
         for call in choice.message.tool_calls:
             matching_tool = next(
                 (
@@ -71,7 +73,6 @@ class OpenaiWrapper:
             if matching_tool is None:
                 raise Exception(f"Tool {call.function.name} not found")
             tool_res = await matching_tool.process(call.function.arguments)
-            self.messages.append(choice.message)
             self.messages.append(
                 {
                     "role": "tool",
@@ -145,15 +146,19 @@ class RoomState:
                 SQLFunctionCalling(self.sql_runner),
                 CatalogFunctionCalling(self.sql_runner),
             ]
-            prompt = summary_system_prompt.replace('{language}', arg[0]).replace('{campany}', arg[1]).replace('{start_time}', arg[2]).replace('{end_time}', arg[3])
+            prompt = (
+                summary_system_prompt.replace("{language}", arg[0])
+                .replace("{campany}", arg[1])
+                .replace("{start_time}", arg[2])
+                .replace("{end_time}", arg[3])
+            )
             return await OpenaiWrapper.one_shot(
                 client=self.global_state.client,
                 user_prompt=prompt,
-                system_prompt='',
-                model='gpt-4o-mini',
-                tools=tools
+                system_prompt="",
+                model="gpt-4o-mini",
+                tools=tools,
             )
-        
 
     def get_visualizer(self) -> Visualizer:
         return Visualizer(self.sql_runner)

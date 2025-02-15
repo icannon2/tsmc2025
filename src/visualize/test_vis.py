@@ -3,7 +3,8 @@ from visualize import Visualizer
 command = ""
 
 v = Visualizer(None)
-v.process_message("""title": "TSMC Revenue Trend (2023)",
+v.process_message(
+    """title": "TSMC Revenue Trend (2023)",
 "type": "line",
 "x-axis-label": "Quarter",
 "y-axis-label": "Revenue (USD millions)",
@@ -13,4 +14,6 @@ v.process_message("""title": "TSMC Revenue Trend (2023)",
 "Q2",
 "Q3",
 "Q4"
-]""", None)
+]""",
+    None,
+)
