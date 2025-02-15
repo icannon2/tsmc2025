@@ -54,7 +54,7 @@ GROUP BY
     f.CALENDAR_QTR;
 
 CREATE TABLE TRANSCRIPT_Data_csv AS 
-SELECT * FROM  read_csv('TRANSCRIPT_Data.csv');
+SELECT * FROM read_csv('TRANSCRIPT_Data.csv');
 CREATE TABLE Transcript_File_raw(
   size INTEGER, filename VARCHAR, content VARCHAR
 );
@@ -66,6 +66,18 @@ SELECT
 FROM 
   read_text('Transcript File/*.txt');
 
+CREATE TABLE Fiscal_Data_raw AS
+SELECT DISTINCT
+    "Company Name" as CompanyName,
+    CALENDAR_YEAR as CalenderYear,
+    CALENDAR_QTR as CalenderQuarter,
+    COALESCE(
+        TRY_CAST(REGEXP_EXTRACT(Transcript_Filename, ' Q[1-4] (\d{4})', 1) AS BIGINT),
+        CALENDAR_YEAR
+    ) AS FiscalYear,
+    REGEXP_EXTRACT(Transcript_Filename, ' (Q[1-4]) ', 1) AS FiscalQuarter
+FROM TRANSCRIPT_Data_csv;
+
 CREATE TABLE TRANSCRIPT_Data_raw AS
 SELECT
     TDR."Company Name" AS CompanyName,
@@ -73,13 +85,17 @@ SELECT
     TDR.CALENDAR_QTR as CalendarQuarter,
     CR.Country,
     TFR.filename,
-    TFR.content
+    TFR.content,
+    FDRA.FiscalYear,
+    FDRA.FiscalQuarter
 FROM
     TRANSCRIPT_Data_csv TDR
 JOIN
     Companies_raw CR ON TDR."Company Name" = CR.CompanyName
 JOIN
-    Transcript_File_raw TFR ON TFR.filename LIKE CONCAT('%', TDR.Transcript_Filename, '%');
+    Transcript_File_raw TFR ON TFR.filename LIKE CONCAT('%', TDR.Transcript_Filename, '%')
+JOIN 
+    Fiscal_Data_raw FDRA ON FDRA.CompanyName = TDR."Company Name" AND FDRA.CalenderYear = TDR.CALENDAR_YEAR AND FDRA.CalenderQuarter = TDR.CALENDAR_QTR;
 
 CREATE TABLE FIN_Data_Derived_raw AS
 SELECT
@@ -131,15 +147,3 @@ GROUP BY
     CALENDAR_YEAR,
     Local_Currency,
     CALENDAR_QTR;
-
-CREATE TABLE Fiscal_Data_raw AS
-SELECT DISTINCT
-    "Company Name" as CompanyName,
-    CALENDAR_YEAR as CalenderYear,
-    CALENDAR_QTR as CalenderQuarter,
-    COALESCE(
-        TRY_CAST(REGEXP_EXTRACT(Transcript_Filename, ' Q[1-4] (\d{4})', 1) AS BIGINT),
-        CALENDAR_YEAR
-    ) AS FiscalYear,
-    REGEXP_EXTRACT(Transcript_Filename, ' (Q[1-4]) ', 1) AS FiscalQuarter
-FROM TRANSCRIPT_Data_csv;
