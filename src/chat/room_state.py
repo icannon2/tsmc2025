@@ -127,7 +127,10 @@ class RoomState:
         )
         if roomtype == "summarize":
             self.wrapper = OpenaiWrapper(
-                global_state.client, [], "summarize", "gpt-4o-mini"
+                global_state.client,
+                [],
+                summary_system_prompt.replace("{table}", self.sql_runner.get_tables()),
+                "gpt-4o-mini",
             )
 
     async def get_response(self, arg: str | tuple) -> str:
@@ -143,7 +146,9 @@ class RoomState:
             self.wrapper = OpenaiWrapper(
                 self.global_state.client,
                 tools,
-                chat_system_prompt.replace("{language}", self.language),
+                chat_system_prompt.replace("{language}", self.language).replace(
+                    "{table}", self.sql_runner.get_tables()
+                ),
                 "gpt-4o-mini",
             )
             return await self.wrapper.get_response(arg)
