@@ -40,7 +40,7 @@ class ChatMessageHandler(MessageHandlerImpl):
 
 
 class ChatCommandHandler(CommandHandlerImpl):
-    command_name = "taalk"
+    command_name = "talk"
     description = "create a chat"
     global_state: GlobalState
     allowed_channels: list[str]
