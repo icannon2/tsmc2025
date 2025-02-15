@@ -8,7 +8,7 @@ v.process_message(
 "type": "line",
 "x-axis-label": "Quarter",
 "y-axis-label": "Revenue (USD millions)",
-"sql": "SELECT CALENDAR_QTR AS qtr, "Revenue" AS y FROM FIN_Data WHERE "CompanyName" = 'TSMC' AND "CALENDAR_YEAR" = 2023",
+"sql": "SELECT CalendarQuater AS qtr, "Revenue" AS y FROM FIN_Data WHERE "CompanyName" = 'TSMC' AND "CalendarYear" = 2023",
 "labels": [
 "Q1",
 "Q2",

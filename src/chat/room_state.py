@@ -36,7 +36,7 @@ class OpenaiWrapper:
         openai: AsyncOpenAI,
         tools: list[FunctionCallingImpl] = None,
         system_prompt: str = "",
-        model: str = "gpt-4o-mini",
+        model: str = "gpt-4o",
     ):
         self.client = openai
         self.tools = [] if tools is None else tools
@@ -98,7 +98,7 @@ class OpenaiWrapper:
         client: AsyncOpenAI,
         user_prompt: str,
         system_prompt: str = "",
-        model: str = "gpt-4o-mini",
+        model: str = "gpt-4o",
         tools: list[FunctionCallingImpl] = [],
     ) -> str:
         wrapper = OpenaiWrapper(client, tools, system_prompt, model)
@@ -129,8 +129,8 @@ class RoomState:
             self.wrapper = OpenaiWrapper(
                 global_state.client,
                 [],
-                summary_system_prompt.replace("{tables}", self.sql_runner.get_tables()),
-                "gpt-4o-mini",
+                summary_system_prompt.replace("{tables}", ','.join(self.sql_runner.get_tables())),
+                "gpt-4o",
             )
 
     async def get_response(self, arg: str | tuple) -> str:
@@ -149,7 +149,7 @@ class RoomState:
                 chat_system_prompt.replace("{language}", self.language).replace(
                     "{table}", str(self.sql_runner.get_tables())
                 ),
-                "gpt-4o-mini",
+                "gpt-4o",
             )
         elif self.roomtype == "summarize":
             tools = [
@@ -158,7 +158,7 @@ class RoomState:
             ]
             prompt = (
                 summary_system_prompt.replace("{language}", arg[0])
-                .replace("{campany}", arg[1])
+                .replace("{company}", arg[1])
                 .replace("{start_time}", arg[2])
                 .replace("{end_time}", arg[3])
             )
@@ -166,7 +166,7 @@ class RoomState:
                 client=self.global_state.client,
                 user_prompt=prompt,
                 system_prompt="",
-                model="gpt-4o-mini",
+                model="gpt-4o",
                 tools=tools,
             )
         return await self.wrapper.get_response(arg)

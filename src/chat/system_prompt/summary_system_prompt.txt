@@ -24,21 +24,21 @@ examples:
 "type": "line", 
 "x-axis-label": "company", 
 "y-axis-label": "USD", 
-"sql": "SELECT CompanyName as company, CONCAT(CALENDAR_YEAR, '-', CALENDAR_QTR) as time, Revenue as value, 'Revenue' as metric FROM FIN_Data_Derived WHERE CompanyName = 'Nvidia' AND CALENDAR_YEAR = 2022 UNION ALL SELECT  CompanyName as company, CONCAT(CALENDAR_YEAR, '-', CALENDAR_QTR) as time, Gross_Profit as value, 'Gross_Profit' as metric FROM FIN_Data_Derived WHERE CompanyName IN ('Microchip', 'Nvidia', 'Qorvo', 'TSMC')"
+"sql": "SELECT Company Name as company, CONCAT(CalendarYear, '-', CalendarQuatar) as time, Revenue as value, 'Revenue' as metric FROM FIN_Data_Derived WHERE Company Name = 'Nvidia' AND CalendarYear = 2022 UNION ALL SELECT  Company Name as company, CONCAT(CalendarYear, '-', CalendarQuatar) as time, GrossProfit as value, 'GrossProfit' as metric FROM FIN_Data_Derived WHERE CompanyName IN ('Microchip', 'Nvidia', 'Qorvo', 'TSMC')"
  }
  
 * sql * must follow the guideline:
-1. the "SELECT" part must be "SELECT CompanyName AS company, CONCAT(CALENDAR_YEAR, '-', CALENDAR_QTR) AS time, Return_on_Assets AS value, 'Return_on_Assets' AS metric 
+1. the "SELECT" part must be "SELECT CompanyName AS company, CONCAT(CalendarYear, '-', CalendarQuatar) AS time, Return_on_Assets AS value, 'Return_on_Assets' AS metric 
 "
 2.  If there are more than one metrics selected, you should combine them one by one with the UNION ALL method. This should be strickly followed.
-" SELECT CompanyName as company, CONCAT(CALENDAR_YEAR, '-', CALENDAR_QTR) as time, Revenue as value, 'Revenue' as metric FROM FIN_Data_Derived WHERE CompanyName = 'Nvidia' AND CALENDAR_YEAR = 2022 UNION ALL SELECT  CompanyName as company, CONCAT(CALENDAR_YEAR, '-', CALENDAR_QTR) as time, Gross_Profit as value, 'Gross_Profit' as metric FROM FIN_Data_Derived WHERE CompanyName = 'Nvidia' AND CALENDAR_YEAR = 2022 UNION ALL SELECT  CompanyName as company, CONCAT(CALENDAR_YEAR, '-', CALENDAR_QTR) as time, Tax_Expense as value, 'Tax_Expense' as metric FROM FIN_Data_Derived WHERE CompanyName = 'Nvidia' AND CALENDAR_YEAR = 2022"
+" SELECT CompanyName as company, CONCAT(CalendarYear, '-', CalendarQuatar) as time, Revenue as value, 'Revenue' as metric FROM FIN_Data_Derived WHERE CompanyName = 'Nvidia' AND CalendarYear = 2022 UNION ALL SELECT  CompanyName as company, CONCAT(CalendarYear, '-', CalendarQuatar) as time, GrossProfit as value, 'GrossProfit' as metric FROM FIN_Data_Derived WHERE CompanyName = 'Nvidia' AND CalendarYear = 2022 UNION ALL SELECT  CompanyName as company, CONCAT(CalendarYear, '-', CalendarQuatar) as time, TaxExpense as value, 'TaxExpense' as metric FROM FIN_Data_Derived WHERE CompanyName = 'Nvidia' AND CalendarYear = 2022"
 
 We only use bar charts when the time is fixed. Bar chart must include X-axis and Y-axis titles. Numerical data must be on the y-axis.
 {
  
    "title": "Sales Bar Chart by Companies",
    "type": "bar",
-   "sql": "SELECT Company Name AS x, SUM(USD_Value) AS y, 'sales' AS label FROM transaction GROUP BY Company Name;",
+   "sql": "SELECT CompanyName AS x, SUM(USD_Value) AS y, 'sales' AS label FROM transaction GROUP BY CompanyName;",
    "labels": [
      "Amazon",
      "AMD",
@@ -138,7 +138,7 @@ Guidelines:
 ​   3. fetch data using join for fiscal time:
 ​   SELECT content FROM TRANSCRIPT_Data
 ​   JOIN Fiscal_Data
-​       ON TRANSCRIPT_Data."CompanyName" = Fiscal_Data."CompanyName" AND TRANSCRIPT_Data."CALENDAR_YEAR" = Fiscal_Data."CALENDAR_YEAR" AND TRANSCRIPT_Data."CALENDAR_QTR" = Fiscal_Data."CALENDAR_QTR'
-​   WHERE "CALENDAR_YEAR" = 2021 AND "CALENDAR_QTR" = 'Q1" AND "CompanyName" = 'Apple';
+​       ON TRANSCRIPT_Data."CompanyName" = Fiscal_Data."CompanyName" AND TRANSCRIPT_Data."CalendarYear" = Fiscal_Data."CalendarYear" AND TRANSCRIPT_Data."CalendarQuatar" = Fiscal_Data."CalendarQuatar'
+​   WHERE "CalendarYear" = 2021 AND "CalendarQuatar" = 'Q1" AND "CompanyName" = 'Apple';
 
 ​   available tables: {tables}

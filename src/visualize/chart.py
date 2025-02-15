@@ -149,18 +149,18 @@ def plot_chart(json_data, runner: SQLRunner, name: str):
 #   <sql>
 #   SELECT
 #   CASE
-#       WHEN CALENDAR_QTR = 1 THEN 'Q1'
-#       WHEN CALENDAR_QTR = 2 THEN 'Q2'
-#       WHEN CALENDAR_QTR = 3 THEN 'Q3'
-#       WHEN CALENDAR_QTR = 4 THEN 'Q4'
+#       WHEN CalendarQuater = 1 THEN 'Q1'
+#       WHEN CalendarQuater = 2 THEN 'Q2'
+#       WHEN CalendarQuater = 3 THEN 'Q3'
+#       WHEN CalendarQuater = 4 THEN 'Q4'
 #       ELSE 'Unknown'
-#   END  ' '  CAST(CALENDAR_YEAR AS TEXT) as x,
+#   END  ' '  CAST(CalendarYear AS TEXT) as x,
 #   USD_Value as y,
 #     '营收' as label
 #   FROM
 #   financial_metrics
 #   WHERE
-#   "Company Name" = 'TSMC' AND CALENDAR_YEAR = 2021 and Index = 'Revenue'
+#   "Company Name" = 'TSMC' AND CalendarYear = 2021 and Index = 'Revenue'
 #   </sql>
 # </chart>
 # """

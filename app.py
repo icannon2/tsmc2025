@@ -60,8 +60,6 @@ async def summarize(
     await summarize_command_handler.handle_command(
         interaction, (language, company, start_time, end_time)
     )
-    await interaction.response.send_message("Summarizing...")
-
 
 @tree.command(name="register", description="For account operation")
 async def register(interaction: discord.Interaction):
