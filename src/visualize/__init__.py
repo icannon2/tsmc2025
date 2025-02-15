@@ -99,12 +99,6 @@ class ChartEffect(VisualizeEffect):
                 match.strip() for match in raw_matches if match and match.strip()
             ]
 
-            for p in parts:
-                print(p)
-            print("------------")
-            for m in matches:
-                print(m)
-
             for part in parts:
                 if not part:
                     continue
