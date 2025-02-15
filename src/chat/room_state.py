@@ -129,7 +129,7 @@ class RoomState:
             self.wrapper = OpenaiWrapper(
                 global_state.client,
                 [],
-                summary_system_prompt.replace("{table}", self.sql_runner.get_tables()),
+                summary_system_prompt.replace("{tables}", self.sql_runner.get_tables()),
                 "gpt-4o-mini",
             )
 
@@ -147,7 +147,7 @@ class RoomState:
                 self.global_state.client,
                 tools,
                 chat_system_prompt.replace("{language}", self.language).replace(
-                    "{table}", self.sql_runner.get_tables()
+                    "{tables}", self.sql_runner.get_tables()
                 ),
                 "gpt-4o-mini",
             )
