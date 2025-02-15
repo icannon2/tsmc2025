@@ -147,12 +147,11 @@ class RoomState:
                 self.global_state.client,
                 tools,
                 chat_system_prompt.replace("{language}", self.language).replace(
-                    "{tables}", self.sql_runner.get_tables()
+                    "{table}", self.sql_runner.get_tables()
                 ),
                 "gpt-4o-mini",
             )
-            return await self.wrapper.get_response(arg)
-        else:
+        elif self.roomtype == "summarize":
             tools = [
                 SQLFunctionCalling(self.sql_runner),
                 CatalogFunctionCalling(self.sql_runner),
@@ -170,6 +169,7 @@ class RoomState:
                 model="gpt-4o-mini",
                 tools=tools,
             )
+        return await self.wrapper.get_response(arg)
 
     def get_visualizer(self) -> Visualizer:
         return Visualizer(self.sql_runner)
