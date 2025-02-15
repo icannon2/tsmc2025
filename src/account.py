@@ -1,4 +1,4 @@
-from discord import Message, TextStyle, ui, Interaction
+from discord import TextStyle, ui, Interaction
 from .bot import CommandHandlerImpl
 
 accountRoles = {795258895622340619: [1339499087489273868, 1339498929901015100]}

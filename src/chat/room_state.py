@@ -3,7 +3,12 @@ from ..datasource import SQLRunner
 from ..config import Config
 from ..state import GlobalState
 from discord import Role
-from .functions import SQLFunctionCalling, CatalogFunctionCalling, FunctionCallingImpl
+from .functions import (
+    SQLFunctionCalling,
+    CatalogFunctionCalling,
+    FunctionCallingImpl,
+    IcebergeConntection,
+)
 from openai import AsyncOpenAI
 from openai.types.chat import ChatCompletionMessageParam
 
@@ -130,6 +135,7 @@ class RoomState:
             tools = [
                 SQLFunctionCalling(self.sql_runner),
                 CatalogFunctionCalling(self.sql_runner),
+                IcebergeConntection(self.sql_runner),
             ]
             self.language = await OpenaiWrapper.one_shot(
                 self.global_state.client, arg, language_prompt

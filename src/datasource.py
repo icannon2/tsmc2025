@@ -142,6 +142,10 @@ class SQLRunner:
         if next(query.find_all(exp.Copy), None) is not None:
             raise Exception("Error: Database lockdown: DML is not allowed!")
 
+    def add_view(self, view: View):
+        self.duckdb.execute(view.query)
+        self.views.append(view)
+
     def execute_stmt(self, query) -> ExecutionResult:
         try:
             self.check_query(query)

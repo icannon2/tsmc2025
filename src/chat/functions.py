@@ -2,6 +2,8 @@ from abc import ABC
 import json
 from ..datasource import SQLRunner
 from openai.types.chat import ChatCompletionToolParam
+from ..datasource import View
+import uuid
 
 
 class FunctionCallingImpl(ABC):
@@ -93,3 +95,47 @@ WHERE "CALENDAR_YEAR" = 2021 AND "CALENDAR_QTR" = 'Q1" AND "CompanyName" = 'Appl
         result = self.sql_runner.execute_stmt(req["sql"])
         print("result: ", result)
         return f"{result}"
+
+
+class IcebergeConntection(FunctionCallingImpl):
+    spec = {
+        "type": "function",
+        "function": {
+            "name": "connect_iceberg",
+            "description": "Connect to Iceberg datalake with uri.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "uri": {
+                        "type": "string",
+                        "description": "uri of Iceberg datalake",
+                    },
+                },
+                "required": ["uri"],
+                "additionalProperties": False,
+            },
+            "strict": True,
+        },
+    }
+    sql_runner: SQLRunner
+
+    def __init__(self, sql_runner: SQLRunner):
+        self.sql_runner = sql_runner
+
+    async def process(self, user_prompt: str) -> str:
+        req = json.loads(user_prompt)
+        rand = uuid.uuid4()
+        uri = req["uri"]
+
+        try:
+            view = View(
+                "Iceberg_{uuid}",
+                f"SELECT * FROM \iceberg_scan('{uri}',allow_moved_paths = true);",
+            )
+            self.sql_runner.add_view(view)
+        except Exception as e:
+            return f"Error: {e}"
+
+        return (
+            f"Connected to Iceberg datalake with uri: {uri}, table name: Iceberg_{rand}"
+        )
