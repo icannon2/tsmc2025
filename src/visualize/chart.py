@@ -1,9 +1,7 @@
 import matplotlib.pyplot as plt
 import catppuccin
 import matplotlib as mpl
-import matplotlib.pyplot as plt
 import json
-import pandas as pd
 
 from src.datasource import SQLRunner
 

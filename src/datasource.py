@@ -59,7 +59,7 @@ def roles_to_views(roles: list[Role]) -> list[View]:
         ),
         View(
             "TRANSCRIPT_Data",
-            f"""
+            """
              SELECT * FROM TRANSCRIPT_Data_raw
             
              """,
