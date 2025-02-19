@@ -8,95 +8,10 @@
 
 [![wakatime](https://wakatime.com/badge/user/6c7a0447-9414-43ab-a937-9081f3e9fc7d/project/ccc8a848-7a2d-4c44-8d75-950624f669a2.svg)](https://wakatime.com/badge/user/6c7a0447-9414-43ab-a937-9081f3e9fc7d/project/ccc8a848-7a2d-4c44-8d75-950624f669a2)
 
-## Detailed Scoring Criteria
+**智慧市場資訊分析助理 - AI 驅動的即時數據洞察與決策支持**
 
-### System Architecture (30%)
-- 依照架構圖發表為何如此設計
-  1. 系統架構
-  2. 創建使用者與資料授權設計（ex. 使用者只能看到某些公司的資料）
-  3. AI Agent Processing Graph（查詢/計算數值型指標、歷年財務轉換、資料摘要等等）
-  4. 避免資料幻覺
-
-**2/15 HackDay 呈現方式：Presentation**
-
----
-
-### Data Trustworthiness (30%)
-- [ ] **模型支援多語系**
-- [ ] **資料授權設計**（Role: 參考 workshop 投影片）
-- [ ] **資料視覺化**（根據數值資料畫折線圖）
-- [ ] **搜尋單一公司的財報指標與逐字稿內容**
-- [ ] **跨公司的財務比較與財報指標逐字稿內容**
-- [ ] **歷年財務的轉換**（參考 workshop 投影片）
-- [ ] **正確的幣值轉換**（幣值轉換基準: 參考 workshop 投影片）
-- [ ] **計算更多的財務指標**（財務公式: 參考 workshop 投影片）
-  - 毛利率
-  - 營業利益率
-
-**2/15 HackDay 呈現方式：Questions with Chatbot**
-
----
-
-### Data Summarization (15%)
-- [ ] **資料範圍**：逐字稿、數值型財務指標
-- [ ] **題目**：歷年季度 + 公司名稱
-- [ ] **由系統生成摘要報告**，內容可自由發揮，建議方向（不限）：
-   - 財務數據趨勢
-   - 產品策略
-   - 市場競合
-   - 未來展望（可讀性 / 資料視覺化）
-
-**2/15 HackDay 呈現方式：Presentation**
-
----
-
-### User Experience & UI Friendliness (15%)
-1. **前端互動的介面**
-2. **資料視覺化、資料標註**
-
-**2/15 HackDay 呈現方式：Live demo & presentation**
-
----
-
-### Bonus (10%)
-- 其他功能、創意
-
-**2/15 HackDay 呈現方式：Live demo & presentation**
-
-## Development(coder)
-
-### Prerequisites
-
-Just a working browser!
-
-### Getting Started
-
-1. go to http://coder.ccns.easonabc.eu.org
-
-2. login with password from user's email
-
-3. You will be greet with create a workspace
-![workspaces](./screenshots/workspaces.png)
-
-4. create a workspace by clicking pre-defined template(`Decontainer (Kubernetes)`)
-
-![workspaces](./screenshots/new-workspace.png)
-
-5. Fill Form with following info
-
-| column | value | note |
-| :- | :- | :- |
-|Workspace Name|maroon-toad-33|Anything you like|
-|Repository (auto)|https://github.com/icannon2/tsmc2025.git|It must be http(s), cannot use ssh|
-
-> [!IMPORTANT]  
-> When using private repository, you must be authenticated using button(it invoke oauth).
-
-6. Wait for its creation, then click `code-server` for vscode in browser.
-
-![workspaces](./screenshots/detail.png)
-
-7. Happy coding! 🎉
+- 在當今商業環境中，企業必須快速且準確地解讀大量各式數據，以便做出明智的決策。然而，傳統的數據分析流程通常需要依賴專門的開發團隊來製作特定的報表和工具。這不僅耗時，也使得決策層缺乏靈活性，因而難以及時回應市場變化。
+- 本題旨在開發一個生成式 AI 機器人，它能夠與用戶進行自然語言對話，並根據用戶需求實時提供財務數據分析和建議。該機器人將利用大型語言模型(LLM)，自動解析企業的財務數據與資訊，提取關鍵指標並生成可視化資訊，使得使用者無需等待IT團隊的協助即可獲得所需的洞察和支持。
 
 ## Development Environment Setup(Local)
 
