@@ -1,0 +1,145 @@
+Western Digital Corporation (NASDAQ:WDC) Q2 2020 Earnings Conference Call August  5, 2020  4:30 PM ET
+Company Participants
+Peter Andrew - Vice President of Investor Relations
+David Goeckeler - Chief Executive Officer
+Bob Eulau - Chief Financial Officer
+Conference Call Participants
+Wamsi Mohan - Bank of America
+Aaron Rakers - Wells Fargo
+Karl Ackerman - Cowen
+Mehdi Hosseini - SIG
+C.J. Muse - Evercore
+Joe Moore - Morgan Stanley
+Ananda Baruah - Loop Capital
+Mitch Steves - RBC Capital Market
+Sidney Ho - Deutsche Bank
+Shannon Cross - Cross Research
+Patrick Ho - Stifel
+Srini Pajjuri - SMBC Nikko
+Vijay Rakesh - Mizuho
+Operator
+Ladies and gentlemen, thank you for standing by, and welcome to Western Digital's Fourth Quarter Fiscal 2020 Conference Call. At this time, all participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. [Operator Instructions]
+I would now like to hand the conference over to your speaker, Mr. Peter Andrew, Vice President of Investor Relations. Please go ahead, sir.
+Peter Andrew
+Thank you, and good afternoon, everyone. Joining me today are David Goeckeler, Chief Executive Officer; and Bob Eulau, Chief Financial Officer.
+Before we begin, let me remind everyone that today's discussion contains forward-looking statements, including product portfolio expectations, business plans, trends and financial outlook based on management's current assumptions and expectations and, as such, does include risks and uncertainties. We assume no obligation to update these statements. Please refer to our most recent financial report on Form 10-Q filed with the SEC for more information on the risks and uncertainties that could cause actual results to differ materially.
+We will also make references to non-GAAP financial measures today. Reconciliations between the non-GAAP and comparable GAAP financial measures are included in the press release and other materials that are being posted in the Investor Relations section of our website.
+With that, I will now turn the call over to David.
+David Goeckeler
+Thanks, Peter. And thanks, everyone, for joining us this afternoon to discuss our fourth quarter and fiscal year 2020 results. I hope that you and your families are staying healthy and safe. As I reflect on my first full quarter as CEO of Western Digital, I am extremely proud of the way our team has navigated the complexities of uncertainties inherent in this unprecedented environment.
+As a company, we continue to adapt to provide continuity and high-quality products for our customers, deliver value to our shareholders and, importantly, prioritize the health and safety of our employees. We have a unique view into many drivers and trends that play both domestically and internationally due to the breadth of our portfolio of innovative flash and hard drive solutions going into cloud, OEM channel and retail end markets. We look at our business holistically, but it is especially important now to understand the nuances, challenges and opportunities in each market we serve.
+So before we dig into the results for the quarter and full year, I want to talk about how the COVID-19 pandemic and other macro trends are impacting the business. I'll then update you on how we are thinking about our strategic priorities for the fiscal year 2021, before turning it over to Bob for a financial update, which will be followed by Q&A.
+Western Digital has successfully managed through this unpredictable time with limited business impact from the pandemic. We made important investments and changes to minimize manufacturing and logistical challenges that were primarily impacting our hard drive business. Bob will discuss the financial impact of these later in the call. And we have maintained our focus on delivering for customers throughout.
+
+From an end market standpoint, demand was mixed in the quarter. And if there's a common theme among our end markets, it's uncertainty. In the second half of fiscal 2020, customers were focused on ensuring they had enough supply to meet heightened demand. As expected, demand in our cloud business was strong, due to the work-from-home trend.
+At the same time, healthy demand for our flash-based notebook solutions drove record revenue in our OEM end market. Finally, in retail, while we have a robust distribution channel with over 350,000 points of purchase around the world in well-established brands; we were impacted by COVID-related lockdowns at many of our brick-and-mortar customers. We did see the business recover as the quarter progressed due to easing of lockdowns and the transition to online buying with curbside pickup.
+As we look to the first half of fiscal 2020, one, uncertainty remains. We remain vigilant given the resurgence of the virus and its potential to disrupt our supply chain, including our ability to keep full teams working in our manufacturing facilities. Apart from COVID-19, we're managing through other macro trends. The global economic contraction is generally -- is generating an uncertain demand environment, and we are closely monitoring trade-related geopolitical developments, which are pertinent to a global business like ours.
+These near-term headwinds will eventually subside, and we are confident that the strength of our portfolio and strong customer relationships customer relationships are well-aligned to where the growth is, in the cloud and on the edge. We've continued to make strategic technology and product investments in both flash and hard drives to drive long-term revenue growth and gross margin expansion.
+Now turning to our financial results. In the fourth quarter, results were generally in line with our guidance. We achieved this while partially offsetting higher than anticipated COVID-19 related costs, which Bob will discuss in more detail. We reported revenue of $4.3 billion and non-GAAP earnings per share of $1.23, mainly driven by growth in the cloud and record results for our client SSD portfolio for notebooks.
+Looking back at the full fiscal year 2020, I am pleased with our performance. Our end market diversity and breadth, broad customer base, channel reach and innovative leadership all position Western Digital to benefit from the multiyear growth in data creation and storage.
+For fiscal 2020, revenue totaled $16.7 billion and we reported non-GAAP earnings per share of $3.04. We continue to align our portfolio with a sharp focus on growth and margin improvement.
+Importantly, over the last year, we brought to market several exciting new innovations across both flash and hard drives that I'd like to touch upon. Starting with flash, as you know, we believe flash is the greatest long-term growth opportunity for Western Digital and is an area where we've already had a tremendous foundation with consumer cards, USB drives and client and enterprise SSDs.
+As I mentioned on the Q3 call, the migration to flash within game consoles is yet another example of flash penetrating deeper into the edge and endpoint. The adoption of 5G and the build-out of the edge to support new generation of real-time services is another exciting development. We see an expanding TAM for flash that underpins a multiyear growth opportunity.
+To capitalize on this opportunity, we launched BiCS5, our 112-layer flash product in retail last quarter, which delivers exceptional capacity, performance and reliability, all at an attractive cost. The ramp has gone very well with impressive yields and we are just at the beginning stages of this product ramp. While we focus on ramping BiCS5, BiCS4 has continued to provide the right balance of performance and cost reduction. BiCS4 represented over 60% of bits shipped in the quarter.
+
+Earlier this year, we celebrated the first production wafer shipment from our K1 fab, our new manufacturing facility for 3D BiCS flash memory. This is another important milestone reflecting the successful 20-year partnership we've had with Kioxia.
+Another major highlight has been the ramp of our Enterprise SSD product line. Enterprise SSD revenue in the quarter grew nearly 70% sequentially and our revenue share increased to the low double digits. This will remain an important area of focus within our flash portfolio.
+Now turning to hard drives, we continue to lead the industry in aerial density using innovations across the entire drive, algorithms, firmware, mechanical, heads and media. We were the first in the industry to ship energy-assisted drives for mass production and expect a strong ramp into the fiscal second quarter and beyond. In short, we are going through important product transitions in both our flash and HDD businesses that we think set up Western Digital well for the future.
+Recognizing that these are uncertain times, we believe that the most important thing we can do is keep our foot on the proverbial innovation pedal and execute on the road map across the business. We have an extremely talented team working on new products that will continue to drive leadership in flash and hard drives.
+Looking ahead, our strategic priorities are centered around driving innovation for customers and value for shareholders. First and foremost, we will focus on driving long-term shareholder value as we bolster our flash and HDD portfolios, including ramping two important product lines to high volume, our SSD products and our energy-assisted capacity enterprise drives. Secondly, we will accelerate our transition to BiCS5 delivering additional performance for our customers and notable cost advantages for Western Digital.
+Third, we will continue to sharpen our execution from a product road map and strategic business objectives. And finally, we are evolving our portfolio to drive growth, margin improvement and cash generation, while also paying down debt and investing in the future.
+In the near term, we expect to remain challenged by the pandemic in the global economic contraction. Internally, we're also navigating multiple substantial product transitions, which will require sharp execution focus, but we are very confident they will set us up well for the long term.
+With that, I'll turn the call over to Bob to share our financial highlights and outlook.
+Bob Eulau
+Thanks, Dave, and good afternoon, everyone. As Dave mentioned, the COVID-19 pandemic has created a challenging global economy that has continued to impact Western Digital's performance, in large part due to the high level of uncertainty that both we and our customers are facing. While this uncertainty isn't going away in the near term, we'll continue to adapt, and we believe Western Digital is well positioned for the future.
+With that, I'll walk you through our fourth quarter and fiscal year 2020 results. For the fourth quarter, revenue was $4.3 billion, up 3% sequentially and up 18% from a year ago. Non-GAAP earnings per share was $1.23. For the full fiscal year, revenue was $16.7 billion, up 1% from fiscal 2019 and non-GAAP EPS was $3.04.
+Looking at end market, Client Devices revenue was $1.9 billion, up 5% on a sequential basis and up 19% year-over-year. Within this end market, our robust family of client SSDs, which are ideally suited for remote learning and work from home applications, achieved another record quarter of revenue. Notebook and desktop related hard drive revenue declined slightly sequentially as the market continued to transition to SSD-based products.
+Smart video was weaker than our expectations due to continued headwinds associated with the pandemic.
+
+In Gaming, we began shipping our flash solutions for the upcoming new game console launches. And finally, mobile flash revenue was down sequentially, but up year-over-year, off a low base.
+Moving on to Data Center Devices and Solutions. Fourth quarter revenue was a record $1.7 billion, up 11% sequentially and up 32% year-over-year. For the full fiscal year, revenue of $6.2 billion was up 24% from fiscal year 2019. Capacity enterprise hard drive revenue was down slightly on a sequential basis, while enterprise SSD revenue grew nearly 70% sequentially and more than doubled from a year ago.
+Next, Client Solutions revenue was $687 million, down 16% sequentially and down 9% year-over-year due to COVID-19 related lockdowns. Despite this, we were encouraged to see demand pick up in June, as countries began to ease lockdown restrictions and as brick-and-mortar locations shifted more of their operations online. This strength continued into July.
+Given the unprecedented circumstances, we executed very well in this business in a difficult environment. With over 350,000 points of purchase around the world, we continue to have incredibly strong distribution breadth brand recognition.
+Turning to revenue by product category. Flash revenue was $2.2 billion, up 9% sequentially and up 49% year-over-year. Flash ASPs were up 1% sequentially on a blended basis and up 3% on a like-for-like basis. Bit shipments were up 8% sequentially. Hard drive revenue was $2.1 billion, down 3% sequentially and down 4% year-over-year. Total exabyte shipments were down 2%. On a sequential basis, the average price per hard drive increased 2% to $87 as mix continued to shift to the cloud.
+As we move on to cost and expenses, please note all of my comments will be related to non-GAAP results, unless stated otherwise. Gross margin for the fourth quarter was up 1 percentage point sequentially to 28.9%, slightly below our guidance range. The major item that impacted our gross margin was COVID-19 related costs of $96 million. This almost exclusively impacted hard drive -- the hard drive business and was primarily related to reduced factory utilization and higher logistics costs. For clarity, this item was included in our non-GAAP gross margin.
+Our Flash gross margin was 30.5%, up 4 percentage points from last quarter due to cost reductions and slightly favorable pricing. Our hard drive gross margin was 27.2%, down 2.1 percentage points from the prior quarter. The biggest driver of the lower gross margin was the $96 million in COVID-19 related costs, representing a 4.7 percentage point impact on our hard drive gross margin.
+Operating expenses were $713 million, well below our guidance range, primarily due to our decision to cap variable compensation expense given the current economic environment. Non-GAAP earnings per share was $1.23. Operating cash flow for the fourth quarter was $172 million and free cash flow was $261 million. In fiscal 2020, we generated $1.1 billion in free cash flow.
+Capital expenditures, which include the purchase of property, plant, and equipment and activity-related to Flash ventures on our cash flow statement, were an inflow of $89 million due to the timing of funds flowing to and from the joint ventures.
+In the fourth quarter, we distributed $150 million in dividends to our shareholders, which was our final distribution prior to suspending the dividend. We also made a standard $63 million debt repayment in the fourth quarter.
+I would note that we have already made an optional debt repayment of $150 million in July. Our liquidity position continues to be strong. At the end of the quarter, we had $3 billion in cash and cash equivalents, and our gross debt outstanding was $9.7 billion.
+Our debt to EBITDA ratio was 4.2 times in the fourth quarter, and our adjusted EBITDA leverage ratio, as defined in our credit agreement, was 2.8 times. As a reminder, our credit agreement includes an approximate $1 billion in depreciation add-back associated with the joint ventures, which is not reflected in our cash flow statement. Please refer to our earnings presentation on the Investor Relations website for further details.
+
+Moving on to guidance for the fiscal first quarter. We are somewhat challenged in the near-term as a result of the uncertainty of the pandemic and being in the midst of a global economic contraction. Despite this uncertainty, we continue to execute and focus on our great products, deep customer relationships, and large and growing markets. We are working on a number of substantial product transitions that will set us up well for the long-term.
+We expect revenue in the first fiscal quarter to be in the range of $3.70 billion to $3.9 billion. Growth in Client Solutions is expected to be more than offset by a decline in both Data Center Devices and Solutions and Client Devices.
+We expect non-GAAP gross margin to be between 25% and 27%. This range includes approximately $80 million in costs associated with the K1 fab. This should be the peak quarter in fiscal 2021 for K1 period expenses.
+We expect operating expenses to be between $700 million and $720 million. Interest and other expense is expected to be between $70 million and $80 million. The tax rate is expected to be between 22% and 26% in Q1 and for the full fiscal year 2021. We expect non-GAAP earnings per share to be between $0.45 and $0.65 in Q1, assuming approximately 304 million fully diluted shares.
+Gross capital expenditures, which includes our includes portion of the joint venture, leasing and self-operating funding, is expected to be approximately $3.1 billion in fiscal year 2021. This includes approximately $1.3 billion in cash capital expenditures. We will continue to monitor capital expenditures very closely given the current business environment.
+In summary, we are executing well in a challenging environment and results are generally in line with expectations. We are taking decisive steps to successfully navigate through the current macroeconomic environment, while ensuring we focus our resources to address the significant long-term growth opportunities that are ahead. I'll now turn it back over to Dave.
+David Goeckeler
+Thanks, Bob. While we continue to navigate through a complex and dynamic environment, I'm confident that Western Digital can lead the market for years to come. As I've said, I came here because I have a very strong conviction that Western Digital can play an increasingly vital role in the digital transformation, and that conviction has only strengthened in the past five months.
+We have deep flash and HDD product portfolio, operational scale and great customer relationships, combined with the ever-growing demand for data creation and storage. All in all, it's a great place to be, and I'm extremely thankful for the hard work that our talented global team puts in on a day-in and day-out basis.
+We're operating in uncertain times, but Western Digital's strong consistent performance reflects our ability to maintain our market leadership, by delivering technological innovation with the quality, performance and cost effectiveness that our customers rely upon.
+With that, I'll turn the call over to the operator to begin our Q&A.
+Question-and-Answer Session
+Operator
+Thank you [Operator Instructions] Our first question will come from Wamsi Mohan with Bank of America. Please go ahead.
+Wamsi Mohan
+Yes. Thank you. I was hoping you could give us some sense on your 18-terabyte ramp. It appeared that you were expecting that ramp before in the September quarter. It looks like it might have been pushed out further. Can you talk about what's going on there? And I have a follow-up.
+David Goeckeler
+Yes. No, it hasn't pushed out. The ramp is on plan, as we've talked about. We plan on producing in excess of 1 million units this quarter. It's a very important quarter for us on that ramp, Wamsi, because it's the quarter where we get the yields up, which gets us the margin profile we need to go into the second quarter of the fiscal year at full production capacity. So it's on track, where we want it to be. We feel good about it. And this is going to be an important quarter for us, but it's something we know how to do in ramping a drive platform.
+
+Wamsi Mohan
+Okay. Thanks for that. And I was wondering, if you can maybe bridge this quarter-on-quarter gross margin outlook, what the main puts and takes there are? How much are you thinking that the HDD side is going to contribute, given that some of the capacity enterprise weakness was -- capacity enterprise seems like a little bit weaker than what people were thinking? Thank you.
+David Goeckeler
+Yes. I'll make a few comments, and I'll turn it over to Bob to make a few comments. And I think, if you look at gross margin going forward, there's a number of headwinds. We still have the COVID costs, we don't expect them to be as high next quarter as they were this quarter, but they're still there. The logistics cost, especially, it's just a very dynamic environment there that changes week by week.
+We've got the ramp of the 18-terabyte drive that we just talked about. So in the beginning phases of that ramp, you're going to -- it's a headwind on gross margin so we get up the ramp. That's why this is such an important quarter for us that we work through that. And, as I said, that's on track. And then on flash, we've got an easing pricing environment. So that's going to impact gross margin there. Bob, did I miss anything?
+Bob Eulau
+No, I think those are the keys. I mean on the hard drives, obviously, volumes are a little lower, so we'll be amortizing our fixed costs over a smaller volume as we go up the yield ramp on the 18-terabyte drives.
+Now on the flash side, as Dave said, I mean, we've got some price and mix headwind. And we also, as I mentioned in my comments, we have costs up a bit on K1, which amounts to about one percentage point on the flash side. So it's just we have multiple challenges this quarter. But I think long-term, we're going to be really well-positioned once we get up these product ramps.
+Wamsi Mohan
+Okay. Thank you.
+Operator
+Thank you. Our next question will come from Aaron Rakers with Wells Fargo. Please go ahead.
+Aaron Rakers
+Yes. Thanks. Just kind of building off that last question a little bit. I mean, when you look at the hard disk drive gross margin at 27.2% and you adjust, it looks like adjusted ex-COVID, looks like it's close to about $32 million. I think it would be helpful just to kind of frame what the expectation is for COVID impact in this quarter? Is it probably not as high, but are we still carrying three percentage points plus of kind of headwind on gross margin? Just kind of any framework there.
+And on top of that, what are you seeing in pricing dynamics in nearline right now in the market?
+David Goeckeler
+So I'll take the second one. Bob, can talk a little bit more about the first. All the businesses transacting at AT&T, it's a very competitive point in the market. There's no doubt about that. We're at the -- we're kind of at the tail end of one generation, moving to the next one, and that's why getting up the AT&T ramp is so -- 18, 16 ramp is so important for us. And that will position us well and be able to drive accretive margins to the portfolio on that point.
+But we expect that as we get 18 out there in the conversations with customers, it's a different TCO proposition for our customers, and that leads to more value for both of us. So we're heading to a better spot.
+I don't know, Bob, do you want to characterize COVID a little bit in this quarter? It's kind of -- it's a little tough because it's so dynamic.
+Bob Eulau
+Yes. Yes. It's not going to be as significant as last quarter. And last quarter, we did offset the COVID cost a bit by pricing, but obviously did not fully offset it. That's a big number.
+As we look at Q1, we don't think we're going to have the kind of absorption variances that we had last quarter. You may recall in the earnings call in April, I said that we had some challenges on volumes in April. So we already knew we had that headwind last quarter. We don't have that issue this quarter. So I would say the costs will be down, but I don't want to be too specific. We think we've got it covered in the guidance range that we articulated.
+
+Aaron Rakers
+Okay. And then as a follow-up, I know there's a lot of discussion around cloud digestion, kind of mixed data points out there. Relative to the 30% implied nearline capacity ship growth this last quarter, what is your current assessment of the demand from a capacity ship standpoint nearline through the back half of this calendar year, any kind of views on that front?
+David Goeckeler
+Yes. We feel like we're definitely going into a digestion phase. If we look at -- we're coming off of three really strong quarters of exabyte shipment and the demand signals we're getting are going to be -- are a little bit down for the next quarter or two.
+We think that -- I mean, the long-term trend is obviously still good. We're using the cloud more every day. But there's been a lot of product shipped in there in the last couple of quarters. And what we're seeing from them is -- they're all not the same, right. We have all of them. So they're all at different points. But when you add it all up, you see next quarter, there's a negative bias on demand there from what we see looking backwards.
+Aaron Rakers
+So down sequential? Sorry.
+David Goeckeler
+Yes.
+Aaron Rakers
+Thank you.
+Operator
+Thank you. Our next question will come from Karl Ackerman with Cowen. Please go ahead.
+Karl Ackerman
+Thank you, gentlemen. I wanted to follow-up to Aaron's last question just on exabyte growth. You obviously -- you actually had a pretty strong quarter for exabyte growth within data center this quarter. But it does sound like the outlook is down sequentially, as you just indicated. I was hoping to you could juxtapose what you're seeing across both on-prem and private cloud environments versus public cloud, as it relates to, I guess, both your hard drive portfolio but also your enterprise SSD portfolio? That's my first question.
+And for my follow-up, I was hoping you could -- you've obviously been a little bit smaller player in the Enterprise SSD market off late, which has enabled some of the significant share gains. And quite frankly, you've completely turned around your technology portfolio within that Enterprise SSD market. Is your expectation going forward for September, that you should outperform end market demand given some of the share gains you've seen lately? Thank you.
+David Goeckeler
+So on the Enterprise SSD, you're right. We've done a lot of work to launch a new product in Enterprise SSD. We've got a couple of new products. The first one is out, and it's targeted to the cloud providers. The product targeted to the OEMs is yet to ship. So that will happen in the next couple of quarters.
+So we really are in a big product transition there. So it's hard for me to draw a conclusion to your question about on-prem versus the cloud given Enterprise SSD, because we're mainly focused on the cloud side right now, working our way through calls and all those kinds of things.
+Given that the product is new, given that we're going through a lot of qualifications, over a multi-quarter timeframe, I expect us to get better and better. It's going to be a little lumpy as we move through that. So if I look at the number of calls going on in the organization, it's across all technologies. We have twice as many calls going on as we had a year ago this time. So that gives you an idea of where -- how the portfolio is refreshing, and we're driving that into the market.
+On the hard drive side, I guess I can talk about the OEMs in the private data center more of just as a overall market. I mean, well, let me say that response for a different time because that's more PC related. But I don't know if I have a tremendous amount of insight. Bob, I don't know if you do on the hard drive side versus on-prem versus in the cloud, if you could draw any strong conclusions for that.
+
+Bob Eulau
+No, I think we're seeing softness in both areas as we move forward into Q1.
+Karl Ackerman
+Thank you, gentlemen.
+Operator
+Thank you. Our next question will come from Mehdi Hosseini with SIG. Please go ahead.
+Mehdi Hosseini
+Yes, thank you for taking my question. The first one on the hard disk drive one of your competitors had referenced weaker demand trends, especially for client non-compute out of China. And when I -- when I just do a bath to envelope, if that is what's happening and impacting your client non-compute, it seems to me that X-to-Y shipment for that particular segment may have been down by more than 20% on a Q-o-Q basis. And I was wondering if you could elaborate on it? And I have a follow-up.
+David Goeckeler
+Yes. I'll elaborate on the general market. I don't know if I can follow the back of your envelope that fast. But look, I think the channel was -- let me talk ab

@@ -1,0 +1,150 @@
+Cirrus Logic, Inc. (NASDAQ:CRUS) Q1 2021 Earnings Conference Call August  3, 2020  5:00 PM ET
+Company Participants
+Thurman Case - Chief Financial Advisor
+Jason Rhode - Chief Executive Officer
+John Forsyth - President
+Chelsea Heffernan - Director, Investor Relations
+Conference Call Participants
+Matt Ramsay - Cowen
+Raji Gill - Needham & Company
+Tore Svanberg - Stifel
+Charlie Anderson - Collier Securities
+Adam Gonzalez - Bank of America Securities
+Ruben Roy - Benchmark
+Christopher Rolland - Susquehanna International Group
+Blayne Curtis - Barclays
+Tore Svanberg - Stifel
+Operator
+Ladies and gentlemen, thank you for standing by, and welcome to the Cirrus Logic First Quarter Fiscal Year 2021 Financial Results Q&A Session. At this time, all participants are in a listen-only mode. After a brief presentation, we will open up the call for questions from analyst. Instructions for queuing up will be provided at that time. As a reminder, this conference call is being recorded for replay purposes.
+I would now like to turn the conference call over to Mr. Thurman Case, Chief Financial Advisor. Mr. Case, you may begin.
+Thurman Case
+Thank you and good afternoon. Joining me on today's call is Jason Rhode, Cirrus Logic's Chief Executive Officer; John Forsyth, the company's President; and Chelsea Heffernan, our Director of Investor Relations.
+Today, we announced our financial results for the first quarter fiscal year 2021 at approximately 4:00 p.m. The shareholder letter discussing our financial results, the earnings press release, including the reconciliation of non-GAAP financial information to the most directly comparable GAAP information, along with the webcast of this Q&A session are all available at the company's Investor Relations website at investor.cirrus.com. This call will feature questions from the analysts covering our company, as well as questions submitted via e-mail at investor.relations@cirrus.com.
+Please note that during this session, we may make projections and other forward-looking statements that are subject to risks and uncertainties that may cause actual results to differ materially from projections. By providing this information, the company expressly disclaims any obligation to update or revise any projections or forward-looking statements, whether as a result of new developments or otherwise.
+Please refer to the press release and shareholder letter issued today, which are available on the Cirrus Logic website and the latest Form 10-K and 10-Q as well as other corporate filings made with the Securities and Exchange Commission for additional discussion of risk factors that could cause actual results to differ materially from current expectations.
+Now I'll turn it over to Jason. 
+Jason Rhode
+Thank you, Thurman. Before we begin taking questions, I'll provide a brief update on COVID-19 and then I will turn the call over to John for comments on the quarter.
+I am doing this call remotely and not with the rest of the team currently. While I don't expect to have any technical issues, should there be any you'll be in good hands with John and the rest of the team.
+For a detailed account of our financial results please read the shareholder letter posted on our Investor Relations website. Despite the challenges associated with the majority of our employees working remotely due to the COVID-19, I continue to be impressed with how well our employees have adapted to this new environment. Across the organization they're doing a great job remaining highly productive and ensuring we continue to operate efficiently.
+During the quarter we executed on key product development efforts and our supply chain continued to meet production schedules. We have established enhanced protocols to ensure the safety and well-being of our employees while maintaining business continuity and continuing to provide outstanding support to our customers.
+
+I’ll now turn the call over to John for comments on our results. 
+John Forsyth
+Thank you, Jason. Cirrus Logic delivered Q1 FY 2021 revenue of $242.6 million as we experienced robust demand for certain products shipping in tablets and smartphones. During the quarter, customer engagements and design activity were encouraging across new and existing product categories.
+As we have noted previously, our expectation is that in addition to building on our strong position in smartphones. Over the next year, we will continue to gain momentum in non-mobile phone applications particularly in those devices that require compact components to deliver a premium user experience, while minimizing power consumption.
+The company has a number of innovative products expected to tape-out this quarter and sample with our customers over the next year. When combined with a robust roadmap they will continue to strengthen our portfolio of products in audio, voice and other mixed-signal domains we remain optimistic about the company's future.
+Before we begin the Q&A, I would also like to note that while we understand there is intense interest related to our largest customer in accordance with our policy, we do not discuss specifics about our business relationship.
+Operator we're now ready to take questions.
+Question-and-Answer Session
+Operator
+[Operator Instructions] Our first question comes from Matt Ramsay with Cowen.
+Matt Ramsay
+Yes, thank you. Good afternoon. I don't know if this is for Jason or John whichever. I saw in the shareholder letter some comments that you guys hinted at/or put in there about a new power conversion or power management IC that you're working on and are thinking about taping out here in the pretty near term. I wonder, if you might step back and talk about that as -- and you've hinted plenty of times at new applications outside of the audio domain and I imagine this is one of those examples. There's any details you could give there, or I know Chelsea and the team have also updated some of the TAM slides in the last couple of quarters if there's any comments about how that TAM for that type of product might be? That would be really helpful. Thank you.
+John Forsyth
+Yes, Matt, thank you. I'll take that. Yes. And yes, we've talked about this opportunity in particular as being towards the back end of next calendar year. So there's a lot of time to go between now and then. And obviously we don't want to get too far over our skis regarding the opportunity. But it's no secret that we've developed considerable IP relating to power and battery stuff through our boosted amplifiers and haptics drivers. And we believe there are ways of leveraging some of that IP and some of the innovations that we've developed in that space into nontraditional segments for us relating to power.
+We don't want to say too much more about that right now, but we certainly believe that this is a very exciting opportunity for us. In keeping with a lot of the opportunities that we discussed, we regard the first market entry of this as being very much a first step of a road where we will seek to continue to grow the value of the product and the segment over time and the long-term outlook for that is reflected in the further adjacent opportunities that we've highlighted in the SAM and TAM materials in the updated investor deck.
+Matt Ramsay
+Got it. Thanks, John. I appreciate the sensitivity on the road map stuff. I guess is my follow-up question, more in the immediate term. There's obviously challenges with Huawei and shipping to them and what's going on with their smartphone business. But at least in the first swag of putting together the model tonight after the results came out, it looks like the Android business in the June quarter was down pretty materially. Are there things to read into that other than Huawei? And maybe you could just talk about the forward outlook for the non-Apple smartphone business and how you think that might trend in the next few quarters? Thank you.
+
+John Forsyth
+Yes, that's a good question. I think there were layers of complexity and confounding factors there that frankly make it pretty difficult to tell what signal and what's noise for sure there are challenges around the Huawei business. As you know from previous discussions, we felt really good about the momentum that we've been building with Huawei. We're obviously still able to execute on some of that, where we have a license and where we were shipping stuff already, but it does create a headwind.
+More broadly, I think what we have seen over the past few months is that large chunks of the Android space have suffered the turbulence in the COVID-19 environment. And in part that's a reflection of just the kind of progressive lockdown around different markets. So I think the reliance that some of the Android vendors have on distribution channels that they don't control has made them maybe a little bit more susceptible.
+So there's been a fair amount of buffeting there. But on the back of that, I think a fair amount of that stuff will hopefully be behind us as we go into the next few quarters. And we continue to feel upbeat and very positive about the story and the momentum that we have for our boosted amplifiers in particular and haptics drivers within the Android community.
+Jason Rhode
+And I would just chime in to add to what John said. There's definitely a plus and minus to that because while the Android side of the customer base has clearly had some challenges I think, a fair amount of that likely resulted in some of the strength that our -- well non-Android handset business enjoyed as well which overall has been net positive for us because it's obviously a significantly larger amount of content for us there.
+Matt Ramsay
+Thanks guys, appreciate it.
+Operator
+And our next question comes from Raji Gill with Needham & Company.
+Raji Gill
+Yes, thank you for taking my questions. A question on the traction in haptics. The demand for haptics has been kind of driven by increased demand for waterproof devices, increased screen space, replacing these mechanical buttons. I'm wondering kind of what you think is kind of the next-generation kind of products related to haptics? And how do we think haptics as a percentage of revenue or in terms of kind of a major strategic growth areas?
+John Forsyth
+Well, in terms of the next-generation products, you've kind of hit on a theme that is yet to run its course in Android. I think we've seen – or in smartphones, I should say in general I think we've seen a lot of interest from OEMs in button replacement to the point of reducing the phone to a kind of fully sealed plain of class. There's still a lot of problems to be solved to get to that and to build a really good user experience around it. As the technologies for haptics and virtual buttons are being incorporated into more handsets, we're also seeing drivers for the user experience, such as gaming and the kind of dynamic controls which can enrich the gaming experience and so on.
+I think beyond smartphones, we certainly see plenty of opportunity in other segments, where we're traditionally maybe not so well penetrated in but we have talked about with our haptics technology. We've seen growth in haptics opportunities and haptics drivers for virtual buttons in the automotive space in the PC space and possibly in the longer-term in the VR and AR space as well. Those are clearly very speculative when it comes to what the market size can be. So regarding, our view on the haptics TAM, again, I'd refer you to the investor presentation where we break that out.
+Raji Gill
+Thank you for that. And just switching gears to the opportunity in the headset space. You've made significant inroads in the wired and wireless digital head space – headset space. It's a pretty good dominant technology there. I'm wondering, how you look at that market as you kind of move forward to Calendar 2021, when do we expect kind of layering in ANC technology, as a way to increase dollar content and as a way to kind of bolster the competitive differentiation in the digital headset space.
+
+John Forsyth
+Yeah. That's a great question. It's a segment we've been really excited by. I think – I think all the key products launched in that space have tended to outstrip our customers' expectations for demand and it's just – even though the numbers initially have been fairly small. The direction of travel is really compelling. So in some of the products that we've been in we've been deploying smart codecs, where they were maybe not even initially designed for that category of truly wireless headset device. Obviously, we are investing and developing technologies, specifically for that category of device.
+Now back end of last year, obviously, we had amplifier launch in truly wireless device. And mentioned in the shareholder letter for this quarter, we have begun sampling our new next-generation codec for truly wireless air buds, which incorporate hybrid ANC technology. So that puts us on a time line, where you would expect, if that's in customers' hands now. Over the next calendar year, you're going to see products come to market Touchwood incorporating ANC technology into that category of device.
+Raji Gill
+And just last question Thurman on the gross margin. It's kind of dipping down about 60 basis points, sequentially up for the guidance. Just wondering, what the reasons for that? Thank you.
+Thurman Case
+Well, we see a lot of puts and takes with gross margin. So for any given quarter, we can see certain products that may see some normal ASP erosions. And we have certain levels of absorption based on our levels of expense and our levels of profit. And we give our range of 51% to 53%, but we would expect that generally to be closer to 52% on most quarters or in that range although, we've been outperforming at this level, but there was not anything very specific. It was a wide range of things that had that effect.
+Operator
+And our next question comes from Tore Svanberg with Stifel.
+Tore Svanberg
+Yes. Thank you. First question perhaps on seasonality or even linearity. So your largest customer have openly talked about their delays this year. How does that really impact Cirrus from a timing of shipments perspective?
+Jason Rhode
+Thanks, Tore. I would say, obviously we don't want to get into details related to our customers' launches. It's factored into our guidance. The September to October quarter transition is obviously, always, really tricky to call. And our job is just to make sure we put parts on our customers' docs or their contract manufacturers' docs when they need them. So we don't always know.
+In fact, we never know exactly what the launch date or the availability date will be until the rest of the world does. So that's really something that the customer base takes care for us and we just try to make sure to execute on what exactly they're doing.
+That said, I think pretty reasonably strong guide relative to expectations. So things I think largely appear to be consistent with what else has been said publicly by folks that are a little closer to their own launches.
+Tore Svanberg
+Very good. And maybe this is just my perception but reading your shareholder letter, you're really emphasizing more tablets and notebooks than what you have historically. Has the work-from-home environment sort of reawaken those opportunities? And are you starting to see more content opportunities there than perhaps historically? 
+John Forsyth
+To a degree, I would say that what we are discussing here was as for sure part of our strategy prior to the transition of large parts of humanity to working from home. But amongst our customer base there's certainly being renewed interest in those segments as well. But for sure I mean, there are spaces where, if you look at our boosted amplifier share and progress in Android, you can see that we're in a great deal – a great number of the sockets that matter at this point.
+
+And hence when we look at how we continue to grow and drive growth, it's partly about enhancing those products and continuing to win the sockets that count in the smartphone space. But also has very much been about how we broaden – leverage those IP investments and broaden our range of targets to other markets. So tablets were for a short part of that. We've mentioned notebooks as well. And then of course, wearables and hearables are the other kind of primary categories, which we believe our IP investments are highly relevant to.
+Tore Svanberg
+Okay. Thank you.
+John Forsyth
+Thank you, Tore.
+Operator
+And our next question comes from Charlie Anderson with Collier Securities. 
+Charlie Anderson
+Yes, thanks for taking my questions. I want to start just to go back to the new product the power control. I wonder, if you could first speak if it's that merchant's product or more of a custom product. And then secondarily, as we've seen you expand into some new capability here, I wonder if you could maybe just give us some framework for thinking about as you continue to move into that larger portion of the mixed-signal market. What are some of the areas where you bring something that's unique that's not served by the larger portions of the pie that you're not serving today? And then I've got a follow-up. 
+Jason Rhode
+All right. Yes I'll take the first bit of that and then John can chime in if he thinks anything I missed. We've got a good track record of migrating our technology taking corp. bits of what we've done. That's the old adage of you want to go after a new market with existing technology or an existing market with new technology but try to stay out of the new-new. And the last handful of years have seen us take existing technology or things that are related to it migrated into new areas. And this is another one of those. So it is a custom device. So for obvious reasons we don't want to get into a whole lot of detail about exactly what and why. But we think it's actually a really critical new capability that – how broadly it's necessary or desired remains to be seen but the current target for it we think is really substantial and it's a significant opportunity.
+It's a lot of folks that we've got working on it. It was very fortunate that we were able to redirect a lot of the MEMS resources to go tackle this, because this is significantly bigger and sooner than MEMS would have likely have been. So it's among the bigger opportunities that we've ever targeted that we've – that are kind of stand-alone type meet new things squarely in our wheelhouse made the existing investments that we've had historically in Amps and haptics and other areas, which have quite a lot of power, capabilities from us kind of in a stand-alone sense really positioned us well to be the right folks to bring our signal processing expertise into this more power oriented opportunities.
+So anyway that's kind of the bulk of what we can say about that. But it is very much reflective of the strategy that John and Carl and the team and Jeff and Coyle really tried to hone in on of let's figure out what other adjacencies there are in handsets since we would love to have a bunch of markets that are bigger than handsets out there. But that's the only thing I'm aware of that everybody buys that many units up every year.
+So, let's go look at other areas that mix signal -- that are mix signal and signal processing capabilities can really bring to bear on the handset market in other areas that are outside of audio or voice. Well, obviously, not letting our eye off the ball on our traditional areas of strength. Something we're really excited about. We'd love to give you a whole lot more detail but that will have to be all in good time. 
+Charlie Anderson
+
+Okay, great. Thank you for all the color. And then Thurman I have a follow-up question for you. I think inventory was a pretty decent spike year-over-year and sequentially and then you measured in days as well. So, I wonder if you can provide any color there. Was there anything that was sort of COVID-related or product transition-related? Just trying to understand why we saw that the inventory…
+Thurman Case
+A normal question for me. Yes, the last couple of years we saw inventory decrease from our Q4 and Q1 previous year it was up. It really is affected by -- we take -- we work with all of our customers across the border and it's really based on what their needs and demands are.
+And so in this particular quarter we work with them and our supply chain partners to build and meet the demand schedules that we have. In this case it happened to drive a significant spike, but we don't think that -- and from our standpoint and from our visibility, we think leaving the quarter at $200 million is appropriate. 
+Charlie Anderson
+Perfect. Thanks.
+Operator
+And our next question will come from Adam Gonzalez with Bank of America Securities.
+Adam Gonzalez
+Yes, thanks for taking my question. So, there have been some rumors out there that some of the content that you supply to your largest customer could be coming out or accessorized for a lack of better term.
+To the extent that you can comment, if this were to play out, do you think you'd still be in a position to sort of gain content -- net content year-on-year with this customer given some of the new opportunities you cited before? Thanks.
+Jason Rhode
+Yes sure. I mean we're not going to comment on market rumors and we're definitely not going to comment on our customers' launch plans. We know what the scenario was there. It's baked into our guidance. We gave you guidance for the quarter and that's really what we're going to get into saying about that.
+Adam Gonzalez
+Got it. Okay. No problem. And then just the second question I have is just question on the investor deck, I think you cited that you're a supplier to the top seven smartphone OEMs, but in prior presentations I think you said top eight. Is there anything to be coming from that or is it just a function of shifting at the top smartphone OEMs? Thank you.
+John Forsyth
+Yes. Adam I -- honestly, I wouldn't read too much into that. It's the nature of the smartphone market and the Android share of the smartphone market at this point is that once you get past the top five the total volumes are pretty small.
+And in the context of the economic environment, we've seen over the past couple of quarters that has led to more designs or models being pulled or canceled in those smaller players or kind of road maps moving around and so on.
+So, down at the bottom end of that list, in fact, I think at the bottom of the list for us one dropped off. I think there's not really anything significant there from a revenue perspective for us.
+Adam Gonzalez
+That's great. Thank you.
+Operator
+And our next question comes from Ruben Roy with Benchmark.
+Ruben Roy
+Hi thanks for taking my question. Jason or John just following up on some of the discussion around the new products and Jason you mentioned that at least this new product you mentioned in the shareholder letter is custom in nature.
+I'm wondering if that means that as we think about these new product sets that you're working on I would assume that means that you're working with your customers, on the actual functionality? And if that's right is that something investors should think about as we think about competitive differentiation is the first question. Thanks.
+Jason Rhode
+Well, I guess, maybe I didn't understand exactly right, but I would say that it would be difficult to do a custom device for a customer without having a lot of really detailed conversations with them. And I just -- we only point out the custom bit is just to highlight our track record of developing and then ultimately shipping anything that is custom and specific to a customer is really, really high.
+
+That's largely due to the fact that it's a large investment by any customer and us whenever we've done a custom device that customers -- I think, most of our customers are pretty good about trying not to waste our time, but they're especially good about trying not to waste their own time and it is quite a large investment.
+So we just highlight that it's accustomed purely to -- it's not a pipe train type of product. I mean, there's obviously all the risk factors and stuff that people need to consider thing that we aren't baking, could consider things do go wrong from time to time, but at least the intent and the opportunity are very real and timing and so forth, we've already talked about. So something we're really excited about.
+Ruben Roy
+Yes. And that's helpful, Jason. I guess, that's where I was going. It sounds like there is a socket available for the product. So, I think, that's something that is important. Just as a follow-on to that, as we think about the product road map and audio versus non audio, you guys have, even in the shareholder you talked about enhanced functionality to the boosted amps and things like that. How should investors think about investments and focused -- focus of investments, as we think about audio versus non audio, as we look ahead over the next couple of years?
+John Forsyth
+Well, for sure, our R&D has increasingly been distributed more evenly between audio and non-audio, as we've gone from shipping almost exclusively audio products, to having a really substantial investment and business around the haptics drivers and so on.
+And then, beyond that, of course, we have been in development of what we referred to as our closed-loop controller technology. Again, in the non-audio domain and then further beyond that, this opportunity that we're discussing here landing in the back end of calendar 2021, again, being in a non-audio domain.
+So, at this point, although, we don't break out exactly what the percentages are. But it's fair to say that a substantial amount of our R&D is focused on how we can leverage key areas of IP and key insights that we've had from existing customers -- existing customer engagements and product categories and use them to build sharing in adjacent spaces.
+We continue to be committed to growing and building our leadership in the audio space, but it's become very obvious, first through haptics and then through the closed-loop controller and beyond that a lot of the problems that we're solving in those spaces are ones which are highly relevant to our customers in other parts of the system. So we're seeking to leverage that as best we can.
+Ruben Roy
+Great. Thanks for that detail, John.
+Operator
+And our next question comes from Christopher Rolland with Susquehanna International Group. 
+Christopher Rolland
+Hi, guys. This is for both Jason and Thurman. This is the time of year when we start trying to predict socket bingo for flagship phones and flagship phone launches. But we forget about the long-term revenue story at Cirrus. And I was looking at one of your slides. Your 10-year CAGR is 19% top line. And over that time, I think, you guys have actually increased customer concentration at your top customer.
+So, I guess, my question is, and this is for Jason and Thurman if you have any more specificity on top of it. But what do you think for the next 10 years a CAGR could be, a top line CAGR, given your relationship, what you know about your road map, with your primary customer? How should we kind of frame this long term opportunity? Thanks.
+Jason Rhode
+Yes. Well, I mean, my crystal ball doesn't go 10 years and I don't know that anyone in the semiconductor does -- in the industry does have one that goes that far out. I do know that as far as I see it, we've got as good opportunities in front of us as we ever have. We've executed on quite a lot of what we've said we've done in the past.

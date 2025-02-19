@@ -1,0 +1,145 @@
+STMicroelectronics N.V. (NYSE:STM) Q1 2020 Earnings Conference Call April 22, 2020  3:30 AM ET
+Company Participants
+Celine Berthier - Group Vice President, Investor Relations
+Jean-Marc Chery - President & Chief Executive Officer
+Marco Cassis - President of Sales, Marketing, Communications & Strategy Development
+Lorenzo Grandi - President of Finance, Infrastructure and Services & Chief Financial Officer
+Conference Call Participants
+Matt Ramsay - Cowen
+Aleksander Peterc - Societe Generale
+David Mulholland - UBS
+Jerome Ramel - Exane BNP Paribas
+Stephane Houri - ODDO
+Adithya Metuku - Bank of America
+Sandeep Deshpande - JPMorgan
+Achal Sultania - Credit Suisse
+Amit Harchandani - Citigroup
+Johannes Schaller - Deutsche Bank
+Dominik Olszewski - Morgan Stanley
+Celine Berthier
+Good morning. Thank you everyone for joining our First Quarter 2020 Financial Results Conference Call. Hosting the call today is Jean-Marc Chery, ST President and Chief Executive Officer. Joining Jean-Marc on the call today are Lorenzo Grandi, President of Finance, Infrastructure and Services and Chief Financial Officer; Marco Cassis, President of Sales, Marketing, Communications and Strategy Development.
+This live webcast and presentation materials can be accessed on ST's Investor Relation website. A replay will be available shortly after the conclusion of this call.
+This call will include forward-looking statements that involve risk factors that could cause ST's results to differ materially from management's expectations and plans. We encourage you to review the Safe Harbor statement contained in the press release that was issued with the result this morning and also in ST's most recent regulatory filings for a full description of these risk factors.
+Also, to ensure all participants have an opportunity to ask questions during the Q&A session, please limit yourself to one question and a brief follow-up.
+I'd now like to turn the call over to Jean-Marc, ST's President and CEO.
+Jean-Marc Chery
+Thank you, Celine. Good morning and thank you for joining ST on our conference call. First of all, I hope you, your families and your colleagues are all safe and healthy. Also, beginning this call, I would like to highlight the extraordinary efforts of our employees and to thank them again for their dedication and professionalism to overcome the challenges this pandemic has created.
+Now to ST results and plans let me begin with some opening comments. Starting with Q1 year-over-year net revenues grew 7.5% to $2.23 billion. Our operating margin increased to 10.4% and our net income rose 7.9% to $192 million. On a sequential basis, net revenues came in about 5% below the midpoint of our outlook, when entering the quarter.
+The COVID-19 outbreak and subsequent containment measures by governments around the world, brought challenges in our manufacturing operations and especially in the last few days of the quarter logistics.
+Our Q1 gross margin of 37.9% was largely in line with our midpoint target. Our free cash flow during the first quarter was $113 million, including CapEx of $266 million. We exited the first quarter with a stable net cash position of $668 million available liquidity of $2.7 billion and available credit facilities of $1.1 billion.
+On Q2 2020, at the midpoint of our guidance we expect net revenues in the second quarter to be about $2 billion leading to a gross margin of about 34.6% that includes about 400 basis point of unsaturation charges. Our guidance is taking into account the declining demand environment, especially in automotive as well as the operational and logistics challenges due to the current regulations.
+For the full year 2020, we will drive the company based on a plan for full year 2020 revenues between $8.8 billion and $9.5 billion. We plan for growth in the second half over the first half of the year to be in the range of $340 million to $1.040 billion at the midpoint of our Q2 guidance based on the evolution of the market. As a consequence, we have reduced our CapEx expectation for 2020 from $1.5 billion to between $1 billion and $1.2 billion.
+
+Now let's move to a detailed review of the first quarter. Net revenues increased 7.5% year-over-year with higher sales of imaging, analog and microcontrollers in part offset by lower sales in automotive Power Discrete and digital. Year-over-year sales to OEMs increased 22.5% and to distribution decreased 21.4%.
+On a sequential basis, net revenues decreased 19% about 5% below the midpoint of our guidance. The COVID-19 outbreak and subsequent containment measures by governments around the world bore challenges in our manufacturing operations and especially in the last few days of the quarter, logistics. All product group revenue declined on a sequential basis.
+Our gross profit totaled $846 million, representing a year-over-year increase of 3.5%. The gross margin of 37.9% decreased 150 basis points year-over-year, mainly impacted by price pressure and unsaturation charges, including the one associated with the COVID-19 workforce-related restrictions.
+More specifically, unsaturation charges were 150 basis point in Q1 2020, compared to zero in Q1 2019 and to our estimate of 80 basis point in our Q1 2020 guidance. Our first quarter gross margin was 10 basis points below the mid-point of our guidance as product mix and price evolution were better than expected.
+Our first quarter operating margin was 10.4%, increasing 20 basis point on a year-over-year basis, with the improvement of AMS operating margin compensating the decrease in MDG and ADG. Net operating expenses at $610 million, were below what we anticipated when entering the quarter. Our net income increased 7.9% to $192 million on a year-over-year basis and our diluted earnings per share were $0.21.
+Looking at the product group revenue performance on a year-over-year basis; ADG revenues decreased 16.6%, mostly due to the supply constraints and particularly in automotive to a weaker-than-expected demand; AMS revenue increased 54.3%, on higher imaging and analog sales mainly for Personal Electronics Applications, while MEMS sales were essentially flat; MDG revenue increased 1%, with growth in microcontrollers mainly driven by distribution in Asia partially offset by lower digital IC sales.
+By product group on a year-over-year basis: ADG operating margin decreased to 3% from 10.6%; AMS operating margin increased to 20.8% from 7.8%; and MDG operating margin decreased to 11.5% from 13.4%.
+Net cash from operating activities increased 17% to $399 million in Q1, compared to $341 million in the year-ago period. Free cash flow was positive $130 million, including $266 million of CapEx compared to negative $67 million in the year ago quarter.
+During the first quarter we paid $53 million of cash dividends and we repurchased shares in the total amount of $62 million as part of our existing programs.
+Our net financial position was $668 million at March 28, 2020, stable compared to $672 million at December 31, 2019. It reflected total core liquidity of $2.71 billion and total financial debt of $2.04 billion. We also have committed credit facilities for $1.1 billion equivalent which are current undrawn, including a new €500 million long-term line with the European Investment Bank.
+So let me now address the supply chain situation during the first quarter. During Q1, all countries where we operate decided to apply lockdown measures. In coordination with local authorities we have been able to limit the temporary assembly and test site closures to 14 days in Shenzhen, seven day above what was already planned; two days in Muar, Malaysia; and one day in Calamba, Philippines. We did not close any wafer fab.
+During this period we managed to keep all our manufacturing sites operational, at reduced workforce levels, keeping the most stringent health and safety measures. Our business continuity plans enabled us to continue to support our customers and to continue to execute our R&D programs. However, this unprecedented situation created logistic challenges as well impacted revenues and resulted in higher unsaturation charges.
+
+Let's now discuss the market and business dynamics. In automotive, during March, we started to see sign of slowdown in demand, especially for legacy automotive in Europe and in the U.S. as a consequence of the shutting down of many carmakers and Tier 1 production line around the world.
+However, we are starting now to see some sign -- some early signs of recovery in China. I have to classify quite sharp. In the meantime, we continue to support the electrification and digitalization trends of our customers' design for smart mobility applications.
+In car electrification during the quarter we won several sockets for automotive-grade diodes for onboard chargers at major Tier 1s and OEMs, as well as a project with high-voltage silicon MOSFETs for inverters and charging stations.
+We also announced wins for two programs for battery management systems. We had an important development in our wide-band gap technology strategy key for our automotive business and also for other end markets.
+For silicon carbide, we are progressing with our technology manufacturing and portfolio road map and with customer programs. As of today, we are engaged with 56 customers in 62 ongoing key programs. These programs are split around 50/50 between automotive customers and industrial customers. The silicon carbide awarded projects accounts for a total of $2.8 billion in the 2024 period.
+The next wide-band gap technology we are investing in is gallium nitride. On April 7 we closed the acquisition of a majority stake in French GaN Innovator Exagan. Exagan's expertise is in epitaxy product development and application know-how will broaden and accelerate our wide-band and business for automotive industrial and consumer applications.
+We also announced that we are collaborating with TSMC to accelerate the development of gallium nitride process technology and the supply of both discrete and integrated GaN device to the market.
+Moving to car digitalization, here we had wins in a variety of applications. This include our 32-bit automotive MCUs in car access switching, braking, and steer-by-wire applications, a major win for power management IC in an ADAS system and an award through our partner AutoTalks for a V2X communications application.
+Moving now to industrial, the dynamics in the quarter were mixed with some application already showing signs of demand slowdown appliance, lighting, while others, such as healthcare, as could be expected, but also automation, remain healthy.
+The situation in the distribution channel is showing some recovery in China, after a restart of operations, but a slowdown in Europe and in the U.S. On a year-over-year basis, point of sales at distributors remained stable, with an improvement in Asia offset by the Europe and the U.S.
+One of our objectives in Industrial is leadership in embedded processing solutions. To support this, we are continuously strengthening our offer in terms of hardware, software and ecosystem, around our microcontroller and microprocessor families.
+During the quarter we announced many additions to the STM32 microcontroller portfolio. New products in our low power and high performance MCU families and the world's first LoRa System-on-Chip.
+With our power discrete products for industrial applications we had wins with high- and low-voltage silicon MOSFETs and Intelligent Power Modules for power supplies, solar-power converters, home appliances and power tools from many manufacturers. We also won several new designs with our analog products for industrial applications.
+For example, we received awards from multiple metering customers for smart power and ASIC products, by home appliance makers for power conversion and motion-control products, and by machine manufacturers for vibration and environmental monitoring with industrial-grade MEMS sensors.
+
+Moving now to Personal Electronics, while short-term smartphone consumer demand is clearly impacted by retail lockdowns and the inability to purchase devices, we observed sustained semiconductor demand during the quarter. This is also driven by increased demand for tablets and gaming devices, as well as accessories.
+Importantly, customer demand for innovation-driven content is still solid. In this end market, we are leading in very specific high-volume smartphone applications as well as in wearables, accessories and gaming devices.
+During the first quarter, we continued to win designs and ramp production in flagship customer devices. Some examples include: a variety of sensors, - time-of-flight, ranging sensors, ambient-licensing, motion and water-proof pressure sensors. Secure solutions such as, eSIM and secure elements, and analog solutions such as, smart-power, touch, display, and charging products.
+A number of the smartphones in which we won designs were 5G models. We were awarded several 5G designs with our RF mixed signal technologies this is in line with another of our stated market objectives.
+In our last end market, Communications Equipment and Computer Peripherals, we had many design wins ranging from time-of-flight and motion sensors for PCs to industrial inertial sensors in mobile infrastructure, with multiple leading manufacturers.
+In this market during the quarter, we saw a stable situation for hard-disk drives and enterprise servers, as well as demand for 5Grelated products in China. Now, let’s move to a discussion of the second quarter and some comments on the full year 2020.
+Now, let's move to a discussion of the second quarter and some comments on the full year 2020. For the second quarter, we expect net revenues to be about $2.0 billion. And a gross margin at about 34.6%. This outlook is taking into account the declining demand environment especially in automotive as well as ongoing operational and logistics challenges due to current governmental regulations. We anticipate that all our manufacturing sites will continue to be operational. However some of them will run at reduced capacity leading to about 400 basis points of unsaturation charges embedded in the gross margin guidance.
+For the full year, we are driving our company with a clear plan. It is a sales and operating plan based on our current view of the market, as well as on continuous customer interaction. It is also a plan that in the framework of an already solid financial situation and to further increasing our financial flexibility acknowledging the short-term global challenges, while also supporting our unchanged long-term strategy and its objectives.
+We will drive the company based on the plan for 2020 full year revenues between $8.8 billion and $9.5 billion. With Q2 expected to be the most challenging quarter, our plan anticipates growth in the second half over the first half to be in the range of $340 million to $1.040 billion. This growth will be driven by already engaged customer programs and by the removal of supply constraints. The growth range is linked to the evolution of the market. As a consequence we have reduced our CapEx plan from $1.5 billion to a range of between $1 billion to $1.2 billion related to additional -- reduced additional capacity needs. Our strategic initiatives are all confirmed although with some short-term schedule adjustments.
+While we are protecting our R&D sales and marketing programs and transformation initiative we will keep a strict discipline on controlling operating expenses. However, as the company is taking up nonrecurring expenses for solidarity initiative donation both in cash and equipment/materials or for exceptional incentives for our employees at work.
+We have also launched an internal initiative whereby the management team will reduce their base salary for the next two quarters as their own contribution. In order to further increase our financial flexibility we will not execute any transaction on our current share buyback program in the second half of the year.
+
+To conclude, in response to the global COVID-19 pandemic, we will continue to ensure the health and safety of all our employees and to execute our business continuity plans working with our customers partners and the communities where we operate. We have a sales and operational plan for this challenging year targeting growth in the second half over the first half.
+ST is in a solid position from a capital liquidity and balance sheet perspective. We will maintain our financial strength. We will also continue to advance our long-term strategy and objectives together with our employees for the benefits of our customers partners communities and for our shareholders.
+Now before starting the Q&A session, I would like also to mention the other press release we have issued this morning. Taking to account the increasing global societal and economic turmoil caused by the COVID-19 outbreak ST Supervisory Board is now proposing a decrease in the 2019 dividend from $0.24 to $0.168 per share with authorization to consider during September 2020 to increase such dividend resolution up to a maximum of $0.24 per share. The updated dividend resolution will be proposed at the 2020 AGM, which is now postponed to June 17 2020.
+Thank you. And we are now ready to answer your questions.
+Question-and-Answer Session
+Operator
+The first question comes from Matt Ramsay from Cowen. Please go ahead.
+Matt Ramsay
+Thank you very much. Good morning, and thanks for the messages of health to everybody. Same to everyone in ST. I think Jean-Marc my first question is regards to the automotive business. I appreciate what some of the drivers you have is with smartphones, et cetera that the second half will be better than the first half. But maybe you could talk about the second quarter and through the summer your expectations in your automotive business. Obviously there's lots of macro commentary and things out there about auto factories being closed globally. So maybe you could talk a little bit about that and your visibility to your previous silicon carbide targets through the remainder of the year. Thank you.
+Jean-Marc Chery
+Thank you for your question. So I will let Marco first to make the first comment about the automotive market and I will complement if needed.
+Marco Cassis
+Yes. Thank you. As you had said clearly the automotive market having a complicated supply chain has been hit by closures at carmakers and TS-1. This is happening let's say with different time schedule around the world.
+The first that was hit in Q1 was clearly China and now it's happening in Europe and U.S. We have seen in this moment a sharp recovery as Jean-Marc was saying during his address. China now is moving back so automotive seems to be recovering in China while during Q2 Europe and U.S. will be hit at the most.
+Our view for the full year our modeling is for the automotive to be down between 25% to 15% in terms of car production, which means a range between 67 million unit light vehicles and 77 million units light vehicles. So, we do believe again that Q2 is going to be the most difficult quarter and from Q3 and Q4 to see a recovery in the automotive. Thank you.
+Matt Ramsay
+Thank you very much for that commentary there. I really appreciate it. Just as my follow-up question. No surprise that the heightened underutilization charges in the second quarter. Lorenzo maybe if you could talk a little bit about how -- if you guys execute to the plan in the second half guidance how do you feel like those underutilization charges will come off the P&L and what that trajectory looks like into next year? I appreciate the color. Thank you.
+Lorenzo Grandi
+Good morning to everybody. If I well understand your question is about the evolution of our unloading charges for Q2. Yes, as you have, let's say, listened from the remark of Jean-Marc, our guidance for Q2 is impacted by a significantly level of unloading charges. We have unloading charges that are in the range of -- impacting our gross margin in the range of 400 basis point.
+
+When we look to the second quarter, second quarter we guide the 34.6. Our gross margin is impacted by this 400 basis point of unloading charges. These unloading charge we estimate are around 130 basis point due to the reduced demand, but there is still a significant impact coming from the unavailability of the workforce not only in our front end plants but also in back end. This is estimated to impact our gross margin for around 270 basis point.
+On top of that, we are modeling a negative impact coming from price and the negative impact also coming from mix. So at the end, we have this decline in term of gross margins.
+Celine Berthier
+Did it answer your question Matt?
+Lorenzo Grandi
+Did I answer your question?
+Matt Ramsay
+Yes partly. I appreciate the details there. In addition like – I guess the next part of the question Lorenzo was, if you execute the plan and you guys have laid out a guidance range for the second half of the year, any kind of understanding as to the trajectory of the underutilization charges coming off of the P&L would be really helpful. Thank you.
+Lorenzo Grandi
+Yes. Also in the second part of the year will be impacted by unloading charges. Second part of the year, we do expect to not have any longer unloading charge related to – not to have any longer unloading charge related to workforce because we do expect to come back in more a normal situation.
+Currently based on our plan, we estimate to have in the year something in the range of between 180, 190 basis point on our gross margin for the year, impacted by the unloading charges. So it means that that will remain also in the second part of the year while in – and this is at the high end of our – let's say plan so it means at €9.5 billion. Based off the €8 million that is unloading charges will impact in the year for more than 300 basis point our gross margin.
+So anticipating maybe the other question, what you let's say model your gross margin for the year? At this moment our visibility for the gross margin including this impact of unloading charges in the year is to be at the high end of the plan at €9.5 billion in the range of 37% and the low end in the range of 35% in term of gross margin.
+Matt Ramsay
+Thank you very much. All the best.
+Celine Berthier
+Thank you, Matt. Next
+Operator
+The next question comes from Aleksander Peterc from Societe General. Please go ahead.
+Aleksander Peterc
+Yes, good morning and thank you for taking my question. Can I just ask? On silicon carbide do you stick to your current guidance? And secondly on the logistics issues that you experienced towards the end of the quarter, how do these issues look right now? Are they the same worse or are they being sorted out?
+And then just finally on OpEx, how should we think of modeling OpEx going into the remainder of the year? I know you do have the puts and takes here. But if you could just give us a figure of the average OpEx for the remaining quarters. Thank you so much.
+Lorenzo Grandi
+Maybe Jean-Marc I will take the logistic and the OpEx. And then starting from the logistic the logistic is our Q1 result significantly, especially toward at the end of the quarter, toward the end of the quarter when many countries start with the lockdown and the closing of the borders, we experienced many flights grounded, difficult terrestrial transportations with border closed.
+We estimate that in the quarter and in especially the very last days of the quarter this was impacting our result for around $20 million, $25 million due to the fact that it was difficult to manage the logistic.
+As well as in the last week of the quarter we had also the closure of two important site was mentioned in the remark of Jean-Marc that were in Malaysia, Muar; and Calamba in the Philippines. Overall, this was impacting logistic plus lost manufacturing in the very day – in the very last days in the range of $40 million.
+
+What will happen in Q2 moving forward? For sure for logistic situation is getting better also because we are starting to find let's say alternative routes, alternative ways to serve our customers, so it's getting a little bit better.
+We will for sure still be a little bit impacted. And overall, we do estimate that we will have still something ranging between $80 million, $100 million between loss of manufacturing and let's say some problem in logistic impacting our quarter, Q2.
+In term of expenses. In term of expenses, when we met last time at Q4 earnings release, I was giving you an indication that expenses for the year is on average in the quarter would have been in the range of $640 million $650 million more or less as an average per quarter. For sure, as anticipated during the presentation of Jean-Marc we have revised down a little bit these numbers as of course we will take some action in order to be more disciplined let's say to refrain on discretionary to be more selective on some of our programs. So today, what we are modeling for the year is more something in the range of $635 million $645 million as a level of expenses per quarter in average.
+Jean-Marc Chery
+So about silicon carbide okay, can you repeat your question please?
+Aleksander Peterc
+So, I just wanted to finally see, if your outlook for silicon carbide sales in the current year are modified in any way by the current recession?
+Jean-Marc Chery
+Okay. Well so if you remember well okay when we answered this question. Entering in the year, our plan was supposed okay to reach revenue of about $300 million linked to silicon carbide diodes and MOSFET. But clearly with the current plan okay, I have shared with you a few minutes ago this year okay silicon carbide revenue will be below the $300 million but will be well above the $200 million we have executed last year.
+Aleksander Peterc
+Excellent. Thank you, very much.
+Celine Berthier
+Thank you. Next please?
+Operator
+The next question comes from David Mulholland from UBS. Please go ahead.
+David Mulholland
+Just a couple of questions. Firstly, obviously things were changing pretty rapidly through the end of the quarter. But I just wonder if you could give us some color on how you've seen bookings trend? Have you seen much in the way of cancellations from customers? How's that been trending over the last couple of weeks as I guess things have settled down? And particularly in automotive, I think you made a few comments that things have stabilized and started to improve but I assume that's just the China comment at this stage. Or have you seen any stabilization in Europe as well? And I'll maybe come back with a follow-up afterwards.
+Jean-Marc Chery
+So here okay Marco I guess okay you take the question?
+Marco Cassis
+Yes. So your question is about bookings. So, during Q1, our book-to-bill have been above parity. So the trend in that -- from that point of view is overall positive. We have seen in automotive some alignment of the backlog with the existing situation as you have highlighted mainly in Europe. And the backlog in this moment seems to be stabilizing and we are looking forward the recovery to come during the Q3.
+David Mulholland
+That's great. And then just in terms of -- there's been a couple of comments on pricing. I think one, where you said it had been a bit of a help to margins in Q1 but then some headwinds to margins in Q2. So just -- there's obviously a lot going on between supply challenges you're facing, but also demand disruption. Now is that having much an effect on a more generalized basis on pricing in the market? Or are people generally remaining quite disciplined?
+Lorenzo Grandi
+Maybe I take the question as I was introducing this point. First of all, let's put in this way. In the first quarter, in respect to what we were modeling in our gross margin pricing came a little bit lighter than what was expected. But this was not driven by any opportunistic let's say situation driven by lack of supply chain. At the end, there is -- this was mainly driven by the fact that in respect to the pressure on pricing that we were expecting, we actually -- we managed to be a little bit less impacted.
+
+In respect to our second quarter and then maybe Marco will for sure complement. What we are expecting is the normal price pressure. For the time being, we don't see any significant impact both in the let's say price decline or let's say maybe price increase due to the fact that we are fo

@@ -1,0 +1,190 @@
+Baidu, Inc. (NASDAQ:BIDU) Q1 2020 Earnings Conference Call May 18, 2020  9:15 PM ET
+ 
+Company Participants
+ 
+Juan Lin - Director, Investor Relations
+Robin Li - Co-Founder, Chairman & CEO
+Herman Yu - CFO
+Dou Shen - EVP
+ 
+Conference Call Participants
+ 
+Alicia Yap - Citigroup
+Piyush Mubayi - Goldman Sachs Group
+Eddie Leung - Bank of America Merrill Lynch
+Gregory Zhao - Barclays Bank 
+James Lee - Mizuho Securities
+Tian Hou - T.H. Capital
+Natalie Wu – CICC
+ 
+Presentation
+ 
+Operator
+ 
+Hello, and thank you for standing by for Baidu's First Quarter 2020 Earnings Conference Call. [Operator Instructions].
+ 
+I would now like to turn the meeting over to your host for today's conference, Juan Lin, Baidu's Director of Investor Relations. Over to you.
+ 
+Juan Lin
+ 
+Hello, everyone, and welcome to Baidu's First Quarter 2020 Earnings Conference Call. Baidu's earnings release was distributed earlier today. You can find a copy on our website as well as on newswire services. On the call today, we have Robin Li, our Chief Executive Officer; Herman Yu, our Chief Financial Officer; and Dou Shen, our Executive Vice President and in charge of Baidu's mobile ecosystem group, our search and feed business. After our prepared remarks, we will hold a Q&A session. 
+ 
+Please note that the discussion today will contain forward-looking statements made under the safe harbor provision of the U.S. Private Securities Litigation Reform Act of 1995. Forward-looking statements are subject to risks and uncertainties that may cause actual results to differ materially from our current expectations. Potential risks and uncertainties include, but are not limited to, those outlined in our public filings with the SEC, including our annual report on Form 20-F. Baidu does not undertake any obligation to update any forward-looking statements, except as required under applicable law. 
+ 
+Our earnings press release and this call include discussions of certain unaudited non-GAAP financial measures. We have made minor adjustments to our non-GAAP measures and retroactively applied these changes for comparison purposes. Our press release contains a reconciliation of the unaudited non-GAAP measures to the unaudited most directly comparable GAAP measures and is available on our IR website at ir.baidu.com. 
+ 
+As a reminder, this conference is being recorded. In addition, a webcast of this conference call will also be available on Baidu's IR website. 
+ 
+I will now turn the call over to our CEO, Robin.
+ 
+Yanhong Li
+ 
+The outbreak of COVID-19 resulted in China's economy shrinking 6.8% in the first quarter, compared to a growth of 6.0% in the previous quarter. This was China's first economic contraction since quarterly GDP reporting began 28 years ago. Shelter-in-place was put in place, malls and movie theaters were shut down, and much of the offline activities came to a halt in the first quarter.
+ 
+The good news is that the pandemic outbreak seems to be under control, and people are gradually allowed to travel freely around the country as we witnessed during the May 1 Labor Day Golden Week. Restaurants and shops are re-opening across the country, the Chinese economy is rebounding, and Baidu's marketing services is growing each week after hitting a trough in February. 
+ 
+Baidu's total revenues in the first quarter reached RMB 22.5 billion, declining 7% year-over-year. iQIYI weathered the macro headwinds by growing 9% year-over-year. iQIYI's revenue diversification, from advertising to membership to online games, made it a beneficiary of the stay-at-home environment. 
+ 
+Baidu Core revenue declined 13% year-over-year in the first quarter, which is stronger than many advertising verticals. Our wide-spanning sales channel allowed Baidu's marketing services to diversify and benefit from the pockets of growth in the first quarter, such as online businesses and key account customers. Our new AI businesses also fared well during the first quarter. Cloud, DuerOS and Apollo all saw healthy business growth in Q1. 
+
+ 
+During the first quarter, we quickly retooled Baidu's AI capabilities to help users, municipalities and organizations better cope with the pandemic crisis, as part of Baidu's social responsibility.
+ 
+For example, through Baidu Health, one of the largest and most comprehensive health and wellness platform in China, we provided tens of millions of free online doctor consultation and powered many third-party medical apps with Baidu's online health care services, such as online pneumonia screening, to free up hospitals for critical emergencies. 
+ 
+More than 100 Apollo-powered autonomous vehicles have been deployed across 17 cities in China, including Wuhan, Beijing, Shanghai, Shenzhen and Xiamen, to provide medication, face masks and food deliveries and unmanned fever-screening and sterilization services.
+ 
+COVID-19 was a black swan event, and we turned the crisis into opportunities for Baidu. Let me share with you a few observations that, we believe, will support Baidu's near-term recovery and fuel the long-term growth of our search and feed business. 
+ 
+First, according to QuestMobile, Baidu App was one of the fastest growing in DAUs among the Top 10 apps in China in February. This trend continued into March, even as the pandemic outbreak leveled off from the peak. As a leader in information and knowledge-centric Internet, Baidu is well positioned to allow users to easily fact-check information, which is a long-term demand on the backdrop of rampant misinformation on the Internet. Our expanding mobile-ecosystem further solidifies Baidu's capability, affording users native app-like experience of third-party content and services, without leaving Baidu App. BJH accounts plus Smart Mini Program and Managed Page together provide Baidu's in-app search an unmatched experience. 
+ 
+Second, user behavior in China is shifting from browser search to in-app search, with the latter now accounting for the majority of Baidu's mobile search traffic. Baidu App has an advantage in in-app search because most users visit with an intent to search. Such user intent is difficult to build especially in apps that are developed for non-search purposes. In-app search creates a positive, re-inforcing cycle among users, customers and partners. In the age of AI, Baidu can deliver better user experience when users log in, better conversions when our marketing customers log in and better content distribution when content providers log in. 
+ 
+Our twin-engine search plus feed allows users to consume feeds when they are visiting without an intent in mind, increasing overall user stickiness. In-app search also monetizes better than browser search. The shift in user behavior from browser search to AI-powered in-app search is a positive to Baidu's long-term growth. 
+ 
+Third, with the Chinese economy recovering, SMEs are starting to rebound at an encouraging pace, especially with the support of government policies towards SMEs. Our survey of marketing services customers and distributors show that heavy-hit verticals such as health-care, franchising and auto/logistics may recover faster in the months ahead. 
+ 
+Baidu's new AI businesses have weathered COVID-19 headwinds well, and the future looks even more promising. IDC's data indicates that smart speakers are becoming one of the major Internet gateways in China. In 2019, smart speaker shipments doubled from the prior year, while smartphone shipments dropped 8%, resulting in smart speaker shipments surpassing 10% of smartphone shipments in China. One interesting trend to note is that: mobile users are adding smart devices in their homes, so that they have a hands-free, voice-enabled, connected device nearby, while keeping their phones free for texting and other mobile-centric activities. 
+
+ 
+The Chinese government recently touted new infrastructure investments amounting to trillions of U.S. dollars to speed up economic recovery and boost sustainable growth. Baidu's smart transportation and cloud service stand to benefit from these government projects. 
+ 
+Let's begin our operational review with MEG, our mobile ecosystem group. In March, with the nation shifting from shelter in place to back-to-office, Baidu App DAUs experienced strong growth, reaching 222 million, up 28% year-over-year. In-app search queries grew 45% year-over-year, and feed time spent was up 51% , from a year ago. These impressive stats show that Baidu is widely recognized as the place to find more comprehensive, timely and reliable information. Our efforts to strengthen Baidu's mobile ecosystem through our mobile building blocks is making a huge difference. Third-party content and services through BJH accounts, Smart Mini Programs and Managed Pages now make up the majority of our mobile search results. This interplay enables search users to engage with search results by liking or posting comments, which dramatically improves the quality of and livens up search results. 
+ 
+In-app search provides a better user experience, and logged-in users on Baidu App have increased to almost 60% by the end of March. 
+ 
+Baidu's content verticals add in-depth and authoritative content to Baidu's content ecosystem. For example, our health and wellness vertical includes a health care Wiki, BJH accounts of doctors and other well respected professionals in the medical field, health care smart mini programs to provide online doctor consultation, and Managed Pages from a large network of health-care providers. 
+ 
+In the first quarter, Baidu Health held more than 100 live broadcasting events on COVID-19 and other health-care-related topics, hosted by industry experts. Baidu Health allows users to register for doctor appointments, buy health insurance, research information on hospitals and certified doctors, and connect users to hundreds of thousands of doctors for online consultation. 
+ 
+Baidu's building blocks are dynamic, because content by topical interest are scattered in news-feed, in apps and on mobile websites on the Internet. Through Baidu's building block, we can pull all of the content by topical interest together, deliver the content to users through search and feed, and allow users to transact without leaving Baidu's platform. Just as how we have developed the Baidu Health, we are using the same dynamic building-block architecture to develop B2B and beauty verticals, just to name a few.
+ 
+Baidu's knowledge products complement third-party content provided through Baidu's building blocks, providing users an oasis from the rampant misinformation on the Internet. For example, users have come to know Baidu Wiki as the authoritative source for fact checking in China. Baidu Knows is another important knowledge product, which we have upgraded with innovative Q&A features and more video content, resulting in daily questions posed increasing 150% over the past year. Baidu's comprehensive set of knowledge products, including Baby Knows and Baidu Experience, make it easier for users to fact check and seek critical and reliable information. 
+ 
+Baidu's mobile ecosystem is making great progress with video. In March, total daily video views within Baidu's knowledge products grew 100% year-over-year, and short videos viewed within Baidu's family of apps was up 68% year-over-year. We have been expanding Baidu's library of short videos and live streaming, particularly around information and knowledge. For example, in the first quarter, we hosted 10 sessions of hour-long live streaming Wandering through Civilization, which is added to our library for VOD playback.
+
+ 
+Let me quickly cover the progress of Baidu's mobile building blocks. 
+ 
+BJH content network now hosts 3 million publisher accounts, up 44% year-over-year. In March, the number of publishers providing original content grew 178% year-over-year, due to the large user scale of the Baidu platform, including Baidu App, Haokan, Quanmin and Baidu Wiki.
+ 
+Baidu Smart Mini Program continues to see strong user growth, with MAUs on Baidu App reaching 354 million, up 96% year-over-year, and total MAUs, including users from Baidu's open network, reached over half a billion in March. The number of Baidu smart mini programs grew over 26 fold year-over-year and is up 35% sequentially, as developers are drawn by the rapid user growth.
+ 
+Continuing the tradition of Baidu serving SMEs, Baidu smart mini program enables long-tail apps with high-quality content to operate an effective business. For example, Yizhikan Comic grew the DAUs on its Baidu smart mini program 4.6 fold sequentially in March, exceeding the traffic on its own app. Leveraging Baidu's user insight and AI technology, Yizhikan more effectively attracted and retained users. For example, repeat users accounted for over 1/4 of its smart mini program DAUs and contributed to over half of its subscription revenue.
+ 
+Turning to Managed Page. More and more advertisers are choosing Baidu Managed Page as the landing page for their ads over their HTML sites, as we expanded Managed Page's industry-specific offerings. The structured-data setup of Managed Page, capturing pre-designed fields customized for each industry, allows Baidu to better monitor the information from third-parties and provides users with more reliable information. 
+ 
+Revenue from Managed Page was above 20% of Baidu Core marketing revenue, slightly down from last quarter, as marketing services customers from sectors like health-care and franchising pulled back in the quarter. Nevertheless, we are excited about the potential of Managed Page. Marketing services customers can leverage the resources of Baidu's hosted marketing platform, such as ad creation tools, Baidu user insight, and CRM features, to improve sales lead generation and conversion. SMEs would not otherwise have the wherewithal to employ AI capabilities if the search traffic were diverted to their own mobile sites.
+ 
+On the monetization front, Baidu's hosted marketing platform has been instrumental in pushing out effective ad tools by having our marketing services customers log in. For example, after releasing a set of video-ad creation tools, video ads grew to 38% of feed revenue in March, up from 29% in December. 
+ 
+Moving to DuerOS. In the first quarter, DuerOS voice assistant's strong momentum continued, with monthly voice queries from first-party devices reaching 3.3 billion in March, up almost 5 fold from last year. Total monthly voice queries reached 6.5 billion, up almost 3 fold from last year.
+ 
+Time spent on Xiaodu devices is also growing rapidly, especially on smart displays, whose average daily time spent per device reached over 3 hours in March, up over 20% quarter-over-quarter. The popularity of DuerOS in China is drawing top apps, like Douyin, Kuaishou, Bilibili and WeSing, to join the DuerOS skills store. DuerOS now offers over 3,800 skills, spanning a wide range of genres, including education, video, online games and live streaming. 
+ 
+DuerOS popularity is also driving strong sales for Xiaodu smart devices. For 2019, IDC ranks Xiaodu 1st in global smart display shipments, which was reinforced by Strategy Analytics and Canalys. We are seeing encouraging early signs of monetization with DuerOS smart devices. Similar to an app store, DuerOS skills store is distributing thousands of skills and has the potential to enjoy app store economics. Baidu's strong mobile content ecosystem also lends DuerOS an advantage in generating membership revenue for licensed content. 
+
+ 
+With home devices becoming ever more popular, DuerOS is an important asset for Baidu, to enable developers of smart mini programs to also distribute their content and services through home devices. Turning to Baidu Cloud and AI Services. We are leveraging Baidu AI to help enterprises build a competitive edge and support their digital transformation. In March, we signed a strategic partnership with a major public utilities company to provide AI enterprise solutions to improve customer service and office productivity. 
+ 
+The public utilities company leveraged Baidu's newly launched AI PaaS, to enable its customers to purchase electricity through facial recognition at the kiosks of their customer service centers, which significantly shortens queue time. The customer also upgraded its internal system with Baidu AI PaaS, to enable its employees to more efficiently draft daily and weekly management reports by recommending report highlights derived from relevant internal documents, using Baidu's leading AI-powered recommendation engine. 
+ 
+And on Apollo, we are seeing an increasing interest in Baidu's smart-transportation solution. In the first quarter, Baidu won projects from municipalities, including Hefei, Yangquan and Chongqing. 
+ 
+Navigant Research, a well-known research firm, recognized Baidu Apollo as 1 of the 4 global leaders in autonomous driving based on strategy, branding, functionality and reliability. Baidu was the exclusive autonomous driving leader from China named the report. Apollo also received top ranking in the 2019 Beijing Autonomous Driving Vehicles Road Test Report, which is well recognized, as the numbers used for the report are monitored by the Beijing Municipal Commission.
+ 
+Turning to iQIYI. In March, iQIYI subscribers reached 118.9 million, up 23% year-over-year. iQIYI's large subscriber base strengthens its foundation, as a leading video platform and producer of long-form videos. iQIYI's leading position in China's video marketplace is a valuable component to Baidu's large content ecosystem, both on mobile and at home. 
+ 
+With that, let me turn the call over to Herman to go through the financial highlights.
+ 
+Herman Yu
+ 
+Thanks, Robin. Hello, everyone. Welcome to Baidu's First Quarter 2020 Call. All monetary amounts used in my discussion are in renminbi, unless stated otherwise. Despite the huge uncertainties and adverse impact caused by the COVID-19 outbreak in the first quarter, Baidu's total revenues reached CNY22.5 billion or USD 3.2 billion, decreasing only 7% year-over-year. 
+ 
+Revenue from Baidu Core was CNY15.3 billion or USD 2.2 billion, decreasing 13% year-over-year. Marketing services from health-care, travel, franchising and financial services, among other sectors, were significantly impacted by the halting of off-line activities during shelter-in-place. We offset some of this weakness by leveraging Baidu's spanning sales channel to capture growth from performing areas, such as e-commerce, online game, online education and software. In general, SMEs held back more during the quarter, while key accounts took advantage of the situation to build their brands.
+ 
+Our new AI businesses saw strong growth across the board, from smart devices to cloud to smart transportation. iQIYI revenue reached CNY7.6 billion, up 9% year-over-year, and their ad business was impacted by the challenging macro, down 27% year-over-year.
+ 
+Non-GAAP cost of revenues was CNY14.2 billion, down 3% year-over-year, primarily due to a decrease in traffic acquisition costs, offset by an increase in content cost. TAC decreased primarily due to a double-digit decrease in TAC revenue. Our strategy on TAC continues to be optimizing profit, rather than growing TAC revenue at a loss. 
+ 
+Non-GAAP SG&A expenses were CNY3.4 billion, down 39% year-over-year, primarily due to less channel spending and promotional marketing and decrease in personnel-related expenses. Non-GAAP R&D expenses were CNY3.5 billion, down 1% year-over-year. 
+
+ 
+Non-GAAP operating income was CNY1.4 billion. Non-GAAP operating income to Baidu Core was CNY3.3 billion or USD 473 million. And non-GAAP operating margin to Baidu Core was 22%. Adjusted EBITDA was CNY2.9 billion, up 61% year-over-year, and adjusted EBITDA for Baidu Core was CNY4.6 billion or USD 656 million, up 38% year-over-year. And adjusted EBITDA margin for Baidu Core was 30%, up 11 points from last year. 
+ 
+With our solid execution in expanding Baidu's mobile ecosystem, we are able to leverage R&D to strengthen Baidu's mobile building blocks and increase user retention. Despite total marketing spending decreasing year-over-year, Baidu App DAUs saw a respectable year-over-year increase of 48 million users in March. The strong operating leverage in the first quarter also reflects our focus on quality revenue growth for our new AI businesses. In smart devices, we try to lead by launching innovative products to increase ASP, while growing sales volume to drive down BOM costs. 
+ 
+In cloud, we focused on developing solutions for enterprise customers and growing gross margin in tandem with revenue growth. Smart transportation is the fastest growing among our new AI businesses, and it is also experiencing improving margin trends. 
+ 
+As of March 31, 2020, cash and short-term investments was CNY146.7 billion. Excluding iQIYI, cash and short-term investments for Baidu Core was CNY136.7 billion or USD 19.3 billion. 
+ 
+Free cash flow was CNY1.7 billion, and free cash flow for Baidu Core was CNY2.3 billion or USD 327 million. 
+ 
+As a side note, in accordance with the new accounting policy ASU 2019-02, we reclassified licensed content purchase from investing activities to operating activities, starting from January 1 this year. Prior to the new accounting standard adoption, we reflected licensed content purchase in cash flow from investing activities, which was consistent with our peers in China. 
+ 
+Baidu Core had approximately 28,800 full-time employees, as of March, down 7% from last year. 
+ 
+During the first quarter, we returned USD 185 million to shareholders, and cumulatively over the last 2 buyback programs, we repurchased approximately USD 1.4 billion. Our Board recently approved a new USD 1 billion buyback program, which will be effective through July 1 next year. In early April, we completed a bond offering of USD 1 billion at a blended annual percentage rate of 3.26%, proceeds from which will be used to pay off maturing bonds and for general purposes.
+ 
+Turning to second quarter guidance. We expect total revenues to be between CNY25 billion and CNY27.3 billion, representing a growth rate of negative 5% to 4% year-over-year. Our guidance assumes Baidu Core will grow between negative 8% to 2% year-over-year. These forecasts are our current and preliminary view, which is subject to substantial uncertainty. 
+ 
+Before I turn the call back to the operator, let me summarize our first quarter achievements. 
+ 
+Our strategy to strengthen Baidu's mobile ecosystem is working, with third-party content and services, from news-feed platforms, apps and mobile sites, migrating onto Baidu's platform to give users native-app like experience, without having to download third-party apps or be redirected to mobile sites. 
+ 
+Baidu's mobile building blocks are enabling our users, customers and content partners to log in, which is creating a positive virtuous cycle, resulting in strong user growth, more in-app searches and longer feed time spend. 
+ 
+Many investors ask us how to see the terminal value of Baidu Core business. Despite a challenging situation with COVID-19 outbreak in the first quarter, revenue from Baidu App, which makes up the majority of Baidu Core's mobile revenue, was up year-over-year during the quarter. Baidu App's contribution margin is also increasing, due to the strengthening of Baidu's mobile ecosystem.
+
+ 
+And Baidu's new AI businesses saw strong performance in the first quarter, while operating losses are decreasing, reflecting our prudent strategy to focus on quality revenue growth. 
+ 
+To appreciate Baidu's business, it is important to recognize the tremendous franchise value that we are creating with Baidu's mobile ecosystem and Baidu App, as well as our new AI businesses, where we are focusing on revenue growth with improving margins. 
+ 
+Operator, with that, let's open the call to questions.
+ 
+Question-and-Answer Session
+ 
+Operator
+ 
+[Operator Instructions]. Our first question comes from the line of Alicia Yap from Citigroup.
+ 
+Q - Alicia Yap
+ 
+Could management share with us your view and the strategies on how you plan to further capitalize the continued strength of your Baidu mobile app traffic to drive broader and more diversified monetization efforts in the coming future? And also on investment priority, what are the budget spend you're committed in the AI, DuerOS, Apollo versus the core search technology this year?
+ 
+A - Robin Li
+ 
+Okay. Dou will answer the first one and then Herman.
+ 
+A - Dou Shen
+ 
+Okay. Thank you for question. In terms of the monetization for Baidu App, actually, we are seeing a pretty good trend. So in the last few quarters, last year, we see CPM improved sequentially and consistently from Q2 to Q4 last year. So the trend is temporarily disrupted by the black swan event, COVID-19, in the first quarter of this year, but we already see the trend is coming back. So the CPM is continuing to improve. 
+ 
+So how we make this happen in Baidu App, it's because Baidu App itself is growing quickly, as Robin mentioned in the prepared remarks. We can see the DAUs, we can see the search volumes and feed time spent, they're all growing significantly. And with that, so we had better chance to provide better experience to the users, not only through search but also through feed, our twin-engine strategy. So all the experience are counting on our building blocks like Baijiahao, Smart Mini Programs and Managed Page. So with these building blocks, actually, we can provide not only content but service to the users. And with that, we can get more knowledge about the user, so that's why we can continuously improve the CPM. 
+ 
+So on top of that, right, so as Robin also mentioned the health-care platform, so which another example where we can serve the user better so that we can get more information and the user intent from users. So with that, we can better improve the monetization capabilities. I will just stop here and then let Herman to answer the second part.
+ 
+A - Herman Yu
+ 
+Yes. Alicia, yes, Dou talked about how our Baidu App can provide a better ex

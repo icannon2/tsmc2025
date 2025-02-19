@@ -1,0 +1,175 @@
+Taiwan Semiconductor Manufacturing Company Limited (NYSE:TSM) Q2 2020 Results Earnings Conference Call July 16, 2020  2:00 AM ET
+Company Participants
+Jeff Su - Director, Investor Relations
+Dr. Mark Liu - Chairman
+Dr. C. C. Wei - CEO
+Wendell Huang - VP, Finance and CFO
+Conference Call Participants
+Gokul Hariharan - JPMorgan
+Sebastian Hou - CLSA
+Bill Lu - UBS
+Brett Simpson - Arete Research
+Mehdi Hosseini - SIG
+Randy Abrams - Crédit Suisse
+Roland Shu - Citigroup
+Charlie Chan - Morgan Stanley
+Bruce Lu - Goldman Sachs
+Aaron Jeng - Nomura Securities
+Laura Chen - KGI
+Jeff Su
+Ladies and gentlemen, welcome to TSMC's Second Quarter 2020 Earnings Conference Call. This is Jeff Su, TSMC's Director of Investor Relations and your host for today.
+To prevent the spread of COVID-19, TSMC is hosting our earnings conference call via live audio webcast through the Company's website at www.tsmc.com, where you can also download the earnings release materials. If you are joining us through the conference call, your dial-in lines are listen-only mode.
+The format for today's event will be as follows. First, TSMC's Vice President and CFO, Mr. Wendell Huang, will summarize our operations in the second quarter 2020, followed by our guidance for the third quarter 2020. Afterwards, Mr. Huang, and TSMC's CEO, Dr. C. C. Wei, will jointly provide the Company's key messages. Then TSMC's Chairman, Dr. Mark Liu will host a Q&A session, where all three executives will entertain your questions.
+As usual, I would like to remind everybody that today's discussions may contain forward-looking statements that are subject to significant risks and uncertainties which could cause actual results to differ materially from those contained in the forward-looking statements. Please refer to the Safe Harbor notice that appears in our press release.
+And now, I would like to turn the call over to TSMC's CFO, Mr. Wendell Huang for the summary of operations and current quarter guidance.
+Wendell Huang
+Thank you, Jeff. Good afternoon, everyone. Second quarter revenue was flat sequentially, as the continued 5G infrastructure deployment and HPC related product launches offset weaknesses in other platforms. Gross margin increased 1.2 percentage points sequentially to 53%, mainly due to continuing high level of utilization and the absence of unfavorable inventory valuation adjustment, partially offset by NT$ appreciation in the second quarter.
+Total operating expenses increased by NT$1.19 billion, mainly as TSMC supported a range of COVID-19 relief efforts. Operating margin increased by 0.8 percentage points sequentially to 42.2%. Overall, our second quarter EPS was NT$4.66 and ROE was 28.5%.
+Now let's move on to the revenue by technology. 7 nano process technology contributed 36% of wafer revenue in the second quarter, while 16 nanometer contributed 18%. Advanced technologies, which are defined as 16 nanometer and below, accounted for 54% of wafer revenue.
+Moving onto revenue contribution by platform, smartphones decreased 4% quarter-over-quarter to account for 47% of our second quarter revenue. HPC increased 12% to account for 33%. IoT decreased 5% to account for 8%. Automotive decreased 13% to account for 4%. Digital consumer electronics decreased 9% to account for 5%.
+Moving on to the balance sheet, we ended the second quarter with cash and marketable securities of NT$605 billion. On the liabilities side, current liabilities increased by NT$25 billion, mainly due to the increase of NT$30 billion in short-term loans. On financial ratios accounts receivables turnover days increased 2 days to 44 days. Days of inventory also increased 2 days to 55 days mainly due to N5 ramp and stronger N7 demand.
+Now let me make a few comments on cash flow and CapEx. During the second quarter, we generated above NT$170 billion in cash from operations, spent NT$127 billion in CapEx and distributed NT$65 billion for third quarter cash dividend. We also increased NT$30 billion in short-term loans and issued NT$36 billion of corporate bonds. Overall, our cash balance increased NT$37 billion to NT$468 billion at the end of the quarter. In U.S. dollar terms, our second quarter capital expenditures amounted to US$4.2 billion.
+
+I finished my financial summary. Now, let's turn to our third quarter guidance. Based on the current business outlook, we expect our third quarter revenue to be between US$11.2 billion and US$11.5 billion, which represents a 9.3% sequential increase at the midpoint. Based on the exchange rate assumption of US$1 to NT$29.5 gross margin is expected to be between 50% and 52%, operating margin between 39% and 41%.
+Now, I will hand over the call to CC for his key messages.
+Dr. C. C. Wei
+Thank you, Wendell. Good afternoon ladies and gentlemen. Let me start with our near-term demand outlook. We concluded our second quarter with revenue of NT$310.7 billion or US$10.4 billion in line with our guidance given three months ago.
+Our second quarter business increased slightly in U.S. dollar terms as continued 5G infrastructure deployment and HPC related portal launches offset weakness in other platforms. Moving into third quarter 2020, we expect our business to be supported by strong demand for our industry-leading 5 nanometer and 7 nanometer technologies, driven by 5G smartphone, HPC and IoT related applications.
+Looking at the second half of this year, COVID-19 continues to bring some level of disruption to the global economies and uncertainty remained. We have observed weak consumer demand in the first half of this year and now expect global smartphone units to declined low teens percentage year-over-year in 2020. However, amid the COVID-19 pandemic, we also observed the supply chain making efforts to ensure supply chain security and actively preparing for new 5G smartphone launches.
+We raised our forecast for 5G smartphone penetration rate to high teens percentage of the total smartphone market in 2020. For the full year of 2020, 5G and HPC related applications will continue to drive semiconductor content enrichment. We now forecast overall semiconductor market, excluding memory growth, to be flat to slightly increased, while foundry industry growth is expected to increase to be mid-to-high-teens percentage.
+For TSMC also COVID-19 related uncertainties remain. Our technology leadership position enables us to outperform the foundry revenue growth. We believe we can grow above 20% in 2020 in US dollar terms, including the impact from the new U.S. regulations, which I will discuss in the next sheet [ph]. Our 2020 business will be supported by strong demand for our industry-leading 5 nanometer and 7 nanometer technologies and our specialty technology solutions, driven by customers of 5G smartphone related product launches and expanding HPC related opportunities.
+Now let me talk about the impact of new U.S. regulations. On May 15, the U.S. Department of Commerce announced a set of new export control regulations. As a global and law-abiding company, TSMC will follow all the rules and regulations fully, no doubt about it. While there may be some impact from the new U.S. regulations, TSMC's propose to unleash innovation remained unchanged. Our leading position in the semiconductor industry [indiscernible] on our technology leadership, manufacturing excellence, and customers' trust also remained unchanged.
+We will continue to build upon our opportunities of strength and conduct our business with integrity to ensure our value and contribute to the semiconductor industry. In the near-term we will work dynamically with our customers to minimize the impact to our business from new U.S. regulations.
+In the mid-to-long-term, we believe the underlying megatrend of 5G related and HPC applications remained intact, and supply chain can adjust and rebalance themselves. With our technology leadership, we are well positioned to capture all the mid-to-long-term growth opportunities. We reaffirm our goal to grow at the high end of our long-term growth projection of 5% to 10% CAGR in U.S. dollar terms.
+
+Next, let me talk about our N5 ramp up and N4 introduction. N5 is the foundry industry's most advanced solution with best PPA. N5 is already in volume production with good yield, while we continue to improve the productivity and performance of the EUV tools. We are seeing robust demand for N5 and expect a strong ramp of N5 in the second half of this year, driven by both 5G smartphones and HPC applications. As we observed some delays earlier this year in N5 toward deliveries due to COVID-19, we now expect 5 nanometer to contribute about 8% of our wafer revenue in 2020.
+We also introduced N4 as an exchanging of our 5 nanometer family. N4 [indiscernible] have comparable design rules [ph] and a highly competitive performance tool cost advantages as compared to N5, and we are targeting next wave of N5 products. Volume production is targeted for 2022. Thus we are confident that our 5 nanometer family will be another large and long-lasting node for TSMC.
+Now I will talk about our N3 status. N3 will be another full node stride from our N5 with about 70% larger density gain, 10% to 15% speed gain, and 25% to 30% power improvement as compared with 5 nanometer. Our industry technology will use FinFET transistor structure to deliver the best technology maturity, performance and cost. Our industry technology development is on track with good progress. N3 which production is scheduled in 2021 and volume production is targeted in second half of 2022.
+We have already demonstrated to handle 56 mega [indiscernible] from [indiscernible]. N3 documented test is fully functional we see ahead of plan. The device performance is also on track. Our 3 nanometer technology will be the most advanced foundry technology in most PPA and transistor technology when it is introduced which will also extend our leadership position well into the future.
+Finally, let me talk about our U.S. fab plan. On May 15, we announced our intention to build an advanced semiconductor fab in the U.S. We have received a commitment to support this project from both, the U.S. Federal Government and the State of Arizona. We are working closely with them as well as our supply chain partners to build an effective supply chain and make up the cost scale. This fab will start with 5 nanometer technology with 20,000 wafers per month capacity. Production is targeted to begin in 2024. The U.S. trade war [ph] enabled TSMC to expand our technology ecosystem and better service our customers and partners. At the same time, as TSMC global presence increases, it will allow us to better reach global talent to sustain our technology leadership.
+Now let me turn the microphone over to our CFO.
+Wendell Huang
+Thank you, CC. Let me start by making some comments on our second half profitability outlook. We have just guided third quarter 2020 gross margin to decline by 2 percentage points sequentially to 51% at the midpoint, primarily due to the margin dilution from the initial ramp up of our 5 nanometer technology in the third quarter and a less favorable foreign exchange rate.
+As compared with our expectations three months ago, our third quarter gross margin midpoint is higher, mainly supported by a high level of overall capacity utilization despite the uncertainty from COVID-19. Looking ahead to the fourth quarter, we expect a continued steep ramp up of our 5 nanometer to dilute our fourth quarter gross margin by about 2 to 3 percentage points.
+Now let me talk about our capital budget for this year. Every year our CapEx is spent in anticipation of the growth that will follow in the next few years. While the impact of COVID-19 virus brings uncertainties in 2020, we have seen our business holding up well so far. Thanks to our technology leadership of 5 and 7 nanometer nodes. Looking ahead, the multi-year megatrends of 5G related and HPC applications are expected to continue to drive strong demand for our advanced technologies in the next several years.
+
+In order to meet this demand and support our customers' capacity needs, we have decided to raise our full year 2020 CapEx to be between US$16 to US$17 billion. We also reiterate that TSMC is committed to sustainable cash dividends on both an annual and quarterly basis.
+That concludes my key messages.
+Jeff Su
+Thank you, Wendell. This concludes our prepared statements. Before we begin the Q&A session, I would like to remind everybody to please limit your questions to two at a time to allow all participants an opportunity to ask questions. Should you wish to raise your question in Chinese, I will translate it to English before our management answers your question. [Instructions] Now let's begin the Q&A session. Operator, please proceed with the first caller on the line.
+Question-and-Answer Session
+Operator
+Yes, thank you. The first to ask questions, Gokul Hariharan, J.P. Morgan. Go ahead please.
+Gokul Hariharan
+Yes, hi. Good afternoon and thanks for taking my questions and great results in a tough time. Just a quick question on how we think about N3 development? Do we feel that N3, since we talk about mass production in the second half of 2022, usually then you don’t start sometime in Q2, I just wanted to understand, are we thinking about a slightly slower ramp for N3, compared to what we have had in the first year for N5 as well as N7? That is my first question.
+My second question is, when you think about leading edge once the U.S. regulation starts to come in, how do we think about managing capacity? Do we feel that the capacity can get filled up relatively quickly when one of our leading customers, you have just talked [ph] to them, or do we feel that there could be a couple of, there could be some time where there could be a little bit of under utilization?
+Jeff Su
+Okay, thank you Gokul. Let me try to, allow me to summarize your question. Your first question is related to N3, how do we think about the N3 development? We have said the mass production timing is in second half 2022 versus typically the second quarter, so should we expect a slightly lower ramp of N3? This is your first question.
+Dr. C. C. Wei
+Okay, let me answer that Gokul. In fact we develop our new leading edge technology. We work closely with our customer. So, the schedule and also the ramp up, also the progress we are all working with customer closely and determine when and to be the best of timing. So far, N3 development is very smooth and successful, and we still target the rich production in next year and ramp up in the second half. There is all the schedules, it is working with our customers.
+Jeff Su
+Okay, and then Gokul, your second question is on the leading edge, and in light of the recent U.S. regulations how will we manage our capacity at the leading edge? Will we see a gap in the utilization, or will we be able to fill it up?
+Dr. C. C. Wei
+We should be no problem because as we just stated that the 5G is a megatrend and also HPC related applications continue to be very strong. And we observed that all our customers are very actively prepared for these two applications 5G and HPC. In addition to that, we also observed that all our customers are trying to secure their supply chain security, and which is very important, with this COVID-19 uncertainty.
+Gokul Hariharan
+Do we feel that even for N5 that is applicable or…
+Dr. C. C. Wei
+Yes, even with N5, yes.
+Dr. Mark Liu
+Let me answer that. I think for the short-term some impact is inevitable. Currently, we work closely with our customer very dynamically trying to fill up the capacity. And for the long-term, as CC mentioned, we are very, we are still optimistic.
+Jeff Su
+Okay, thank you Gokul. Can we have the next caller, please?
+Operator
+Next question is from Sebastian Hou, CLSA. Go ahead please.
+
+Sebastian Hou
+Hi, good afternoon gentlemen. Thank you for taking my questions. So my first one is, I wanted to get some, get your brain about how do you evaluate the feasibility and probability of building up advanced new fab without American content, be it technology equivalent IP material et cetera in the next five years or 10 years or even longer? Does it work or even if it take a long time instrumented efforts would SMC ever consider that? Thank you.
+Dr. C. C. Wei
+Well, let me answer that question. We know that the U.S. fab as compared with the fab in Taiwan, the cost structure is actually little bit higher and that's why we say that we are working with Federal Government and also the State of Arizona, due to close okay?
+Jeff Su
+Yes, sorry. Just to repeat the question. I think Sebastian's question is asking about building up an advance node fab or production line without using any so called American content, whether in terms of equipment, technology, or IP materials. He wants to know in the next five to 10 years, is it feasible? Is it worth it? And is this something that TSMC would consider?
+Dr. Mark Liu
+Let me pick up this one here. The semiconductor technology is very unique in this industry. The technology continued to improve, every two years, you'll be a new generation of technology come out to serve the best performance product. And therefore, we I think our main force is still pursuing the technology leadership, trying to overcome each generation's challenge.
+And to do that, I think our current focus still working with our equipment partners, dealing with utilize the best of the kind equipments, that we can have, to pursue our business growth. So, you're right, if we do that otherwise, technology advancement will be extremely challenging. It will be extremely difficult, not to talk about 5 to 10 years alone. So that is not our current effort at this point.
+Jeff Su
+Okay, Sebastian. Do you have a second question?
+Sebastian Hou
+Yes, yes, thank you for that very clear one. Second question is I'd like to follow about the payment situation. The first, can you update us on how you see the fabless data inventory at the end of Q2 and how you see that in the second half of this year?
+And also on the inventory side, it looks like it is getting increasingly difficult to get the inventory from a comprehensive perspective, fabless DOI [ph] may not be enough because apparently there's a lot of the Chinese companies stockpile the inventory in fear of being sanctioned and also across the board globally, the whole supply chain has been raising the stakes or level of inventory in the past few months a fear of supply the disruption caused by COVID-19.
+So, but those are not reflected in fables DOI [ph]. So, how do we see about this inventory and potentially hidden excessive inventory situation going forward? Did you consider about that to be a potential [indiscernible] and at some point the destocking could come. Thank you.
+Jeff Su
+Okay, let me summarize your second question Sebastian, both of it relates to the inventory situation. The first part is, what is in for TSMC tracking our fabless customers? What is the fabless DOI exiting to queue and the outlook into second half? That's the first part of your question.
+And then the second part of your question is, are we concerned that the inventory situation may see some hidden or discrepancies due to whether it's COVID related supply chain disruption, or the U.S. regulation and such, will this lead to a hidden inventory risk, and is there a risk of inventory correction?
+Dr. Mark Liu
+Let me answer that. The inventory level of our fabless customers that we track exited first quarter above the seasonal level. We expect a further increase in second quarter, and then stay at the high level in the second half as the supply chain is making efforts to ensure supply chain security and our customers are in high anticipation and preparing for new 5G smartphone product launches in the second half of this year.
+
+We cannot rule out the possibility of an inventory correction sometime down the road. We observe the supply chain active, making efforts to ensure the securities, and active preparation for 5G smartphone launches. We will just have to wait and see how the sell-through goes.
+Jeff Su
+Okay, thank you Sebastian. Can we move on to the next caller please? Operator, please move on to the next caller.
+Operator
+Thank you. The next caller is Bill Lu from UBS. Go ahead, please.
+Bill Lu
+Yes, hi. Thank you. Thanks for taking my question. I'm wondering if you can comment on the CapEx guidance for this year, it's now raised to 16 billion to 17 billion. I'm wondering what that increase is, whether it's 5 nanometer or something different?
+Secondly, related to that, can you talk about your CapEx intensity structurally whether this is, this increase is temporary and whether this is pull of in front from [indiscernible] for maintaining the dollar driven intensity or how we should think about that? Thanks.
+Jeff Su
+Okay, let me summarize your two questions Bill. Your first question is in relation to our 2020 CapEx guidance and the range of 16 billion to 17 billion. So, Bill wants to know what is driving this increase? And then secondly, in terms of the capital intensity outlook over the next few years?
+Wendell Huang
+Okay. The CapEx increase from three months ago for this year is basically comes from the advanced technologies, and the capital intensity this year will be slightly lower than 40% and over the long-term, it will gradually go down to above mid-30s.
+Jeff Su
+Okay, thank you, Bill. Let's move on to the next caller, please? Operator?
+Operator
+The next caller is Brett Simpson from Arete Research. Go ahead please.
+Brett Simpson
+Yes, thanks very much. I wanted to ask about your relationship with Huawei and how you see the impact of the U.S. regulation on your business with Huawei in the second half of the year. My understanding is that you will still have a relation - you will still be shipping wafers, probably at elevated levels in Q3. So can you confirm whether or not you'll have any sales with Huawei in Q4? And in a note how do you manage your 5 nanometer utilization, given the importance of Huawei as a customer? Thank you.
+Jeff Su
+Okay. Let me summarize your question, Brett, is regard to the relationship with Huawei, but wants to know what is the impact on our business from Huawei in the second half of this year? Will we continue to ship wafers to this customer in the fourth quarter? If we do not, then how will we manage the impact to our 5 nanometer?
+Wendell Huang
+Okay, let me answer your question. As CC just reported we are complying fully with all the regulation and we did not take any new orders or production starts from this customer since May 15. Although this regulation is just finished their public common period, the BIS has not, did a final ruling change at this point and so it's very early, still early to confirm.
+But under this current status we do not planning to ship wafers after September 14. And yes, there will be a challenge to work dynamically with other customers, thus currently we're working with them. And, but as you heard, we made a - CC Just made our 2020s guidance is above 20%. That tells you we are relatively progressing well in filling up the left - capacity left open.
+Jeff Su
+Okay, Brett. Thank you. Do you have a second question?
+Brett Simpson
+Yes, thanks Jeff. Just a follow-up and I wanted to ask about depreciation for this year. I think previously you've talked about mid-to-high teen growth of this depreciation in 2020. Can you confirm whether that's still the case? And I look at the first half depreciation and it looks like depreciation costs are down year-on-year. So in order to get to the mid-to-high teens growth, that would imply a large increase in depreciation in the third and fourth quarter. So if you can just clarify exactly how we should think about depreciation for the next couple of quarters that would be great? Thank you.
+
+Jeff Su
+Okay, Brett is asking his second question is our depreciation outlook for 2020, do we still maintain, what is our depreciation for 2020 year-on-year, and then does this imply a pickup in depreciation in the second half on a quarterly basis?
+Wendell Huang
+Okay, Brett our current estimate on 2020 depreciation year-on-year growth is still high teens growth. So that gives you an idea of what the second half depreciation will be. It will be higher than the first half.
+Brett Simpson
+Thank you.
+Jeff Su
+Okay, thank you, Brett. Can we have the next question on the line, please?
+Operator
+The next one on the line is Mehdi Hosseini from SIG. Please ask your question.
+Mehdi Hosseini
+Yes, thanks for taking my questions. I wanted to go back to your N4 and N3, and how should we think about the migration and specifically to what extent it is driven by converting rather than installing new equipment? And I have a followup.
+Jeff Su
+Okay, sorry Mehdi. Let me make sure we understood your first question. You're asking about N4 and N3, how to think about the migration and is there a conversion, tool conversion involved between N4 and N3? Is that your question?
+Mehdi Hosseini
+Correct.
+Jeff Su
+Okay.
+Dr. C. C. Wei
+All right, actually the N4 is kind of improvement, continuous improvement from N5, so it has improves the speed, improved geometry just a little bit. N3 is totally new node alright? So that’s N4 used in the same equipment as N5. N3 we expect to have a high percentage of the tool continue to be used from the N5, but N3 is a totally new node.
+Jeff Su
+Okay, thank you. Do you have a second question Mehdi?
+Mehdi Hosseini
+Yes and my second question has to do with your HPC revenue growth in Q2 you were significantly higher compared to Q1 within the - and can you please elaborate which specific sub segment within HPC is doing better, is it driven by communication or computer and how do you see those trends trending into Q3?
+Jeff Su
+So Mehdi, your second question is looking at our HPC sequential growth in the second quarter, Mehdi wants to know what specific sub segments are driving that increase and what is the outlook?
+Wendell Huang
+Well Mehdi, I don't think we - we want to breakdown the details on the different platforms. Sorry about that.
+Jeff Su
+Okay, Mehdi?
+Mehdi Hosseini
+The concern is that maybe perhaps Huawei may have pulled in before you stopped taking orders and I'm trying to understand how that particular customer has computed wafer in the first half versus second half?
+Wendell Huang
+Sorry Mehdi, no we don’t comment on specific customer.
+Jeff Su
+Okay, thank you Mehdi.
+Mehdi Hosseini
+Thank you
+Jeff Su
+Thank you. Can we have the next caller on the line, please operator?
+Operator
+Yes. Next one Randy Abrams from Crédit Suisse. Go ahead please.

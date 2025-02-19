@@ -1,0 +1,149 @@
+Taiwan Semiconductor Manufacturing Co. Ltd. (NYSE:TSM) Q1 2020 Results Conference Call April 16, 2020  2:00 AM ET
+Company Participants
+Jeff Su - Investor Relations
+Dr. Mark Liu - Chairman
+Wendell Huang - VP and CFO
+Dr. C. C. Wei - CEO
+Conference Call Participants
+Randy Abrams - Crédit Suisse
+Gokul Hariharan - JPMorgan
+Roland Shu - Citi
+Bill Lu - UBS
+Bruce Lu - Goldman Sachs
+Sebastian Hou - CLSA
+Charlie Chan - Morgan Stanley
+Mehdi Hosseini - SIG
+Jeff Su
+Ladies and gentlemen, welcome to TSMC's First Quarter 2020 Earnings Conference Call. This is Jeff Su, TSMC's Director of Investor Relations and your host for today.
+To prevent the spread of COVID-19, TSMC is hosting our earnings conference call via live audio webcast through the Company's website at www.tsmc.com, where you can also download the earnings release materials. If you’re joining us through the conference call, your dialing lines are listen only mode.
+The format for today's event will be as follows. First, TSMC's Chairman, Dr. Mark Liu, will provide the opening remarks. Next, TSMC's Vice President and CFO, Mr. Wendell Huang, will summarize our operations in the first quarter 2020, followed by our guidance for the second quarter 2020. Afterwards, Mr. Huang, and TSMC's CEO, Dr. C. C. Wei, will jointly provide the Company's key messages. Then Dr. Liu will host a Q&A session, where all three executives will entertain your questions.
+As usual, I would like to remind everybody that today's discussions may contain forward-looking statements that are subject to significant risks and uncertainties which could cause actual results to differ materially from those contained in the forward-looking statements. Please refer to the safe harbor notice that appears on our press release.
+And now I would like to turn the call over to TSMC's Chairman, Dr. Mark Liu, for his opening remarks.
+Dr. Mark Liu
+Good afternoon, everyone. My name is Mark Liu, here.
+Before we start our financial report, I want to take a moment to thank each of you for joining us online today. To many of you from different parts of the world, in this very time of devastating pandemic, our thoughts and hearts are with you. TSMC, so far, safeguarded our global operations successfully, but we do not take it for granted. We will continue our utmost efforts to weather this storm, and we are in this together. In the meantime, I want to extend our best wishes to you and your families for staying safe and healthy.
+So, now let me turn the microphone over to Wendell for the summary of operations and current quarterly guidance.
+Wendell Huang
+Thank you, Mark. Good afternoon, everyone. My presentation will start with the financial highlights for the first quarter, followed by the guidance for the current quarter.
+First quarter revenue in NT decreased 2.1% sequentially, which is less than seasonality, due to the increase in HPC-related demand and the continued ramp of 5G smartphones. Gross margin increased 1.6 percentage points sequentially to 51.8%, thanks to a higher level of utilization, which was partially offset by an unfavorable exchange rate.
+Total operating expenses decreased by TWD 2.6 billion, mainly as 5-nanometer technology moved from R&D stage to mass production during the first quarter. Operating margin increased by 2.2 percentage points sequentially to 41.4%.
+Overall, our first quarter EPS was TWD 4.51, and ROE was 28.4%. Now let's move on to the revenue by technology. 7-nanometer process technology contributed 35% of wafer revenue in the first quarter. 10-nanometer was 0.5% and 16-nanometer was 19%. Advanced technologies, which are defined as 16-nanometer and below, accounted for 55% of wafer revenue.
+Now move on to the revenue contribution by platform. Smartphone decreased 9% quarter-over-quarter to account for 49% of our first quarter revenue. HPC increased 3% to account for 30%. IoT increased 8% to account for 9%. Automotive decreased 1% to account for 4%. Digital consumer electronics increased 44% to account for 5%.
+
+Moving on to balance sheet. We ended the first quarter with cash and marketable securities of TWD 562 billion. On the liability side, current liabilities remained relatively flattish. On financial ratios, accounts receivable turnover days was 42 days. Days of inventory decreased two days to 53 days with higher wafer shipment in the quarter.
+Now let me make a few comments on cash flow and CapEx. During the first quarter, we generated about TWD 203 billion in cash from operations, spent TWD 193 billion in CapEx and distributed TWD 65 billion for second quarter '19 cash dividend. We also increased TWD 20 billion in short-term loans mainly for hedging purpose. Overall, our cash balance decreased TWD 25 billion to TWD 431 billion at the end of the quarter.
+In U.S. dollar terms, our first quarter capital expenditures reached $6.4 billion. I have finished my financial summary. Now let's turn to our second quarter guidance. Based on the current business outlook, we expect our second quarter revenue to be between $10.1 billion and $10.4 billion, which represent a 0.6% sequential decrease at the midpoint. Based on the exchange rate assumption of $1 to TWD 30, gross margin is expected to be between 50% and 52%, operating margin between 39% and 41%.
+Now I will hand over the call to C.C. for his key message.
+Dr. C. C. Wei
+Thank you, Wendell. Good afternoon, ladies and gentlemen. We hope everyone is staying safe and healthy.
+Let me start with COVID-19 preventive measurement at TSMC. To prevent the epidemic of COVID-19, many of us around the world have had to change the way we live and work since mid-January. Let me start with by sharing something that -- what we take at TSMC. Our top priority is to protect the health and safety of all our employees at all times.
+At the outbreak of COVID-19, we immediately suspended all noncritical business travel and restricted visit on-site access with mandatory self-screening. All employees are required to do daily temperature checks with self-declaration, wear masks all the time and practice social distancing in the office. Since late March, we have taken further preventive actions such as having employee work from home where possible. We are physically separating on-site employees into red and blue teams to reduce the risk of community spread.
+On March 18, we found one employee who tested positive for COVID-19 and immediately began receiving appropriate care. Today, this employee has recovered, is out of the hospital and is staying at home for additional quarantine. We were able to suitably trace all the other individuals who were in contact. The neighboring employees have all tested negative, while all other employees who were in contact has entered and completed the 14-day self-quarantine and now back to work. As a result of the strict preventive measures taken by TSMC, we have not seen any disruption of our fab operations so far.
+Now I will talk about our near-term demand outlook. We concluded our first quarter with revenue of TWD 310.6 billion or $10.3 billion. In line with our guidance given three months ago, our first quarter business declined about 1% sequentially, which is much less than seasonality, due to the increase in HPC-related demand and the continued ramp of 5G smartphone.
+Moving into second quarter 2020, we expect our revenue to be flattish, as weaker mobile product demand is expected to be balanced by continued 5G deployment and HPC-related product launches. While we have not seen significant order reduction from our customers, so far, we do observe supply chain dislocation and weaker end market demand from COVID-19 in the first half of this year. In the near term, we have observed weaker end demand in applications, such as consumer electronics and automotives. Meanwhile, we have also observed better demand from HPC, as compared to three months ago, driven by the trends such as work from home.
+
+Looking ahead to the second half of this year. Due to the market uncertainty, we adopt a more conservative view as we expect COVID-19 to continue to bring some level of disruption to the end market demand. For the whole year of 2020, we now forecast the overall semiconductor market, excluding memory growth, to be flattish to slightly decline, while foundry industry growth is expect to be high single-digit to low-teens percentage.
+For TSMC, although this uncertainty exists, we believe we can do better and grow at mid- to high-teens percentage in 2020 in U.S. dollar term. All the above forecasts for semiconductor exclude memory market, foundries and TSMC are based upon the assumption of COVID-19 stabilizing in June of this year.
+Now let me talk about the progress and development of 5G and HPC. With the recent disruption from COVID-19, we now expect global smartphone units to decline high single digit year-over-year in 2020. However, 5G network deployment continues and OEMs continue to prepare to launch 5G phones. We maintain our forecast for mid-teens penetration rate for 5G smartphone of the total smartphone market in 2020.
+We continue to expect faster penetration of 5G smartphones, as compared to 4G, over the next several years, with substantially higher silicon content. Thus, we believe 5G as a multiyear megatrend is still strong and will fuel the growth of all four of our growth platforms in the next several years. HPC will be another major long-term growth driver for TSMC.
+In the next few years, a smarter and more intelligent world connected by 5G networks will require massive increase in computation power. CPU, networking and AI accelerators will be the main growth areas for our HPC platform. Thus, while near-term uncertainty exists, we will continue to invest in our R&D and technology capabilities to capture the future opportunities from the strong 5G-related and HPC megatrends. We reaffirm our goal to grow at the high end of our long-term growth projection of 5% to 10% CAGR in U.S. dollar terms. 
+Now let me talk about the ramp-up of N7, N7+ and the status of N6. In its third year of ramp, N7 continue to see very strong demand across a wide spectrum of products for mobile, HPC, IoT and automotive applications. Our N7+ is entering its second year of ramp using EUV lithography technology while paving the way for N6. Our N6 provides a clear migration path for next-wave N7 products, as the design rules are fully compatible with N7.
+N6 has already entered its production and is on track for volume production before the end of this year. N6 will have one more EUV diode than N7+ and will further extend our 7-nanometer family well into the future. We expect our 7-nanometer family to continue to grow in its third year and reaffirm it will contribute more than 30% of our wafer revenue in 2020.
+Now let me talk about our N5 status. N5 is already in volume production with good yield. Our N5 technology is a full node stride from our N7, with 80% logic density gain and about 20% speed gain compared with N7. N5 will adopt EUV extensively. We expect a very fast and smooth ramp of N5 in the second half of this year driven by both mobile and HPC applications. We'll reiterate 5-nanometer will contribute about 10% of our wafer revenue in 2020.
+N5 is the foundry industry's most advanced solution with best PPA. We observed a higher number of tapeouts, as compared with N7 at the same period of time. We will offer continuous enhancements to further improve the performance, power and density of our 5-nanometer technology solution into the future as well. Thus, we are confident that 5-nanometer will be another large and long-lasting node for TSMC.
+Finally, I will talk about our N3 status. Our N3 technology development is on track, with risk production scheduled in 2021 and target volume production in second half of 2022. We have carefully evaluated all the different technology options for our N3 technology, and our decision is to continue to use FinFET transistor structure to deliver the best technology maturity, performance and costs.
+
+Our N3 technology will be another full node stride from our N5, with about a 70% larger density gain, 10 to 15 speed gain and 25% to 30% power improvement as compared with N5. Our 3-nanometer technology will be the most advanced foundry technology in both PPA and transistor technology when it is introduced and will further extend our leadership position well into the future.
+Now let me turn the microphone over to our CFO.
+Wendell Huang
+Thank you, C.C. Let me start by making some comments on our second quarter and second half profitability outlook. We have just guided second quarter of 2020 gross margin to be similar to the first quarter. Looking ahead to second half, we expect the steep ramp-up of our 5-nanometer will dilute our second half gross margin by about 2 to 3 percentage points. In addition, our overall capacity utilization may be impacted by the uncertainty from COVID-19. Thus, our gross margin in the second half of this year may be several percentage points lower than in the first half.
+Looking at our other profitability factors, our leadership in technology development and ramp-up remains strong. We continue to provide value to our customers and drive aggressive cost reduction. Thus, we believe our long-term gross margin target of about 50% is still a good target.
+Now let me talk about our capital budget for this year. Every year, our CapEx is spent in anticipation of the growth that will follow in the future years. While the impact of COVID-19 virus brings near-term uncertainties, we expect the multiyear megatrends of 5G-related and HPC applications to continue to drive strong demand for our advanced technologies in the next several years. Thus, we reaffirm our 2020 capital budget to be between $15 billion and $16 billion.
+Now I will make some comments on our capital management and shareholder returns. The objectives of TSMC's capital management are to fund the capital -- the Company's growth organically, generate good profitability, preserve financial flexibility and distribute a sustainable cash dividend to shareholders. With our solid financial performance, strong balance sheet and cash position and capacity to take on debt, we're able to aggressively invest in our future to enhance our technologies and capabilities.
+This enables us to continue to outgrow the semiconductor industry even in an extreme macroeconomic environment like this year. With our rigorous capital management, we remain committed to sustainable cash dividends on both an annual and quarterly basis. Meanwhile, with the semiconductor industry's highest credit rating, we're able to bolster our cash balance by issuing corporate bonds at a low interest rate.
+That concludes my message.
+Jeff Su
+Thank you. This concludes our prepared remarks. Before we begin the Q&A session, I would like to remind everybody to please limit your questions to two at a time to allow all the participants an opportunity to ask questions. Should you wish to raise your question in Chinese, I will translate into English before our management answers your question. [Operator Instructions]
+Now let's begin the Q&A session. Operator, can we please proceed with the first caller on the line, please? Thank you.
+Question-and-Answer Session
+Operator
+The first question we have is from the line of Randy Abrams from Crédit Suisse. Your line is now open.
+Randy Abrams
+First question is just two parts, wanted to go into the change in forecasts versus January, if you could give an update on the change in expectation across your growth platforms, which areas are you revising and have you seen -- I’m curious have you seen a change in customer orders or you're proactively expecting this to come. And the second part, if you -- you sometimes give a view on inventory levels. Factoring your sales have held up in planning guidance, if you could give an expectation on where you think inventory levels at your customers are trending and if you're factoring any risk of correction of inventory levels and some of the supply bottlenecks used.
+
+Jeff Su
+Okay. Randy, please allow me to try to make sure and repeat your questions. So your first question is two parts. You want to know what is driving the change in our forecasts as compared to what we have said in January. Have we seen any change in the outlook for our different platforms? Have we seen changes in customer orders? Or is part of our forecasting assumption sort of what will happen in the second half? And then the second part of the question is on the fabless and the inventory level that we see. Is that correct?
+Randy Abrams
+Yes, that's correct.
+Dr. C. C. Wei
+All right. This is C.C. Wei. Let me answer that why we changed our forecast. Because -- we do observe some of the end markets become soft. As I state in the statement, that we saw some consumer electronics such as smartphone or those kind of things has been in the end market become much softer than we thought. However -- so we do the forecasts now based on the customers' orders because customer today.
+As I said, we did not see any significant reduction in our customer demand. But we do expect the end demand will have some impact in the following second half of this year. As a result, we changed our -- well, we modified our forecasts as compared with the January number. To be specific, except for the HPC -- the HPC has been very strong. All other three areas, like smartphone, IoT or automotive, are decreasing our forecasts as compared with what we announced in January.
+Wendell Huang
+Okay. Let me take the inventory part. The inventory level of our fabless customers that we track was healthy exiting fourth quarter of last year. However, given the disruption from COVID-19, we currently expect that inventory level to rise in first half of '20 before digesting in second half of '20.
+Jeff Su
+Okay. Randy, yes, do you have a second question?
+Randy Abrams
+Yes. Okay. Second question, and it really gets into the U.S. There's been press stories about them considering equipment license restrictions. And I'm curious if you could discuss how you're managing the risk or how much risk you see from that equipment license requirement that could affect one of your key customers. And in terms of the CapEx budget for this year, do you still have flexibility to make any changes to this year either for this factor or for COVID-19 if the impact appears a bit worse? Or is it pretty much locked in for 2020?
+Jeff Su
+Okay. Sorry, Randy. You're a little bit breaking up, so let me try to summarize your question. So your second question, first, you relate to some of the news reports on the potential for U.S. equipment license restrictions. So you want to understand how does TSMC manage this risk. And then also as related to part of that, what is our CapEx flexibility for 2020 in case COVID-19 situation or these restrictions? Is there flexibility in our CapEx?
+Randy Abrams
+Yes, that's correct.
+Dr. Mark Liu
+Okay, let me answer your question as much as I can. We are now aware about the recent development of U.S. trade rule changes. However, these rule changes have -- is still under draft. And they are information, but we know that the final rule is not yet finalized. And after the finalized draft, there will be another 30 days of grace period for the industry to respond. In general, we share the concerns, all the concerns of U.S. semiconductor communities such as voices from semi or from SIA.
+While the draft is not finished, we are -- we have studied the various scenarios. And yes, there may be some near-term impact. And we will take -- work with our customer dynamically, and we will take appropriate measures so that to minimize the impact to TSMC. However, for the mid- to long term, we think the underlying megatrend still holds. And some supply chain will be readjusted, and the balance will start. So we will be able to still capture our mid- to long-term growth opportunities. And therefore, the current long-term CapEx, we do not see this impacted by this change.
+
+Jeff Su
+Okay. Does that answer your question, Randy?
+Randy Abrams
+Yes. And maybe it is the contingency, if there's any flexibility, either from this factor if it doesn’t go ahead or if it's more -- would be more on a forward basis. But is your flexibility, say the COVID-19 doesn't get contained, is largely most of the spending already planned out kind of timed to those megatrends but it's -- but if you do have flexibility to adjust that or any potential in a downside case.
+Jeff Su
+So you -- okay. So Randy is asking, do we -- then for our 2020 CapEx, is there any -- what is our flexibility in case of COVID-19 uncertainty and such?
+Wendell Huang
+Right. We will remain as flexible as we can as we continue to monitor the virus situation and work very closely with our customers. At the same time, the majority of our CapEx is spent on advanced nodes that drives our growth in the next year and beyond. As we expect the multiyear megatrends of 5G-related and HPC applications to drive strong demand for our advanced technologies in the next several years continuing, we will continue to prudently invest for our future growth.
+Jeff Su
+Okay. Thank you, Wendell.
+Operator
+The next question is from the line of Gokul Hariharan from JPMorgan. Your line is now open.
+Gokul Hariharan
+So could we go through a little bit in terms of how we think about forecasting growth? I think given that, if we look at the last 2, 3 times where we've had economic corrections, it seems like the industry has seen meaningful declines in revenues. Now we are looking at largely flattish for semi ex memory. So are we expecting that we get a pretty strong rebound into the second half of the year in terms of -- so I just wanted to go through TSMC's process of thinking about overall semiconductor industry growth and since we also expect small inventory correction happening in second half of the year. And I have a follow-up question as well.
+Jeff Su
+Okay. Gokul, let me summarize your question. I think your question is asking, in the past when there's a severe economic correction, the semi industry also sees a large revenue decline, so why is semi ex memory this year kind of flattish? And how do we explain our full year outlook of mid- to high teens? And do we expect a more meaningful inventory correction in the second half of this year? Is that right?
+Gokul Hariharan
+That's right, yes.
+Dr. C. C. Wei
+Well, the semiconductor excluding memory, as I said, that the end market in the consumer electronics were declined. However, as -- I also mentioned that because of work from home or those communications created a lot of demand on the servo and the world communications. So the HPC was been very good, as compared with our forecast in January. Net-net, so we give kind of the semiconductor industry's growth this year probably is a low single digit or what could be a little bit negative. That's based on what our forecast today. And what is the second question?
+Jeff Su
+He's asking sort of then do we expect a meaningful inventory correction going into the second half.
+Dr. C. C. Wei
+We cannot forecast so accurately, but...
+Wendell Huang
+No. Let me add something, some color. Now as C.C. just mentioned, based on our current outlook, our second half revenue is somehow flattish or may decline slightly. That really gives you an idea that the inventory is digesting in the second half of the year as for now, as we can see.
+Jeff Su
+Okay. Great. Gokul, does that address – yes, go ahead with your second question.
+Gokul Hariharan
+Yes, that addresses my first question. Second question, could you talk a little bit about the shape of the 5-nanometer ramp-up in second half of the year? I mean previously, I think, we have talked about this being faster than 7-nano in 2018 and probably around 10% of revenues. Are you seeing any changes to that as a result of some of the weakness that we have seen in the consumer electronic vertical? Or for 5-nano, we are still expecting a similar kind of ramp as we expected in January.
+
+Dr. C. C. Wei
+To be sure, we don't expect any change as compared with the January, our forecast. Today, we still see the tapeout very on schedule, and the ramp-up is also on schedule, although we did see some of the equipment delivery have been delayed a little bit, but we are working with the equipment vendor. All in all, we think that 5-nanometer's ramp-up is on track, and we still say that it will contribute about 10% of the total revenue, wafer revenue.
+Jeff Su
+Okay. Thank you, C.C.
+Operator
+We have the next question from the line of Roland Shu from Citi. Your line is now open.
+Roland Shu
+First, I congratulate you for a very good first quarter result. I will have a follow-up of this whole year revenue growth question. I think now you are looking for this mid- to high-teens percentage point kind of growth for the whole year revenue. So my question is then do you factor in any equipment, material or any kind of ramp-up schedule disruption for this supply chain due to this troubled times.
+Jeff Su
+Okay.
+Dr. C. C. Wei
+No, we did not see any disruption from the material supply or any supply chains activity that have been in disruption mode, although I did say that because of shelter in home, that some of the tool delivery has been delayed from two weeks to about one month. However, as I said, we continue to work with tool vendors and minimize the impact on the capacity building. So for the whole year, we don't expect it to have a big impact.
+Roland Shu
+Understood. But how about for the equipment startup point of it? Because of shelter in home or travel ban, I think equipment vendors probably won't have enough engineer to do the equipment startup. Will that impact your ramp-up schedule?
+Dr. C. C. Wei
+Well, that has been planned from the outbreak of COVID-19. We already worked with a tool vendor. So they arranged enough engineering resources in Taiwan or all over the world, so we don't worry with that portion.
+Roland Shu
+Okay. For my second question, I would like to ask about your capital management. Normally, I think in the past you funded all of your CapEx spending from your operating cash flow. And now you just partly fund it by issuance of the corporate bond. Again, Wendell explained this actually, how you’d like to preserve our cash for -- invest for net growth. So question is , first, for this issuance of the corporate bond, is there any upper limit you have, I think, in order to fund your CapEx? Will you continue to issue this corporate bond?
+Wendell Huang
+Roland, first of all, the -- we expect our operating cash flow to continue to be sufficient to finance our capital expenditure. Secondly, the decision to issue corporate bond was before -- was made before the COVID-19. We looked at our future expansion plans. We looked at the current interest rates, and we decided it's good timing to issue a low-cost corporate bond just for any uncertainties.
+Roland Shu
+Understood. Okay. And for your cash dividend, I think, Wendell, you said that you would like to start maintain a sustainable cash dividend in both quarterly and annual basis. So understood, I think that your annual basis policy is paying total cash not less than previous year's. And how about your quarterly cash dividend policy? Is this like the TWD 2.5 per quarter -- per share per quarter policy to TSMC?
+Jeff Su
+Okay, Roland. So your question on the cash dividend, you say that we will not -- our sustainable cash dividend policy on an annual basis means we will not pay less than TWD 10 in any year going forward. Then your question is, on a quarterly basis, will we pay less than TWD 2.5 on a quarterly basis?

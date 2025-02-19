@@ -144,6 +144,5 @@ class SummarizeCommandHandler(CommandHandlerImpl):
             visualizer = room_state.get_visualizer()
             await visualizer.process_message(response, thread)
 
-
             return True
         return False

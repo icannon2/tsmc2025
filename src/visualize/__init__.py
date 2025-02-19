@@ -34,7 +34,6 @@ class Media:
 
     async def render(self, channel: TextChannel):
         if self.text is not None and len(self.text.strip()) != 0:
-            
             await channel.send(self.text[:1999])
         elif self.image is not None:
             await channel.send(file=self.image)

@@ -1,0 +1,161 @@
+Taiwan Semiconductor Manufacturing Company Limited (NYSE:TSM) Q3 2021 Earnings Conference Call  October 14, 2021  2:00 AM ET
+Company Participants
+C. C. Wei – Chief Executive Officer
+Jeff Su – Director of Investor Relations
+Wendell Huang – Chief Financial Officer
+Conference Call Participants
+Gokul Hariharan – J.P. Morgan
+Bruce Lu – Goldman Sachs
+Randy Abrams – Credit Suisse
+Roland Shu – Citigroup
+Charlie Chan – Morgan Stanley
+Nick Gaudois – UBS
+Laura Chen – KGI
+Sebastian Hou – Neuberger Berman
+Mehdi Hosseini – Susquehanna International
+Rick Hsu – Daiwa Capital Markets
+Krish Sankar – Cowen and Company
+Andrew Lu – Sinolink Securities
+Jeff Su
+[Indiscernible] Good afternoon, everyone and welcome to TSMC's Third Quarter 2021 Earnings Conference Call. This is Jeff Su, TSMC's Director of Investor Relations and your host for today. To prevent the spread of COVID-19, TSMC is hosting our earnings conference call via live audio webcast, through the Company's website at www. tsmc.com, where you can also download the earnings release materials. If you are joining us through the conference call, your dial-in lines are in a listen-only mode. 
+The format for today's event will be as follows. First, TSMC 's Vice President and CFO, Mr. Wendell Huang, will summarize our operations in the 3rd quarter of 2021, followed by our guide for the fourth quarter of 2021. Afterward, Mr. Huang and TSMC CEO, Dr. C.C. Wei, will join and provide the Company's key messages, then we will open the line for Q&A. As usual, I would like to remind everybody that today's discussions may contain forward-looking statements that are subject to significant risks and uncertainties which could cause actual results to differ materially from those contained in the forward-looking statements. 
+Please refer to the Safe Harbor notice that appears on our press release. And now I would like to turn the call over to TSMC CFO, Mr. Wendell Huang, for the summary of operations and the current quarter guidance.
+Wendell Huang
+Thank you, Jeff. Third-quarter revenue increased 11.4% sequentially in NT terms, or 12% in dollar terms. Our 3rd quarter business was driven by strong demand across all four growth platforms, which are smartphone, HPC, IoT, and automotive-related applications. Gross margin increased 1.3 percentage points sequentially to 51.3%, mainly due to the improvement in back-end profitability in a more favorable technology mix. 
+The operating margin increased 2.1 percentage points sequentially to 41.2%, mainly due to better operating leverage. Overall, our third quarter EPS was TWD6.03 and ROE was 30.7%. Now let's move on to the revenue by technology. 5-nanometer process technology contributed 18% of wafer revenue in the third quarter, while 7-nanometer accounted for 34%. Advanced technologies, which are defined as 7 - nanometer and below, accounted for 52% of the way for revenue. Now, moving on to revenue contribution by platform. 
+Smartphone increased 15% quarter-over-quarter, to account for 44% of our 3rd quarter revenue. HPC increased 9% to account for 37%. IoT increased 23% to account for 9%. Automotive increased 5% to account for 4%, and DCE decreased 2% to account for 3%. Moving on to the Balance Sheet. We ended the 3rd quarter with cash and marketable securities of TWD976 billion or equivalent $35 billion.
+On the liability side. Current liabilities increased TWD8 billion, mainly due to the increase of TWD24 billion in accounts payables and the increase of TWD6 billion in dividend payable, partially offset by the decrease of TWD21 billion in short-term loans. Long-term interest-bearing debt increased by TWD50 billion, mainly as we raised TWD49 billion corporate bonds during the quarter.
+On financial ratios. Accounts receivable turnover days decreased 2 days to 40 days, while days of inventory remained at 85 days. Now, let me make a few comments on cash flow and Capex. During the third quarter, we generated about 319 billion NT cash from operations, including some customer prepayments. Spend 189 billion in Capex and distributed 56 billion for fourth-quarter 20 cash dividend. Short-term loans decreased 18 billion while bonds payable increased by 49 billion. Overall, our cash balance increase from 106 billion to 854 billion at the end of the quarter. In U.S. dollar terms, our third quarter, capital expenditures totaled $6.77 billion. I have finished my financial summary. 
+Now, let's turn on our 4th quarter guidance. Based on the current business outlook, we expect our 4th quarter revenue to be between $15.4 billion and $15.7 billion, which represents a 4.5% sequential increase at the midpoint. Based on the exchange rate assumption of $1 to TWD28, the gross margin is expected to be between 51% and 53%. The operating margin is between 39% and 41%. 
+On July 12th, we announced that we have completed the purchase of 5 million doses of vaccine as part of our efforts to help fight against the COVID-19 pandemic in Taiwan, we recognized a small portion of the vaccine donation expense in the third quarter, and the majority of it will be recognized in the fourth quarter, which will have around one percentage point impact on our operating margin. This concludes my financial presentation. Now, let me turn to our key messages. I will start by making some comments on our 2021 capital budget. 
+Every year, our Capex is spent in anticipation of the growth that will follow in future years. We are witnessing a structural increase in underlying semiconductor demand, underpinned by the industry megatrends of 5G related in HPC applications. In order to support our customer's growth, and meet the increasing demand for our advanced and specialty technologies in the next several years, we have budgeted our full-year 2021 Capex to be around $30 billion. Next, let me talk about our profitability. 
+Our 3rd quarter gross margin increased 1.3 percentage points sequentially to 51.3%, mainly due to better back-end profitability and technology mix. Based on the exchange rate assumption of $1 to TWD28, we have just guided the 4th quarter 2021 gross margin to be 52% at the midpoint. The midpoint of our 4rth quarter gross margin guidance also implies that our full-year 2021 gross margin is expected to be higher than 50%, despite the rapidly rising depreciation costs, the dilution from the N5 ramp, and the unfavorable foreign exchange rate in 2021, as compared to 2020. 
+As we have discussed before, 6 factors determine TSMC's profitability leadership, technology development, and ramp up pricing, cost, capacity utilization, technology mix, and foreign exchange rate, which is not controllable. Taking all these factors into consideration, we believe a long-term gross margin of 50% and higher is achievable. Now let me turn the microphone over to C. C.
+C. C. Wei
+Thank you, Wendell. We hope everybody is staying safe and healthy during this time. First, let me start with our near-term demand and inventory. We can credit our 3rd quarter with revenue of TWD414.7 billion or $14.9 billion, driven by strong demand across all four core platforms, which are smartphone, HPC, IoT, and automotive-related applications. Moving into the 4th quarter of 2021, we expect our sequential growth to be supported by strong demand for our industry-leading 5 - nanometer technology. 
+Based on the midpoint of our fourth-quarter revenue guidance, our full-year 2021 revenue is expected to grow about 24% year-over-year in the U.S. dollar term. On the inventory front, we continue to expect our customers and the supply chain to gradually prepare a higher level of inventory in the second half of this year as compared to the historical seasonal level. Given the industry continually needs to ensure supply security, we expect the supply chain to maintain a higher level of inventory for a longer period of time. 
+In the near term, we continue to observe short-term imbalances due to interruptions in the supply chain brought over by COVID-19. We also continue to observe the structure increase in long-term demand, underpinned by the industry megatrends of 5G and HPC-related applications, and the higher silicon content in many end devices, including automotive, PCs, servers, networking, and smartphones. 
+While the short-term imbalances may or may not persist, we believe our technology leadership, will enable TSMC to capture the strong demand for our advanced and specialty technologies. And we expect our capacity to remain tight in 2021 and throughout 2022. Next, let me talk about TSMC as a long-term growth driver and return. We are entering a period of higher structural growth. The multiyear megatrend of 5G and HPC-related applications are expected to fuel massive requirement for computation power and propel the greater need for energy-efficient computing, which demand the use of leading-edge technologies. 
+This megatrend will not only spur unit growth, but also drive increasing semiconductor content in HPC, smartphone, automotive, and IoT applications. COVID-19 has also fundamentally accelerated the digital transformation making semiconductors more pervasive and essential in people's lives. With our technology leadership, manufacturing, excellence, and customer’s trust. TSMC is better positioned to capture the course from its favorable industry megatrend. We sell differentiated technologies. 
+Towards raise the structural increase in the long-term market demand profile. TSMC is working closely with our customers to plan our capacity and investing in leading-edge and specialty technologies to support their demand. Our capital investment decisions are based on four disciplines; technology leadership, flexible and responsive manufacturing, retaining customers' trust and earning the proper return. 
+At the same time, we faced manufacturing cost challenges due to an increase in process complexity at DD Note, new investment in mature notes, expansion of our global manufacturing footprint, and rising material in basic commodity cost. As we continue to work closely with our customers to support their goals, our pricing strategy will remain strategic, not opportunistic, to refer to our [Indiscernible] creation. We will also continue to work diligently with our supplier to deliver, and cost improvement. 
+Even us, we showed a greater burden of investment for the industry, by taking such actions we believe we can achieve a proper return that enables us to invest to support our customers, of course, and deliver long term profitable goals with 50% and higher gross margin for our shareholders. Now let me talk about our Japan fab print. We are expanding our manufacturing footprint to extend and enhance our competitive advantage in providing industry-leading technologies. 
+The world's largest [Indiscernible] capacity, efficient and cost-effective manufacturing, and to better serve our customer. Our global manufacturing expansion strategy is based on customers' needs, business opportunities, operating efficiency, and cost-economic considerations. After conducting due diligence, we announced our intention to build a specialty technology fab in Japan, subject to our Board of Directors' approval. We have received a strong commitment to supporting these projects from both our customers and the Japanese government. This fab will utilize 22, 28-nanometer technology for semiconductor wafer fabrication. 
+Fab construction is scheduled to begin in 2022 and production is targeted to begin in May 2024. Further details will be provided subject to the board's approval. We believe the expansion of our global manufacturing footprint will enable us to better serve our customer's needs in the rich, global talent, while early in the proper return from our investments and deliver long-term profitable quarters for our shareholders. 
+Finally, I will talk about the N-3 and N-3E status. Our N-3 technology will use FinFET transistor’s structure to deliver the best technology maturity, performance, and cost for our customers. Our N3 technology development is on track. We had developed complete platform support for both HPC and smartphone applications. N-3 risk production is scheduled in 2021, and production was starting in the 2nd half of 2022. We continue to see a high level of customer engagement at N-3, and expect a newer tap-out for N-3 for the first year as compared with N-5. We also introduced N3E as an extension of our N3 family. 
+N3E while feature improved manufacturing process window, with better performance, power, and yield. Volume production of N3E is scheduled for one year after N3. Our 3-nanometer technology will be the most advanced foundry technology in both PPA and transistor technology when it is introduced. With our technology leadership and strong customer demand, we are confident that the N3 family will be another long and vast -- will be a large and long-lasting node of TSMC. This concludes our key message. Thank you for your attention.
+Jeff Su
+Thank you, C. C. This concludes our prepared statements. Before we begin the Q&A session, I will like to remind everybody to please limit their questions to 2 at a time to allow all the participants an opportunity to ask questions. Should you wish to raise your question in Chinese, I will translate it to English before our management answers your question. 
+[Operator Instruction] Questions will be taken in the order in which they are received. If at any time you would like to remove yourself from the question in queue, please press 0, 2. Now let's begin the Q&A session. Operator, please 77proceed with the first caller on the line?
+Question-and-Answer Session
+Operator
+The first one to ask questions, Gokul Hariharan, J.P. Morgan.
+Gokul Hariharan
+Good afternoon. Congrats on the good results and thanks for taking my question. My first question is on the long-term road map. Intel has now unveiled their long-term road map until 2025 with four process nodes looking to catch up with TSMC and potentially even overtake. Could TSMC talk a little bit more about its own longer-term roadmap timing of adoption of some of the new technologies, like, get all-round, high-end EUV, battery power line, etc.? 
+And where is TSMC itself from a profit technology leadership perspective in the next 3 to 5 years? The entry message is definitely well-received, but couldn't we talk a little bit longer term, given some of your competitors are addressing that time frame as well. That's my first question.
+Jeff Su
+Okay. Thank you. Gokul, please let me summarize your first question. Gokul's first question is about -- regards our long-term technology roadmap. He notes that in IDM is outlined there is a long-term road map for the next 3 to 5 years. And talking about catching up and overtaking. 
+Gokul wants to know what are our views or plans -- or our road map I guess around the timing of new technologies, such as new transistor structure, like get all around, [Indiscernible], etc. And how do we see our technology leadership position in the next 3 to 5 years?
+C. C. Wei
+Okay. Gokul I don't comment on my competitor's technology road map or their technology approaches. But for TSMC, we are confident that we'll be very competitive and we do have a very competitive schedule actually, let me say that, in all 3 - nanometer technology and the 2 - nanometer technology. 
+And I can share with you that in our 2-nanometer technology is the density and performance will be the most competitive in 2025. And of course, I can also share with you that again. All around the structure is being considered. Although I am not going to -- not ready to release more information about it. So that's -- again, let me conclude in one sentence. What becomes very competitive and we are confident that our technology leadership will be maintained.
+Jeff Su
+Okay. Thank you, C.C. Gokul, do you have a second question?
+Gokul Hariharan
+Yes. Thanks for that answer. Looking at Capex, I think back in Q1 results definitely indicated spending a 100 billion-plus in Capex over the next 3 years. Since then, you have talked about Japan's capacity expansion. Looks like there are some capacity expansion plans for leading-edge in Kaohsiung as well. 
+Could we talk a little bit about -- is a TWD100 billion going to be enough or do you still need to see -- do you still see some upside for this TWD100 billion budget on the Capex over the next 3 to 4 years since the growth seems to be stronger. And if we see that upset in Capex, are we still looking at the high end of 10% to 15% growth CAGR, or do we believe that there could be faster growth than this 10% to 15% or high end of 10% to 15% that we had talked about previously? Thank you.
+Jeff Su
+Okay, Gokul. Let me see if I can catch your second question, is around our Capex and growth -- longer-term CapEx and growth outlook. Gokul is asking what are our plans in Japan and plans for expansion in Taiwan. Will there be upsides to this 100 billion CapEx number that we have talked about in the previous -- for the next few years? And then also will there be a higher long-term growth CAGR target as a result as well?
+Wendell Huang
+Gokul, this is Wendell. Let me answer your question. We are not able to comment specifically on the next few years, CapEx. Our capital investment decisions are based on 4 disciplines; technology leadership, flexible and responsive manufacturing, retaining customers' trust, and earning the proper return as C. C., just mentioned. 
+Every year, our CapEx is spent in anticipation of the growth that will follow in future years. As we said, we are witnessing a structural increase in underlying semiconductor demand underpinned by the industry megatrends of 5 G-related and HPC applications and increasing silicon content. 
+As soon as our growth outlook looks good, there could be an upside to our CapEx plans, and we will continue our disciplined investment approach to support our customers and capture the growth opportunities. Now, in terms of our revenue CAGR, we're not planning to make any changes at this moment. We will provide you with more information at our January conference.
+Gokul Hariharan
+Thank you very much.
+Jeff Su
+Okay. Thank you, Gokul. Operator, can we move on to the next participant on the line, please?
+Operator
+Next one to ask questions, Bruce Lu from Goldman Sachs. Go ahead, please.
+Bruce Lu
+Hi. Thank you for picking my question. I think my first question is that 80% of the TSMC's Capex is focused on an advanced node capacity expansion. And do you see that the mature nodes become the bottleneck for your customers? How do you ensure your customer can have enough mature node -- or chip?
+Jeff Su
+Okay, sorry. Bruce, let me repeat your question. Question is around the mature nodes and that with AT -- typically a majority of our Capex is for the leading nodes. So how can we ensure that our customers will not be bottlenecked or have enough on the mature nodes as well?
+Wendell Huang
+Okay. Bruce, let me answer that question. TSMC's strategy at mature nodes is to work closely with our customers to develop and invest in specialty technology solutions to meet customers' requirements and create differentiated and long-lasting value for customers. We take a holistic view and work with our customers to decide the optimal capacity to support their demand.
+Jeff Su
+Okay. Does that answer your first question, Bruce?
+Bruce Lu
+Yes. Let me try to answer -- ask a different question. I think recently we have had a lot of investors asking that there is a lot of noise just on the [Indiscernible] such as some TV or China's smartphone. 
+The inventory level you saw that at a higher level. But the foundry all along remained very, very positive, and every -- almost everyone is raising the capacity and CapEx, can you try to tell the investor what's the discrepancy and where is the -- why the foundry can continue to see such a strong demand, while the end demand is deteriorating?
+Jeff Su
+Okay, so Bruce, let me summarize your second question. The second question for Bruce is around looking at end-demand and the foundry. Bruce notes that there's a lot of, I guess, noises about different types of end demand. However, the foundry outlook seems to be very positive. So how do we explain this disconnect or discrepancy?
+C. C. Wei
+Okay, Bruce, let me say that while we do not rule out the possibility of an inventory correction, but we expect TSMC’s capacity remains very tight in 2021 and throughout 2022. This is because of our technology leadership position. And even there's a correction to occur, it could be less volatile for TSMC given the previous downturn as our underlying structural mega trend of 5G related and HPC applications. 
+And, the increasing silicon content, in addition to the unit CoWoS in the end devices were continuing. And again, we saw our technology leadership; we are better positioned to capture the mid to long-term CoWoS activities. I hope that answers your question. There's a discrepancy between the demand and why still a very tightening capacity.
+Bruce Lu
+Okay. I understand. Thank you.
+Jeff Su
+Thank you, Bruce. Operator, can we move on to the next participant, please?
+Operator
+Next one, Randy Abrams, Credit Suisse.
+Randy Abrams
+Hey, yes, thank you. Good afternoon. I wanted to ask probably for Wendell, a few questions on the margins. You mentioned 50% and above, just a couple of follow-ups on that. Should we think it's still within a couple of points of 50 or with an effort to firm up pricing, you could push that higher? 
+Just reflecting to maintain return on capital, you will have a higher asset base. And that's the first part of that question. And then within margin, if you could update us on the inefficiency if you had to operate at a high level if you've worked that out. And also if you have an initial view on depreciation for 2022.
+Jeff Su
+Okay. Randy, let me summarize your question. Your question is about our margin. Randy notes that we now say 50% and above. He wants to know, is this a couple of points above, how high above, and will we be able to maintain our, I guess, RIC or ROE as a result? 
+And also that in last time we had talked about running at a high level of utilization in certain inefficiencies. Has that now become more improved or what is the outlook there? And also, the depreciation outlook for 2022.
+Wendell Huang
+Okay. Let me answer the last question first. Depreciation in 2022 will increase, but the magnitude, we are going to tell you next year in January. For the margin, how many percentage points are over 50%? We don't want to disclose it right now, but we hope we can tell you more at the January Investor Conference and that will of course bring a better ROE than before due to the higher-margin targets. You also asked about utilization?
+Jeff Su
+Randy also asking about inefficiencies when we had talked previously about when we run at a high level of utilization, less efficiency, cost improvement, and things like that. So Randy is wondering, is this -- is it continuing? Is it?
+Wendell Huang
+The utilization continues to be pretty high. At the same time, the cost improvement activities are ongoing. As a matter of fact, in the fourth quarter, we believe the margin will be better partially because of the cost improvement activities.
+Randy Abrams
+Okay. Great. Then -- a question I'll ask. And it's one quick follow-up actually related to utilization 15 above, if you have utilization view is that 90% or that full capacity? And then the second question I have is on capital intensity. One of the equipment suppliers, Tokyo Electron, put up a slight but moderate increase in capital intensity. 
+So CapEx perk, they have it by 2-nanometers, just rising gradually to 210 million per thousand wafers. Could you discuss it, if you can a CapEx per case -- absolute or how you see that trending? And do you see that continuing to accelerate up or actions you're taking to keep it more stable after the increase we've seen in the past few years?
+Jeff Su
+Okay. So Randy's second question is about capital intensity. He notes that Tokyo Electron is showing that the capital intensity or the CapEx per K is moderating the pace of increase, particularly as you get into 2 nanometers, so he is wondering if we can just comment on our CapEx per K.
+Wendell Huang
+Well, Randy, I -- what I can share with you is that the Capex [Indiscernible] for advanced -- more and more advanced technology is normally higher. That's for sure. But at the same time, through selling our values and working with the customers and the suppliers, we believe we are able to still earn a profit return, which is at this moment at 50% and a higher gross margin is achievable.
+Jeff Su
+Okay, Randy?
+Randy Abrams
+Thank you.
+Jeff Su
+Thank you, Randy. Operator, can we move on to the next participant, please?
+Operator
+The next one is to ask questions. Brett Simpson from Arete Research.
+Brett Simpson
+Yes. Thanks very much. My question was on the N3 introduction next year, can you talk a bit about the ramp-up of N3? Is it going to be a typical ramp, very similar to the last couple of node ramps, or do you see the timing of this being different? 
+And also, just in terms of the costs, there's a lot of talk about costs rising above expectations for N3, as you add more [Indiscernible] layers, can you just clarify how you see costs and then three and whether you can still achieve a 70% density gain at that note? Thank you.
+Jeff Su
+Okay, Brett, so that means your first question is around N3. Brett wants to know with N3 ramping in the second half of next year, what type of ramp do we expect versus the prior notes? Will it be typical or will the timing be different? And also on the N3 cost, what does the N3 cost structure look like? Is that your question, Brett?
+Brett Simpson
+That's right. Thanks, Jeff.
+C. C. Wei
+Okay. Great. Hi. This is C. C. Wei. Let me answer the second part of the question first. [Indiscernible] costs definitely it is higher than N5. That is because of technical complexity and we have to use many new pieces of equipment which is -- cost higher. 
+But then the ramp-up is very similar to the previous node. We saw many customers engagement actually is higher than what we observed in the previous node. The second half of 2022 will be our mass production but you can expect the revenue will be seen in the first quarter of 2023 because it takes a long tech cycle time to have all those wafers out.
+Brett Simpson
+Okay. So basically on three-nanometer, this won't be -- typically, you see your first revenue Q2 or Q3 it's going to be later next year. Is that right?
+C. C. Wei
+That's right.
+Jeff Su
+Yeah. Brett, I think we have been consistently saying that N3 will begin production in the second half of 2022. That has been a consistent message since we first introduced N3 in 2019.
+Brett Simpson
+Okay, great. And maybe just a follow-up on 28-nanometer. You just talked about a new fab that's coming on stream in 2024 in Japan. And can you clarify the latest thinking in terms of Europe? Is that another that we could be [Indiscernible] new fab, an expansion for TSMC? 
+And then in terms of looking at the 28-nanometer node, there's a lot of capacity being expanded at the moment. Can you talk about what's driving this and why you think this will not lead to an oversupply situation in time? Thanks.
+Jeff Su
+Thank you, Brett. Brett, the second question is around 20 nanometers, 2 parts. First, of course, that C. C. just announced our intention to build 28 nanometers in Japan, so Brett wants to know, do we have plans in Europe? And then the second part is that, with 28 nanometers, what is driving the longer-term structural demand for 28, is there a risk of oversupply of 28 nanometers?
+C. C. Wei
+We don't rule out the possibility of building a fab in other areas that include Europe. However, we do emphasize when we build up a new capacity for 28-nanometer is almost all to serve the specialty technologies. For some of the specialty technologies that are not offered by our competitor, and TSMC is working with our customers to meet their demand. So you got any possibility of oversupply? Not for TSMC. Okay. That's all I can let you know.
+Brett Simpson
+That's great. Thank you, C. C.
+Jeff Su
+Okay. Thank you, Brett. Operator, can we move on to the next participant, please?
+Operator
+Next one to ask questions, Roland Shu, Citigroup.
+Roland Shu
+Hi. Good afternoon. Thanks for taking my questions. My question is, you have a global manufacturing expansion strategy to build more fabs overseas are going for -- as you said, you also thought is good about the possibility to build a fab in Europe. 
+My question is on your -- is a joint venture with a local government or key customers an option for you to build this new fab overseas, or you prefer to build a fab, and 100% own, all like what you did for those fab in China or the U.S. or Europe now?
+Jeff Su
+Okay. Roland, your first question is about our overseas fabs. Roland wants to know as we expand overseas, will we consider joint ventures with local governments or our key customers, or will we continue to -- or will i

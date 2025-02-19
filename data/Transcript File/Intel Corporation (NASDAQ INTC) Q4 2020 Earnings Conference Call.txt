@@ -1,0 +1,148 @@
+Intel Corporation (NASDAQ:INTC) Q4 2020 Earnings Conference Call January 21, 2020  5:00 PM ET
+Company Participants
+Trey Campbell - Director, IR
+Omar Ishrak - Chairman
+Bob Swan - CEO
+Pat Gelsinger - Incoming CEO
+George Davis - CFO
+Conference Call Participants
+C.J. Muse - Evercore
+John Pitzer - Credit Suisse
+Joe Moore - Morgan Stanley
+Vivek Arya - Bank of America
+Ambrish Srivastava - BMO
+Stacy Rasgon - Bernstein Research
+Harlan Sur - JPMorgan
+Matt Ramsay - Cowen
+Timothy Arcuri - UBS
+Operator
+Ladies and gentlemen, thank you for standing by and welcome to the Fourth Quarter 2020 Intel Corporation Earnings Conference. At this time, all participant lines are in listen-only mode. [Operator Instructions] Please be advised that today's conference may be recorded.
+I'd now like to hand the conference over to your host today, Mr. Trey Campbell, Vice President and Director of Investor Relations. Please go ahead.
+Trey Campbell
+Thank you, operator and welcome everyone to Intel's fourth quarter earnings conference call. By now, you should have received a copy of our earnings release and the earnings presentation. If you've not received both documents, they're available on our investor website intc.com. The earnings presentation is also available in the webcast window for those joining us online.
+I'm joined today by our Chairman of the Board, Omar Ishrak; our incoming CEO, Pat Gelsinger; our current CEO, Bob Swan; and our CFO, George Davis. In a moment, you'll hear brief remarks followed by Q&A.
+Before we begin, let me remind everyone that today's discussion contains forward-looking statements based on the environment as we currently see it and as such does include risks and uncertainties. Please refer to our press release for more information on the specific risk factors that could cause actual results to differ materially.
+A brief reminder that this quarter we have provided both GAAP and non-GAAP financial measures. Today, we will be speaking to the non-GAAP financial measures when describing our consolidated results. The earnings presentation and earnings release available on intc.com include the full GAAP and non-GAAP reconciliations.
+Given our CEO transition, I want to clarify two points ahead of remarks and Q&A. One, we will be providing Q1 2021 guidance on this call, but will provide full year guidance for 2021 at a later date, no later than our next earnings call in April.
+Second, we'll be providing more commentary on our progress on 7-nanometer with specifics on our manufacturing plans for our 2023 products to follow after Pat joins us in mid-February.
+With that, let me hand it over to Omar.
+Omar Ishrak
+Thank you, Trey and good afternoon everyone. Thank you for joining us. As you've heard, Intel has been in the midst of a major transformation to strengthen our CPU franchise, while evolving into a multi-architecture XPU company.
+The business is well-positioned to capitalize on key technology inflections and extend our reach into fast-growing markets. Under Bob's leadership, Intel has made significant progress on this strategy and once again delivered record results in the past year, which Bob and George will detail shortly.
+But before that, I'd like to share a few words about the CEO transition we announced last week. This decision came after very careful consideration and planning by the Board and in partnership with Bob. Pat Gelsinger will rejoin Intel on February the 15th as our new CEO and a member of our Board. Bob will remain in his role until then and will work with Pat to ensure a seamless transition.
+On behalf of the entire Intel team and Board of Directors, I'd like to thank Bob for his leadership and significant contributions through this period of transformation for Intel.
+The company faced challenging issues when Bob took over and he has been a fantastic leader. Bob clarified Intel's growth strategy, re-energized its culture, and made significant progress in improving execution. He leaves Intel in a strong strategic and financial position and we deeply appreciate his ongoing guidance during this transition.
+
+Last week, Bob and I introduced Pat to Intel employees around the world who gave him a very warm welcome. We believe this is the right time to make this change and we are confident Pat is the right person to lead Intel forward.
+In addition to deep technology expertise and unique insights of Intel's technology evolution based on 30 years as a leader here, Pat brings a distinguished record of driving growth and performance and shareholder returns. He lives by our values-based cultural leadership approach and has a hyper focus on talent development and operational execution.
+In sum, the Board is confident that Pat together with the rest of the leadership team and our incredible dedicated 110,000 employees around the world will ensure strong execution of Intel's strategy, build on its record of product leadership, and capitalize on the significant opportunities ahead to create long-term shareholder value.
+While he does not step into the role for another few weeks, he has kindly agreed to join us today. So, you will get to hear some of his initial observations with more to come after he officially takes over on February the 15th.
+With that, I'd like to turn it over to Pat for a few words.
+Pat Gelsinger
+Thanks Omar for the kind introduction. It's a pleasure to be here with you all today. I am thrilled and humbled to be coming home to my dream job as Intel's CEO. I was only 18 when I first joined Intel and I am proud to say I spent the following 30 years learning from such industry giants as Grove, Moore, and Noyce.
+My experience at Intel has shaped my entire career and I am forever grateful for the opportunity to now lead this great company. I have tremendous regard for Intel's rich history of innovation and the world-changing technologies invented here that now power the world's digital foundation. I can't wait to help lead this great technology innovator during a critical time of change and disruption.
+I know you're all very anxious to hear more from me on our long-term plans and I'll be sharing my detailed perspective after I assume my new role mid-February. That said, I do want to provide my view specifically on 7-nanometer progress. I've had the opportunity to personally examine progress on Intel's 7-nanometer technology over the last week.
+Based on initial reviews, I am pleased with the progress made on the health and recovery of the 7-nanometer program. I am confident that the majority of our 2023 products will be manufactured internally.
+At the same time, given the breadth of our portfolio, it's likely that we will expand our use of external foundries for certain technologies and products. We will provide more details on this and our 2023 roadmap once I fully assess the analysis that has been done and the best path forward.
+Bob and George will walk you through the financials and provide guidance for the first quarter shortly. We are holding off on providing guidance for the full year until I join, but we will do so in a timely fashion no later than on our next earnings call in April.
+Looking ahead, the world is becoming more digitally connected, expanding the market in front of us. Intel is the only semiconductor company in the world that has the depth of intelligent silicon, platform vision, design and manufacturing capabilities, and scale that our customers need to fuel their next-generation innovations.
+There is enormous opportunity ahead for Intel, but to be able to seize these opportunities, we have to deliver the best products and stay ahead of our customers' needs. We need to become more agile in a very competitive market. We need to execute flawlessly and deliver on our commitments. We need to passionately innovate with boldness and speed.
+Intel culture and values must be healthy and vibrant assuring our ability to attract and retain the best engineering talent in the world. I look forward to working with the incredibly talented global Intel team and industry partners to continue delivering the best technologies for our customers around the world.
+
+I also look forward to engaging with you, our shareholders, in the coming months to hear your perspectives and discuss our vision and strategy for Intel. We will position this company for sustained growth and leadership for our industry, our country and an increasingly digital world.
+I also want to extend my deepest respect and appreciation to Bob for his leadership and significant contributions to Intel through this critical period. I'm just starting to dive into the business, but already I'm confident that the strong foundation and progress achieved under his leadership put us on the right track to build on Intel's great history and to create value for our customers and shareholders in the years to come.
+Thanks again. Bob, over to you.
+Bob Swan
+Thanks Pat and welcome back to Intel. It has been an honor to lead this incredible company and its talented team. It gives me great confidence in Intel's future knowing that I'll be passing the baton to Pat whose technology expertise, industry knowledge, execution track record, and commitment to our company is indisputable.
+Over the last two years, we made significant progress on our strategy to transform Intel into a multi-architecture XPU company, to move from silicon to solutions, and to contemporize our IDM model.
+I am proud of what we're able to achieve together as an Intel team in a relatively short period of time and echo Omar's words that Intel is in a strong strategic and financial position as we make this transition.
+As demonstrated by the results we announced today, demand for Intel's innovative technologies remains very strong and our investments to capitalize on future growth opportunities are paying off.
+Our Q4 results significantly exceeded our expectations capping off our fifth consecutive year of record revenue. We generated $20 billion in revenue and $1.52 in EPS, exceeding our guidance by $2.6 billion and $0.42 respectively.
+For the full year, we delivered $77.9 billion in revenue, up 8% and $5.30 in EPS, up 9%. The client, data center, memory, and Mobileye businesses each set all-time revenue records.
+In Q4, we continued to advance our three strategic priorities; improving our execution to strengthen our core business, extending our reach to accelerate growth and redefine our position in the industry, and continuing to thoughtfully deploy capital to create value for our shareholders.
+Let me briefly discuss some of the highlights. Starting with improving our execution to strengthen our core business, let me start with an update on process technology and our product roadmap.
+Over the last few years, we've been following the IDM model to ensure we can deliver a predictable cadence of leadership products, preserve our IDM advantage, continue to invest in process technology leadership, and generate attractive returns on capital.
+This evolution includes a disaggregated design strategy, adoption of standard industry processes and common tools, flows, and methods, and deeper engagement with the industry ecosystem.
+In July, we highlighted a challenge with our 7-nanometer technology and started a process to improve it while evaluating the best approach for our 2023 product lineup. Since that time, we have made tremendous progress on our 7-nanometer technology.
+When 7-nanometer was originally defined, the flow contained a particular sequence of steps that contributed to the defect issue we discussed in July. By re-architecting these steps, we've been able to resolve the defects.
+As part of this work over the last six months, we also streamlined and simplified our 7-nanometer process architecture to better ensure we'll be able to deliver on our 2023 product roadmap.
+The inline data we have been collecting and our pipeline of proven yield development projects gives us confidence in our ability to deliver on our commitments going forward.
+
+At the same time, as Pat mentioned, we will continue to leverage the relationships we've developed over the years with our external foundry partners and believe they can play a larger role in our product roadmap given our disaggregated designs.
+Once Pat has had a chance to join, he'll further assess our analysis and drive the final manufacturing decision for our 2023 CPU products. Therefore, we'll communicate that decision soon after he takes over, but not today.
+Turning to products, we've qualified several new products in the fourth quarter and we have an incredibly exciting lineup of CPUs for 2021 and 2022. Just a couple of weeks ago at CES, we introduced more than 50 processors resulting in more than 500 new designs for laptops and desktops coming to market in 2021. We are also seeing tremendous market response for PCs based on our new 11th Gen Intel Core Tiger Lake Processors.
+Our PC customers now have more than 150 Tiger Lake based systems in the market, well ahead of expectations. We believe we gained market share as PC CPU units grew an impressive 33% in the quarter.
+In a market where competitors are seeing supply challenges, this is a powerful example of the incredible value and scale of our factory network as we continue to deliver greater performance and cost efficiencies for our customers.
+Moving to data center, we are now shipping our first 10-nanometer based Xeon Scalable CPU Ice Lake and will be ramping volume through the first quarter. Customers are going to see significant value in Ice Lake across cloud, network, and edge workloads with excellent performance improvement and innovations such as PCIe Express Gen 4, next generation Intel Optane Persistent Memory and security enhancements such as SGX.
+As we look ahead, we are excited about the capabilities we are bringing to customers with Alder Lake for mobile and desktop PCs and Sapphire Rapids for the data center. These products take advantage of our Enhanced SuperFin process technology and numerous architectural improvements and both are broadly sampling to customers.
+We will qualify Alder Lake desktop and notebook for production and begin our volume ramp in the second half of 2021 and we expect production qualification of Sapphire Rapids at the end of 2021.
+In the expanded market opportunity in front of us, CPUs are critical, but multiple architectures or XPUs will be required to help customers optimize for specific workloads. We had a big XPU leap in the fourth quarter as we entered the discrete graphics market with Intel Iris Xe MAX graphics, Intel's first Xe-based discrete GPU.
+We are now shipping discrete graphics into thin and light notebooks from Acer, Asus, and Dell and we introduced our first discrete GPU for the data center, which is already delivering great cloud gaming experiences for customers such as Tencent. We also announced the gold release of oneAPI, our cross-industry open standards-based unified programming model that delivers a common developer experience across architectures.
+Second, we've made strong progress extending our reach to accelerate our growth. Over the past several years, we have been making investments that have positioned us to lead key technology inflections such as AI, 5G network transformation, and the intelligent autonomous edge.
+We infuse AI capabilities into everything we make from the cloud to PCs and we see tremendous growth prospects as we build our position in data center training to complement the strength of our Intel Xeon for inference.
+We made a significant step in AI this quarter when Amazon announced EC2 instances that will leverage up to eight of our Habana Gaudi AI training accelerators and deliver up to 40% better price performance than current GPU-based EC2 instances for machine learning workloads.
+
+We've also invested to drive networking workload convergence on Intel silicon. In 2020, we expanded our footprint into the Radio Access Network delivering Xeon SoCs, FPGAs, and custom solutions for 5G base station designs and reaching our goal of 40% share, two years ahead of our original target.
+Today, we are the leading network silicon provider winning in wireless, enterprise, and cloud networks and delivering $6 billion in revenue this year, up approximately 20% versus 2019.
+Finally, we have enviable assets to lead the explosive growth of intelligent and autonomous edge computing. Our IOTG and Mobileye businesses have a combined annual revenue of $4 billion. Mobileye delivered a record fourth quarter and had an explosive start to 2021 with a number of exciting CES announcements.
+Third, we've maintained our discipline in thoughtfully allocating our shareholders' capital. Since 2015, we have grown revenue by more than $22 billion and more than doubled EPS.
+We've driven spending from 36% of revenue to 25% of revenue, while investing in manufacturing capacity expansion, adding more than $1 billion of R&D targeted to higher growth initiatives, and focusing our product portfolio.
+As a result, we anticipate approximately $12 billion in proceeds from our NAND and McAfee exits over time. At the same time, we've been delivering substantial capital returns to shareholders, including $19.8 billion in 2020 alone through dividends and share buybacks, the latter of which included a $10 billion accelerated share repurchase announced in August. Building on this, today, we announced that we are increasing our annual dividend by $0.07 or 5% from $1.32 to $1.39 per share.
+Before I pass it to George for more details on our fourth quarter results, I want to reiterate that I couldn't be more proud of the team at Intel and I cherish the time I've spent here.
+I look forward to watching Pat and the team's continued progress as they build on Intel's purpose to deliver breakthrough technology that enriches the lives of everyone on the planet. I also thank our investors and analysts on the line today for their continued support of Intel and for our valued engagements over the years.
+George Davis
+Thanks Bob and good afternoon everyone. Q4 marked a much stronger than expected finish to a record year. Both Mobileye and our PC-centric segment achieved record quarters. Q4 revenue was $20 billion, exceeding our guidance by $2.6 billion. The revenue beat was broad based led by stronger than expected notebook and cloud demand along with contributions from desktop and enterprise and government. Data center related demand also led to stronger revenues in NAND.
+Gross margin for the quarter was 58.4%, exceeding guide by three points due to flow through on higher revenue and the benefit of Ice Lake server achieving production qualification prior to year end.
+Q4 EPS was $1.52, $0.42 above our guide due to strong operational performance and further boosted by gains from our ICAP portfolio. Excluding a one-time tax adjustment, about two-thirds of our EPS beat was operational and one-third was below the line.
+For full year 2020, we achieved record revenue of $77.9 billion, $4.4 billion higher than our January guide, which reflects a one year acceleration relative to our 2019 Investor Day target.
+EPS was $5.30, up $0.43 year-over-year and $0.30 higher than our January guide. We generated $21.1 billion of free cash flow, up 25% year-on-year and returned 94% of free cash flow to shareholders.
+In total, we have repurchased approximately 17.6 billion shares as part of our planned $20 billion share repurchases announced in October 2019. We intend to complete the remaining $2.4 billion balance in Q1 2021.
+Moving briefly the segment performance, our data center group generated record revenue in 2020, up 11% year-over-year. In Q4, DCG delivered revenue of $6.1 billion, down 16% year-over-year driven by enterprise and government weakness and cloud digestion albeit lower than expected.
+
+As a reminder, Q4 2019 was a tough compare with an all-time record for revenue with strength across all segments. DCG operating margin in Q4 was down $1.4 billion year-on-year on lower revenue and increased investment.
+Our other data centric businesses were up 1% year-over-year in 2020. In Q4, these businesses were down 5% year-over-year, driven largely by COVID-related demand impacts, partially offset by Mobileye growth.
+IOTG revenue was down 16% year-over-year due to COVID effects on demand. We expect recovery in IOTG in 2021 and saw sequential growth of $100 million in the quarter on stabilizing industrial and video segments. Mobileye revenue was up 39% year-over-year in the quarter and operating margin was $110 million, both records as IQSoC demand continues to be strong.
+NSG revenue was $1.2 billion, down 1% year-on-year on lower ASPs, partially offset by higher volume growth. Operating margin was $76 million. PSG revenue was down 16% year-over-year due mostly to 5G ASIC transitions at key accounts in the communications segment.
+CCG delivered a fifth straight year of record revenue, up 8% year-over-year. For the quarter, revenue was up 9% year-over-year, driven by record notebook unit volume. ASPs were down 11% due to increased volume in consumer entry and education segments.
+Adjacency revenue was down 31% driven by modem ramp down and the divestiture of our home gateway business. Operating income was $4.5 billion, up $420 million year-over-year on higher volume, partially offset by the ramp of 10-nanometer products.
+Moving to our outlook, as Bob and Trey said, we believe it is important to give Pat time to assume his new role and dig into the business before announcing our full year 2021 guidance and longer term plans. However, I will provide our Q1 outlook and then for the year, discuss high-level headwinds and tailwinds we expect.
+As a reminder, our outlook for 2021 excludes the NAND business. We expect Q1 revenue of $17.5 billion, down 12% year-over-year or down 6% excluding NAND. We see continuing strong demand for notebook PCs in Q1, up significantly year-over-year and expect desktop volumes to be down year-over-year.
+We anticipate further cloud digestion and continued COVID demand impacts on IOTG. The Q1 revenue estimate also includes approximately $500 million in corporate revenue that is one-time in nature and relates to a prepaid revenue arrangement.
+As we look at the remainder of the year, we see solid TAM growth in our core markets in 2021. We expect PC demand to be more first-half weighted than normal seasonality and expect data centric demand to be more concentrated in the second half as cloud digestion eases and COVID impacted markets such as enterprise, data center, and IoT improve.
+We have strong product roadmaps, but have anticipated a more competitive market and the continued mix shift to entry consumer PCs in our revenue plans this year. Finally, we will see lower modem revenue this year from our exit of that business.
+Gross margin in Q1 is expected to be approximately 58%, down year-over-year by approximately four points on mix-related ASPs from lower Xeon XCC volume and higher small core PC units partially offset by lower margin impact from divested businesses and some improvements from our DCG adjacencies. Q1 operating margin is expected to be approximately 30%. We are forecasting EPS of approximately $1.10 per share and a tax rate of 14.5%.
+With that, let me turn it back over to Trey and get to your questions.
+Trey Campbell
+All right. Thank you, George. Moving on now to the Q&A, as is our normal practice, we would ask each participant to ask just one question. Operator, please go ahead and introduce our first caller.
+Question-and-Answer Session
+Operator
+Our first question comes from the line of C.J. Muse with Evercore.
+
+C.J. Muse
+Yes, good evening. Thank you for taking the question. Bob, it's been a pleasure working with you and Pat, congrats and best of luck. I guess first question is around the fact, clearly, a final decision hasn't been made yet, but it certainly sounds pretty clear that you are pursuing a dual path strategy of manufacturing at the leading edge both internally and externally.
+So, how should we think about the impact to CapEx? Will you need to make investments with your foundry partner to secure capacity and importing certain products to very different foundry design rules, what impact will that have on OpEx and is that is what is driving higher OpEx intensity in Q1? Thank you.
+Bob Swan
+Yes, thanks C.J. Maybe I'll start and George you can finish up. First, yes, we've been through an exhaustive effort over the course of the last six months and as we highlighted, we've made tremendous progress on our 7-nanometer process technology and that gives us a lot of comfort that the number one priority that we set in the middle of the year, which was a predictable cadence of leadership products that we would be able to deliver our 2023 roadmap using i7 or our next-gen technology.
+So, the progress that the team has made has given us the confidence that we'll continue to leverage the IDM advantage and invest in technology development leadership in the future.
+At the same time, we also realize that with our disaggregated designs that we launched a few years back, that we have enhanced flexibility to see if when and what technologies or tiles we'll make inside, which will be the majority of our 2023 roadmap, but it gives us the flexibility to look at things outside.
+And the trade-offs that we make in doing that are one, performance of product in a predictable manner; two, economics; and three, ensuring that we have the capacity and the control of the supply chain so that we can -- our customers can count on our deliveries. So, over the course in time preserving the IDM advantage while being more and more flexible on our architectures and our designs.
+George Davis
+Yes and C.J., in terms of spending, I would say, yes, we're increasing spending on 7-nanometer inside the company in preparation for the next generation of tools. I wouldn't tie it explicitly in any way to the trade-off between manufacturing internally or externally. That's really going to be decided as Pat looks at the product roadmap.
+Most of our spending increase in the year compared to what we thought is tied to more spending on AI and on our Xeon roadmap, which pretty much was a re-direction of the savings that we got from the divestitures.
+Pat Gelsinger
+And if I might C.J., this is Pat, pleasure to join all of the investors on this call today. I just want to affirm as I said in my formal statements that I was very pleased to see the great progress on 7-nanometers and the TD team has really done a great job over the last six months.
+That gives me the confidence as I said in my formal comments that the majority will be internally, but we will be increasing the use of our foundry capabilities as well and we'll be more specific on this after I take time to dig deeper with the team shortly after joining the company in the middle of next month, but overall, I think we're on a very good path now.
+C.J. Muse
+Thanks so much.
+Operator
+Our next question comes from John Pitzer with Credit Suisse.
+John Pitzer
+Yes, good afternoon guys. Thanks for letting me ask a question. I'll echo C.J. in thanking Bob for all his help and welcoming Pat to the team. I guess my question, Bob, probably just around gross margins, clearly, you significantly upside the December quarter. I would have thought that going into March, given the divestiture of NAND and that being gross margin accretive that maybe you'd get some better leverage on gross margin.
+
+So, if you can address that. And I guess more importantly from the March quarter, Bob or George, can you talk about how we should think about the puts and takes to the cost sides on gross margins as 10-nanometer begins to ramp.
+George Davis
+Hey, John, I'll take it. This is George. In Q1, what we're really seeing is again atypical seasonality. So, when you look at the fact that we're in a digestion phase and we're actually in the third quarter of it; that has a significant impact on mix that's affecting our ASPs.
+You're also seeing tremendous demand in PCs, well above our expectations, obviously, contributing to the beat in Q4, continuing into Q1 and actually we think continuing strongly into the first half and that's largely small core type devices. So, we have an ASP effect there as well.
+We are seeing some higher 7-nanometer costs impacting our outlook for gross margin and we are getting the benefit from NAND as you talk about, and -- but we're also seeing more savings in 10-nanometer costs as we're making more progress there than actually we were even expecting. It's accelerating, so we're pleased with that.
+As you think about the full year, I think trying to take a compare off of Q1 when we are impacted on ASPs both from DCG and from CCG makes for a difficult full year extrapolation.
+We're going to come back to you with a full year outlook and we can go more into it, but in terms of headwinds and tailwinds that we see as we go into the year, obviously, we're going to have higher 10-nanometer volume, which is going to impact gross margins overall. The client mix is going to continue to be h

@@ -1,0 +1,152 @@
+Taiwan Semiconductor Manufacturing Co Ltd (NYSE:TSM) Q2 2021 Earnings Conference Call July 15, 2021  2:00 AM ET
+Company Participants
+Jeff Su - Deputy Director, IR
+Wendell Huang - VP & CFO
+C. C. Wei - Vice Chairman & CEO
+Mark Liu - Chairman
+Conference Call Participants
+Gokul Hariharan - JPMorgan Chase & Co.
+Randy Abrams - Crédit Suisse
+Bruce Lu - Goldman Sachs Group
+Charlie Chan - Morgan Stanley
+Nicolas Gaudois - UBS Investment Bank
+Roland Shu - Citigroup
+Laura Chen - KGI Securities
+Brett Simpson - Arete Research Services
+Charles Shi - Needham & Company
+Andrew Lu - Sinolink Securities
+Martin Lau - FSSA
+Krish Sankar - Cowen and Company
+Jeff Su
+Good afternoon, everyone. Welcome to TSMC's Second Quarter 2021 Earnings Conference Call. This is Jeff Su, TSMC's Director of Investor Relations and your host for today. 
+To prevent the spread of COVID-19, TSMC is hosting our earnings conference call via live audio webcast through the company's website at www.tsmc.com where you can also download the earnings release materials. If you are joining us through the conference call, your dial-in lines are in listen-only mode. 
+The format for today's event will be as follows: first, TSMC's Vice President and CFO, Mr. Wendell Huang, will summarize our operations in the second quarter 2021, followed by our guidance for the third quarter 2021. Afterwards, TSMC's CEO, Dr. C.C. Wei; Mr. Huang; and TSMC's Chairman, Dr. Mark Liu, will jointly provide the company's key messages. Then we will open the line for Q&A. 
+As usual, I would like to remind everybody that today's discussions may contain forward-looking statements that are subject to significant risks and uncertainties, which could cause actual results to differ materially from those contained in the forward-looking statements. Please refer to the safe harbor notice that appears in our press release. 
+And now I would like to turn the call over to TSMC's CFO, Mr. Wendell Huang, for the summary of operations and the current quarter guidance.
+Wendell Huang
+Thank you, Jeff. Second quarter revenue increased 2.7% sequentially in NT dollar terms or 2.9% in U.S. dollar term. Our second quarter business was supported by continued strength in HPC and automotive-related demand. 
+Gross margin decreased 2.4 percentage points sequentially to 50% mainly due to N5 dilution, the slower rate of cost improvement and the absence of positive inventory revaluation. 
+Total operating expenses slightly increased TWD1.47 billion. Therefore, operating margins decreased 2.4 percentage points sequentially to 39.1%. Overall, our second quarter EPS was TWD5.18 and ROE was 27.3%. 
+Let's move on to revenue by technology. 5-nanometer process technology contributed 18% of wafer revenue in the second quarter, while 7-nanometer accounted for 31%. Advanced technologies, which are defined as 7-nanometer and below, accounted for 49% of wafer revenue. 
+Moving on to revenue contribution by platform. Smartphone decreased 3% quarter-over-quarter to account for 42% of our second quarter revenue. HPC increased 12% to account for 39%. IoT decreased 2% to account for 8%. Automotive increased 12% to account for 4%. And DCE decreased 12% to account for 4%. 
+Moving on to the balance sheet. We ended the second quarter with cash and marketable securities of TWD871 billion. On the liability side, current liabilities decreased TWD14 billion mainly due to the decrease of TWD23 billion in accrued liabilities and others, partially offset by the increase of TWD6 billion in dividend payable. 
+Long-term interest-bearing debt increased by TWD134 billion mainly as we raised TWD137 billion of corporate bonds during the quarter. On financial ratios. Accounts receivables turnover days increased 2 days to 42 days, while days of inventory also rose 2 days to 85 days primarily due to N5 wafer prebuild. 
+Now let me make a few comments on cash flow and CapEx. During the second quarter, we generated about TWD187 billion in cash from operations, spent TWD167 billion in CapEx and distributed TWD65 billion for third quarter of 2020 cash dividend. Short-term loans increased TWD4 billion, while bonds payable increased by TWD137 billion. Overall, our cash balance increased TWD83 billion to TWD748 billion at the end of the quarter. In U.S. dollar terms, our second quarter capital expenditures totaled USD 5.97 billion. 
+I have finished my financial summary. Now let's turn to our third quarter guidance. Based on the current business outlook, we expect our third quarter revenue to be between USD 14.6 billion and USD 14.9 billion, which represents an 11% sequential increase at the midpoint. Based on the exchange rate assumption of USD 1 to TWD27.9, gross margin is expected to be between 49.5% and 51.5%, operating margin between 38.5% and 40.5%. 
+This concludes my financial presentation. I will turn the microphone over to our CEO, C.C.
+C. C. Wei
+Thank you, Wendell. We hope everybody is staying safe and healthy during this time. First, let me start with TSMC's long-term growth outlook and investment plan. We are witnessing a structural increase in underlying semiconductor demand as the multiyear megatrend of 5G- and HPC-related applications are expected to fuel massive increase in computation power and greater need for energy-efficient computing, which will require leading-edge technologies. 
+COVID-19 has also fundamentally accelerated the digital transformation, making semiconductors more pervasive and essential in people's lives. With our technology leadership, manufacturing excellence and customer trust, we are well positioned to capture the structural growth from the favorable industry megatrend with our differentiated technologies. 
+We now expect our long-term revenue CAGR from 2020 to 2025 to be near the high end of our 10% to 15% CAGR range in U.S. dollar terms. In the near term, we continue to observe both short-term imbalances in the supply chain driven by the need to ensure supply security, as well as a structural increase in long-term demand. While the short-term imbalance may or may not persist, we expect our capacity to remain tight throughout the year and into 2022 fueled by strong demand for our industry-leading advanced and special technologies. 
+For the full year of 2021, we now forecast the overall semiconductor market excluding memory to grow about 17% while foundry industry growth is forecast to be about 20%. We now expect -- for TSMC, we are confident we can outperform the foundry revenue growth and grow above 20% in 2021 in U.S. dollar terms. 
+To address the structural increase in long-term market demand profile, TSMC is working with closely our customer to plan our capacity and investing in leading-edge and specialty technologies to support their demand. Our capital investment decision are based on 4 disciplines, that is: technology leadership, flexible and responsive manufacturing, retaining customers' trust and earning the proper return. To ensure a proper return from the investment, both pricing and costs are important. TSMC's pricing strategy is strategic, not opportunistic. At the same time, we face manufacturing cost challenges due to increasing process complexity at leading node, new investment in mature nodes, expansion of our global manufacturing footprint and rising materials and basic commodities cost. 
+Therefore, we are firming up our wafer pricing. We will continue to work closely with our customers to provide our value. We will also continue to work diligently with our suppliers to deliver on cost improvement. By taking such actions, we believe we can continue to earn proper returns that enable us to invest to support our customers' growth and deliver long-term profitable growth for our shareholders. Next, let me talk about automotive supply update. TSMC has actively taken steps throughout the first half of this year, and we will continue to do so in the second half to address the chip supply challenges for our automotive customers. The automotive supply chain is known and complex with its own inventory management practices. 
+From chip production to car production, it takes at least 6 months to reach the automotive OEMs with several tiers of suppliers in between. However, we have worked dynamically with other customers to reallocate our wafer capacity to support the worldwide automotive industry. In first half of this year, we successfully increased our output for MCUs, one of the key components in automotive semiconductor products, by about 30% as compared to first half 2020. For the full year, we expect to increase output for MCUs by close to 60% over the 2020 level which also represents about a 30% increase over the 2018 prepandemic level. By taking such actions, we expect the automotive component shortage from semiconductor to be greatly reduced for TSMC customers starting this quarter. 
+Now let me talk about the N5 and N4 progress. TSMC's N5 is the foundry industry's most advanced solution with the best PPA. N5 is already in its second year of volume production with yields well on track. N5 demand continued to be strong, driven by smartphone and HPC applications and we expect N5 to contribute around 20% of our wafer revenue in 2021. To further enhance our 5-nanometer family's performance, power and density improvements for the next wave 5-nanometer products, we introduced N4 technology, which is a straightforward migration from N5 with comparable design rules. N4 risk production will begin this quarter and volume production in 2022. Thus, we expect demand for our N5 family to continue to grow in the next several years, driven by the robust demand for smartphone and HPC applications. 
+Finally, I will talk about the N3 status. N3 will be another full scaling from our N5 and will use FinFET transistor structure to deliver the best technology maturity, performance and cost for our customers. Our N3 technology development is on track with good progress. We have developed a complete platform support for both HPC and smartphone application of N3. We continue to see a high level of customer engagement at N3 and expect more new tapeouts for N3 for the first year as compared with N5. Risk production is scheduled in 2021, and production will start in second half of 2022. Our 3-nanometer technology will be the most advanced foundry technology in both PPA and transistor technology when it is introduced. 
+With our technology leadership and strong customer demand, we are confident that both N5 and N3 will be large and long-lasting nodes for TSMC and become an important driver of our long-term growth. 
+Now let me turn over the microphone to Wendell.
+Wendell Huang
+Thank you, C.C. Let me start by making some comments on our near-term demand and inventory. We concluded our second quarter with revenue of TWD372.1 billion or USD 13.3 billion, slightly above our guidance mainly due to better demand from HPC, IoT and automotive-related applications than our forecast 3 months ago. 
+Moving into third quarter 2021. We expect our business to be supported by strong demand for our industry-leading 5-nanometer and 7-nanometer technologies driven by all four growth platforms, which are smartphone, HPC, IoT and automotive-related applications. On the inventory side, we expect our fabless customers' overall inventory to exit second quarter of '21 at a healthy level. We expect our customers and the supply chain to gradually prepare higher levels of inventory in the second half of the year as compared to the historical seasonal level, given the industry's continued need to ensure supply security following supply chain disruptions due to COVID-19 and uncertainties brought about by geopolitical tensions. 
+Next, let me talk about our profitability. Our second quarter gross margin of 50% was slightly below the midpoint of our guidance, mainly due to an unfavorable foreign exchange rate. Our gross margin guidance provided 3 months ago was based on exchange rate assumption of USD 1 to TWD28.4, whereas the actual second quarter exchange rate was USD 1 to TWD28.01. This created about 0.5 percentage point difference in our actual second quarter gross margin versus our original guidance. In other words, if the exchange rate had maintained at $1 to TWD28.4, our second quarter gross margin would have been 50.5%. Based on the exchange rate assumption of USD 1 to TWD27.9, we have just guided third quarter 2021 gross margin to increase by 0.5 percentage point sequentially to 50.5% at the midpoint, mainly due to better back-end profitability. 
+Despite the rapidly rising depreciation costs and unfavorable foreign exchange rate, we are able to maintain our gross margin at above 50% in both second quarter and third quarter. Although a higher level of capital intensity is necessary in the near term as we are accelerating our investment pace in anticipation of the strong growth that will follow, we expect to continue to earn a similar level of long-term return. 
+Our long-term financial objectives remain unchanged. We reiterate the long-term gross margin of above 50% is achievable with operating margin to be above 39% and ROE to be above 20% through the cycle. 
+Now let me make some comments on our cash dividend distribution policy. TSMC remains committed to sustainable cash dividends on both an annual and quarterly basis. In June, TSMC's Board of Directors approved the distribution of a TWD2.75 per share cash dividend for the first quarter of 2021, which will be distributed in October 2021. Therefore, TSMC shareholders will receive a total of TWD10.25 cash dividend per share in 2021. That also means shareholders will receive at least TWD11 per share cash dividend for 2022 and the quarterly cash dividend is expected to be at least TWD2.75 per share. 
+Now let me turn the microphone over to our Chairman, Mark.
+Mark Liu
+Thank you. Thank you, Wendell, and good afternoon, everyone. Today, I will talk about TSMC's global manufacturing footprint. TSMC's mission is to be the trusted technology and capacity provider for the global logic IC industry for years to come. TSMC always treat our customers as partners. We do not compete with our customers. We grow our business by unleashing our customers' innovations and enabling their success. We earn our business by providing solid values, by providing industry-leading technologies, the world's largest logic capacity and efficient and cost-effective manufacturing to our customers, while maintaining trusting relationship with them. 
+In our capital investment, our responsibility as TSMC management is to make the best decision in the interest of the company and our customers. And our fiduciary duty is to our shareholders. 
+As the need for semiconductor infrastructure security has increased in recent years, we are expanding our global manufacturing footprint to sustain and enhance our competitive advantages and to better serve our customers in the new geopolitical environment. 
+In Taiwan, we are building capacity for N5 and N3 in Tainan Science Park. Due to the strong customer demand, we have further expand -- plan to expand in Northern, Central and Southern Science Parks in Taiwan. And Taiwan will continue to be the home base and center of R&D for TSMC. As the initial phase of volume production of a leading-edge technology has to be in close proximity and closely coupled with R&D fab due to massive collaborative engineering activities, our leading node will continue to be ramped in Taiwan as well. 
+In the U.S., we are increasing our presence with an advanced 12-inch semiconductor fab in Arizona and the progress is well on track with our plan. We are actively in a fast learning phase to optimize the operating efficiency for the U.S. fab. 
+The first wave of U.S.-hired engineers arrived Taiwan in late April for training on 5-nanometer technology. Construction of the fab has already begun with equipment moving in scheduled for second half 2022. Phase 1 volume production of 20,000 wafer per month of 5-nanometer technology will begin in first quarter '24. At that time, our 5-nanometer family will still be the most advanced high-volume production technology commercially available in the U.S. 
+Our customers welcome us to build capacity in the U.S. and pledged their strong support and business commitments. Therefore, we do not rule out the possibility of a second phase of expansion to meet our customers' strong demand. 
+In China, as our fab construction in Nanjing has already completed in 2017, we have completed the Phase 1 volume ramp in third quarter 2020, now reaching 25,000 wafer per month capacity of 16-nanometer technology. We are further expanding our presence in Nanjing with 28-nanometer technology to support our customers' urgent needs with volume production beginning in second half 2022 and reaching 40,000 wafer per month capacity by mid-2023. 
+For the long term, we forecast 28-nanometer will be the sweet spot for our embedded memory applications and our structural demand for 28-nanometer will be strongly supported by multiple specialty technologies. 
+Our global manufacturing expansion strategy is based on customer needs, business opportunities, operating efficiencies and cost economic considerations. While overseas fab are not initially able to match the cost of our manufacturing operations in Taiwan, we will work with governments to minimize the cost gap to ensure we start with a level playing field. We are working closely with our customers to firm up our wafer pricing to reflect the cost increases and ensure we earn a proper return. We will work diligently on enhancing our operations and service capabilities and optimize our efficiencies in overseas locations to continue to provide technology leadership with efficient and cost-effective manufacturing for our customers. 
+By taking such steps, we believe an expansion of our global manufacturing footprint will enable us to reach global talent, better serve our customers' needs, earn the proper return from our investment and deliver long-term profitable growth for our shareholders. 
+Thank you for your attention.
+Jeff Su
+Thank you, Chairman. This concludes our prepared statements. [Operator Instructions]. Now let us begin the Q&A session. Operator, can we please proceed with the first caller on the line?
+Question-and-Answer Session
+Operator
+Yes. The first caller, Gokul Hariharan, JPMorgan.
+Gokul Hariharan
+Maybe my first question I would focus on the semiconductor supply and demand. C.C., you mentioned that you're expecting demand to still remain extremely strong, supply to remain tight through end of this year potentially through next year as well. 
+Could you talk about when do you expect supply and demand to come back into balance? Do you see a situation where your customers go into a bit of an inventory correction mode sometime soon? Or you think that the structurally higher inventory is something that is likely to last for a much longer period of time than what originally the market thought?
+Jeff Su
+Okay. Gokul, let me summarize your first question. Gokul's first question is on the semiconductor supply-and-demand outlook. He notes that C.C. has said our capacity will be tight throughout this year and into 2022. All right. So let me summarize Gokul's question again on semiconductor supply and demand. He's wondering or asking, when do we see supply and demand in the semiconductor coming back into the balance? Is there a risk of an inventory correction anytime soon? And how long can a higher level of inventory continue?
+C. C. Wei
+Well, Gokul, let me answer your question. Let's -- let me share with you our perspective on the shortage right now. The current semiconductor capacity shortage is being driven by both a structural increase in long-term market demand and also a short-term imbalance in the supply chain due to uncertainties from COVID-19 and geopolitical tensions. And that may or may not persist. 
+We do not rule out the possibility of an inventory correction in the future, but we expect our capacity will remain tight throughout this year and extend at least into 2022. But let me share with you also that even inventory correction to occur, we believe it will be less volatile than previous downturn as our underlying structural megatrend of 5G-related and HPC application will continue. Do I answer your question?
+Jeff Su
+Gokul, does that address your first question? And do you have a second question, if so? All right. Operator, I think we have lost Gokul. Maybe we'll move on to the next caller first.
+Operator
+Yes. The next one is Randy Abrams, Credit Suisse.
+Randy Abrams
+I wanted to ask the question on the trend per cost purchase. I'm curious for 5-nanometer and 3-nanometer, how you're seeing continued improvement? And for the customer motivation to migrate, how is that shifting between how our power performance density and cost versus also increasingly seek out the back-end system level integration?
+Jeff Su
+Okay. Randy, let me summarize your first question. Your first question is on the cost per transistor. Randy wants to know what is the cost per transistor trend at 5-nanometer and 3-nanometer. And also what do -- I guess, Randy, your question is sort of what are the customers value -- or evaluate when they look at the technologies as well. Is that correct?
+Randy Abrams
+Yes, right, between power performance density versus cost and also back-end integration.
+Jeff Su
+Okay.
+Mark Liu
+Randy. No, actually, today, the technology has getting more complex than the simple scaling. Actually, we work with our customers very closely and we have been working on the performance and energy efficiency of a technology. And we took several approach, of course, material innovation, transistor structure innovation. We also, in recent generations, we work heavily on the design and technology cooperation. And also more recently, we work on the 3D ICs. 
+All these innovation combined is to deliver the value for our customer to improve the system performance and the system's power efficiency. And TSMC is at the forefront of delivering this value and as evidenced by the strong demand and continued technology migration at 5 to 3. So in doing that, we believe we can continue earn a proper return for our investment. Thank you, Randy.
+Randy Abrams
+Okay. My second question, if you could give an update on the 5-nanometer where there's still some dilution. Maybe how much dilution you see in the second half? And update on how you see it trending towards the corporate gross margin. And as we look to next year, if 3-nanometer ramping late in the year, could we see a favorable like a bit more of a sweet spot for profitability as you have a more mature 5-nanometer, but not a new node yet ramping?
+Wendell Huang
+Okay. Randy, this is Wendell. Let me answer your question. The 5-nanometer contribution to our revenue will be much higher this year compared to last year. Therefore, we expect that the margin dilution from N5 this year will be between 2 to 3 percentage points. 
+Now we also expect that N5, like previous nodes, will be able to reach -- the margin will reach the corporate average in about 7 to 8 quarters. With respect to 2022, it's a bit too early to talk about it. But we believe our long-term gross margin target of 50% continues to be achievable.
+Jeff Su
+Okay. Thank you, Randy.
+Operator
+Yes. And the next one is Bruce Lu from Goldman Sachs.
+Bruce Lu
+I think a lot of your customers have like different supply chain management policies. A lot of your customers find a long-term contract with other flagship players with favorable pricing and payment terms. So does TSMC expect this will become the new norm for the foundry industry? Does the industry-wide profit pool become bigger and the earnings fluctuation will be less in the future?
+Jeff Su
+Okay. Thank you, Bruce. Let me summarize your first question. Bruce's first question is about the semiconductor supply chain, and he's observed that a lot of customers seem to be signing long-term contracts with foundries. So do we expect this to be the new norm in the future? And could this drive a bigger or larger industry-wide profit pool?
+C. C. Wei
+Okay. Bruce, let me answer the question. We are not able to comment on specific business terms with customers. However, we are working closely with our customers on different ways to secure their commitment. And customers understand our effort to support their growth. And if we plan our capacity well based on the structural increase in the long-term market demand profile, we believe our utilization and profitability can be maintained.
+Jeff Su
+Okay. Thank you. Bruce, do you have a second question?
+Bruce Lu
+Sure. So I want to focus on the automotive like automotive revenue is roughly less than $2 billion in 2020 out of a $40 billion market. So with most of the automotive IDM companies are passive in capacity expansion, this creates a big addressable market for the foundry. So what is the addressable market for foundry in the automotive semi industry in the coming years?
+Jeff Su
+Okay. Bruce, let me summarize your second question. So Bruce is asking about the longer-term outlook for the automotive industry. Automotive was less than $2 billion of our revenue last year, but he points out the automotive TAM is about $40 billion. So he's wondering about sort of the long-term TAM addressable market for TSMC.
+C. C. Wei
+Well, let me answer again. We are quite positive on the long-term trend of the semiconductors in -- semiconductor content in automotive as the trend towards safer, greener and smarter vehicles will continue to drive silicon content increase as well as the demand for advanced and specialty technology, both.
+Jeff Su
+Okay. Thank you. Does that answer your question, Bruce?
+Bruce Lu
+Can we have somehow like some specific numbers? Can you quantify that a little bit?
+C. C. Wei
+We cannot forecast in the future very accurately, right? I mean that is so dynamic. But let me assure you that silicon content will be very important and will be increased.
+Jeff Su
+Thank you, Bruce.
+Operator
+The next one is a question from Gokul Hariharan, JPMorgan.
+Gokul Hariharan
+Yes, let me ask my second question. My second question is that on your 3-nanometer business, clearly the market is expecting you to make a lot more inroads into the HPC segment. One of your existing IDM customers have redoubled their efforts to get back into the foundry business. Could you talk a little bit about how you manage this kind of what they call as coopetition, competition as well as cooperation? How does TSMC think about this when it thinks about capacity allocation, given that HPC is now becoming a very important driver for growth and this is probably the biggest HPC customer out there in terms of revenue size?
+Jeff Su
+Okay. Gokul, thank you for your second question. Let me summarize. He points out that HPC is -- seems to become a larger and larger contributor or driver, particularly at our 3-nanometer. He also points out that existing IDM customers are redoubling their efforts. So his question is really how -- I guess, how do we manage this duality? How do we manage the capacity allocation and the relationship?
+C. C. Wei
+Okay. Let me answer the question by, first, you mentioned that IDM is our important customer. Let me say that. And we are collaborating in some area and might competing in other areas. But let me explain again, TSMC is everybody's foundry and we support all our customers openly and fairly. We will allocate the necessary engineering resources to ensure all of our customers' product success, both existing customer and for the future customer. 
+How to plan our capacity to support? Actually our capacity planning is based on the long-term market demand and thus is underpinned by the industry megatrend, okay? Does that answer your question, Gokul?
+Gokul Hariharan
+So maybe just one follow-up. Do you require a lot more assurance in terms of demand, solidity and demand longevity from IDM customers given they are also competing on process technology with you compared to pure fabless?
+Jeff Su
+So Gokul is asking whether that we would require more longer-term assurance from our IDM customers versus our fabless customers.
+C. C. Wei
+We will not specifically comment on that and a certain customer, okay?
+Jeff Su
+Okay. Thank you, Gokul, and sorry for the disruption.
+Operator
+Next one to ask question, Charlie Chan from Morgan Stanley.
+Charlie Chan
+First of all, I would like to thank TSMC for the donation of the vaccine to Taiwan. I think that ensures business continuity of TSMC and also global semi supply chain. And my question is about still your gross margin trend. So first of all, is your 3D IC or advanced packaging. It seems like Wendell mentioned that the back end product possibilities are getting better in 3Q, I'm not sure if that's true. So the question is that currently the percentage of advanced packaging of TSMC's revenue. 
+And would the company still believe 3D packaging can still outgrow the wafer business and whether they would create a margin dilution. So the first question is about the 3D advanced packaging.
+Jeff Su
+Okay. Let me summarize your question, Charlie. You're asking about our 3D IC business. Charlie is asking the back-end profitability that Wendell cited improvement in the third quarter. Is this the truth? And then also sort of the outlook for our 3D IC business in co

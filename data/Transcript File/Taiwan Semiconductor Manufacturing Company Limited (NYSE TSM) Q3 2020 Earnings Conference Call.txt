@@ -1,0 +1,170 @@
+Taiwan Semiconductor Manufacturing Company Limited (NYSE:TSM) Q3 2020 Earnings Conference Call October 15, 2020  2:00 AM ET
+Company Participants
+Jeff Su - Director, IR
+C. C. Wei - CEO
+Wendell Huang - VP, Finance and CFO
+Conference Call Participants
+Gokul Hariharan - JPMorgan
+Randy Abrams - Credit Suisse
+Sebastian Hou - CLSA
+Bruce Lu - Goldman Sachs
+Sunny Lin - UBS
+Roland Shu - Citigroup
+Brett Simpson - Arete Research
+Charlie Chan - Morgan Stanley
+Laura Chen - KGI
+Chris Caso - Cowen & Company
+Rick Hsu - Daiwa Capital Markets
+Mehdi Hosseini - SIG
+Jeff Su
+Good afternoon, everyone. Welcome to TSMC's Third Quarter 2020 Earnings Conference Call. This is Jeff Su, TSMC's Director of Investor Relations and your host for today.
+To prevent the spread of COVID-19, TSMC is hosting our earnings conference call via live audio webcast through the company's website at www.tsmc.com, where you can also download the earnings release materials. If you are joining us through the conference call, your dialing lines are in listen-only mode.
+The format for today's event will be as follows. First, TMSC's Vice President and CFO, Mr. Wendell Huang will summarize our operations in the third quarter 2020, followed by our guidance for the fourth quarter 2020. Afterwards, TMSC's CEO, Dr. C. C. Wei and Mr. Huang will jointly provide the company's key messages. Then we will open the line for Q&A.
+As usual, I would like to remind everybody that today's discussions may contain forward-looking statements that are subject to significant risks and uncertainties, which could cause actual results to differ materially from those contained in the forward-looking statements. Please refer to the Safe Harbor notice that appears in our press release. 
+And now I would like to turn the call over to TSMC's CFO, Mr. Wendell Huang for the summary of operations and the current quarter guidance. 
+Wendell Huang 
+Thank you, Jeff. Good afternoon everyone. Third quarter revenue increased 14.7% sequentially in NT dollars, or 16.9% in U.S. dollars, as we saw strong demand for advanced technologies and special technology solutions driven by 5G smartphones, HPC and IoT-related applications. 
+Gross margin increased 0.4 percentage point sequentially to 53.4%, mainly thanks to a much higher level of utilization, partially offset by the margin dilution from 5-nanometer ramp and unfavorable exchange rate. The operating expenses increased by NT$7.4 billion, mainly attributable to a higher level of development activities for N4 and N3 technologies and onetime expenses to facility expansion in Hsinchu. Therefore, operating margin slightly declined by 0.1 percentage point sequentially to 42.1%. Overall, our third quarter EPS was NT$5.3 and ROE was 31.3%.
+Now let's move on to the revenue by technology. 5-nanometer process technology contributed 8% of wafer revenue in the third quarter, while 7-nanometer and 16-nanometer contributed 35% and 18% respectively. Advanced technologies, defined as 16-nanometer and below, accounted for 61% of wafer revenue.
+In terms of revenue contribution by platform, smartphone increased 12% quarter-over-quarter to account for 46% of our third quarter revenue. HPC increased 25% to account for 37%. IoT increased 24% to account for 9%, automotive decreased 23% to account for 2%, digital consumer electronics decreased 24% to account for 3%.
+Moving on to the balance sheet, we ended the third quarter with cash and marketable securities of NT$742 billion. On the liability side, current liabilities decreased by NT$27 billion, mainly due to the decrease of short term loans and the decrease of current portion of bonds payable. Long-term interest bearing debt increased by NT$146 billion, mainly as we raised NT$145 billion of corporate bonds during the quarter during the quarter. 
+
+On financial ratios, accounts receivable turnover days decreased four days to 40 days, while days of inventory increased three days to 58 days, primarily due to N5 ramp. 
+Regarding cash flow and CapEx, during the third quarter, we generated about NT$190 billion in cash from operations, spent NT$99 billion in CapEx and distributed NT$65 billion for a fourth quarter 2019 cash dividend. 
+Short term loan decreased by NT$17 billion, while bonds payable increased by NT$136 billion, mainly due to the bond issuances. Overall, our cash balance increased NT$137 billion to NT$604 billion at the end of the quarter. In U.S. dollar terms, our third quarter capital expenditures totaled $3.4 billion. 
+I have finished my financial summary. Now let's turn to our fourth quarter guidance. Based on the current business outlook, we expect our fourth quarter revenue to be between $12.4 billion and $12.7 billion, representing a 3.4% sequential increase at the midpoint. Based on the exchange rate assumption of $1 to NT$28.75, gross margin is expected to be between 51.5% and 53.5%; operating margin between 40.5% and 42.5%. 
+Now I will hand over to the call to C.C. for his key messages.
+C. C. Wei
+Thank you, Wendell. Good afternoon, everyone. We hope everybody is staying safe and healthy during this time. 
+Now, let me start with our near-term demand and inventory. We concluded our third quarter with revenue of NT356.4 billion or $12.1 billion, which was above our guidance, mainly due to better demand across all our platforms in our forecast three months ago. 
+Moving into the fourth quarter 2020, we expect our sequential growth to be supported by strong demand for our industry-leading 5 nanometer technology, driven by 5G smartphone launches and HPC-related applications. 
+On the inventory front, we forecast our fabless customers’ overall inventory to exit the year above the seasonal level, as our supply chain continues to make efforts to ensure supply chain security and actively prepare for the new 5G smartphone launches. Looking ahead, we expect our customers’ our overall inventory to remain above the historical seasonal level for a longer period of time, given the industry\s continued to need to ensure supply chain security amidst the lingering uncertainties. 
+For the full year of 2020, although COVID-19 continued to bring some level of impact to the global economies, we also observe that COVID-19 is accelerating digital transformation, while 5G and HPC-related applications continue to drive semiconductor content enrichment. We now forecast the overall semiconductor market, excluding memory to increase mid-single digit percentage, while foundry industry growth is expected to be close to 20% year-over-year. 
+For TSMC, our technology leadership position enabled us to capture the industry megatrend of 5G and HPC. We expect to outperform the foundry revenue growth and grow by about 30% in 2020 in U.S. dollar terms. 
+Next, let me talk about our N5 ramp up and N4 progress. TSMCs N5 is the foundry industry’s most advanced solution. With the best PPA, N5 is already involved in production, with good yield, while we continue to improve the productivity and performance of the EUV tools to further enhance our leadership in EUV technology. Due to the robust demand from 5G smartphones and HPC applications we reaffirm N5 will contributed about 8% of our wafer revenue in 2020, and we expect even higher percentage in 2021. 
+N4 will never reach the strong foundation of N5 to further extend our 5-nanometer family. N4 is a straightforward migration from N5 with compatible design rules, while providing for the performance, power and density enhancement for the next wave 5-nanometer products. N4’s first production is targeted for 4Q 2021 and volume production in 2022. With our continuous technology enhancement, we expect our 5-nanometer family to be a large and long lasting node for TSMC. 
+
+Now, I will talk about our N3 status. N3 will be another full node straight from our N5 with up to 70% larger density gain, up to 15% performance gain and up to 30% power reduction as compared with the N5. We have chosen FinFET transistor structure for our N3 technology to deliver the best technology maturity, performance and costs for our customers. 
+Our N3 technology development is on track with good progress. N3 will offer compete platform support for both mobile and HPC applications which production is scheduled in 2021 and volume production is targeted in second half of 2022. Our 3-nanometer technology will be the most advanced foundry technology in both PPA and transistor technology when it is introduced. Thus we are confident our 3-nanometer will be another large and long-lasting node for TSMC.
+Finally, I’ll talk about TSMC 3DFabric. TSMC has developed an industry-leading and comprehensive wafer level 3D IC technology roadmap to enhance system level performance. Our differentiated Chiplet and heterogeneous integration technologies drive better power efficient and smaller form factor benefits for our customers, while shortening their time to market. These technologies including chips stacking solutions such as SoIC, as well as advanced packaging solutions, such as InFO and CoWoS. We are consolidating this offering under one umbrella, and naming it TSMC 3DFabric. 
+As the industry continue to seek innovations to enhance system level performance, 3DFabric, will complement our advanced technology to unleash our customers’ innovation. We expect revenue from our back end services, which include both advanced packaging and testing to grow at the rate slightly above the corporate average in the next few years. 
+Now let me turn the microphone over to Wendell.
+Wendell Huang
+Thank you, C. C. Let me start by making some comments on our profitability. Our third quarter gross margin exceeded the high end of our guidance to reach 53.4%, mainly as we saw a much higher than expected overall capacity utilization rate in the third quarter. That helped to offset the margin dilution from the initial ramp up of our 5 nanometer technology. We have just guided fourth quarter gross margin to decline by 0.9 percentage point sequentially to 52.5% at the midpoint, primarily due to the margin dilution from the continued steep ramp up of our 5-nanometer and the less favorable foreign exchange rate in the fourth quarter.
+Looking to 2021, we expect a strong ramp of N5 to contribute a higher percentage of revenue as compared to 2020. The array [ph] of N5 continues to improve. Similar to prior nodes, we forecast N5's gross margin to take seven or eight quarters to reach the corporate average level. Thus N5 is expected to dilute our gross margin by about two to three percentage points for the full year of 2021. 
+As a reminder, the following six factors determine TSMC's profitability, leadership technology development and ramp up, pricing, cost reduction, capacity utilization, technology mix as well as foreign exchange rate. Taking all these factors into consideration, we believe a long-term gross margin of about 50% is achievable. 
+Now let me talk about our capital budget for this year. Our business outlook is supported by strong demand for our industry leading advanced technologies and specialty technology solutions driven by the industry megatrends of 5G and HPC-related applications. In order to meet this demand and support our customers’ capacity needs, we now expect our full year 2020 CapEx to be about $17 billion. 
+Now I will make some comments on our corporate bond issuances and capital structure. The multiyear megatrends of 5G-related and HPC applications are expected to continue to drive strong demand for our advanced technologies in the next several years. Given the macroeconomic uncertainties this year, a current low interest rate environment and the ability to diversify our funding sources, TSMC's Board of Directors has so far approved the issuance of NT$120 billion in NT$-denominated corporate bonds, and $4 billion in U.S. dollar denominated corporate bonds. 
+
+Year-to-date, we have issued NT$89.5 billion in NT$-denominated and $4 billion in U.S. denominated corporate bonds with favorable pricing terms. With our solid financial performance, strong balance sheet and cash position and capacity to take on debt, we are able to aggressively invest in our future to enhance our technologies and capabilities. This enables us to continue to outgrow the semiconductor industry through the cycles. 
+With our disciplined capital management, we remain committed to a sustainable cash dividends on both annual and quarterly basis.
+Jeff Su
+Thank you, Wendell. This concludes our prepared statements. Before we begin the Q&A session, I would like to remind everybody to please limit your questions to two at a time, to allow all participants an opportunity to ask questions. [Operator Instructions].
+So now let's begin the Q&A session. Operator, can we please proceed with the first caller on the line?
+Question-and-Answer Session 
+Operator
+The first caller on the line is Gokul Hariharan, JPMorgan. Go ahead please. 
+Gokul Hariharan
+Huang, congratulations on a great quarter and thanks for taking my questions. My first question is on CapEx and capital intensity. Looks like, this year we’ll come in around 36%-37% capital density. Could we talk a little bit about how we should think about capital intensity and absolute CapEx as well going -- looking forward at least on a directional basis? Seems like the investment cycle is still going to be pretty much intact going into next year, also looking at some of the financial options in terms of bond raise and et cetera that TSMC has undertaken. That is my first question. 
+My second question is on N5. I think in previous calls, you had indicated that while N5 will be a long and large node, it may not have the same number of tape-out as N7 has had, which is probably a historical high. Is your view changing on N5, could we talk a little bit about, will N5 exceed N7 in terms of wafer capacity, absent that wafer revenue in the next two years or so? Thank you.
+Jeff Su
+Okay, cool. Thank you very much. We'll take your questions one by one. Please allow me to summarize your question. Your first question relates to our CapEx and capital intensity. You pointed out that with the guidance that our capital intensity this year, in your estimation is probably around 36% to 37%. So your question is, how should we think about CapEx and capital intensity in the next few years? If we cannot give a quantitative number directionally, how do we see CapEx and capital intensity? And how does this tie in with our recent things like such as bond issuances and fundraising, how does that factor in? That's the first question. Maybe CFO, Wendell can address.
+Wendell Huang
+Yes. Gokul, our capital intensity, as you are right, this year will be lower than 40%. In the next several years, longer term, we expect the capital intensity to be around mid-30 percentage point. However, having said that, there may be years where capital intensity is higher if we see the strong demand for our technologies or capacity and we decide to invest.
+Jeff Su
+Okay. And then your second question, Gokul, please allow me to summarize again is really regarding to our 5-nanometer, that we have said that it's a long and large node. But that the number of tape-out of N5 versus N7 may be lower. So your question is, can N5 exceed N7? Do we believe 5-nanometer can be a bigger node than 7 in terms of revenue and capacity?
+C. C. Wei
+Well, let me take that, we don't comment on how many tape-outs so far, but we continue to see strong tape-out activities at N5 from both HPC and the smartphone applications. And the revenue for this year we just mentioned is at 8% of the wafer revenue and next year it'll be even higher than -- close to -- or 20 years something like that, the exact number we are still not able to comment. But I can assure you that our 5-nanometer family will be another deep and long lasting node for TSMC.
+
+Jeff Su
+Okay. Thank you, Gokul. Why don't -- operator can we move on to the next caller please?
+Operator
+Next caller we have Randy Abrams, Credit Suisse.
+Randy Abrams
+Okay. Yes, thank you. My first question I want to ask Wendell, you raise the gross margin, originally was 50%. Could you discuss now where you're saying it could be above 50%, the factors driving that change? And could you clarify on the two to three point impact on 5-nanometer. I think you already have that impact. So does that apply for next year, pretty similar to the type of gross margin you're running now or potentially even better?
+Jeff Su
+Okay. Randy, I summarize your question. Your first question is in regards to I believe our gross margin and long-term gross margin. I think you're asking that we raised our target. But I think we -- as Wendell said, 50% is achievable for us. But you're also asking as part of that, the dilution from 5-nanometer. How will that impact our gross margin next year? And where should we, I guess be thinking about gross margin for 2021?
+Wendell Huang
+Okay. Randy, maybe I -- let me answer this like this. We have a very high gross margin in the third quarter. And we believe we will continue have a pretty high margin in the fourth quarter. And main reason is that we are enjoying a very high utilization across almost all the nodes at this moment. But the high -- this very high utilization may not continue forever. So our long-term growth target, our long-term growth goal for our gross margin continues to be about 50%. 
+In terms of dilution from N5, we see the dilution of N5 for next year to be around two to three percentage points similar to previous nodes. And remember that the N5 will count for a much bigger percentage of our revenue next year. So as we ramp up quickly, the dilution will continue to exist. However, we are still expecting that it will reach the corporate margin in seven to eight quarters.
+Randy Abrams
+Okay, great. Thanks. I misunderstood. I thought I heard the word above. Thanks for the clarification. 
+Second question on the recent U.S. restriction on SMIC. I'm curious if you're seeing any additional diversification or inquiries for business? And given they're more on the mature nodes, how you’re positioned if you are seeing those to take on business on the mature nodes. 
+Jeff Su
+Okay, Randy. Let me just summarize your second question. Your second question is regards to the recent restrictions on SMIC. And Randy is wondering whether we are seeing any types of diversification or inquiries from customers in regards to business and especially at the mature nodes?
+C. C. Wei
+Randy, maybe I answer the question. Actually we are still evaluating the impact to the semiconductor industry due to the ban on SMIC. But let me say that our capacity planning, on our CapEx continue based on the long-term demand profile. That is underpinned by the industry megatrends such as 5G-related and HPC application. All right. Does that answer your question?
+Randy Abrams
+Yeah. Maybe just one quick, for the mature nodes which are running tight across the industry, just if it so that, there's an incremental surge, how well could you handle incremental business from this type of piece, if it were to come through?
+Jeff Su
+So Randy is asking if we were to see a surge in demand at the mature nodes, how ready or do we have capacity to take on or handle this type of surge demand?
+C. C. Wei
+Well, we continue to work with our customer dynamically. And we try our best to meet their demand. That's all I can see for today. 
+Randy Abrams
+Okay, great. Thank you.
+Jeff Su
+Okay. Thank you, Randy. Operator, can we move on to the next caller, please?
+Operator
+The next one is Sebastian Hou from CLSA.
+Sebastian Hou
+Thank you. Good afternoon, gentlemen. My first question is, I think besides the higher than usual inventory, which may be a new norm because of this supply chain disruption, how -- I'm curious about how does TSMC assess customers overbooking or pulling behavior and the magnitude, in particular, based on the recent smartphone OEMs aggressive procurement assuming Huawei's going to be dead next year, how do you assess that kind of potential overbuild inventory reach, that may potentially lead to destocking correction sometime next year? This is my first question. Thank you. 
+
+Jeff Su
+Okay, Sebastian. Let me repeat or try to summarize your question. Your question is basically related to the inventory. And you want to ask, how does TSMC assess the risk that there is overbooking in light of the restrictions on Huawei? And therefore, what type of levels or magnitude of inventory overbuild is there? And does this create the risk of inventory correction sometime next year?
+C. C. Wei
+Let me share with you our view on this inventory-related issues. First, I want to say that due to the pandemic, actually the digital transformation has been accelerated. And that create a demand on 5G and HPC-related products and so for the long-term -- longer term beat basis we do expect our customers’ overall inventory to remain above the seasonal level for a longer period of time, majority partly because they have some concern on industries supply chain security, and due to the uncertainties. And so that will be the inventory -- high level inventory will sustain -- continue for a longer period of time. That we can say that.
+Jeff Su
+Okay, Sebastian, do you have a second…
+Sebastian Hou
+Yes, okay. All right anyway, but that isn't actually what I'm looking for. But anyway, thank you for that, C. C. And my second question is on the HPC business, apparently I think C. C. you mention in your prepared remarks, that you see a lot of the growth this quarter and also continue through the next quarter, and driven by the acceleration in digital transformation you just said, led by the pandemic and work from home demand likely to stay for longer, and also the continued market share gain [ph] from TSMC against IDM, when do you expect your HPC revenue exposure to crossover with smartphone revenue percentage? Are we going to see that by the end of next year or 2022? Thank you.
+Jeff Su
+Okay, Sebastian, let me just summarize your question, which is regards to our HPC platform business. You point out that there is the trends of the accelerating digital transformation and the work from home and also market share gains versus IDM. So you want to know when do we see our HPC platform revenue crossing over with smartphone and others to become the primary.
+C. C. Wei
+Okay, let me answer the question. We do see HPC platforms of course rate is higher among our four platform, which is smartphone, HPC, automotive and IoT. And in the next few years we continue to expect, or we forecast our HPC’s growth will be higher than the corporate level. When we’ll crossover, I don't make any comment right now.
+Sebastian Hou
+Okay, thank you. 
+Jeff Su
+Okay, thank you, Sebastian. Operator, can we have the next caller, please?
+Operator
+Next one, we have Bruce Lu from Goldman Sachs. Go ahead, please. 
+Bruce Lu
+Hi. So I want to ask for the 5G penetration rate. What is the latest forecast for the total smartphone growth and 5G penetration rate in 2020 and maybe a little bit color on 2021 as well? So we also see some of the telco is slowing down their 5G installation. What kind of impact we see at this moment?
+Jeff Su
+Okay, Bruce, your question is regards to 5G and smartphones. You want to know what is the smartphone growth and 5G penetration rate for 2020 as well as 2021. And then in light of the telecoms potentially slowing down the deployment, correct? 
+Bruce Lu
+Yes. 
+Wendell Huang
+Okay. Let me answer the question. We continue to expect the faster penetration of 5G smartphone as compared to 4G. And for this year, we still forecast a high-teens penetration rate and next year even higher, much higher, let me say that. And that's all we have today.
+Bruce Lu
+And any impact on the telco business level?
+Wendell Huang
+I think all countries and all regions are preparing to build up the infrastructure right now and I believe next year, even not 100% completed, but all the region, all the countries will have a lot of 5G phone being introduced and that create a higher percentage penetration rate.
+
+Bruce Lu
+Okay, understand. My next question is that, a lot of it [Indiscernible] but China revenue is contribution only increased slightly from 22% to 23% in third quarter. So which region where we see the strongest growth in the fourth quarter?
+Jeff Su
+Okay, Bruce, your question is regards to our revenue by geography. And you want to know for the fourth quarter which region will contribute the most growth in the fourth quarter?
+Wendell Huang
+Okay, Bruce, we're not prepared to comment on geographic allocation among revenues in the fourth quarter. I can share with you that we expect the platforms that will grow in the fourth quarter will be smartphone and automotive. And the other two are likely to be down.
+Bruce Lu
+Understand it. Thank you. 
+Jeff Su
+All right. Thank you, Bruce. Operator, can we move on to the next caller please?
+Operator
+From the line of Sunny Lin from UBS.
+Sunny Lin
+Hi, good afternoon. Thank you for taking my question. So my first question is on 5-nanometer demand. So into next two to three years, what do you think our revenue split could be smartphone, HPC, et cetera? Do you think the mix could be a bit different from our 7-nanometer?
+Jeff Su
+Sorry, can you repeat your question, Sunny? You broke up a little bit.
+Sunny Lin
+Sure, no problem. Sorry about that. So I wonder for 5-nanometer demand in the next two to three years, what does the management think the revenue mix could be by smartphone, HPC, et cetera. And will the product mix be a bit different from 7-nanometer?
+Jeff Su
+Okay. All right. Let me summarize. Thank you, Sunny. Your question is regards to 5-nanometer. And then when we look out over the next three years, how do we see the demand of 5-nanometer, the mix changing in terms of smartphone, HPC different platforms? And then how does this compare to 7-nanometer, correct?
+Sunny Lin
+That’s right. Thank you, Jeff.
+Wendell Huang
+Hi. We don't break it down or disclose the platform mix of certain nodes. But we can share with you as C. C., just mentioned, in the next several years, we expect HPC to be the largest contributor of our growth. So that should give you some idea and these guys use advanced technologies.
+Sunny Lin
+Sure, I got it. And my second question is that for this year, a key part of your growth in smartphones is driven by higher silicon content for 5G and your share gain. So I wonder if you could walk us through how your average silicon content in smartphone may trend into 2021 and 2022. Thank you very much. 
+Jeff Su
+Okay. So Sunny, your second question is regards to the silicon content in 5G phones. The silicon content increase in 5G phone, along with share gain is contributing to our smartphone growth this year

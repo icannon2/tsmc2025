@@ -1,0 +1,152 @@
+Western Digital Corporation (NASDAQ:WDC) Q1 2022 Results Conference Call  October 28, 2021  4:30 PM ET
+Company Participants
+David Goeckeler – Chief Executive Officer
+Robert Eulau – Chief Financial Officer
+Peter Andrew – Vice President, Investor Relations
+Conference Call Participants
+Aaron Rakers – Wells Fargo
+C.J. Muse – Evercore
+Joe Moore – Morgan Stanley
+Karl Ackerman – Cowen
+Wamsi Mohan – Bank of America
+Mehdi Hosseini – SIG
+Timothy Arcuri – UBS
+Toshiya Hari – Goldman Sachs
+Ananda Baruah – Loop Capital
+Vijay Rakesh – Mizuho
+Sidney Ho – Deutsche Bank
+Patrick Ho – Stifel
+Harlan Sur – JP Morgan
+Thomas O'Malley – Barclays
+Jim Suva – Citigroup
+Steven Fox – Fox Advisors
+Srini Pajjuri – SMBC Nikko Securities
+Operator
+Thank you for standing by and welcome to the Western Digital's First Quarter Fiscal Year 2022 conference call. At this time, all participants are in a listen-only mode. After the speaker’s presentation, there will be a question-and-answer session on your telephone. Please be advised that today's conference is being recorded. If you require any further assistance, please press star 0. I would now like to hand the conference over to your first speaker, Mr. Peter Andrew. Thank you. Please go ahead.
+Peter Andrew
+Good afternoon, everyone. Joining me today are David Goeckeler, Chief Executive Officer, and Bob Eulau, Chief Financial Officer. Before we begin, let me remind everyone that today's discussion contains Forward-looking statements, including product portfolio expectations, business plans, and performance, trends and financial outlook based on management's current assumptions and expectations, and as such, does include risks and uncertainties. 
+We assume no obligation to update these statements. Please refer to our most recent financial report on Form 10-K filed with the SEC for more information on the risks and uncertainties that could cause actual results to differ materially. We will also make references to non-GAAP financial measures today. Reconciliations between the non-GAAP and comparable GAAP financial measures are included in the press release and other materials that are being posted in the Investor Relations Section of our website. With that, I will now turn the call over to David for his introductory remarks.
+David Goeckeler
+Thank you, Peter. Good afternoon, everyone and thanks for joining the call to discuss our First Quarter of Fiscal Year 2022 results. We reported revenue of 5.1 billion non-GAAP gross margin of 33.9% and non-GAAP earnings per share of $2.49, all within the guidance ranges we provided in August. 
+This marks the sixth quarter in a row of meeting or exceeding guidance, a point that we are particularly proud of as we continue to navigate uncertainty and volatility in the market. Strong demand across diverse end markets, particularly for our cloud products combined with Western Digital strong innovation, broad routes to market, and sharpen to execution enabled us to deliver results within our guidance range despite significant COVID impacts and supply chain disruptions. 
+While these disruptions are transitory, the long-term opportunities for Western Digital remain unchanged as the world's digital transformation continues to accelerate. During the quarter, we shipped a record level of exabytes, while also improving non - GAAP gross margin across both flash in HDD and generating profitable growth. We saw a strong demand for our latest generation hard drives and flash products in the Cloud end market, as well as strong consumer demand for new 5G based mobile phones incorporating our latest fixed Five Flash Solutions. 
+The strong demand for these products were partially offset by pressure in the commercial channel within the client end market and certain portions of the consumer end market, particularly retail. This was attributable to component issues impacting our customers’ ability to ship products, greater component sources constraints within our own operations, and uneven geographic demand due COVID lockdowns. Our continued focus on innovation and a more agile business unit structure enabled us to quickly adapt to these dynamics. 
+When combined with an industry-leading portfolio and a strong go-to-market operation, I'm confident in Western Digital 's ability to continue to generate improved operational performance for all of our stakeholders. Before I get into the business trends, I want to highlight a few changes we made to our end market breakdown, which we believe will help you understand why Western Digital is well-positioned to capitalize on the opportunity presented by the increasing value and importance of data. 
+We now split our end markets into cloud, client and consumer. The cloud represents an incredibly large and growing end market for Western Digital, and we are uniquely positioned to address customer storage needs as the only provider of both hard drive and flash products. During the first quarter, cloud represented a record 44% of total revenue led by record-capacity enterprise hard drive revenue in nearly 30% sequential growth in enterprise SSD revenue. 
+We believe the accelerated digital transformation will continue to drive growth in this end market and continue to shift our business mix towards the cloud. As we ramp our new innovative products and continue leveraging the benefits of the organization structure we put into place last September, I am confident we will capture opportunities to achieve a more stable and profitable growth profile over the long term. 
+The client end market represented 37% of revenue in the first quarter. Here we are providing a broad array of high-performance Flash and hard drive solutions to our OEM and channel customers across PC, mobile, gaming, automotive, VR headsets, at home entertainment devices, and industrial spaces. Lastly, the consumer end market accounted for 19% of revenue in the first quarter. 
+The highlight of this end market is the strength of our SanDisk brand retail products and the WD black brand of storage products for gaming enthusiasts, which is strong and growing. The brand recognition and infinity combined with our unmatched reach with nearly 400,000 points of presence across the world, is a great setup for Western Digital as we enter a seasonally stronger part of the year. With that, I will now provide a recap of our HDD and Flash businesses as it relates to our first-quarter results. 
+In HDD, continued strong demand for our latest generation energy assisted drives among our Cloud and enterprise customers drove record revenue and Exabyte shipments in our cloud end-market. In addition, we experienced strong revenue growth in our smart video product line, and we're unable to meet demand. During the quarter, we announced OptiNAND, a revolutionary technology that utilizes Flash in the HDD control plane to further increase aerial density. With this leading architecture, we achieved 20 Terabyte capacity using our field proven nine disk mechanical platform and ePMR technology. 
+Next month, we'll commence volume shipments of our 20 Terabyte CMR hard drives based on OptiNAND technology. In Flash, revenue grew in the quarter due to continued strong demand within the cloud and client end markets for our latest generation of our enterprise SSD products in the ramp of new 5G phones incorporating our latest Fixed 5 Node. Within Enterprise SSD, we experienced continued success in the cloud with another successful quarter of qualifications. 
+We are now qualified at 3Cloud Titans and have made excellent progress working our way through the qualification process in the enterprise and distribution channels. We expect these qualifications to start to drive accelerated revenue growth in 2022 as our customers begin to deploy these products into their networks. The ramp of next-generation 5G phones, incorporating our latest generation of BiCS5 products accelerated in the quarter, with revenue growing over 20% sequentially. 
+We expect this migration to 5G combined with a continued increase in the amount of storage per phone to drive another strong quarter of revenue growth in the fiscal second quarter. Gaming was strong in the quarter with a solid line-up of products for game counsels, along with a growing brand recognition of WD black based products in the channel and retail. Heading into the second fiscal quarter, we are well-positioned to take advantage of seasonal strength and grow in a wide variety of gaming channels. 
+As I noted earlier, the client PC OEM'S distribution channel in retail were impacted by our customers’ ability to ship product, greater component sourcing constraints within our own operations, and uneven geographic demand due to COVID lockdowns. Demand was solid, but these transitory issues impacted our ability to realize this demand in our results. In total, bid growth accelerated to 30% year-over-year in the first quarter, as we ramp BICS5 to 17% of Flash revenue. This quarter, we expect year-over-year bid growth to further accelerate to the mid-30s range with BiCS5 bit crossover to happen later in the quarter. 
+Our long-term goal is to grow BiCS in line with the market taking advantage of our product and end market breadth to shift our BiCS to optimize profitability. As we look into calendar year 2022, we are optimistic as our customers continue to indicate strong end demand across Cloud, client, and consumer end markets. We have industry-leading technology, the right product portfolio and an investment in the organizational agility to fundamentally drive improved profitability regardless of market conditions. 
+We have a great position in two large and growing markets in Flash and HDD. And we have proven our ability to drive innovation throughout our portfolio and deliver industry-leading products to a broad and loyal customer base. We believe that the migration to the Cloud, in demand for storage solutions throughout the client and consumer markets will drive a huge opportunity for Western Digital and our customers. I'll now turn the call over to Bob to share details on our financial results.
+Robert Eulau
+Thanks, Dave and good afternoon everyone. As Dave mentioned, overall results for the fiscal first-quarter were within the guidance ranges provided in August, marking the 6th quarter in a row that we've met or exceeded guidance. Total revenue for the quarter was $5.1 billion up 3% sequentially, and up 29% year-over-year. 
+Non - GAAP earnings per share was $2.49. Please note that, EPS included $56 million in total COVID-related costs, which was higher than we anticipated during the quarter. I will provide more details on these costs in a minute, but we're pleased to deliver such good results in the face of this unanticipated headwind and other supply chain issues. 
+From a disclosure perspective, in addition to the change in our end market breakdown that Dave discussed, this quarter we moved to segment reporting for our Flash and hard drive businesses. For more details, please refer to our earnings deck. Looking at our end markets, Cloud represented 44% of revenue at $2.2 billion up 12% sequentially, and up 72% from a year ago. This represented the second quarter in a row of record revenue. 
+What is encouraging about this Cloud revenue growth is the strength and breadth of our revenue streams across product areas. There was growth on a sequential basis in both the flash and hard drive business units, as well as across every product category within the cloud, including capacity enterprise drives, Enterprise SSDs, smart video and platforms. 
+As the cloud continues to grow as a percentage of our revenue, we see an opportunity to reduce volatility and revenue and profitability. Over the last 3 quarters, we have successfully ramped our 18 Terabyte energy-assisted drive to our highest volume mainstream product within the cloud end market. Overall, cloud HDD Exabyte shipments grew 9% sequentially and over 70% year-over-year and comprised over 80% of total HDD Exabyte shipments. 
+Client represented 37% of revenue at $1.9 billion, down 2% sequentially, and up 6% year-over-year. Our highlight within the client end market was growth within our Flash business unit, specifically in mobile gaming, automotive, IOT, and industrial applications. Our strength here was more than offset by pressure in desktop and notebook hard drives due to supply disruptions at our customers and within our own operations. Finally, consumer represented 19% of revenue at $973 million, down 6% sequentially, but up 10% year-over-year. 
+Both our Flash and hard drive business units declined on a sequential basis due to similar supply disruptions, in addition to uneven geographic demand due to COVID lockdowns. Turning now to revenue by segment. We reported Flash revenue of $2.5 billion up 3% sequentially, and up 20% year-over-year. On a blended basis, Flash ASP s were down 3% sequentially, primarily due to mix in pricing within our transactional markets. On a like-for-like basis, Flash ASP s were flat. Flash BiCS shipments increased 8% sequentially, and 30% year-over-year. 
+Hard drive revenue was $2.6 billion up 2% sequentially, and up 39% year-over-year. On a sequential basis, total hard drive Exabyte shipments increased 4%, while the average price per hard drive increased 5% to a $102. As we move to costs and expenses, please note that my comments will be related to non - GAAP results unless stated otherwise. Gross margin for the first quarter was 33.9% up 1% point sequentially. As noted earlier, this included $56 million in COVID-related costs or 1.1% point impact. These were the highest COVID related costs in over a year. 
+Our broad routes to market and ability to proactively shift BiCS to the most attractive end markets enabled us to expand our Flash gross margin by 1.5% points sequentially to 37%. Our hard drive gross margin was 30.9% up 60 basis points sequentially. This included COVID-related impact of $51 million or approximately 2% points. Operating expenses were $761 million within our guidance range. 
+Operating income was $952 million, representing a 15% increase from the prior quarter and tripling year-over-year, highlighting our profitable growth. With our improving profitability, our tax rate in the fiscal first quarter was 11%. Earnings per share was $2.49 toward the top of our guidance range. Operating cash flow for the first quarter was $521 million and free cash flow was $224 million. 
+Capital expenditures, which include the purchase of property, plant, and equipment, and activity related to our Flash joint ventures on our Cash Flow Statement was a cash outflow of $297 million. We continue to expect gross capex for this fiscal year to be approximately $3 billion and cash capex to be around $2 billion. In the fiscal first quarter, we paid off $213 million in debt, including a discretionary debt repayment of a $150 million. 
+Our gross debt outstanding was $8.6 billion at the end of the fiscal quarter. In addition, as a result of our strong financial results and free cash flow generation, last week, we repaid the remaining balance of our Term Loan B in the amount of $943 million bringing total gross debt outstanding to $7.7 billion. Our adjusted EBITDA at the end of the first quarter, as defined in our credit agreement, was $4.2 billion resulting in a gross leverage ratio of 2.0 times, down from 2.7 a year ago, and was the lowest in 3 years. 
+As a reminder, our credit engravement includes $1 billion in depreciation add-back, associated with the Flash ventures. This is not reflected in our Cash Flow Statement. Please refer to the earnings presentation on the Investor Relations website for further details. Moving on to our outlook. Our fiscal second quarter non - GAAP guidance is as follows. We expect revenue to be in the range of 4.7 to $4.9 billion, and we expect Flash revenue to increase sequentially and hard drive revenue to decline sequentially. 
+We expect gross margin to be between 32% and 34%. We expect operating expenses to be between $760 and $780 million. Interest and other expense are expected to be approximately $70 million. Our tax rate is expected to be approximately 11% in the second quarter and for the fiscal year. We expect earnings per share to be between $1.95 and $2.25 in the second quarter, assuming approximately 316 million fully diluted shares outstanding. I'll now turn the call back over to Dave.
+David Goeckeler
+Thanks, Bob. I want to conclude by thanking the Western Digital team for their hard work and commitment to our customers throughout a challenging quarter. Despite the transitory issues we have been able to successfully navigate, it is clear than ever that Western Digital's innovative technology portfolio is foundational to the rapid digital transformation and transition to the Cloud that the world is experiencing. 
+With our deep roots and a broad range of end markets, and a sharp focus on execution, I'm confident in Western Digital's ability to capture this massive opportunity, and I'm looking forward to the rest of the fiscal year. Let's now begin the Q&A.
+Question-And-Answer Session
+Operator
+Thank you. [Operator Instructions]. Please stand by while we compile the Q&A roster. Our first question comes from Aaron Rakers with Wells Fargo. Please go ahead.
+David Goeckeler
+Hi, Aaron.
+Aaron Rakers
+Yes. Sorry, guys. Can you hear me?
+David Goeckeler
+Yeah. No problem. I can hear you.
+Aaron Rakers
+Hey, sorry about that. Yes. So, I got two quick questions if I can. I guess, first of all, it seems like there's a lot of moving parts in the quarter and more importantly into the guidance outlook for fiscal 2Q. Bob, I'm just wondering if you can help quantify to your best estimate of how much impact you're carrying in the revenue expectations relative to some of these "transitory effect"?
+Robert Eulau
+It's difficult to quantify because there is an impact in terms of our own execution, which I think we worked our way through pretty well during the quarter. And then we have customers who have supply chain challenges as well where they're trying to get matched sets and build out their environments. 
+And then of course, we have supplier challenges as well, where we're working like everybody else pretty hard to get components in. So, it's difficult to give you a definitive answer in terms of what the impact was in the quarter we just closed or even, obviously in the next quarter, but it's certainly somewhere in the couple $100 million range and potentially a little worse in the December quarter.
+David Goeckeler
+Hey Aaron, this is Dave. First of all, thanks for the question. I guess the one thing I would say as well as, whereas maybe a quarter or 2 ago we were seeing it in maybe certain parts of the business, some of the OEM, PC OEMs, now we're seeing it more broadly. 
+Even the big datacenter players are having their demand impact -- our demand from them is being impacted by their ability to get other components. So, it's really become a much more broad-based issue across the portfolio.
+Aaron Rakers
+Yeah. And then if I can follow up really quickly. One of the things that stands out to me is that -- I think you reported a blended ASP decline of about 3% sequential in the Flash Business. So, I believe the mix of enterprise actually went up to the positive. So, when I look at that ASP erosion, relative to actually some of your peers in the non-market, it seems to be a bit of a disconnect. Can you help me understand the pricing dynamics you're seeing in the end right now?
+Robert Eulau
+Yeah, I can start and then Dave can fill in. The blended ASP -- as we started the quarter, we indicated -- we expected it to be down. And it was based on the mix we're anticipating. The mix came in essentially the way we had expected. And it was -- I don't want to get into every little detail of the mix, but one of the things we said at the beginning of the quarter was we expected more mobile volume in the September quarter, and that is what we saw. 
+We actually think we'll see even more mobile as a percentage of the total in the December quarter. So, mix is definitely a bit of a headwind for us, but really ASPS are not going down that much. And we're really pleased with the cost reductions we've been able to achieve both in the quarter we just finished, as well as what we're expecting to do this quarter.
+David Goeckeler
+Yeah. I guess Aaron, Bob, right on the money on that. I guess the only thing I would add is a little bit of softness in some of the transactional and consumer markets. But we're already seeing that level out a little bit. And we're really seeing this bifurcation where the qualified bids in the market are strong and unqualified are a little bit weaker. 
+I guess that's not surprising given all the Nodal transitions, the industry is going through. But the primary issue -- I would say that's the issue and mix as Bob pointed out, and we expected that walking into the quarter.
+Aaron Rakers
+Thank you, guys.
+Robert Eulau
+Jeff, thanks.
+Operator
+Thank you. Our next question will come from C.J. Muse with Evercore. Please go ahead.
+C.J. Muse
+Yeah. Good afternoon. Thanks for taking the question. I guess if I look at your revenue guidance and the commentary on [Indiscernible] it sounds like the implied HDD revenue guide is roughly down 15% sequentially. So, I guess A is the math right there and B, I guess what's causing the severity of decline. Can you help us understand what's digestion versus some of the transitory supply chain issues that you spoke to?
+David Goeckeler
+Yeah. I think that's probably a little -- I mean, we don't guide each individual business, but I think your number is probably a little heavy. You hit on some of the issues. Some of it is mix. We've actually got one of our very, very big customers that has their own supply chain issues that's pushing out some orders. So that's a bit of an idiosyncratic thing that's happening there. There’re some supply chain issues with especially mid-cap and the ability to build all of that supply we want. 
+We talked about that even in this past quarter in the smart video market, which is strong. And there's some unmet demand there. And then we've got -- we're seeing a little bit of an inventory issue, quite frankly in China where there's a lot of high cap inventory there and that's kind of pulling the number down a little bit for the next quarter, but we -- so we expect all those things are transitory issues. 
+We're really happy about the portfolio. I think the fact that AT&T is net was now -- the majority of the portfolio we talked about shipping 20 T on a 9-disk platform and OptiNAND is out there and in customers' hands. So, we feel really good about the innovation that was delivered in the quarter and about where the roadmap is going in the Drive Business and the new technology has been very well received.
+C.J. Muse
+That's great. And I guess as my follow-up, Bob, could you speak to how we should be thinking about gross margins into the first half of 2022. Obviously, there's certain unknowns, in terms of, revenues and men pricing, but we'd love to hear perhaps some of the other puts and takes that we should be thinking about, as well as, the timing of when you think some of the COVID-related costs a man [Indiscernible]?
+Robert Eulau
+Yes C.J. (ph), you're right. It's difficult to say exactly what's going to happen over the next few quarters, but -- and as you know, we only give guidance 1 quarter a time. Now, having said that, we're pretty optimistic on 2022. 
+Again, we think a lot of the challenges in the quarter. We closed the quarter. We're in now, really supply chain related. We think the underlying demand situation is very positive. We really believe, as I said, in our cost reduction plans, and we think we'll be able to deliver solid margins. So, I don't want to get into giving guidance for next year, but we're definitely optimistic.
+C.J. Muse
+Thank you.
+David Goeckeler
+Sure.
+Operator
+Thank you. Our next question will come from Joe Moore with Morgan Stanley. Please go ahead.
+Joseph Moore
+Great. Thank you. I'm wondering if you could update us on where you are with big 5 qualification. I assume seeing every mobile heavy this quarter means you're still getting qualified across the SSD markets and had a follow up.
+David Goeckeler
+Yeah, I think that's right. I mean, it's early in the node. We are happy with the ramp this quarter. We ended at, I think 17%, fixed 5 and we expect to get crossover before we exit the year. But like any new node you're in more of the mobile or components market as the rest of the products get qualified. 
+But that's all work underway and our customers are definitely pulling us in that direction. They want BiCS5 on the SSD products and the engineers are hard at work at getting that work done. There will be an evolving story as we work through 2022.
+Joseph Moore
+Great. Thank you. And then I think you referenced some of the segments into client SSD maybe being a little weaker, can you separate out? Is there a cheer fact there where it was good for a while and then it was less good, versus just overall client SSD being oversupplied because of other issues in the supply chain, how do you sort that out, and what do you see happening in the client SSD market?
+David Goeckeler
+I don't think we see it as [Indiscernible] effect. I mean, I was just talking to our sales team this morning and I think the channel is now kind of normalized and back on seasonality after the [Indiscernible] disruption. 
+I think we just see this issue with people not able to get all the components they need to put together the full kit for what they want to ship, and that's causing some softness in the channel. So, I think it's more related to that than it is anything [Indiscernible] related. Based in my views.
+Joseph Moore
+Thanks.
+David Goeckeler
+Thanks, Joe.
+Operator
+Thank you. Ladies and gentlemen, as a reminder, we ask that you please limit yourself to 1 question due to time restrain. Our next question will come from Karl Ackerman with Cowen. Please go ahead.
+Karl Ackerman
+Yes, thank you. Bob, earlier in a response to a question you had indicated some of the impact or challenge in your enterprise. I believe HDD business and SSD business was result of a push-out by a customer. My question there is, if we isolate that customer, how do you see the demand trajectory of Cloud and mass capacity markets? Not just in the December quarter, but also into the second half of your fiscal year. Certainly, as you begin to ramp some of these 20 terabyte drives and other higher-capacity drives in hard -- in HDDs, as well as some of these new design wins you have in enterprise SSD. Thank you.
+Robert Eulau
+A minute.
+David Goeckeler
+I can start.
+Robert Eulau
+Okay.
+David Goeckeler
+I think as a general statement, we're seeing continued very strong demand from our datacenter customers because we have a very big datacenter customer. They are giving us good signals about next year. And what they plan to do, it's hard to pin that down to a certain quarter right now, but we continue to see very strong demand there. 
+Like I said, we're starting to see the supply chain impact show up there as well. But I'm sure that'll all get worked through as we go through the year, but we look into 2022 and we have our customers telling us it continues to be a strong demand environment.
+Robert Eulau
+Yeah, I don't think I don't have anything to add. I mean, we believe in the cloud demand. I think it's strong and they're just a lot of supply chain dislocation right now.
+Operator
+Thank you. Our next question will come from Q - Wamsi Mohan with Bank of America. Please go ahead.
+Wamsi Mohan
+Thank you for taking my question. This is [Indiscernible] on behalf of Wamsi. Just curious, there has been a lot of media focus on Kioxia and in the past, Western Digital has expressed interest in the asset. Do you think that consolidation still makes sense, and do you still have an appetite for it? Thank you.
+David Goeckeler
+I mean, I think I will speak in general about Kioxia. They're a tremendous JV partner. We've spoken a lot about the JV and what the benefits of that are and all the -- I think one of the highlights of the quarter is the continued production of the Flash roadmap, and BiCS5 five, and the cost situation that that's driving. 
+I mean, I think it's always been a very big focus of the Western Digital and Kioxia team to very -- focus on capital efficiency and cost-downs in the portfolio. Those -- the seeds for BiCS5 performance that were seeing now we're sown many years ago. That continues to be a great focus of the joint teams. 
+And I think the fact that we have a joint road map with another supplier as big as Kioxia gives us a lot of investment in our road map. And then of course we produce together as well and have a lot of synergies there as well. So, it's a great partnership. It's been going for over 20 years now. It's going to go for -- were signed up for at least another decade and we're always look at that as we continue to invest in fabs and we're really happy with the partnership and we're going to -- we're going to continue to get the best out of it.
+Operator
+Our next question will come from Mehdi Hosseini with SIG. Please go ahead.
+Mehdi Hosseini
+Thank you. 2 questions. The first one is for the team. Obviously, there is a long lead time associated with the equipment procurement. So, at this point, I would think that you have a pretty good steel for -- of that [Indiscernible] bit supply growth in calendar year '22. Is there any color you can share with us? And I have a follow-up

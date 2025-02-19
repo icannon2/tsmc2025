@@ -129,7 +129,9 @@ class RoomState:
             self.wrapper = OpenaiWrapper(
                 global_state.client,
                 [],
-                summary_system_prompt.replace("{tables}", ','.join(self.sql_runner.get_tables())),
+                summary_system_prompt.replace(
+                    "{tables}", ",".join(self.sql_runner.get_tables())
+                ),
                 "gpt-4o",
             )
 
